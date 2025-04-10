@@ -641,601 +641,775 @@ const Cluster_Utility_Computing = [
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////////  BOOTSTRAP  ///////////////////////////////////////////////////////////////
-const Bootstrap = [
+///////////////////////////////////////////////  CLOUD COMPUTING  ///////////////////////////////////////////////////////////////
+const Cloud_Computing = [
   {
-    question: "What is Bootstrap?",
+    question: "How does NIST define cloud computing?",
     answers: [
-      { text: "A JavaScript library", correct: false },
-      { text: "A CSS framework", correct: true },
-      { text: "A programming language", correct: false },
-      { text: "A text editor", correct: false },
-    ],
-  },
-
-  {
-    question: "Who developed Bootstrap?",
-    answers: [
-      { text: "Google", correct: false },
-      { text: "Microsoft", correct: false },
-      { text: "Twitter", correct: true },
-      { text: "Facebook", correct: false },
-    ],
-  },
-
-  {
-    question: "Which class provides a responsive fixed width container?",
-    answers: [
-      { text: ".container", correct: true },
-      { text: ".container-fluid", correct: false },
-      { text: ".container-fixed", correct: false },
-      { text: ".fixed-container", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you create a button with Bootstrap?",
-    answers: [
-      { text: '<button class="btn btn-default">', correct: true },
-      { text: '<button class="button default">', correct: false },
-      { text: '<button class="btn-default">', correct: false },
-      { text: '<button class="btn default">', correct: false },
-    ],
-  },
-
-  {
-    question:
-      "Which class is used to create a basic navigation bar in Bootstrap?",
-    answers: [
-      { text: "navbar-basic", correct: false },
-      { text: "navbar", correct: false },
-      { text: "navbar-default", correct: true },
-      { text: "navbar-basic-default", correct: false },
-    ],
-  },
-
-  {
-    question: "What does the .img-responsive class do?",
-    answers: [
-      { text: "Makes the image circular", correct: false },
-      { text: "Adds a border to the image", correct: false },
       {
-        text: "Makes the image scale appropriately across devices",
+        text: "A network infrastructure model for high-speed access",
+        correct: false,
+      },
+      {
+        text: "A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources",
         correct: true,
       },
-      { text: "Adds a shadow to the image", correct: false },
+      {
+        text: "A protocol for secure data storage",
+        correct: false,
+      },
+      {
+        text: "A type of physical server for enterprise applications",
+        correct: false,
+      },
     ],
   },
-
-  {
-    question: "Which class adds a white text color to an element?",
-    answers: [
-      { text: ".text-white", correct: true },
-      { text: ".text-light", correct: false },
-      { text: ".text-bright", correct: false },
-      { text: ".text-color-white", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you create a Bootstrap card?",
-    answers: [
-      { text: '<div class="card">', correct: true },
-      { text: '<div class="card-bootstrap">', correct: false },
-      { text: '<div class="bootstrap-card">', correct: false },
-      { text: '<div class="card-default">', correct: false },
-    ],
-  },
-
-  {
-    question: "Which class is used to create a badge in Bootstrap?",
-    answers: [
-      { text: "badge", correct: false },
-      { text: "label", correct: false },
-      { text: "badge-label", correct: false },
-      { text: "badge-primary", correct: true },
-    ],
-  },
-
-  {
-    question: "How do you make a table responsive in Bootstrap?",
-    answers: [
-      { text: "table-responsive", correct: true },
-      { text: "table-responsive-table", correct: false },
-      { text: "responsive-table", correct: false },
-      { text: "table-table-responsive", correct: false },
-    ],
-  },
-
-  {
-    question: "Which Bootstrap class is used to set the text color?",
-    answers: [
-      { text: "text-color", correct: false },
-      { text: "color-text", correct: false },
-      { text: "text", correct: false },
-      { text: "text-primary", correct: true },
-    ],
-  },
-
   {
     question:
-      "Which class would you use to make a form horizontally aligned in Bootstrap?",
+      "Which of the following is an essential characteristic of cloud computing?",
     answers: [
-      { text: "form-horizontal", correct: true },
-      { text: "form-align-horizontal", correct: false },
-      { text: "form-inline", correct: false },
-      { text: "form-layout-horizontal", correct: false },
+      { text: "Centralized desktop access", correct: false },
+      { text: "On-demand self-service", correct: true },
+      { text: "Manual service provisioning", correct: false },
+      { text: "Single-tenant architecture", correct: false },
     ],
   },
-
   {
-    question: "How do you create a rounded image in Bootstrap?",
+    question: "What does broad network access in cloud computing imply?",
     answers: [
-      { text: ".img-rounded", correct: true },
-      { text: ".img-circle", correct: false },
-      { text: ".img-round", correct: false },
-      { text: ".img-oval", correct: false },
+      {
+        text: "Limited to high-performance systems only",
+        correct: false,
+      },
+      {
+        text: "Accessible only via desktop computers",
+        correct: false,
+      },
+      {
+        text: "Available over the network through standard mechanisms and accessible by heterogeneous clients",
+        correct: true,
+      },
+      {
+        text: "Restricted to wired connections",
+        correct: false,
+      },
     ],
   },
-
   {
-    question: "Which class provides a blue background color in Bootstrap?",
+    question: "What is meant by resource pooling in cloud computing?",
     answers: [
-      { text: "bg-blue", correct: false },
-      { text: "bg-primary", correct: true },
-      { text: "bg-info", correct: false },
-      { text: "bg-success", correct: false },
+      {
+        text: "Resources are dedicated to a single user only",
+        correct: false,
+      },
+      {
+        text: "Resources are grouped geographically",
+        correct: false,
+      },
+      {
+        text: "Resources are pooled to serve multiple consumers using a multi-tenant model",
+        correct: true,
+      },
+      {
+        text: "Resources are distributed across different data centers",
+        correct: false,
+      },
     ],
   },
-
   {
-    question: "Which Bootstrap class adds a hovering effect on a table row?",
+    question:
+      "What does the 'measured service' characteristic of cloud computing mean?",
     answers: [
-      { text: "table-hover", correct: true },
-      { text: "table-hovering", correct: false },
-      { text: "table-hover-effect", correct: false },
-      { text: "table-hoverable", correct: false },
+      {
+        text: "Fixed cost billing system for all users",
+        correct: false,
+      },
+      {
+        text: "Manual logging of resource usage",
+        correct: false,
+      },
+      {
+        text: "Resource usage is automatically monitored, controlled, and reported",
+        correct: true,
+      },
+      {
+        text: "Service is measured by the amount of users only",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question:
+      "Which characteristic allows cloud services to scale dynamically?",
+    answers: [
+      { text: "Broad network access", correct: false },
+      { text: "Rapid elasticity", correct: true },
+      { text: "Measured service", correct: false },
+      { text: "Resource pooling", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a common characteristic of cloud computing?",
+    answers: [
+      { text: "Homogeneity", correct: false },
+      { text: "Massive scale", correct: false },
+      { text: "Manual provisioning", correct: true },
+      { text: "Service orientation", correct: false },
+    ],
+  },
+  {
+    question: "What does SaaS stand for?",
+    answers: [
+      { text: "Software and Application Access Service", correct: false },
+      { text: "Software as a Service", correct: true },
+      { text: "Storage as a System", correct: false },
+      { text: "Security and Application Service", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is an example of IaaS?",
+    answers: [
+      { text: "Google Sheets", correct: false },
+      { text: "Amazon EC2", correct: true },
+      { text: "Microsoft Office 365", correct: false },
+      { text: "Google Chrome", correct: false },
+    ],
+  },
+  {
+    question: "What is an example of a private cloud platform?",
+    answers: [
+      { text: "Google Docs", correct: false },
+      { text: "Amazon EC2", correct: false },
+      { text: "Windows Server Hyper-V", correct: true },
+      { text: "Dropbox", correct: false },
+    ],
+  },
+  {
+    question: "What defines a community cloud?",
+    answers: [
+      { text: "Operated by a single private organization", correct: false },
+      {
+        text: "Shared by several organizations supporting a specific goal",
+        correct: true,
+      },
+      { text: "Accessible by the general public", correct: false },
+      { text: "Limited to government use only", correct: false },
+    ],
+  },
+  {
+    question: "What is cloud bursting?",
+    answers: [
+      {
+        text: "A method to terminate cloud services abruptly",
+        correct: false,
+      },
+      {
+        text: "A technique for cleaning cloud storage",
+        correct: false,
+      },
+      {
+        text: "Load balancing between clouds in a hybrid model",
+        correct: true,
+      },
+      {
+        text: "A process of compressing cloud data",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What is the role of hypervisors in virtualization?",
+    answers: [
+      {
+        text: "They connect multiple servers together",
+        correct: false,
+      },
+      {
+        text: "They intercept and emulate instructions from virtual machines",
+        correct: true,
+      },
+      {
+        text: "They compress data for cloud storage",
+        correct: false,
+      },
+      {
+        text: "They manage network access",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a hypervisor?",
+    answers: [
+      { text: "KVM", correct: false },
+      { text: "Xen", correct: false },
+      { text: "VMware", correct: false },
+      { text: "Ubuntu", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which cloud model provides runtime, development tools, and operating systems?",
+    answers: [
+      { text: "IaaS", correct: false },
+      { text: "PaaS", correct: true },
+      { text: "SaaS", correct: false },
+      { text: "Hybrid", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a benefit of using virtual machines?",
+    answers: [
+      { text: "Difficult software testing", correct: false },
+      { text: "Fixed hardware configurations", correct: false },
+      {
+        text: "Run operating systems where hardware is unavailable",
+        correct: true,
+      },
+      { text: "Inflexible deployment", correct: false },
+    ],
+  },
+  {
+    question: "What makes cloud computing cost-effective?",
+    answers: [
+      { text: "Unlimited bandwidth", correct: false },
+      { text: "Pay-as-you-go model and low-cost software", correct: true },
+      { text: "Dedicated IT personnel", correct: false },
+      { text: "High initial investment", correct: false },
+    ],
+  },
+  {
+    question: "Which is a disadvantage of cloud computing?",
+    answers: [
+      { text: "Improved collaboration", correct: false },
+      { text: "High-speed access", correct: false },
+      { text: "Requires constant internet connectivity", correct: true },
+      { text: "Enhanced performance", correct: false },
+    ],
+  },
+  {
+    question: "What is a virtual workspace?",
+    answers: [
+      {
+        text: "A physical setup for remote work",
+        correct: false,
+      },
+      {
+        text: "An abstraction of an execution environment dynamically available to authorized clients",
+        correct: true,
+      },
+      {
+        text: "A user-controlled desktop screen",
+        correct: false,
+      },
+      {
+        text: "An OS running directly on hardware",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What does virtualization in general allow?",
+    answers: [
+      { text: "Increased dependency on hardware", correct: false },
+      { text: "Run multiple VMs on a single physical machine", correct: true },
+      { text: "Only run one OS per machine", correct: false },
+      { text: "Limited software testing", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT an advantage of virtual machines?",
+    answers: [
+      { text: "Easy backup and migration", correct: false },
+      { text: "Run legacy systems", correct: false },
+      { text: "High hardware dependency", correct: true },
+      {
+        text: "Emulate more machines than physically available",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question:
+      "Which of the following cloud types is accessible to the general public?",
+    answers: [
+      { text: "Community cloud", correct: false },
+      { text: "Public cloud", correct: true },
+      { text: "Private cloud", correct: false },
+      { text: "Hybrid cloud", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which platform is used for cloud storage and computing by Amazon?",
+    answers: [
+      { text: "Google Cloud Platform", correct: false },
+      { text: "Amazon EC2 and S3", correct: true },
+      { text: "Microsoft Azure", correct: false },
+      { text: "Dropbox", correct: false },
+    ],
+  },
+  {
+    question: "What are the key concerns in cloud-sourcing?",
+    answers: [
+      { text: "Color themes and UI elements", correct: false },
+      { text: "Low power consumption", correct: false },
+      {
+        text: "Performance, reliability, data control, and security",
+        correct: true,
+      },
+      { text: "Installation of physical components", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which cloud deployment model combines two or more types of clouds?",
+    answers: [
+      { text: "Private cloud", correct: false },
+      { text: "Public cloud", correct: false },
+      { text: "Hybrid cloud", correct: true },
+      { text: "Community cloud", correct: false },
     ],
   },
 ];
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////  REACT JS   //////////////////////////////////////////////////////////////
-const ReactJs = [
-  {
-    question: "What is ReactJS?",
-    answers: [
-      { text: "A JavaScript framework", correct: false },
-      {
-        text: "A JavaScript library for building user interfaces",
-        correct: true,
-      },
-      { text: "A CSS framework", correct: false },
-      { text: "A programming language", correct: false },
-    ],
-  },
-
-  {
-    question: "Who developed ReactJS?",
-    answers: [
-      { text: "Google", correct: false },
-      { text: "Facebook", correct: true },
-      { text: "Twitter", correct: false },
-      { text: "Microsoft", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a component in React?",
-    answers: [
-      { text: "A piece of reusable code", correct: true },
-      { text: "A CSS class", correct: false },
-      { text: "A JavaScript function", correct: false },
-      { text: "An HTML element", correct: false },
-    ],
-  },
-
-  {
-    question: "What is JSX?",
-    answers: [
-      { text: "A JavaScript syntax extension", correct: true },
-      { text: "A new HTML tag", correct: false },
-      { text: "A CSS preprocessor", correct: false },
-      { text: "A database query language", correct: false },
-    ],
-  },
-
-  {
-    question: "Which method in React is used to render components?",
-    answers: [
-      { text: "render()", correct: true },
-      { text: "display()", correct: false },
-      { text: "show()", correct: false },
-      { text: "view()", correct: false },
-    ],
-  },
-
-  {
-    question: "What are props in React?",
-    answers: [
-      { text: "Components", correct: false },
-      { text: "Properties", correct: true },
-      { text: "Methods", correct: false },
-      { text: "States", correct: false },
-    ],
-  },
-
-  {
-    question: "What is state in React?",
-    answers: [
-      { text: "A way to store data within a component", correct: true },
-      { text: "A property of the component", correct: false },
-      { text: "A method in the component", correct: false },
-      { text: "A lifecycle method", correct: false },
-    ],
-  },
-
-  {
-    question: "Which method is used to update state in a React component?",
-    answers: [
-      { text: "setState()", correct: true },
-      { text: "updateState()", correct: false },
-      { text: "changeState()", correct: false },
-      { text: "refreshState()", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the purpose of the ReactDOM library?",
-    answers: [
-      { text: "To enable virtual DOM", correct: false },
-      { text: "To provide DOM-specific methods", correct: true },
-      { text: "To provide state management", correct: false },
-      { text: "To handle props", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a pure component in React?",
-    answers: [
-      { text: "A component that manages its own state", correct: false },
-      { text: "A component that does not use JSX", correct: false },
-      {
-        text: "A component that only depends on props and state",
-        correct: true,
-      },
-      { text: "A component that does not re-render", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a higher-order component (HOC) in React?",
-    answers: [
-      { text: "A component that renders a higher element", correct: false },
-      { text: "A component that returns another component", correct: true },
-      { text: "A component that has a higher state", correct: false },
-      {
-        text: "A component that uses a higher number of props",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the use of the useEffect hook in React?",
-    answers: [
-      { text: "To manage state", correct: false },
-      { text: "To perform side effects in function components", correct: true },
-      { text: "To handle props", correct: false },
-      { text: "To render components", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the use of the useState hook in React?",
-    answers: [
-      { text: "To handle lifecycle methods", correct: false },
-      { text: "To add state to function components", correct: true },
-      { text: "To update props", correct: false },
-      { text: "To manage styles", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the virtual DOM in React?",
-    answers: [
-      { text: "A virtual representation of the real DOM", correct: true },
-      { text: "A different version of the real DOM", correct: false },
-      { text: "A new DOM API", correct: false },
-      { text: "A virtual machine", correct: false },
-    ],
-  },
-
-  {
-    question: "Which hook is used to access the previous state or props?",
-    answers: [
-      { text: "usePrevious()", correct: false },
-      { text: "useRef()", correct: true },
-      { text: "useContext()", correct: false },
-      { text: "useCallback()", correct: false },
-    ],
-  },
-
-  {
-    question: "What does the key prop do in React?",
-    answers: [
-      { text: "Sets a unique identifier for elements", correct: true },
-      { text: "Defines the primary key for components", correct: false },
-      { text: "Styles the component", correct: false },
-      { text: "Handles state updates", correct: false },
-    ],
-  },
-
+///////////////////////////////////////////  Evolution of Cloud Computing  ////////////////////////////////////////
+const Evolution_Of_Cloud_Computing = [
   {
     question:
-      "How do you pass data from a parent component to a child component?",
+      "Which of the following is a key business driver for adopting cloud computing?",
     answers: [
-      { text: "Using state", correct: false },
-      { text: "Using refs", correct: false },
-      { text: "Using props", correct: true },
-      { text: "Using context", correct: false },
+      { text: "High local IT maintenance costs", correct: true },
+      { text: "Low electricity consumption", correct: false },
+      { text: "Requirement for physical space", correct: false },
+      { text: "Need for internal software licenses", correct: false },
     ],
   },
-
-  {
-    question: "What is the use of the useContext hook in React?",
-    answers: [
-      { text: "To access state", correct: false },
-      { text: "To create a new context", correct: false },
-      {
-        text: "To subscribe to a context within a function component",
-        correct: true,
-      },
-      { text: "To manage side effects", correct: false },
-    ],
-  },
-
   {
     question:
-      "Which lifecycle method is called after the component is rendered for the first time?",
+      "Which of the following is a benefit for end users using a public cloud?",
     answers: [
-      { text: "componentDidMount", correct: true },
-      { text: "componentDidUpdate", correct: false },
-      { text: "componentWillUnmount", correct: false },
-      { text: "componentWillMount", correct: false },
+      { text: "Dedicated physical infrastructure", correct: false },
+      { text: "Separate hardware procurement", correct: false },
+      { text: "High scalability and utilization", correct: true },
+      { text: "Limited availability", correct: false },
     ],
   },
-
   {
-    question: "How do you conditionally render a component in React?",
+    question: "Public clouds provide high availability with SLAs around:",
     answers: [
-      { text: "Using a switch statement", correct: false },
-      { text: "Using a conditional operator", correct: true },
-      { text: "Using a for loop", correct: false },
-      { text: "Using a map function", correct: false },
+      { text: "90%", correct: false },
+      { text: "99%", correct: true },
+      { text: "70%", correct: false },
+      { text: "85%", correct: false },
+    ],
+  },
+  {
+    question: "Why are public clouds cost-effective for software startups?",
+    answers: [
+      { text: "They require large upfront investments", correct: false },
+      { text: "They offer uncertain performance", correct: false },
+      { text: "They allow renting resources instead of buying", correct: true },
+      { text: "They provide static scaling", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which organizations are working towards cloud portability standards?",
+    answers: [
+      { text: "World Wide Web Consortium", correct: false },
+      { text: "Cloud Computing Interoperability Forum", correct: true },
+      { text: "Internet Engineering Task Force", correct: false },
+      { text: "Cloud Security Alliance", correct: false },
+    ],
+  },
+  {
+    question: "What is a benefit of using a private cloud?",
+    answers: [
+      { text: "It requires separate power costs", correct: false },
+      { text: "Data confidentiality is preserved", correct: true },
+      { text: "It depends on internet speed", correct: false },
+      { text: "It increases hardware dependency", correct: false },
+    ],
+  },
+  {
+    question: "Which is more cost-efficient in private clouds?",
+    answers: [
+      { text: "12 servers with 1 core and 1 GB RAM", correct: false },
+      { text: "1 server with 12 cores and 12 GB RAM", correct: true },
+      { text: "Clustered physical machines", correct: false },
+      { text: "Dedicated individual servers", correct: false },
+    ],
+  },
+  {
+    question: "In the economics of PaaS vs IaaS, which is true for PaaS?",
+    answers: [
+      { text: "Requires continuous server provisioning", correct: false },
+      { text: "Costs nothing unless used", correct: true },
+      { text: "Cannot scale automatically", correct: false },
+      { text: "Manual load balancing needed", correct: false },
+    ],
+  },
+  {
+    question: "Which benefit does PaaS offer to developers?",
+    answers: [
+      { text: "Manual load balancing setup", correct: false },
+      { text: "Separate IDE licenses needed", correct: false },
+      { text: "Web-based development environment", correct: true },
+      { text: "Complex deployment process", correct: false },
+    ],
+  },
+  {
+    question: "How does SaaS reduce software costs for users?",
+    answers: [
+      { text: "By requiring dedicated servers", correct: false },
+      { text: "Through web service subscriptions", correct: true },
+      { text: "Via license-based installations", correct: false },
+      { text: "With manual software setup", correct: false },
+    ],
+  },
+  {
+    question: "Which application is an example of SaaS?",
+    answers: [
+      { text: "Amazon EC2", correct: false },
+      { text: "Google Docs", correct: true },
+      { text: "KVM hypervisor", correct: false },
+      { text: "VMware Workstation", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a typical purpose of cloud computing in organizations?",
+    answers: [
+      { text: "Storing large files", correct: false },
+      { text: "Developing and testing software", correct: false },
+      { text: "Buying physical servers", correct: true },
+      { text: "Running e-business sites", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a common cloud application driving cloud adaptation?",
+    answers: [
+      { text: "Mail and messaging", correct: true },
+      { text: "Disk defragmentation", correct: false },
+      { text: "Offline storage backup", correct: false },
+      { text: "Spreadsheet printing", correct: false },
+    ],
+  },
+  {
+    question: "What is a key advantage of private clouds?",
+    answers: [
+      { text: "Requires public infrastructure", correct: false },
+      { text: "Faster to provision virtual machines", correct: true },
+      { text: "More expensive than public cloud", correct: false },
+      { text: "Requires individual licensing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which cloud model is ideal when usage and transaction volume vary rapidly?",
+    answers: [
+      { text: "IaaS", correct: false },
+      { text: "Private Cloud", correct: false },
+      { text: "PaaS", correct: true },
+      { text: "Legacy Systems", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a benefit of SaaS?",
+    answers: [
+      { text: "No need to buy software instances", correct: false },
+      { text: "Free use of certain services like Google Docs", correct: false },
+      { text: "Dedicated on-premise installations", correct: true },
+      { text: "Web-based CRM systems", correct: false },
+    ],
+  },
+  {
+    question: "Which task is commonly done on cloud by enterprises?",
+    answers: [
+      { text: "Analyzing customer data", correct: true },
+      { text: "Making office furniture", correct: false },
+      { text: "Creating physical backups", correct: false },
+      { text: "Building internal hardware", correct: false },
+    ],
+  },
+  {
+    question: "Why is cloud computing preferred for prototype development?",
+    answers: [
+      { text: "It has no internet dependency", correct: false },
+      { text: "It avoids major investments early on", correct: true },
+      { text: "It uses physical disks", correct: false },
+      { text: "It doesn't offer virtualization", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best describes PaaS scaling?",
+    answers: [
+      { text: "Manual only", correct: false },
+      { text: "Static", correct: false },
+      { text: "Automatic", correct: true },
+      { text: "Not scalable", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which cloud feature helps during high demand spikes on websites?",
+    answers: [
+      { text: "Elasticity", correct: true },
+      { text: "Legacy software", correct: false },
+      { text: "Manual resource allocation", correct: false },
+      { text: "Server underutilization", correct: false },
     ],
   },
 ];
-///////////////////////////////////////// ANGULAR ////////////////////////////////////////////////////////////////////
-const Angular = [
+
+///////////////////////////////////////// Cloud Computing Architectiure ////////////////////////////////
+const Cloud_Computing_Architecture = [
   {
-    question: "What is Angular?",
+    question:
+      "What are the major goals of the high-level architectural approach in cloud computing?",
     answers: [
       {
-        text: "A JavaScript library for building user interfaces",
-        correct: false,
-      },
-      {
-        text: "A front-end framework for developing single-page applications",
+        text: "Business goal, Quality attribute, Architectural tactics",
         correct: true,
       },
       {
-        text: "A backend framework for server-side programming",
+        text: "Client-server setup, Load balancing, Backup management",
         correct: false,
       },
-      { text: "A database management system", correct: false },
-    ],
-  },
-  {
-    question: "Which company developed Angular?",
-    answers: [
-      { text: "Facebook", correct: false },
-      { text: "Google", correct: true },
-      { text: "Microsoft", correct: false },
-      { text: "Apple", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary language used for Angular development?",
-    answers: [
-      { text: "JavaScript", correct: false },
-      { text: "Java", correct: false },
-      { text: "TypeScript", correct: true },
-      { text: "Python", correct: false },
+      { text: "Cost reduction, Speed, Communication methods", correct: false },
+      { text: "Security, Encryption, Legal concerns", correct: false },
     ],
   },
   {
     question:
-      "Which directive is used to create a two-way data binding in Angular?",
+      "Which of the following is *not* a technical architecture concern in cloud computing?",
     answers: [
-      { text: "[ngModel]", correct: true },
-      { text: "[ngBind]", correct: false },
-      { text: "[ngTwoWay]", correct: false },
-      { text: "[ngBindModel]", correct: false },
+      { text: "Middleware and communication", correct: false },
+      { text: "Geo-location check", correct: true },
+      { text: "Management and security", correct: false },
+      { text: "Structuring cloud services and components", correct: false },
     ],
   },
   {
-    question: "Which command is used to create a new Angular project?",
+    question: "What does XaaS stand for?",
     answers: [
-      { text: "ng generate project", correct: false },
-      { text: "ng new project-name", correct: true },
-      { text: "angular create project", correct: false },
-      { text: "ng create project", correct: false },
+      { text: "X-ray as a Service", correct: false },
+      { text: "X as a System", correct: false },
+      { text: "X as a Service", correct: true },
+      { text: "Xtra Application as a Software", correct: false },
     ],
   },
   {
-    question: "What is a component in Angular?",
+    question: "Which of the following is the essence of cloud computing?",
     answers: [
-      { text: "A service that handles data operations", correct: false },
-      {
-        text: "A part of the application containing HTML, CSS, and JavaScript for a UI element",
-        correct: true,
-      },
-      { text: "A module that contains routing information", correct: false },
-      { text: "A class that provides dependency injection", correct: false },
+      { text: "Virtual Machines", correct: false },
+      { text: "SaaS", correct: false },
+      { text: "Client-server architecture", correct: false },
+      { text: "XaaS", correct: true },
     ],
   },
   {
-    question: "What does Angular CLI stand for?",
+    question: "Which is an example of IaaS?",
     answers: [
-      { text: "Command Line Interface", correct: true },
-      { text: "Component Library Interface", correct: false },
-      { text: "Controller Logic Interface", correct: false },
-      { text: "Central Logic Interface", correct: false },
-    ],
-  },
-  {
-    question: "Which decorator is used to define a component in Angular?",
-    answers: [
-      { text: "@Directive", correct: false },
-      { text: "@Component", correct: true },
-      { text: "@Module", correct: false },
-      { text: "@Service", correct: false },
-    ],
-  },
-  {
-    question: "What is a module in Angular?",
-    answers: [
-      {
-        text: "A set of services and components organized together",
-        correct: true,
-      },
-      { text: "A single file containing application logic", correct: false },
-      { text: "A directive that manages templates", correct: false },
-      { text: "A component that handles user interactions", correct: false },
-    ],
-  },
-  {
-    question: "Which file is the main entry point of an Angular application?",
-    answers: [
-      { text: "main.ts", correct: true },
-      { text: "app.module.ts", correct: false },
-      { text: "index.html", correct: false },
-      { text: "angular.json", correct: false },
-    ],
-  },
-  {
-    question: "How do you define routing in an Angular application?",
-    answers: [
-      { text: "Using @Route decorator", correct: false },
-      { text: "Using @RouterModule", correct: false },
-      { text: "Using RouterModule.forRoot() method", correct: true },
-      { text: "Using RouterService", correct: false },
-    ],
-  },
-  {
-    question: "What is Angular's data binding?",
-    answers: [
-      {
-        text: "The process of binding JavaScript data to HTML elements",
-        correct: false,
-      },
-      {
-        text: "The process of synchronizing data between the model and the view",
-        correct: true,
-      },
-      { text: "The process of binding components together", correct: false },
-      { text: "The process of binding CSS styles to elements", correct: false },
-    ],
-  },
-  {
-    question: "Which service is used to make HTTP calls in Angular?",
-    answers: [
-      { text: "HttpService", correct: false },
-      { text: "HttpClientModule", correct: true },
-      { text: "HttpModule", correct: false },
-      { text: "HttpRequestService", correct: false },
-    ],
-  },
-  {
-    question: "What is Angular's dependency injection?",
-    answers: [
-      { text: "A design pattern for handling user inputs", correct: false },
-      {
-        text: "A design pattern for injecting services into components",
-        correct: true,
-      },
-      { text: "A technique for optimizing data binding", correct: false },
-      { text: "A method for routing navigation", correct: false },
+      { text: "Google Docs", correct: false },
+      { text: "Amazon EC2", correct: true },
+      { text: "Salesforce CRM", correct: false },
+      { text: "Gmail", correct: false },
     ],
   },
   {
     question:
-      "Which lifecycle hook is called after a component's view has been initialized?",
+      "Which service model provides a platform to develop and deploy applications?",
     answers: [
-      { text: "ngOnInit", correct: false },
-      { text: "ngAfterViewInit", correct: true },
-      { text: "ngAfterContentInit", correct: false },
-      { text: "ngOnChanges", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the Angular CLI 'ng generate' command?",
-    answers: [
-      { text: "To create a new Angular application", correct: false },
-      {
-        text: "To generate components, services, modules, and more",
-        correct: true,
-      },
-      { text: "To start the Angular application server", correct: false },
-      { text: "To run the Angular unit tests", correct: false },
+      { text: "SaaS", correct: false },
+      { text: "IaaS", correct: false },
+      { text: "PaaS", correct: true },
+      { text: "BPaaS", correct: false },
     ],
   },
   {
     question:
-      "Which operator from RxJS is commonly used to handle asynchronous data in Angular?",
+      "What is the key characteristic of the client in a client-server architecture?",
     answers: [
-      { text: "filter", correct: false },
-      { text: "map", correct: false },
-      { text: "subscribe", correct: true },
-      { text: "distinctUntilChanged", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Angular's 'ngIf' directive?",
-    answers: [
-      { text: "To iterate over a list of items", correct: false },
+      { text: "It performs load balancing", correct: false },
       {
-        text: "To conditionally include or exclude a portion of the DOM",
+        text: "It is a thin client with low computational power",
         correct: true,
       },
-      { text: "To handle form validation", correct: false },
-      { text: "To bind a CSS class to an element", correct: false },
+      { text: "It acts as a database server", correct: false },
+      { text: "It manages cloud virtual machines", correct: false },
     ],
   },
   {
-    question: "What is a service in Angular?",
+    question:
+      "Which tier in the three-tier architecture handles business logic?",
     answers: [
-      { text: "A component that handles user input", correct: false },
+      { text: "Presentation tier", correct: false },
+      { text: "Logical tier", correct: true },
+      { text: "Data tier", correct: false },
+      { text: "Client tier", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT commonly delivered as a service in XaaS?",
+    answers: [
+      { text: "Storage", correct: false },
+      { text: "Firewall", correct: false },
+      { text: "Power supply", correct: true },
+      { text: "Database", correct: false },
+    ],
+  },
+  {
+    question: "Which model theoretically provides infinite scalability?",
+    answers: [
+      { text: "Client-server model", correct: false },
+      { text: "Grid computing", correct: false },
+      { text: "Cloud computing model", correct: true },
+      { text: "Cluster computing", correct: false },
+    ],
+  },
+  {
+    question: "What core technology enables scalability in cloud computing?",
+    answers: [
+      { text: "Containerization", correct: false },
+      { text: "Virtualization", correct: true },
+      { text: "Encryption", correct: false },
+      { text: "Caching", correct: false },
+    ],
+  },
+  {
+    question: "In the classical service model, what is a major disadvantage?",
+    answers: [
+      { text: "Easy replacement of layers", correct: false },
+      { text: "Cost-effective scaling", correct: false },
+      { text: "Manual operations and tight coupling", correct: true },
+      { text: "High cloud integration", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a SaaS application?",
+    answers: [
+      { text: "Amazon EC2", correct: false },
+      { text: "Salesforce CRM", correct: true },
+      { text: "Windows Server", correct: false },
+      { text: "Oracle VM", correct: false },
+    ],
+  },
+  {
+    question: "Which scenario is NOT ideal for SaaS?",
+    answers: [
+      { text: "Applications with short-term need", correct: false },
+      { text: "Real-time processing of data", correct: true },
+      { text: "Web/mobile accessible apps", correct: false },
+      { text: "Email newsletter software", correct: false },
+    ],
+  },
+  {
+    question: "What is a benefit of client-server architecture?",
+    answers: [
+      { text: "Easy infinite scaling", correct: false },
+      { text: "Simple load balancing", correct: true },
+      { text: "Full virtualization", correct: false },
+      { text: "Supports complex service models", correct: false },
+    ],
+  },
+  {
+    question: "What does a Cloud Service Provider (CSP) aim to increase?",
+    answers: [
+      { text: "Manual interventions", correct: false },
       {
-        text: "A class that contains business logic and data management code",
+        text: "Productivity, satisfaction, innovation, and agility",
         correct: true,
       },
-      { text: "A module that handles routing", correct: false },
-      { text: "A directive that manipulates the DOM", correct: false },
+      { text: "System dependencies", correct: false },
+      { text: "Data redundancy", correct: false },
     ],
   },
   {
-    question: "Which command is used to serve an Angular application locally?",
+    question:
+      "Which component belongs to the Deployment Operation Architecture?",
     answers: [
-      { text: "ng build", correct: false },
-      { text: "ng serve", correct: true },
-      { text: "ng start", correct: false },
-      { text: "ng run", correct: false },
+      { text: "Middleware", correct: false },
+      { text: "Security mechanisms", correct: false },
+      { text: "Geo-location check", correct: true },
+      { text: "Cloud services structuring", correct: false },
+    ],
+  },
+  {
+    question: "Which is a correct combination that leads to XaaS?",
+    answers: [
+      { text: "Broad network access + VPN", correct: false },
+      { text: "Cloud access + database tuning", correct: false },
+      {
+        text: "Broad access + resource pooling + SOI + service orientation",
+        correct: true,
+      },
+      { text: "Data tier + logical tier + UX layer", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which service is categorized under Security as a Service (SECaaS)?",
+    answers: [
+      { text: "Cloud firewall management", correct: true },
+      { text: "CRM access module", correct: false },
+      { text: "Container orchestration", correct: false },
+      { text: "File sharing", correct: false },
+    ],
+  },
+  {
+    question: "What is Desktop as a Service (DaaS) primarily used for?",
+    answers: [
+      { text: "Providing virtual desktops remotely", correct: true },
+      { text: "Distributing operating systems", correct: false },
+      { text: "Application hosting", correct: false },
+      { text: "File encryption", correct: false },
+    ],
+  },
+  {
+    question: "Which model typically uses thin clients?",
+    answers: [
+      { text: "Grid computing", correct: false },
+      { text: "Client-server architecture", correct: true },
+      { text: "Cloud-native deployment", correct: false },
+      { text: "Legacy model", correct: false },
+    ],
+  },
+  {
+    question: "Which of these best defines PaaS?",
+    answers: [
+      { text: "A complete software on cloud", correct: false },
+      { text: "An environment to build and deploy apps", correct: true },
+      { text: "Virtual hardware machines", correct: false },
+      { text: "Shared CRM tools", correct: false },
+    ],
+  },
+  {
+    question: "Which of these layers is NOT part of the classical model?",
+    answers: [
+      { text: "Application", correct: false },
+      { text: "Middleware", correct: true },
+      { text: "Development Tools", correct: false },
+      { text: "Operating System", correct: false },
+    ],
+  },
+  {
+    question: "What type of systems are deployed in classical IT?",
+    answers: [
+      { text: "Custom build-to-order, vertically stacked", correct: true },
+      { text: "On-demand and scalable", correct: false },
+      { text: "Serverless functions", correct: false },
+      { text: "Cloud-native microservices", correct: false },
     ],
   },
 ];
+
 ////////////////////////////////////////////  MATERIAL UI ///////////////////////////////////////////////////////////
 const MaterialUI = [
   {
@@ -13051,12 +13225,12 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = DistributedComputing;
     } else if (selectedValue === "Cluster_Utility_Computing") {
       Questions = Cluster_Utility_Computing;
-    } else if (selectedValue === "Bootstrap") {
-      Questions = Bootstrap;
-    } else if (selectedValue === "ReactJs") {
-      Questions = ReactJs;
-    } else if (selectedValue === "Java") {
-      Questions = Java;
+    } else if (selectedValue === "Cloud_Computing") {
+      Questions = Cloud_Computing;
+    } else if (selectedValue === "Evolution_Of_Cloud_Computing") {
+      Questions = Evolution_Of_Cloud_Computing;
+    } else if (selectedValue === "Cloud_Computing_Architecture") {
+      Questions = Cloud_Computing_Architecture;
     } else if (selectedValue === "Python") {
       Questions = Python;
     } else if (selectedValue === "C_Programming") {
