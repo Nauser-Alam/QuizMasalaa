@@ -117,6 +117,13 @@ body {
     text-align: center;
     z-index: 1000;
 }
+#toggle-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+/* #timer{
+    cursor: pointer;
+} */
 
 #name-popup input {
     padding: 10px;
@@ -265,7 +272,7 @@ body {
     transition: all 0.5s;
 }
 #timer{
-    margin-top: 20px;
+    margin-top: 18px;
     font-size: 21px;
 }
 .image-container {
@@ -311,12 +318,14 @@ body {
 #ee1{
     width: 300px; height: 30px;
 }
-#timer{
-    font-size: 25px;
+#timer {
+    font-size: 23px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    margin-top: 5px;
- 
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .last_text{
     color: white;
@@ -351,6 +360,9 @@ body {
     .selected{                   /* Selected topic box*/
         width: 320px;
         height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         
         
     }
@@ -358,11 +370,13 @@ body {
         width: 230px;
         height: 25px;
     }
-    #timer{
-        font-size: 20px;
+    /* #timer{
+        font-size: 23px !important;
         margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
 
-    }
+    } */
     body{
         height: 950px;
     }

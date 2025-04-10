@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta property="og:image" content="https://verdant-dodol-f4ab93.netlify.app/public/site_logo.png">
     <link rel="shortcut icon" type="quiz-icon" href="./public/site_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This site is having more than 100+ topics and 1000+ questions for all engineering departments. Powered by studymasalaa.com">
     <title>QuizMasalaa.com</title>
@@ -21,14 +22,14 @@
 </div>
 <div id="selector" >
     <center>
-    <div class="t1" style="margin-top: 5px; margin-left: 20px; opacity: 100%; ">
+    <div class="t1" style="margin-top: 25px; margin-left: 20px; opacity: 100%; ">
         Topic:
         <select id="ee1" >
             <option value="" disabled selected>Select the topic</option>
-            <option value="HTML">HTML</option>
+            <!-- <option value="HTML">HTML</option> -->
             <option value="DistributedComputing">Distributed Computing (1-14)</option>
-            <option value="CSS">CSS</option>
-            <option value="JavaScript">JavaScript</option>
+            <option value="GridComputing">Grid Computing</option>
+            <option value="Cluster_Utility_Computing">Cluster and Utility Computing</option>
             <option value="Bootstrap">BootStrap</option>
             <option value="NodeJs">NodeJs</option>
             <option value="ReactJs">ReactJs</option>
@@ -85,11 +86,13 @@
 
         </select>
     </div>
-    <div class="selected" >
-        <h2 id="text1"></h2>
-        
+    <div class="selected" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <!-- <h2 id="text1"></h2> -->
+        <i id="toggle-icon" class="fas fa-play" onclick="toggleTimer()"></i>
+        <div id="timer">Start Timer</div> 
+        <i id="reset-icon" class="fas fa-rotate-right" onclick="resetTimer()" style="cursor: pointer;"></i>
     </div>
-    <div id="timer">Time left: 05:00</div>
+
 </center>
 </div>
 <div class="container">

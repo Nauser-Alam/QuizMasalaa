@@ -1,123 +1,4 @@
 ////////////////////////////////////////////  H  T   M   L  /////////////////////////////////////////////////
-const HTML = [
-  {
-    question: "What does HTML stand for?",
-    answers: [
-      { text: "Hyper Text Markup Language", correct: true },
-      { text: "Highly Typed Markup Language", correct: false },
-      { text: "Home Tool Markup Language", correct: false },
-      { text: "Hyperlinks and Text Markup Language", correct: false },
-    ],
-  },
-
-  {
-    question: "Which HTML tag is used to define an unordered list?",
-    answers: [
-      { text: "&lt;ol&gt;", correct: false },
-      { text: "&lt;li&gt;", correct: false },
-      { text: "&lt;ul&gt;", correct: true },
-      { text: "&lt;list&gt;", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the correct HTML for adding a background color?",
-    answers: [
-      { text: '&lt;body style="background-color: yellow;"&gt;', correct: true },
-      { text: "&lt;background&gt;yellow&lt;/background&gt;", correct: false },
-      { text: '&lt;body bg="yellow"&gt;', correct: false },
-      { text: "&lt;bgcolor=yellow&gt;", correct: false },
-    ],
-  },
-
-  {
-    question:
-      "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
-    answers: [
-      { text: "src", correct: false },
-      { text: "longdesc", correct: false },
-      { text: "title", correct: false },
-      { text: "alt", correct: true },
-    ],
-  },
-
-  {
-    question:
-      "In HTML, which attribute is used to specify that an input field must be filled out?",
-    answers: [
-      { text: "placeholder", correct: false },
-      { text: "validate", correct: false },
-      { text: "required", correct: true },
-      { text: "formvalidate", correct: false },
-    ],
-  },
-
-  {
-    question: "Which HTML tag is used to define a hyperlink?",
-    answers: [
-      { text: "&lt;link&gt;", correct: false },
-      { text: "&lt;href&gt;", correct: false },
-      { text: "&lt;a&gt;", correct: true },
-      { text: "&lt;hyperlink&gt;", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the correct HTML for inserting a line break?",
-    answers: [
-      { text: "&lt;br&gt;", correct: true },
-      { text: "&lt;break&gt;", correct: false },
-      { text: "&lt;lb&gt;", correct: false },
-      { text: "&lt;linebreak&gt;", correct: false },
-    ],
-  },
-
-  {
-    question: "Which HTML element is used to define important text?",
-    answers: [
-      { text: "&lt;strong&gt;", correct: true },
-      { text: "&lt;i&gt;", correct: false },
-      { text: "&lt;bold&gt;", correct: false },
-      { text: "&lt;important&gt;", correct: false },
-    ],
-  },
-
-  {
-    question:
-      "What is the correct HTML for creating a hyperlink to another website?",
-    answers: [
-      {
-        text: '&lt;a href="http://www.example.com"&gt;Example&lt;/a&gt;',
-        correct: true,
-      },
-      {
-        text: '&lt;a url="http://www.example.com"&gt;Example&lt;/a&gt;',
-        correct: false,
-      },
-      {
-        text: '&lt;href="http://www.example.com"&gt;Example&lt;/href&gt;',
-        correct: false,
-      },
-      {
-        text: '&lt;link="http://www.example.com"&gt;Example&lt;/link&gt;',
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "Which HTML tag is used to define a table row?",
-    answers: [
-      { text: "&lt;tr&gt;", correct: true },
-      { text: "&lt;table&gt;", correct: false },
-      { text: "&lt;th&gt;", correct: false },
-      { text: "&lt;td&gt;", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////////////////  C   S
-//
-//
 
 const DistributedComputing = [
   {
@@ -320,738 +201,440 @@ const DistributedComputing = [
 ];
 
 //    S  ////////////////////////////////////////////////////////////////
-const CSS = [
+const GridComputing = [
   {
-    question: "What does CSS stand for?",
+    question: "What is Grid Computing primarily used for?",
     answers: [
-      { text: "Cascading Style Sheets", correct: true },
-      { text: "Colorful Style Sheets", correct: false },
-      { text: "Creative Style Sheets", correct: false },
-      { text: "Computer Style Sheets", correct: false },
+      { text: "Browsing the web", correct: false },
+      { text: "Gaming applications", correct: false },
+      {
+        text: "Harnessing unused processing cycles across networks",
+        correct: true,
+      },
+      { text: "Designing websites", correct: false },
     ],
   },
-
-  {
-    question: "Which HTML attribute is used to define inline styles?",
-    answers: [
-      { text: "style", correct: true },
-      { text: "class", correct: false },
-      { text: "styles", correct: false },
-      { text: "font", correct: false },
-    ],
-  },
-
-  {
-    question: "Which is the correct CSS syntax?",
-    answers: [
-      { text: "body:color=black;", correct: false },
-      { text: "{body;color:black;}", correct: false },
-      { text: "body {color: black;}", correct: true },
-      { text: "{body:color=black;}", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you insert a comment in a CSS file?",
-    answers: [
-      { text: "// this is a comment", correct: false },
-      { text: "' this is a comment", correct: false },
-      { text: "/* this is a comment */", correct: true },
-      { text: "// this is a comment //", correct: false },
-    ],
-  },
-
-  {
-    question: "Which property is used to change the background color?",
-    answers: [
-      { text: "bgcolor", correct: false },
-      { text: "color", correct: false },
-      { text: "background-color", correct: true },
-      { text: "bg-color", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you add a background color for all &lt;h1&gt; elements?",
-    answers: [
-      { text: "h1 {background-color: #FFFFFF;}", correct: true },
-      { text: "h1.all {background-color: #FFFFFF;}", correct: false },
-      { text: "all.h1 {background-color: #FFFFFF;}", correct: false },
-      { text: "h1 {bgcolor: #FFFFFF;}", correct: false },
-    ],
-  },
-
   {
     question:
-      "Which CSS property is used to change the text color of an element?",
+      "Which company describes Grid Computing as virtualization of distributed computing and data resources?",
     answers: [
-      { text: "fgcolor", correct: false },
-      { text: "text-color", correct: false },
-      { text: "color", correct: true },
-      { text: "font-color", correct: false },
+      { text: "Pcwebopedia", correct: false },
+      { text: "IBM", correct: true },
+      { text: "Sun Microsystems", correct: false },
+      { text: "Intel", correct: false },
     ],
   },
-
-  {
-    question: "Which property is used to change the font of an element?",
-    answers: [
-      { text: "font-weight", correct: false },
-      { text: "font-style", correct: false },
-      { text: "font-family", correct: true },
-      { text: "font-variant", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you make the text bold in CSS?",
-    answers: [
-      { text: "font: bold;", correct: false },
-      { text: "font-weight: bold;", correct: true },
-      { text: "text-weight: bold;", correct: false },
-      { text: "font-bolder: bold;", correct: false },
-    ],
-  },
-
-  {
-    question: "Which property is used to control the spacing between elements?",
-    answers: [
-      { text: "padding", correct: false },
-      { text: "spacing", correct: false },
-      { text: "margin", correct: true },
-      { text: "border-spacing", correct: false },
-    ],
-  },
-
   {
     question:
-      "Which CSS property is used to change the text alignment of an element?",
+      "Which of the following best represents Grid Computing as per Sun Microsystems?",
     answers: [
-      { text: "text-indent", correct: false },
-      { text: "text-align", correct: true },
-      { text: "vertical-align", correct: false },
-      { text: "line-height", correct: false },
+      { text: "A system for fast internet access", correct: false },
+      {
+        text: "A distributed computing infrastructure with reliable, consistent access to capabilities",
+        correct: true,
+      },
+      { text: "A software development tool", correct: false },
+      { text: "A gaming network", correct: false },
     ],
   },
-
   {
-    question: "How do you select an element with id 'demo'?",
+    question:
+      "What does the Electrical Power Grid analogy in Grid Computing represent?",
     answers: [
-      { text: "#demo", correct: true },
-      { text: ".demo", correct: false },
-      { text: "demo", correct: false },
-      { text: "*demo", correct: false },
+      { text: "Electricity is used only at power plants", correct: false },
+      {
+        text: "Resources are accessed without knowing their source or nature",
+        correct: true,
+      },
+      { text: "Users must know the source of electricity", correct: false },
+      { text: "Only renewable sources are used", correct: false },
     ],
   },
-
   {
-    question: "How do you select all p elements inside a div element?",
+    question: "What do users access in a computing grid environment?",
     answers: [
-      { text: "div + p", correct: false },
-      { text: "div > p", correct: false },
-      { text: "div p", correct: true },
-      { text: "div.p", correct: false },
+      { text: "Only files and documents", correct: false },
+      {
+        text: "Computing resources such as processors and storage",
+        correct: true,
+      },
+      { text: "Social media platforms", correct: false },
+      { text: "E-commerce services", correct: false },
     ],
   },
-
   {
-    question: "Which property is used to change the left margin of an element?",
+    question: "Grid computing supports sharing of:",
     answers: [
-      { text: "padding-left", correct: false },
-      { text: "margin-left", correct: true },
-      { text: "indent", correct: false },
-      { text: "spacing-left", correct: false },
+      { text: "Only emails", correct: false },
+      { text: "Data, computing power, and applications", correct: true },
+      { text: "Web links", correct: false },
+      { text: "User passwords", correct: false },
     ],
   },
-
   {
-    question: "Which property is used to change the font size of an element?",
+    question: "What is a virtual organization in grid computing?",
     answers: [
-      { text: "font-style", correct: false },
-      { text: "font-weight", correct: false },
-      { text: "font-size", correct: true },
-      { text: "font-family", correct: false },
+      { text: "A local club", correct: false },
+      {
+        text: "A set of people from many institutions working to solve a problem",
+        correct: true,
+      },
+      { text: "A fake online business", correct: false },
+      { text: "A computer virus", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a reason for using Grid Computing?",
+    answers: [
+      {
+        text: "Scientific and Engineering problems need precise solutions",
+        correct: false,
+      },
+      { text: "Games run faster", correct: true },
+      { text: "Experimental methods are costly", correct: false },
+      { text: "Need for better data visualization", correct: false },
+    ],
+  },
+  {
+    question:
+      "What kind of resources does Grid Computing help utilize efficiently?",
+    answers: [
+      { text: "Unused or underutilized computing resources", correct: true },
+      { text: "Brand new CPUs", correct: false },
+      { text: "Expensive servers only", correct: false },
+      { text: "Cloud-hosted files", correct: false },
+    ],
+  },
+  {
+    question: "Which application is least likely to use Grid Computing?",
+    answers: [
+      { text: "Weather forecasting", correct: false },
+      { text: "Reactor simulations", correct: false },
+      { text: "Music playlist curation", correct: true },
+      { text: "Material characterization", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of grid provides high throughput and secure access to shared processing power?",
+    answers: [
+      { text: "Computational Grid", correct: true },
+      { text: "Data Grid", correct: false },
+      { text: "Collaboration Grid", correct: false },
+      { text: "Network Grid", correct: false },
+    ],
+  },
+  {
+    question: "What does a Data Grid primarily support?",
+    answers: [
+      { text: "Gaming data sharing", correct: false },
+      { text: "Data storage, discovery, and manipulation", correct: true },
+      { text: "Programming IDEs", correct: false },
+      { text: "Document formatting", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of a Collaboration Grid?",
+    answers: [
+      { text: "Secure payment systems", correct: false },
+      {
+        text: "Supporting remote collaboration for joint projects",
+        correct: true,
+      },
+      { text: "Bluetooth file transfer", correct: false },
+      { text: "Video editing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which grid type works as a data router between two communication points?",
+    answers: [
+      { text: "Utility Grid", correct: false },
+      { text: "Computational Grid", correct: false },
+      { text: "Network Grid", correct: true },
+      { text: "Data Grid", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which grid type offers software and special equipment as services?",
+    answers: [
+      { text: "Utility Grid", correct: true },
+      { text: "Network Grid", correct: false },
+      { text: "Data Grid", correct: false },
+      { text: "Computational Grid", correct: false },
+    ],
+  },
+  {
+    question: "What is the ultimate goal of Utility Grid computing?",
+    answers: [
+      { text: "Speeding up music downloads", correct: false },
+      {
+        text: "Running applications and sharing software across devices",
+        correct: true,
+      },
+      { text: "Installing desktop widgets", correct: false },
+      { text: "Developing mobile apps", correct: false },
+    ],
+  },
+  {
+    question: "How is transparency achieved in grid computing?",
+    answers: [
+      { text: "By hiding passwords", correct: false },
+      {
+        text: "Through seamless interaction with underlying layers",
+        correct: true,
+      },
+      { text: "By encrypting everything", correct: false },
+      { text: "By logging user behavior", correct: false },
+    ],
+  },
+  {
+    question: "What kind of user interaction is expected in Grid Computing?",
+    answers: [
+      { text: "Direct hardware configuration", correct: false },
+      { text: "Knowledge of backend systems", correct: false },
+      { text: "Minimal awareness of backend resources", correct: true },
+      { text: "Frequent maintenance of network cables", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is an example of a problem domain suited for Grid Computing?",
+    answers: [
+      { text: "Blogging", correct: false },
+      { text: "Crystallography and natural disaster modeling", correct: true },
+      { text: "Text messaging", correct: false },
+      { text: "Spreadsheet calculations", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is one major benefit of using Grid Computing in scientific research?",
+    answers: [
+      { text: "Faster cooking", correct: false },
+      { text: "Reduced need for expensive experiments", correct: true },
+      { text: "High internet speed", correct: false },
+      { text: "User entertainment", correct: false },
     ],
   },
 ];
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////  JAVA SCRIPT  ///////////////////////////////////////////////////////
-const JavaScript = [
+//////////////////////  Cluster and Utility Computing ///////////////
+const Cluster_Utility_Computing = [
   {
-    question: "What is JavaScript primarily used for?",
-    answers: [
-      { text: "Styling web pages", correct: false },
-      { text: "Structuring web content", correct: false },
-      { text: "Creating interactive web content", correct: true },
-      { text: "Managing databases", correct: false },
-    ],
-  },
-
-  {
-    question: "Which company developed JavaScript?",
-    answers: [
-      { text: "Microsoft", correct: false },
-      { text: "Netscape", correct: true },
-      { text: "Google", correct: false },
-      { text: "Apple", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you write 'Hello World' in an alert box?",
-    answers: [
-      { text: "msgBox('Hello World');", correct: false },
-      { text: "alert('Hello World');", correct: true },
-      { text: "alertBox('Hello World');", correct: false },
-      { text: "msg('Hello World');", correct: false },
-    ],
-  },
-
-  {
-    question: "Which symbol is used for comments in JavaScript?",
-    answers: [
-      { text: "//", correct: true },
-      { text: "<!-- -->", correct: false },
-      { text: "/* */", correct: true },
-      { text: "#", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you create a function in JavaScript?",
-    answers: [
-      { text: "function myFunction() {}", correct: true },
-      { text: "function:myFunction() {}", correct: false },
-      { text: "function = myFunction() {}", correct: false },
-      { text: "myFunction function() {}", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you call a function named 'myFunction'?",
-    answers: [
-      { text: "call myFunction()", correct: false },
-      { text: "call function myFunction()", correct: false },
-      { text: "myFunction()", correct: true },
-      { text: "Call.myFunction()", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you write a conditional statement in JavaScript?",
-    answers: [
-      { text: "if i == 5 then", correct: false },
-      { text: "if (i == 5)", correct: true },
-      { text: "if i = 5 then", correct: false },
-      { text: "if i = 5", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you write a JavaScript array?",
-    answers: [
-      { text: "var colors = 'red', 'green', 'blue'", correct: false },
-      { text: "var colors = (1:'red', 2:'green', 3:'blue')", correct: false },
-      { text: "var colors = ['red', 'green', 'blue']", correct: true },
-      {
-        text: "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "Which event occurs when the user clicks on an HTML element?",
-    answers: [
-      { text: "onmouseover", correct: false },
-      { text: "onchange", correct: false },
-      { text: "onclick", correct: true },
-      { text: "onmouseclick", correct: false },
-    ],
-  },
-
-  {
-    question: "How do you find the number with the highest value of x and y?",
-    answers: [
-      { text: "Math.max(x, y)", correct: true },
-      { text: "Math.ceil(x, y)", correct: false },
-      { text: "ceil(x, y)", correct: false },
-      { text: "top(x, y)", correct: false },
-    ],
-  },
-
-  {
-    question: "Which operator is used to assign a value to a variable?",
-    answers: [
-      { text: "=", correct: true },
-      { text: "-", correct: false },
-      { text: "*", correct: false },
-      { text: "x", correct: false },
-    ],
-  },
-
-  {
-    question: "What will the following code return: Boolean(10 > 9)?",
-    answers: [
-      { text: "false", correct: false },
-      { text: "NaN", correct: false },
-      { text: "true", correct: true },
-      { text: "undefined", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the correct way to write a JavaScript array?",
-    answers: [
-      { text: "var colors = 'red', 'green', 'blue'", correct: false },
-      { text: "var colors = (1:'red', 2:'green', 3:'blue')", correct: false },
-      { text: "var colors = ['red', 'green', 'blue']", correct: true },
-      {
-        text: "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "How does a 'for' loop start?",
-    answers: [
-      { text: "for (i <= 5; i++)", correct: false },
-      { text: "for i = 1 to 5", correct: false },
-      { text: "for (i = 0; i <= 5; i++)", correct: true },
-      { text: "for (i = 0; i <= 5)", correct: false },
-    ],
-  },
-
-  {
-    question: "How can you add a comment in JavaScript?",
-    answers: [
-      { text: "// This is a comment", correct: true },
-      { text: "' This is a comment", correct: false },
-      { text: "<!-- This is a comment -->", correct: false },
-      { text: "/* This is a comment */", correct: true },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct syntax for creating an arrow function in JavaScript?",
-    answers: [
-      { text: "let myFunction = () => { return 'Hello'; }", correct: true },
-      { text: "let myFunction = => () { return 'Hello'; }", correct: false },
-      { text: "let myFunction = () () => { return 'Hello'; }", correct: false },
-      { text: "let myFunction = { () => return 'Hello'; }", correct: false },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let arr = [1, 2, 3, 4]; let result = arr.map(num => num * 2); console.log(result);",
-    answers: [
-      { text: "[2, 4, 6, 8]", correct: true },
-      { text: "[1, 2, 3, 4]", correct: false },
-      { text: "[2, 3, 4, 5]", correct: false },
-      { text: "[1, 4, 9, 16]", correct: false },
-    ],
-  },
-  {
-    question: "Which method can be used to convert a JSON object to a string?",
-    answers: [
-      { text: "JSON.parse()", correct: false },
-      { text: "JSON.stringify()", correct: true },
-      { text: "JSON.toString()", correct: false },
-      { text: "JSON.convert()", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the `reduce()` method in JavaScript?",
-    answers: [
-      { text: "To filter elements from an array", correct: false },
-      { text: "To transform each element in an array", correct: false },
-      {
-        text: "To sum up all elements in an array to a single value",
-        correct: true,
-      },
-      { text: "To find the maximum element in an array", correct: false },
-    ],
-  },
-  {
-    question: "What will the following code output? console.log(typeof null);",
-    answers: [
-      { text: '"null"', correct: false },
-      { text: '"undefined"', correct: false },
-      { text: '"object"', correct: true },
-      { text: '"number"', correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is not a valid way to declare a variable in JavaScript?",
-    answers: [
-      { text: "let x = 10;", correct: false },
-      { text: "const y = 20;", correct: false },
-      { text: "var z = 30;", correct: false },
-      { text: "int a = 40;", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? let x = 5; let y = '5'; console.log(x == y);",
-    answers: [
-      { text: "true", correct: true },
-      { text: "false", correct: false },
-      { text: "undefined", correct: false },
-      { text: "null", correct: false },
-    ],
-  },
-  {
-    question: "What is the difference between `==` and `===` in JavaScript?",
+    question: "What is Cluster Computing?",
     answers: [
       {
-        text: "`==` compares values, `===` compares values and types",
+        text: "A type of distributed computing system using interconnected standalone computers",
         correct: true,
       },
       {
-        text: "`===` compares values, `==` compares values and types",
+        text: "A centralized computing system relying on a single mainframe",
         correct: false,
       },
-      { text: "`==` compares strings, `===` compares numbers", correct: false },
-      { text: "`===` compares strings, `==` compares numbers", correct: false },
+      {
+        text: "A cloud-based resource sharing model",
+        correct: false,
+      },
+      {
+        text: "A model that only uses one high-performance computer",
+        correct: false,
+      },
     ],
   },
   {
-    question:
-      "What will the following code output? let fruits = ['apple', 'banana', 'mango']; fruits.splice(1, 1, 'grape'); console.log(fruits);",
+    question: "Which of the following is NOT a type of cluster?",
     answers: [
-      { text: "['apple', 'grape', 'mango']", correct: true },
-      { text: "['apple', 'banana', 'grape', 'mango']", correct: false },
-      { text: "['apple', 'grape']", correct: false },
-      { text: "['apple', 'mango']", correct: false },
+      { text: "High Availability Cluster", correct: false },
+      { text: "Load Balancing Cluster", correct: false },
+      { text: "Data Warehouse Cluster", correct: true },
+      { text: "Parallel/Distributed Processing Cluster", correct: false },
     ],
   },
   {
-    question: "How do you create a promise in JavaScript?",
+    question: "What is the main goal of deploying cluster computing?",
     answers: [
+      { text: "To reduce the number of processors in use", correct: false },
       {
-        text: "let promise = new Promise(resolve, reject) => { ... };",
-        correct: false,
-      },
-      {
-        text: "let promise = Promise.create(resolve, reject) => { ... };",
-        correct: false,
-      },
-      {
-        text: "let promise = new Promise((resolve, reject) => { ... });",
+        text: "To improve speed and reliability cost-effectively",
         correct: true,
       },
-      {
-        text: "let promise = Promise.create((resolve, reject) => { ... });",
-        correct: false,
-      },
+      { text: "To create a backup of data", correct: false },
+      { text: "To disconnect distributed systems", correct: false },
     ],
   },
   {
-    question:
-      "Which of the following is a correct way to write a JavaScript array?",
+    question: "What are the basic components of a cluster system?",
     answers: [
-      { text: "let arr = '1, 2, 3'", correct: false },
-      { text: "let arr = (1, 2, 3)", correct: false },
-      { text: "let arr = [1, 2, 3]", correct: true },
-      { text: "let arr = {1, 2, 3}", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the `setTimeout` function in JavaScript?",
-    answers: [
-      { text: "To execute a block of code immediately", correct: false },
+      { text: "One single powerful server", correct: false },
       {
-        text: "To execute a block of code repeatedly with a fixed time delay",
-        correct: false,
-      },
-      {
-        text: "To execute a block of code after a specified time delay",
+        text: "Multiple standalone computers, interconnects, middleware, and applications",
         correct: true,
       },
+      { text: "Only middleware and OS", correct: false },
+      { text: "Only client-server architecture", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT an operational benefit of clustering?",
+    answers: [
+      { text: "High performance", correct: false },
+      { text: "Reduced network connectivity", correct: true },
+      { text: "Scalability", correct: false },
+      { text: "System availability", correct: false },
+    ],
+  },
+  {
+    question:
+      "Utility computing is a concept implemented by which computing model?",
+    answers: [
+      { text: "Grid computing", correct: false },
+      { text: "Cloud computing", correct: true },
+      { text: "Cluster computing", correct: false },
+      { text: "Edge computing", correct: false },
+    ],
+  },
+  {
+    question: "What is a key advantage of utility computing?",
+    answers: [
+      { text: "High initial investment", correct: false },
+      { text: "No virtualization", correct: false },
+      { text: "Low or no initial cost and pay-per-use model", correct: true },
+      { text: "Limited scalability", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a common pricing model in utility computing?",
+    answers: [
+      { text: "Freeware model", correct: false },
+      { text: "Subscription model", correct: true },
+      { text: "One-time purchase", correct: false },
+      { text: "Permanent license", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a risk associated with utility computing?",
+    answers: [
+      { text: "Improved uptime", correct: false },
+      { text: "Data security concerns", correct: true },
+      { text: "No vendor support", correct: false },
+      { text: "No usage monitoring", correct: false },
+    ],
+  },
+  {
+    question: "What does utility computing primarily solve?",
+    answers: [
+      { text: "Code redundancy", correct: false },
+      { text: "Resource utilization problems", correct: true },
+      { text: "User interface issues", correct: false },
+      { text: "Power supply issues", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is a characteristic of the communication network in clusters?",
+    answers: [
+      { text: "High latency", correct: false },
+      { text: "Low latency protocols", correct: true },
+      { text: "Disconnected links", correct: false },
+      { text: "Unreliable switches", correct: false },
+    ],
+  },
+  {
+    question: "Cluster computing systems are typically:",
+    answers: [
+      { text: "Tightly coupled like SMPs", correct: false },
       {
-        text: "To execute a block of code when an event occurs",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let person = { name: 'Alice', age: 25 }; console.log(Object.keys(person));",
-    answers: [
-      { text: "['name', 'age']", correct: true },
-      { text: "['Alice', 25']", correct: false },
-      { text: "['person']", correct: false },
-      { text: "['name', 'Alice', 'age', 25]", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following methods is used to add one or more elements to the end of an array and returns the new length of the array?",
-    answers: [
-      { text: "shift()", correct: false },
-      { text: "unshift()", correct: false },
-      { text: "push()", correct: true },
-      { text: "pop()", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? let a = 10; let b = a++; console.log(b);",
-    answers: [
-      { text: "9", correct: false },
-      { text: "10", correct: true },
-      { text: "11", correct: false },
-      { text: "undefined", correct: false },
-    ],
-  },
-  {
-    question: "How can you check if a variable `x` is an array in JavaScript?",
-    answers: [
-      { text: "if (typeof x === 'array')", correct: false },
-      { text: "if (x instanceof Array)", correct: false },
-      { text: "if (Array.isArray(x))", correct: true },
-      { text: "if (x.constructor === Array)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let str = 'Hello, world!'; console.log(str.substring(7, 12));",
-    answers: [
-      { text: "'Hello'", correct: false },
-      { text: "'world'", correct: true },
-      { text: "'world!'", correct: false },
-      { text: "'o, wo'", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct way to write a comment in JavaScript?",
-    answers: [
-      { text: "<!-- This is a comment -->", correct: false },
-      { text: "/* This is a comment */", correct: true },
-      { text: "// This is a comment", correct: true },
-      { text: "Both B and C", correct: true },
-    ],
-  },
-  {
-    question: "What is the purpose of the `bind` method in JavaScript?",
-    answers: [
-      {
-        text: "To create a new function that has its `this` keyword set to the provided value",
+        text: "Loosely coupled systems with interconnected nodes",
         correct: true,
       },
+      { text: "Monolithic and centralized", correct: false },
+      { text: "Used only for storage", correct: false },
+    ],
+  },
+  {
+    question: "Which component ensures fault tolerance in cluster systems?",
+    answers: [
+      { text: "Disk-RAID and redundancy mechanisms", correct: true },
+      { text: "Single thread handling", correct: false },
+      { text: "Limited application layer", correct: false },
+      { text: "Non-redundant processors", correct: false },
+    ],
+  },
+  {
+    question:
+      "What does the 'pay-as-you-go' model in utility computing refer to?",
+    answers: [
+      { text: "Paying a fixed monthly rate", correct: false },
+      { text: "Paying for exact usage only", correct: true },
+      { text: "Lifetime free usage", correct: false },
+      { text: "Annual payment", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT typically part of utility computing services?",
+    answers: [
+      { text: "Web service delivery", correct: false },
+      { text: "Software as a Service (SaaS)", correct: false },
+      { text: "Free software without any charges", correct: true },
+      { text: "Outsourcing infrastructure management", correct: false },
+    ],
+  },
+  {
+    question:
+      "What enables utility computing to provide large-scale resources?",
+    answers: [
+      { text: "Virtualization", correct: true },
+      { text: "Manual deployment", correct: false },
+      { text: "Hardware-only expansion", correct: false },
+      { text: "Offline access", correct: false },
+    ],
+  },
+  {
+    question: "Which benefit is common to both cluster and utility computing?",
+    answers: [
+      { text: "Redundancy and scalability", correct: true },
+      { text: "High latency processing", correct: false },
+      { text: "Low resource usage", correct: false },
+      { text: "Manual provisioning", correct: false },
+    ],
+  },
+  {
+    question: "What kind of environment is targeted by utility computing?",
+    answers: [
+      { text: "Only academic use", correct: false },
+      { text: "Flexible, on-demand computing environments", correct: true },
+      { text: "Offline desktop solutions", correct: false },
+      { text: "Gaming systems", correct: false },
+    ],
+  },
+  {
+    question: "Which is a characteristic of cluster nodes?",
+    answers: [
       {
-        text: "To create a new object that inherits from another object",
+        text: "They are not independently functioning systems",
         correct: false,
       },
-      { text: "To attach an event listener to an element", correct: false },
-      { text: "To remove properties from an object", correct: false },
+      { text: "They are standalone computers working together", correct: true },
+      { text: "They must use the same OS always", correct: false },
+      { text: "They can’t scale with more nodes", correct: false },
     ],
   },
   {
-    question: "What will the following code output? console.log(2 + '2' - 2);",
+    question: "How is system availability enhanced in cluster computing?",
     answers: [
-      { text: "22", correct: false },
-      { text: "4", correct: false },
-      { text: "0", correct: false },
-      { text: "20", correct: true },
-    ],
-  },
-  {
-    question:
-      "Which of the following methods is used to sort the elements of an array?",
-    answers: [
-      { text: "sort()", correct: true },
-      { text: "order()", correct: false },
-      { text: "arrange()", correct: false },
-      { text: "organize()", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? let x = '5'; console.log(x === 5);",
-    answers: [
-      { text: "true", correct: false },
-      { text: "false", correct: true },
-      { text: "undefined", correct: false },
-      { text: "null", correct: false },
-    ],
-  },
-  {
-    question: "How do you declare a constant in JavaScript?",
-    answers: [
-      { text: "const x = 10;", correct: true },
-      { text: "constant x = 10;", correct: false },
-      { text: "let x = constant 10;", correct: false },
-      { text: "x const = 10;", correct: false },
-    ],
-  },
-  {
-    question: "Which event occurs when the user clicks on an HTML element?",
-    answers: [
-      { text: "onmouseover", correct: false },
-      { text: "onchange", correct: false },
-      { text: "onclick", correct: true },
-      { text: "onmouseclick", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? let a = 5; let b = 10; [a, b] = [b, a]; console.log(a, b);",
-    answers: [
-      { text: "5 10", correct: false },
-      { text: "10 5", correct: true },
-      { text: "undefined undefined", correct: false },
-      { text: "null null", correct: false },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let x = [1, 2, 3]; x.length = 0; console.log(x);",
-    answers: [
-      { text: "[1, 2, 3]", correct: false },
-      { text: "[]", correct: true },
-      { text: "undefined", correct: false },
-      { text: "null", correct: false },
-    ],
-  },
-  {
-    question: "How do you add an element at the beginning of an array?",
-    answers: [
-      { text: "arr.push()", correct: false },
-      { text: "arr.pop()", correct: false },
-      { text: "arr.shift()", correct: false },
-      { text: "arr.unshift()", correct: true },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let x = 10; let y = x; y = 20; console.log(x);",
-    answers: [
-      { text: "10", correct: true },
-      { text: "20", correct: false },
-      { text: "undefined", correct: false },
-      { text: "null", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a JavaScript data type?",
-    answers: [
-      { text: "String", correct: false },
-      { text: "Boolean", correct: false },
-      { text: "Number", correct: false },
-      { text: "Character", correct: true },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let x = [1, 2, 3]; let y = x.slice(); y.push(4); console.log(x, y);",
-    answers: [
-      { text: "[1, 2, 3] [1, 2, 3, 4]", correct: true },
-      { text: "[1, 2, 3, 4] [1, 2, 3, 4]", correct: false },
-      { text: "[1, 2, 3, 4] [1, 2, 3]", correct: false },
-      { text: "[1, 2, 3, 4] [1, 2, 3, 4, 4]", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which operator is used to assign a value to a variable in JavaScript?",
-    answers: [
-      { text: "*", correct: false },
-      { text: "-", correct: false },
-      { text: "=", correct: true },
-      { text: "x", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? console.log('10' - 5);",
-    answers: [
-      { text: "5", correct: true },
-      { text: "105", correct: false },
-      { text: "NaN", correct: false },
-      { text: "'5'", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is used to handle asynchronous operations in JavaScript?",
-    answers: [
-      { text: "Promises", correct: true },
-      { text: "Callbacks", correct: true },
-      { text: "Async/Await", correct: true },
-      { text: "All of the above", correct: true },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let obj = { a: 1, b: 2 }; let newObj = { ...obj, c: 3 }; console.log(newObj);",
-    answers: [
-      { text: "{ a: 1, b: 2, c: 3 }", correct: true },
-      { text: "{ a: 1, c: 3 }", correct: false },
-      { text: "{ b: 2, c: 3 }", correct: false },
-      { text: "{ a: 1, b: 2 }", correct: false },
-    ],
-  },
-  {
-    question: "What does the `typeof` operator return for an array?",
-    answers: [
-      { text: "'array'", correct: false },
-      { text: "'object'", correct: true },
-      { text: "'undefined'", correct: false },
-      { text: "'number'", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code? let x = 0; if (x) { console.log('True'); } else { console.log('False'); }",
-    answers: [
-      { text: "True", correct: false },
-      { text: "False", correct: true },
-      { text: "undefined", correct: false },
-      { text: "null", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is not a looping structure in JavaScript?",
-    answers: [
-      { text: "for", correct: false },
-      { text: "while", correct: false },
-      { text: "do-while", correct: false },
-      { text: "repeat-until", correct: true },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let x = 'Hello'; let y = [...x]; console.log(y);",
-    answers: [
-      { text: "['H', 'e', 'l', 'l', 'o']", correct: true },
-      { text: "['Hello']", correct: false },
-      { text: "['H', 'e', 'l', 'l', 'o', ' ']", correct: false },
-      { text: "['H', 'e', 'l', 'l', 'o', 'o']", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a class in JavaScript?",
-    answers: [
-      { text: "class MyClass { constructor() { ... } }", correct: true },
-      { text: "class MyClass { function() { ... } }", correct: false },
-      { text: "class = MyClass { constructor() { ... } }", correct: false },
-      { text: "class MyClass { class() { ... } }", correct: false },
-    ],
-  },
-  {
-    question:
-      "What will the following code output? let x = 1; switch (x) { case 1: console.log('One'); break; case 2: console.log('Two'); break; default: console.log('Other'); }",
-    answers: [
-      { text: "One", correct: true },
-      { text: "Two", correct: false },
-      { text: "Other", correct: false },
-      { text: "undefined", correct: false },
+      { text: "Through a single point of failure", correct: false },
+      { text: "By using redundant systems and applications", correct: true },
+      { text: "By reducing the number of nodes", correct: false },
+      { text: "By limiting user access", correct: false },
     ],
   },
 ];
@@ -13462,12 +13045,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (selectedValue === "HTML") {
       Questions = HTML;
-    } else if (selectedValue === "CSS") {
-      Questions = CSS;
+    } else if (selectedValue === "GridComputing") {
+      Questions = GridComputing;
     } else if (selectedValue === "DistributedComputing") {
       Questions = DistributedComputing;
-    } else if (selectedValue === "JavaScript") {
-      Questions = JavaScript;
+    } else if (selectedValue === "Cluster_Utility_Computing") {
+      Questions = Cluster_Utility_Computing;
     } else if (selectedValue === "Bootstrap") {
       Questions = Bootstrap;
     } else if (selectedValue === "ReactJs") {
@@ -13690,32 +13273,48 @@ nextButton.addEventListener("click", () => {
   }
   //resetTimer();
 });
-
 function resetTimer() {
   clearInterval(timer);
-  timeLeft = 300; // Reset to 5 minutes
+  timeLeft = 0;
   updateTimerDisplay();
   startTimer();
+  document.getElementById("toggle-icon").className = "fas fa-pause";
 }
-
-function startTimer() {
-  timer = setInterval(() => {
-    if (timeLeft <= 0) {
-      clearInterval(timer);
-      showScore();
-    } else {
-      timeLeft--;
-      updateTimerDisplay();
-    }
-  }, 1000);
-}
+let timerInterval = null;
+let isRunning = false;
+timeLeft = 0;
+timerElement = document.getElementById("timer");
 
 function updateTimerDisplay() {
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
-  timerElement.innerHTML = `Time left: ${minutes
+  timerElement.innerHTML = `Time: ${minutes
     .toString()
     .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
 
-startQuiz();
+function startTimer() {
+  if (timerInterval) return;
+  timerInterval = setInterval(() => {
+    timeLeft++;
+    updateTimerDisplay();
+  }, 1000);
+}
+
+function pauseTimer() {
+  clearInterval(timerInterval);
+  timerInterval = null;
+}
+
+function toggleTimer() {
+  if (isRunning) {
+    pauseTimer();
+    document.getElementById("toggle-icon").className = "fas fa-play";
+  } else {
+    startTimer();
+    document.getElementById("toggle-icon").className = "fas fa-pause";
+  }
+  isRunning = !isRunning;
+}
+
+updateTimerDisplay(); // initialize display if needed
