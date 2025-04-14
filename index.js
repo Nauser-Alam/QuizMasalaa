@@ -1410,11784 +1410,5284 @@ const Cloud_Computing_Architecture = [
   },
 ];
 
-////////////////////////////////////////////  MATERIAL UI ///////////////////////////////////////////////////////////
-const MaterialUI = [
+////////////////////////////////////////////  Architecture and Deploy Modals //////////////////////////////////////
+const Architecture_Deploy_Modals = [
   {
-    question: "What is Material-UI?",
+    question: "Which characteristic best describes IaaS?",
     answers: [
       {
-        text: "A front-end framework for developing single-page applications",
+        text: "It provides complete software solutions to users",
         correct: false,
       },
-      {
-        text: "A design system for building React applications with a consistent UI",
-        correct: true,
-      },
-      {
-        text: "A backend framework for server-side programming",
-        correct: false,
-      },
-      { text: "A database management system", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which company developed the Material Design guidelines that Material-UI is based on?",
-    answers: [
-      { text: "Apple", correct: false },
-      { text: "Microsoft", correct: false },
-      { text: "Google", correct: true },
-      { text: "Facebook", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary language used for developing with Material-UI?",
-    answers: [
-      { text: "JavaScript", correct: true },
-      { text: "Python", correct: false },
-      { text: "Java", correct: false },
-      { text: "C#", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which command is used to install Material-UI in a React project?",
-    answers: [
-      { text: "npm install @material-ui/core", correct: true },
-      { text: "npm install material-ui", correct: false },
-      { text: "npm install material-design", correct: false },
-      { text: "npm install material-react", correct: false },
-    ],
-  },
-  {
-    question: "What is a primary component library provided by Material-UI?",
-    answers: [
-      { text: "Bootstrap", correct: false },
-      { text: "Ant Design", correct: false },
-      { text: "Material-UI Core", correct: true },
-      { text: "Foundation", correct: false },
-    ],
-  },
-  {
-    question: "Which Material-UI component is used for creating buttons?",
-    answers: [
-      { text: "Button", correct: true },
-      { text: "Btn", correct: false },
-      { text: "Link", correct: false },
-      { text: "Input", correct: false },
-    ],
-  },
-  {
-    question: "How do you apply styles to Material-UI components?",
-    answers: [
-      { text: "Using inline styles only", correct: false },
-      { text: "Using the withStyles higher-order component", correct: true },
-      { text: "Using external CSS files only", correct: false },
-      { text: "Using JavaScript styles only", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the Material-UI 'ThemeProvider' component?",
-    answers: [
-      {
-        text: "To apply global styles to the entire application",
-        correct: false,
-      },
-      { text: "To manage the state of the application", correct: false },
-      {
-        text: "To provide a consistent theme across the application",
-        correct: true,
-      },
-      { text: "To handle routing in the application", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to create a responsive layout grid in Material-UI?",
-    answers: [
-      { text: "Grid", correct: true },
-      { text: "Container", correct: false },
-      { text: "Box", correct: false },
-      { text: "Flex", correct: false },
-    ],
-  },
-  {
-    question: "What is the 'makeStyles' function used for in Material-UI?",
-    answers: [
-      { text: "To create a new component", correct: false },
-      { text: "To define custom CSS styles", correct: true },
-      { text: "To manage component state", correct: false },
-      { text: "To handle API calls", correct: false },
-    ],
-  },
-  {
-    question: "How do you apply Material-UI icons in a React project?",
-    answers: [
-      { text: "Using the @material-ui/icons package", correct: true },
-      { text: "Using the @material-ui/core package", correct: false },
-      { text: "Using the @material-ui/components package", correct: false },
-      { text: "Using the @material-ui/theme package", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to create a modal dialog in Material-UI?",
-    answers: [
-      { text: "Dialog", correct: true },
-      { text: "Modal", correct: false },
-      { text: "Popup", correct: false },
-      { text: "Window", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'Box' component in Material-UI?",
-    answers: [
-      { text: "To create a form element", correct: false },
-      { text: "To handle API requests", correct: false },
-      {
-        text: "To provide a wrapper component with utility styling",
-        correct: true,
-      },
-      { text: "To create navigation elements", correct: false },
-    ],
-  },
-  {
-    question: "How do you customize the default theme in Material-UI?",
-    answers: [
-      { text: "Using the createTheme function", correct: true },
-      { text: "Using the withTheme function", correct: false },
-      { text: "Using the ThemeProvider component", correct: false },
-      { text: "Using the setTheme function", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which Material-UI component is used for creating navigation drawers?",
-    answers: [
-      { text: "AppBar", correct: false },
-      { text: "Drawer", correct: true },
-      { text: "Sidebar", correct: false },
-      { text: "Menu", correct: false },
-    ],
-  },
-  {
-    question: "What does the 'sx' prop in Material-UI do?",
-    answers: [
-      { text: "It applies styles directly to a component", correct: true },
-      { text: "It sets the state of a component", correct: false },
-      { text: "It handles component events", correct: false },
-      { text: "It manages component lifecycle", correct: false },
-    ],
-  },
-  {
-    question: "Which Material-UI component is used for creating forms?",
-    answers: [
-      { text: "Form", correct: false },
-      { text: "FormControl", correct: true },
-      { text: "Input", correct: false },
-      { text: "FormField", correct: false },
-    ],
-  },
-  {
-    question: "How do you add spacing between Grid items in Material-UI?",
-    answers: [
-      { text: "Using the space prop", correct: false },
-      { text: "Using the gap prop", correct: false },
-      { text: "Using the spacing prop", correct: true },
-      { text: "Using the margin prop", correct: false },
-    ],
-  },
-  {
-    question: "Which component is used to create tabs in Material-UI?",
-    answers: [
-      { text: "Tabs", correct: true },
-      { text: "TabPanel", correct: false },
-      { text: "TabControl", correct: false },
-      { text: "NavigationTabs", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the 'CssBaseline' component in Material-UI?",
-    answers: [
-      { text: "To handle form validation", correct: false },
-      {
-        text: "To reset and apply a consistent baseline CSS to the application",
-        correct: true,
-      },
-      { text: "To create a navigation bar", correct: false },
-      { text: "To manage component state", correct: false },
-    ],
-  },
-];
-/////////////////////////////////////////////////  P   H   P  ///////////////////////////////////////////////////////
-const PHP = [
-  {
-    question: "What does PHP stand for?",
-    answers: [
-      { text: "Personal Home Page", correct: false },
-      { text: "PHP: Hypertext Preprocessor", correct: true },
-      { text: "Private Home Page", correct: false },
-      { text: "Programmed Hypertext Page", correct: false },
-    ],
-  },
-  {
-    question: "PHP is a...",
-    answers: [
-      { text: "Server-side scripting language", correct: true },
-      { text: "Client-side scripting language", correct: false },
-      { text: "Database management system", correct: false },
-      { text: "Markup language", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct way to start a PHP block of code?",
-    answers: [
-      { text: "<?php", correct: true },
-      { text: "<script>", correct: false },
-      { text: "<php>", correct: false },
-      { text: "<?php code>", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is used to declare a variable in PHP?",
-    answers: [
-      { text: "$variable_name", correct: true },
-      { text: "var variable_name", correct: false },
-      { text: "variable_name", correct: false },
-      { text: "@variable_name", correct: false },
-    ],
-  },
-  {
-    question: "Which function is used to output text in PHP?",
-    answers: [
-      { text: "echo", correct: true },
-      { text: "print", correct: false },
-      { text: "write", correct: false },
-      { text: "display", correct: false },
-    ],
-  },
-  {
-    question: "How do you write a comment in PHP?",
-    answers: [
-      { text: "// This is a comment", correct: true },
-      { text: "# This is a comment", correct: false },
-      { text: "/* This is a comment */", correct: true },
-      { text: "<!-- This is a comment -->", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a superglobal in PHP?",
-    answers: [
-      { text: "$_GET", correct: true },
-      { text: "$GLOBALS", correct: true },
-      { text: "$_POST", correct: true },
-      { text: "All of the above", correct: true },
-    ],
-  },
-  {
-    question: "What is the correct way to include a file in PHP?",
-    answers: [
-      { text: "include 'filename.php';", correct: true },
-      { text: "import 'filename.php';", correct: false },
-      { text: "require 'filename.php';", correct: true },
-      { text: "use 'filename.php';", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the isset() function in PHP?",
-    answers: [
-      { text: "To check if a variable is set and is not NULL", correct: true },
-      { text: "To set a variable", correct: false },
-      { text: "To unset a variable", correct: false },
-      { text: "To check if a variable is empty", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to end a PHP statement?",
-    answers: [
-      { text: "With a period (.)", correct: false },
-      { text: "With a semicolon (;)", correct: true },
-      { text: "With a comma (,)", correct: false },
-      { text: "With a colon (:)", correct: false },
-    ],
-  },
-  {
-    question: "Which function is used to get the length of a string in PHP?",
-    answers: [
-      { text: "strlen()", correct: true },
-      { text: "length()", correct: false },
-      { text: "strlength()", correct: false },
-      { text: "count()", correct: false },
-    ],
-  },
-  {
-    question: "How do you create an array in PHP?",
-    answers: [
-      { text: "$array = array();", correct: true },
-      { text: "$array = [];", correct: true },
-      { text: "$array = new Array();", correct: false },
-      { text: "$array = {};", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which function is used to check if a variable is an array in PHP?",
-    answers: [
-      { text: "is_array()", correct: true },
-      { text: "isArray()", correct: false },
-      { text: "check_array()", correct: false },
-      { text: "array_check()", correct: false },
-    ],
-  },
-  {
-    question: "How do you start a session in PHP?",
-    answers: [
-      { text: "session_start();", correct: true },
-      { text: "start_session();", correct: false },
-      { text: "begin_session();", correct: false },
-      { text: "session_begin();", correct: false },
-    ],
-  },
-  {
-    question: "How do you destroy a session in PHP?",
-    answers: [
-      { text: "session_destroy();", correct: true },
-      { text: "destroy_session();", correct: false },
-      { text: "end_session();", correct: false },
-      { text: "session_end();", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to connect to a MySQL database in PHP?",
-    answers: [
-      { text: "mysqli_connect()", correct: true },
-      { text: "mysql_connect()", correct: false },
-      { text: "connect_mysql()", correct: false },
-      { text: "db_connect()", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which function is used to fetch a result row as an associative array in PHP?",
-    answers: [
-      { text: "mysqli_fetch_assoc()", correct: true },
-      { text: "mysqli_fetch_array()", correct: false },
-      { text: "mysqli_fetch_row()", correct: false },
-      { text: "mysqli_fetch_object()", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to create a constant in PHP?",
-    answers: [
-      { text: "define('CONSTANT_NAME', 'value');", correct: true },
-      { text: "const CONSTANT_NAME = 'value';", correct: true },
-      { text: "$CONSTANT_NAME = 'value';", correct: false },
-      { text: "constant('CONSTANT_NAME', 'value');", correct: false },
-    ],
-  },
-  {
-    question: "What is the use of the 'foreach' loop in PHP?",
-    answers: [
-      { text: "To iterate over arrays", correct: true },
-      { text: "To iterate over objects", correct: false },
-      { text: "To iterate over strings", correct: false },
-      { text: "To iterate over numbers", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct way to open a file for reading in PHP?",
-    answers: [
-      { text: "fopen('filename', 'r')", correct: true },
-      { text: "fopen('filename', 'w')", correct: false },
-      { text: "fopen('filename', 'a')", correct: false },
-      { text: "fopen('filename', 'r+')", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  NODE JS  ///////////////////////////////////////////////////////////////
-const NodeJs = [
-  {
-    question: "What is Node.js?",
-    answers: [
-      { text: "A web server", correct: false },
-      {
-        text: "A JavaScript runtime built on Chrome's V8 engine",
-        correct: true,
-      },
-      { text: "A JavaScript library", correct: false },
-      { text: "A web browser", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is used to manage Node.js packages?",
-    answers: [
-      { text: "npm", correct: true },
-      { text: "composer", correct: false },
-      { text: "pip", correct: false },
-      { text: "gem", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to initialize a new Node.js project?",
-    answers: [
-      { text: "npm start", correct: false },
-      { text: "npm init", correct: true },
-      { text: "node init", correct: false },
-      { text: "npm new", correct: false },
-    ],
-  },
-  {
-    question: "How do you import a module in Node.js?",
-    answers: [
-      { text: "import module from 'module';", correct: false },
-      { text: "include('module');", correct: false },
-      { text: "require('module');", correct: true },
-      { text: "load('module');", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used to read a file asynchronously in Node.js?",
-    answers: [
-      { text: "fs.readFile()", correct: true },
-      { text: "fs.readFileSync()", correct: false },
-      { text: "fs.open()", correct: false },
-      { text: "fs.openSync()", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the 'package.json' file in a Node.js project?",
-    answers: [
-      { text: "To list project dependencies", correct: true },
-      { text: "To configure the web server", correct: false },
-      { text: "To write the project code", correct: false },
-      { text: "To set environment variables", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a core module in Node.js?",
-    answers: [
-      { text: "express", correct: false },
-      { text: "http", correct: true },
-      { text: "lodash", correct: false },
-      { text: "mongoose", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to install a package globally using npm?",
-    answers: [
-      { text: "npm install package", correct: false },
-      { text: "npm install -g package", correct: true },
-      { text: "npm install --global package", correct: true },
-      { text: "npm global install package", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a new instance of an HTTP server in Node.js?",
-    answers: [
-      { text: "http.createServer()", correct: true },
-      { text: "http.newServer()", correct: false },
-      { text: "new http.Server()", correct: false },
-      { text: "http.startServer()", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used to handle events in Node.js?",
-    answers: [
-      { text: "emit()", correct: true },
-      { text: "trigger()", correct: false },
-      { text: "dispatch()", correct: false },
-      { text: "send()", correct: false },
-    ],
-  },
-  {
-    question: "How do you install the Express framework using npm?",
-    answers: [
-      { text: "npm install express", correct: true },
-      { text: "npm get express", correct: false },
-      { text: "npm add express", correct: false },
-      { text: "npm fetch express", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'res.send()' method in Express?",
-    answers: [
-      { text: "To send a response to the client", correct: true },
-      { text: "To send a request to the server", correct: false },
-      { text: "To send an error message", correct: false },
-      { text: "To send a file to the client", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a popular template engine for Node.js?",
-    answers: [
-      { text: "EJS", correct: true },
-      { text: "Jinja", correct: false },
-      { text: "Twig", correct: false },
-      { text: "Blade", correct: false },
-    ],
-  },
-  {
-    question: "How do you start a Node.js application?",
-    answers: [
-      { text: "node app.js", correct: true },
-      { text: "npm start app.js", correct: false },
-      { text: "run app.js", correct: false },
-      { text: "start app.js", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used to read a file synchronously in Node.js?",
-    answers: [
-      { text: "fs.readFileSync()", correct: true },
-      { text: "fs.readFile()", correct: false },
-      { text: "fs.openSync()", correct: false },
-      { text: "fs.open()", correct: false },
-    ],
-  },
-  {
-    question: "What is 'middleware' in Express?",
-    answers: [
-      {
-        text: "Functions that execute during the lifecycle of a request to the server",
-        correct: true,
-      },
-      { text: "Middleware is not a concept in Express", correct: false },
-      {
-        text: "Functions that execute after a response is sent",
-        correct: false,
-      },
-      {
-        text: "Functions that execute during the lifecycle of a server start",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which of the following is true about Node.js?",
-    answers: [
-      { text: "It is single-threaded", correct: true },
-      { text: "It is multi-threaded", correct: false },
-      { text: "It cannot handle asynchronous operations", correct: false },
-      { text: "It is only for front-end development", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'require' function in Node.js?",
-    answers: [
-      { text: "To import modules", correct: true },
-      { text: "To export modules", correct: false },
-      { text: "To create modules", correct: false },
-      { text: "To delete modules", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which method is used to listen for incoming connections on a specific port in Node.js?",
-    answers: [
-      { text: "server.listen()", correct: true },
-      { text: "server.connect()", correct: false },
-      { text: "server.bind()", correct: false },
-      { text: "server.start()", correct: false },
-    ],
-  },
-  {
-    question: "How do you handle errors in asynchronous functions in Node.js?",
-    answers: [
-      { text: "Using callbacks", correct: true },
-      { text: "Using try-catch blocks", correct: false },
-      { text: "Using promises", correct: true },
-      { text: "Using async/await with try-catch blocks", correct: true },
-    ],
-  },
-];
-/////////////////////////////////////   J   A    V    A    //////////////////////////////////////////////////////////
-const Java = [
-  {
-    question: "What is Java?",
-    answers: [
-      { text: "A compiled language", correct: true },
-      { text: "A scripting language", correct: false },
-      { text: "A markup language", correct: false },
-      { text: "A style sheet language", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a Java feature?",
-    answers: [
-      { text: "Object-Oriented", correct: false },
-      { text: "Portable", correct: false },
-      { text: "Dynamic", correct: false },
-      { text: "Interpreted", correct: true },
-    ],
-  },
-  {
-    question: "What is the extension of compiled Java classes?",
-    answers: [
-      { text: ".js", correct: false },
-      { text: ".txt", correct: false },
-      { text: ".class", correct: true },
-      { text: ".java", correct: false },
-    ],
-  },
-  {
-    question: "Which method is the entry point of a Java program?",
-    answers: [
-      { text: "main()", correct: true },
-      { text: "start()", correct: false },
-      { text: "init()", correct: false },
-      { text: "run()", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to inherit a class in Java?",
-    answers: [
-      { text: "extends", correct: true },
-      { text: "implements", correct: false },
-      { text: "inherits", correct: false },
-      { text: "extends", correct: true },
-    ],
-  },
-  {
-    question: "Which of the following is a superclass of all classes in Java?",
-    answers: [
-      { text: "Object", correct: true },
-      { text: "Class", correct: false },
-      { text: "System", correct: false },
-      { text: "Main", correct: false },
-    ],
-  },
-  {
-    question: "Which package contains the fundamental classes in Java?",
-    answers: [
-      { text: "java.awt", correct: false },
-      { text: "java.util", correct: false },
-      { text: "java.lang", correct: true },
-      { text: "java.io", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to declare a constant variable in Java?",
-    answers: [
-      { text: "const", correct: false },
-      { text: "final", correct: true },
-      { text: "static", correct: false },
-      { text: "constant", correct: false },
-    ],
-  },
-  {
-    question: "How do you create an object in Java?",
-    answers: [
-      { text: "new", correct: true },
-      { text: "create", correct: false },
-      { text: "instantiate", correct: false },
-      { text: "make", correct: false },
-    ],
-  },
-  {
-    question: "What is bytecode in Java?",
-    answers: [
-      { text: "The source code of Java", correct: false },
-      { text: "The machine code of Java", correct: false },
-      { text: "The intermediate representation of Java code", correct: true },
-      { text: "The output code of Java", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used to start a thread in Java?",
-    answers: [
-      { text: "start()", correct: true },
-      { text: "run()", correct: false },
-      { text: "init()", correct: false },
-      { text: "begin()", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which exception is thrown when an array is accessed with an illegal index?",
-    answers: [
-      { text: "ArrayIndexOutOfBoundsException", correct: true },
-      { text: "IllegalArgumentException", correct: false },
-      { text: "NullPointerException", correct: false },
-      { text: "IndexOutOfBoundsException", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'this' keyword in Java?",
-    answers: [
-      { text: "To refer to the current object", correct: true },
-      { text: "To refer to the parent class", correct: false },
-      { text: "To refer to the current method", correct: false },
-      { text: "To refer to the child class", correct: false },
-    ],
-  },
-  {
-    question: "Which loop is guaranteed to execute at least once?",
-    answers: [
-      { text: "for loop", correct: false },
-      { text: "while loop", correct: false },
-      { text: "do-while loop", correct: true },
-      { text: "None of the above", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which collection class allows you to grow or shrink its size and provides indexed access to its elements?",
-    answers: [
-      { text: "Array", correct: false },
-      { text: "ArrayList", correct: true },
-      { text: "HashSet", correct: false },
-      { text: "TreeSet", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to define an abstract class in Java?",
-    answers: [
-      { text: "abstract", correct: true },
-      { text: "interface", correct: false },
-      { text: "implements", correct: false },
-      { text: "extends", correct: false },
-    ],
-  },
-  {
-    question: "Which method can be defined in an interface in Java 8?",
-    answers: [
-      { text: "Abstract methods only", correct: false },
-      { text: "Static methods only", correct: false },
-      { text: "Default and static methods", correct: true },
-      { text: "Final methods only", correct: false },
-    ],
-  },
-  {
-    question: "What is the size of an int variable in Java?",
-    answers: [
-      { text: "4 bytes", correct: true },
-      { text: "2 bytes", correct: false },
-      { text: "8 bytes", correct: false },
-      { text: "1 byte", correct: false },
-    ],
-  },
-  {
-    question:
-      'What is the output of the following code?\nSystem.out.println(10 + 20 + "30");',
-    answers: [
-      { text: "30", correct: false },
-      { text: "1030", correct: false },
-      { text: "3030", correct: false },
-      { text: "3030", correct: true },
-    ],
-  },
-  {
-    question: "Which of the following statements is true about Java?",
-    answers: [
-      { text: "Java is platform-dependent", correct: false },
-      { text: "Java is platform-independent", correct: true },
-      { text: "Java supports pointers", correct: false },
-      { text: "Java does not support multithreading", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////////  PYTHON  ///////////////////////////////////////////////////////////
-const Python = [
-  {
-    question: "What is Python?",
-    answers: [
-      { text: "A high-level, interpreted programming language", correct: true },
-      { text: "A low-level, compiled programming language", correct: false },
-      { text: "A markup language", correct: false },
-      { text: "A style sheet language", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a feature of Python?",
-    answers: [
-      { text: "Interpreted", correct: true },
-      { text: "Strongly typed", correct: false },
-      { text: "Compiled", correct: false },
-      { text: "Static typing", correct: false },
-    ],
-  },
-  {
-    question: "What is the file extension for Python files?",
-    answers: [
-      { text: ".py", correct: true },
-      { text: ".python", correct: false },
-      { text: ".pt", correct: false },
-      { text: ".p", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a function in Python?",
-    answers: [
-      { text: "def functionName():", correct: true },
-      { text: "function functionName():", correct: false },
-      { text: "create function functionName():", correct: false },
-      { text: "def functionName[]:", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is used to define a block of code in Python?",
-    answers: [
-      { text: "Indentation", correct: true },
-      { text: "Braces", correct: false },
-      { text: "Parentheses", correct: false },
-      { text: "Quotes", correct: false },
-    ],
-  },
-  {
-    question: "How do you write a single-line comment in Python?",
-    answers: [
-      { text: "// This is a comment", correct: false },
-      { text: "# This is a comment", correct: true },
-      { text: "/* This is a comment */", correct: false },
-      { text: "<!-- This is a comment -->", correct: false },
-    ],
-  },
-  {
-    question: "What is the output of the following code?\nprint(type(5))",
-    answers: [
-      { text: "<class 'int'>", correct: true },
-      { text: "<type 'int'>", correct: false },
-      { text: "<class 'integer'>", correct: false },
-      { text: "<type 'integer'>", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a Python data type?",
-    answers: [
-      { text: "List", correct: false },
-      { text: "Tuple", correct: false },
-      { text: "Dictionary", correct: false },
-      { text: "Set", correct: true },
-    ],
-  },
-  {
-    question: "How do you start a loop that iterates over a list in Python?",
-    answers: [
-      { text: "for item in list:", correct: true },
-      { text: "foreach item in list:", correct: false },
-      { text: "loop item in list:", correct: false },
-      { text: "iterate item in list:", correct: false },
-    ],
-  },
-  {
-    question: "How do you import a module in Python?",
-    answers: [
-      { text: "import moduleName", correct: true },
-      { text: "include moduleName", correct: false },
-      { text: "require moduleName", correct: false },
-      { text: "using moduleName", correct: false },
-    ],
-  },
-  {
-    question: "What is the output of the following code?\nprint(2 ** 3)",
-    answers: [
-      { text: "6", correct: false },
-      { text: "8", correct: true },
-      { text: "9", correct: false },
-      { text: "11", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is used to handle exceptions in Python?",
-    answers: [
-      { text: "try/except", correct: true },
-      { text: "try/catch", correct: false },
-      { text: "try/error", correct: false },
-      { text: "attempt/except", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a dictionary in Python?",
-    answers: [
-      { text: "{'key': 'value'}", correct: true },
-      { text: "{key = 'value'}", correct: false },
-      { text: "dict{'key': 'value'}", correct: false },
-      { text: "[key: 'value']", correct: false },
-    ],
-  },
-  {
-    question: "What is the output of the following code?\nprint(len('hello'))",
-    answers: [
-      { text: "4", correct: false },
-      { text: "5", correct: true },
-      { text: "6", correct: false },
-      { text: "7", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a correct syntax to open a file in Python?",
-    answers: [
-      { text: "file('filename')", correct: false },
-      { text: "open('filename')", correct: true },
-      { text: "file.open('filename')", correct: false },
-      { text: "open.file('filename')", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a list in Python?",
-    answers: [
-      { text: "[1, 2, 3]", correct: true },
-      { text: "{1, 2, 3}", correct: false },
-      { text: "(1, 2, 3)", correct: false },
-      { text: "<1, 2, 3>", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to define a class in Python?",
-    answers: [
-      { text: "class", correct: true },
-      { text: "def", correct: false },
-      { text: "object", correct: false },
-      { text: "struct", correct: false },
-    ],
-  },
-  {
-    question: "How do you check if a key exists in a dictionary in Python?",
-    answers: [
-      { text: "if key in dict:", correct: true },
-      { text: "if dict.has_key(key):", correct: false },
-      { text: "if key exists in dict:", correct: false },
-      { text: "if dict.contains(key):", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which method is used to remove whitespace from the beginning and end of a string in Python?",
-    answers: [
-      { text: "strip()", correct: true },
-      { text: "trim()", correct: false },
-      { text: "remove()", correct: false },
-      { text: "cut()", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code?\nprint('Hello ' + 'World')",
-    answers: [
-      { text: "Hello World", correct: true },
-      { text: "HelloWorld", correct: false },
-      { text: "Hello+World", correct: false },
-      { text: "Hello World ", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////// C  Programming  ///////////////////////////////////////////////////////
-const C_Programming = [
-  {
-    question: "What is the main function in a C program?",
-    answers: [
-      { text: "start()", correct: false },
-      { text: "main()", correct: true },
-      { text: "run()", correct: false },
-      { text: "execute()", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a valid variable declaration in C?",
-    answers: [
-      { text: "int 1variable;", correct: false },
-      { text: "int variable_1;", correct: true },
-      { text: "int variable-1;", correct: false },
-      { text: "int variable 1;", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct way to include a standard library header file in C?",
-    answers: [
-      { text: "#include <stdio.h>", correct: true },
-      { text: "#include 'stdio.h'", correct: false },
-      { text: "#include stdio.h", correct: false },
-      { text: "#include [stdio.h]", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct syntax to declare a pointer in C?",
-    answers: [
-      { text: "int *ptr;", correct: true },
-      { text: "int ptr*;", correct: false },
-      { text: "*int ptr;", correct: false },
-      { text: "int ptr;", correct: false },
-    ],
-  },
-  {
-    question: 'What is the output of the following code?\nprintf("%d", 5 + 2);',
-    answers: [
-      { text: "7", correct: true },
-      { text: "52", correct: false },
-      { text: "5 + 2", correct: false },
-      { text: "%d", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a valid comment in C?",
-    answers: [
-      { text: "// This is a comment", correct: true },
-      { text: "# This is a comment", correct: false },
-      { text: "<!-- This is a comment -->", correct: false },
-      { text: "/* This is a comment", correct: false },
-    ],
-  },
-  {
-    question: "What is the size of an int data type in C?",
-    answers: [
-      { text: "4 bytes", correct: true },
-      { text: "2 bytes", correct: false },
-      { text: "8 bytes", correct: false },
-      { text: "1 byte", correct: false },
-    ],
-  },
-  {
-    question: "How do you declare an array of 10 integers in C?",
-    answers: [
-      { text: "int arr[10];", correct: true },
-      { text: "int arr;", correct: false },
-      { text: "array int arr[10];", correct: false },
-      { text: "int[10] arr;", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is used to take input from the user in C?",
-    answers: [
-      { text: "printf", correct: false },
-      { text: "scanf", correct: true },
-      { text: "input", correct: false },
-      { text: "get", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which operator is used to access the value stored at a pointer address in C?",
-    answers: [
-      { text: "&", correct: false },
-      { text: "*", correct: true },
-      { text: "->", correct: false },
-      { text: ".", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following loop structures is available in C?",
-    answers: [
-      { text: "for", correct: true },
-      { text: "foreach", correct: false },
-      { text: "while", correct: true },
-      { text: "until", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to define a constant in C?",
-    answers: [
-      { text: "#define PI 3.14", correct: true },
-      { text: "const PI = 3.14;", correct: false },
-      { text: "constant PI = 3.14;", correct: false },
-      { text: "define PI 3.14;", correct: false },
-    ],
-  },
-  {
-    question: "Which function is used to allocate memory dynamically in C?",
-    answers: [
-      { text: "malloc", correct: true },
-      { text: "alloc", correct: false },
-      { text: "memory", correct: false },
-      { text: "dynamic_alloc", correct: false },
-    ],
-  },
-  {
-    question:
-      'What will be the output of the following code?\nint a = 5;\nint b = a++;\nprintf("%d", b);',
-    answers: [
-      { text: "5", correct: true },
-      { text: "6", correct: false },
-      { text: "4", correct: false },
-      { text: "7", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a valid if statement in C?",
-    answers: [
-      { text: "if (a == b)", correct: true },
-      { text: "if a == b", correct: false },
-      { text: "if (a = b)", correct: false },
-      { text: "if (a == b) then", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a valid storage class in C?",
-    answers: [
-      { text: "auto", correct: false },
-      { text: "register", correct: false },
-      { text: "volatile", correct: true },
-      { text: "static", correct: false },
-    ],
-  },
-  {
-    question: "Which function is used to deallocate memory in C?",
-    answers: [
-      { text: "free", correct: true },
-      { text: "delete", correct: false },
-      { text: "remove", correct: false },
-      { text: "dealloc", correct: false },
-    ],
-  },
-  {
-    question:
-      'What is the output of the following code?\nprintf("%d", sizeof(char));',
-    answers: [
-      { text: "1", correct: true },
-      { text: "2", correct: false },
-      { text: "4", correct: false },
-      { text: "8", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following correctly declares a structure in C?",
-    answers: [
-      { text: "struct { int a; float b; };", correct: true },
-      { text: "structure { int a; float b; };", correct: false },
-      { text: "struct ( int a; float b; );", correct: false },
-      { text: "struct { int a; float b }", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a logical operator in C?",
-    answers: [
-      { text: "&&", correct: true },
-      { text: "&", correct: false },
-      { text: "|", correct: false },
-      { text: "!", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  C++ Programming  //////////////////////////////////////////////////////
-const CPP_Programming = [
-  {
-    question: "What is the correct syntax to declare a class in C++?",
-    answers: [
-      { text: "class ClassName { ... }", correct: true },
-      { text: "Class ClassName { ... }", correct: false },
-      { text: "struct ClassName { ... }", correct: false },
-      { text: "class { ... } ClassName", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is the correct way to create an object of a class in C++?",
-    answers: [
-      { text: "ClassName obj;", correct: true },
-      { text: "obj ClassName;", correct: false },
-      { text: "ClassName = obj;", correct: false },
-      { text: "object ClassName;", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a constructor in C++?",
-    answers: [
-      { text: "To initialize objects of a class", correct: true },
-      { text: "To delete objects of a class", correct: false },
-      { text: "To create a copy of objects", correct: false },
-      { text: "To overload operators", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a valid access specifier in C++?",
-    answers: [
-      { text: "public", correct: true },
-      { text: "open", correct: false },
-      { text: "exposed", correct: false },
-      { text: "shared", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to inherit a class in C++?",
-    answers: [
-      { text: "class Derived : public Base", correct: true },
-      { text: "class Derived inherits Base", correct: false },
-      { text: "class Derived < Base", correct: false },
-      { text: "class Derived from Base", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to define a template in C++?",
-    answers: [
-      { text: "template", correct: true },
-      { text: "generic", correct: false },
-      { text: "typename", correct: false },
-      { text: "type", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which operator is used to access a member of a class or structure through a pointer?",
-    answers: [
-      { text: "->", correct: true },
-      { text: ".", correct: false },
-      { text: "::", correct: false },
-      { text: ":", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct way to overload the operator + in C++?",
-    answers: [
-      { text: "ClassName operator+(const ClassName& obj)", correct: true },
-      { text: "ClassName operator.plus(const ClassName& obj)", correct: false },
-      { text: "ClassName overload+ (const ClassName& obj)", correct: false },
-      { text: "ClassName plus(const ClassName& obj)", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a valid destructor in C++?",
-    answers: [
-      { text: "~ClassName()", correct: true },
-      { text: "destructor~ClassName()", correct: false },
-      { text: "~ClassName", correct: false },
-      { text: "delete ClassName()", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which C++ feature allows a function or an operator to be given more than one definition?",
-    answers: [
-      { text: "Function overloading", correct: true },
-      { text: "Encapsulation", correct: false },
-      { text: "Inheritance", correct: false },
-      { text: "Polymorphism", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the output of the following code?\nstd::cout << sizeof(char);",
-    answers: [
-      { text: "1", correct: true },
-      { text: "2", correct: false },
-      { text: "4", correct: false },
-      { text: "8", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the default access level of members in a class if no access specifier is provided?",
-    answers: [
-      { text: "private", correct: true },
-      { text: "public", correct: false },
-      { text: "protected", correct: false },
-      { text: "default", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following correctly declares a friend function in C++?",
-    answers: [
-      { text: "friend void func();", correct: true },
-      { text: "friend function func();", correct: false },
-      { text: "void friend func();", correct: false },
-      { text: "function friend func();", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the correct way to create a constant pointer to an integer in C++?",
-    answers: [
-      { text: "int *const ptr;", correct: true },
-      { text: "const int *ptr;", correct: false },
-      { text: "int const *ptr;", correct: false },
-      { text: "const int *const ptr;", correct: false },
-    ],
-  },
-  {
-    question: "Which keyword is used to handle exceptions in C++?",
-    answers: [
-      { text: "try", correct: true },
-      { text: "catch", correct: true },
-      { text: "throw", correct: true },
-      { text: "All of the above", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the correct way to define a pure virtual function in C++?",
-    answers: [
-      { text: "virtual void func() = 0;", correct: true },
-      { text: "virtual void func() {};", correct: false },
-      { text: "pure virtual void func();", correct: false },
-      { text: "virtual void func();", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following correctly declares a namespace in C++?",
-    answers: [
-      { text: "namespace MyNamespace { ... }", correct: true },
-      { text: "namespace: MyNamespace { ... }", correct: false },
-      { text: "namespace = MyNamespace { ... }", correct: false },
-      { text: "namespace [MyNamespace] { ... }", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the correct way to allocate memory for an integer array dynamically in C++?",
-    answers: [
-      { text: "int *arr = new int[10];", correct: true },
-      { text: "int *arr = allocate int[10];", correct: false },
-      { text: "int arr[10];", correct: false },
-      { text: "int *arr = malloc(10 * sizeof(int));", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which operator is used to release dynamically allocated memory in C++?",
-    answers: [
-      { text: "delete", correct: true },
-      { text: "free", correct: false },
-      { text: "remove", correct: false },
-      { text: "release", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about references in C++?",
-    answers: [
-      { text: "A reference must be initialized when declared", correct: true },
-      { text: "A reference can be null", correct: false },
-      {
-        text: "A reference can be reassigned to another object",
-        correct: false,
-      },
-      {
-        text: "References cannot be used as function parameters",
-        correct: false,
-      },
-    ],
-  },
-];
-////////////////////////////////////////  My SQL   //////////////////////////////////////////////////////////////////
-const MySQL = [
-  {
-    question: "What does SQL stand for?",
-    answers: [
-      { text: "Structured Query Language", correct: true },
-      { text: "Simple Query Language", correct: false },
-      { text: "Structured Question Language", correct: false },
-      { text: "Sample Query Language", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to create a new database in MySQL?",
-    answers: [
-      { text: "CREATE DATABASE dbName;", correct: true },
-      { text: "NEW DATABASE dbName;", correct: false },
-      { text: "MAKE DATABASE dbName;", correct: false },
-      { text: "ADD DATABASE dbName;", correct: false },
-    ],
-  },
-  {
-    question: "How do you retrieve all columns from a table named 'users'?",
-    answers: [
-      { text: "SELECT * FROM users;", correct: true },
-      { text: "GET * FROM users;", correct: false },
-      { text: "RETRIEVE * FROM users;", correct: false },
-      { text: "FETCH * FROM users;", correct: false },
-    ],
-  },
-  {
-    question: "Which statement is used to delete data from a table in MySQL?",
-    answers: [
-      { text: "DELETE FROM tableName WHERE condition;", correct: true },
-      { text: "REMOVE FROM tableName WHERE condition;", correct: false },
-      { text: "DROP FROM tableName WHERE condition;", correct: false },
-      { text: "ERASE FROM tableName WHERE condition;", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which MySQL statement is used to modify the structure of an existing table?",
-    answers: [
-      { text: "ALTER TABLE tableName;", correct: true },
-      { text: "CHANGE TABLE tableName;", correct: false },
-      { text: "MODIFY TABLE tableName;", correct: false },
-      { text: "UPDATE TABLE tableName;", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct syntax to insert a new row into a table?",
-    answers: [
-      {
-        text: "INSERT INTO tableName (column1, column2) VALUES (value1, value2);",
-        correct: true,
-      },
-      {
-        text: "ADD INTO tableName (column1, column2) VALUES (value1, value2);",
-        correct: false,
-      },
-      {
-        text: "INSERT ROW INTO tableName (column1, column2) VALUES (value1, value2);",
-        correct: false,
-      },
-      {
-        text: "NEW ROW INTO tableName (column1, column2) VALUES (value1, value2);",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which keyword is used to sort the result-set in ascending or descending order?",
-    answers: [
-      { text: "ORDER BY", correct: true },
-      { text: "SORT BY", correct: false },
-      { text: "ARRANGE BY", correct: false },
-      { text: "GROUP BY", correct: false },
-    ],
-  },
-  {
-    question: "How do you add a column named 'email' to a table named 'users'?",
-    answers: [
-      {
-        text: "ALTER TABLE users ADD COLUMN email VARCHAR(255);",
-        correct: true,
-      },
-      { text: "ALTER TABLE users ADD email VARCHAR(255);", correct: false },
-      {
-        text: "MODIFY TABLE users ADD COLUMN email VARCHAR(255);",
-        correct: false,
-      },
-      {
-        text: "UPDATE TABLE users ADD COLUMN email VARCHAR(255);",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which function is used to return the current date and time in MySQL?",
-    answers: [
-      { text: "NOW()", correct: true },
-      { text: "CURRENT_TIMESTAMP()", correct: false },
-      { text: "GETDATE()", correct: false },
-      { text: "CURDATE()", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the PRIMARY KEY constraint?",
-    answers: [
-      { text: "To uniquely identify each record in a table", correct: true },
-      {
-        text: "To enforce a column to accept unique values only",
-        correct: false,
-      },
-      { text: "To create a unique index for faster retrieval", correct: false },
-      { text: "To define a foreign key relationship", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to remove a table from a database?",
-    answers: [
-      { text: "DROP TABLE tableName;", correct: true },
-      { text: "DELETE TABLE tableName;", correct: false },
-      { text: "REMOVE TABLE tableName;", correct: false },
-      { text: "ERASE TABLE tableName;", correct: false },
-    ],
-  },
-  {
-    question: "What does the FOREIGN KEY constraint do?",
-    answers: [
-      { text: "It creates a link between two tables", correct: true },
-      { text: "It ensures unique values in a column", correct: false },
-      { text: "It defines the primary key of a table", correct: false },
-      { text: "It restricts NULL values in a column", correct: false },
-    ],
-  },
-  {
-    question: "Which clause is used to filter records in a SELECT statement?",
-    answers: [
-      { text: "WHERE", correct: true },
-      { text: "HAVING", correct: false },
-      { text: "FILTER", correct: false },
-      { text: "LIMIT", correct: false },
-    ],
-  },
-  {
-    question: "What is the correct syntax to create a new user in MySQL?",
-    answers: [
-      {
-        text: "CREATE USER 'username'@'host' IDENTIFIED BY 'password';",
-        correct: true,
-      },
-      {
-        text: "NEW USER 'username'@'host' IDENTIFIED BY 'password';",
-        correct: false,
-      },
-      {
-        text: "ADD USER 'username'@'host' IDENTIFIED BY 'password';",
-        correct: false,
-      },
-      {
-        text: "MAKE USER 'username'@'host' IDENTIFIED BY 'password';",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which statement is used to grant privileges to a user in MySQL?",
-    answers: [
-      { text: "GRANT", correct: true },
-      { text: "ALLOW", correct: false },
-      { text: "PERMIT", correct: false },
-      { text: "GIVE", correct: false },
-    ],
-  },
-  {
-    question: "What does the AUTO_INCREMENT attribute do?",
-    answers: [
-      {
-        text: "Automatically generates a unique number for each new record",
-        correct: true,
-      },
-      {
-        text: "Automatically generates a random value for each new record",
-        correct: false,
-      },
-      {
-        text: "Automatically increments the value of each record",
-        correct: false,
-      },
-      { text: "Automatically resets the primary key value", correct: false },
-    ],
-  },
-  {
-    question: "How can you change the data type of a column in MySQL?",
-    answers: [
-      {
-        text: "ALTER TABLE tableName MODIFY columnName newDataType;",
-        correct: true,
-      },
-      {
-        text: "ALTER TABLE tableName CHANGE columnName newDataType;",
-        correct: false,
-      },
-      {
-        text: "MODIFY TABLE tableName CHANGE columnName newDataType;",
-        correct: false,
-      },
-      {
-        text: "CHANGE TABLE tableName MODIFY columnName newDataType;",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which function is used to find the maximum value in a numeric column?",
-    answers: [
-      { text: "MAX()", correct: true },
-      { text: "GREATEST()", correct: false },
-      { text: "HIGHEST()", correct: false },
-      { text: "UPPER()", correct: false },
-    ],
-  },
-  {
-    question: "What does the COUNT() function do in MySQL?",
-    answers: [
-      {
-        text: "Returns the number of rows that match a specified criteria",
-        correct: true,
-      },
-      { text: "Returns the sum of values in a numeric column", correct: false },
-      {
-        text: "Returns the average of values in a numeric column",
-        correct: false,
-      },
-      { text: "Returns the minimum value in a numeric column", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which MySQL statement is used to update existing data in a table?",
-    answers: [
-      {
-        text: "UPDATE tableName SET columnName = value WHERE condition;",
-        correct: true,
-      },
-      {
-        text: "MODIFY tableName SET columnName = value WHERE condition;",
-        correct: false,
-      },
-      {
-        text: "CHANGE tableName SET columnName = value WHERE condition;",
-        correct: false,
-      },
-      {
-        text: "ALTER tableName SET columnName = value WHERE condition;",
-        correct: false,
-      },
-    ],
-  },
-];
-//////////////////////////////////////  AI/ML   /////////////////////////////////////////////////////////////////////
-const AI_ML = [
-  {
-    question: "What does AI stand for?",
-    answers: [
-      { text: "Artificial Intelligence", correct: true },
-      { text: "Automated Information", correct: false },
-      { text: "Artificial Information", correct: false },
-      { text: "Automated Intelligence", correct: false },
-    ],
-  },
-  {
-    question: "What is the main goal of machine learning?",
-    answers: [
-      { text: "To learn from data and make predictions", correct: true },
-      { text: "To solve complex mathematical problems", correct: false },
-      { text: "To perform physical tasks", correct: false },
-      { text: "To simulate human emotions", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a supervised learning algorithm?",
-    answers: [
-      { text: "Decision Trees", correct: true },
-      { text: "K-Means Clustering", correct: false },
-      { text: "Principal Component Analysis", correct: false },
-      { text: "Apriori Algorithm", correct: false },
-    ],
-  },
-  {
-    question: "What is a neural network?",
-    answers: [
-      {
-        text: "A set of algorithms modeled after the human brain",
-        correct: true,
-      },
-      { text: "A network of interconnected computers", correct: false },
-      { text: "A software tool for data visualization", correct: false },
-      { text: "A database management system", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which term describes the process of training a machine learning model using labeled data?",
-    answers: [
-      { text: "Supervised Learning", correct: true },
-      { text: "Unsupervised Learning", correct: false },
-      { text: "Reinforcement Learning", correct: false },
-      { text: "Semi-Supervised Learning", correct: false },
-    ],
-  },
-  {
-    question: "What is overfitting in machine learning?",
-    answers: [
-      {
-        text: "A model that performs well on training data but poorly on new data",
-        correct: true,
-      },
-      {
-        text: "A model that performs well on both training and new data",
-        correct: false,
-      },
-      {
-        text: "A model that performs poorly on both training and new data",
-        correct: false,
-      },
-      {
-        text: "A model that performs poorly on training data but well on new data",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which of the following is a technique for reducing overfitting?",
-    answers: [
-      { text: "Regularization", correct: true },
-      { text: "Increasing the number of features", correct: false },
-      { text: "Reducing the size of the dataset", correct: false },
-      { text: "Using a deeper neural network", correct: false },
-    ],
-  },
-  {
-    question: "What is a confusion matrix used for?",
-    answers: [
-      {
-        text: "Evaluating the performance of a classification algorithm",
-        correct: true,
-      },
-      { text: "Measuring the accuracy of a regression model", correct: false },
-      { text: "Visualizing data distributions", correct: false },
-      { text: "Detecting anomalies in data", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is an unsupervised learning algorithm?",
-    answers: [
-      { text: "K-Means Clustering", correct: true },
-      { text: "Linear Regression", correct: false },
-      { text: "Support Vector Machines", correct: false },
-      { text: "Logistic Regression", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the activation function in a neural network?",
-    answers: [
-      { text: "To introduce non-linearity into the model", correct: true },
-      { text: "To initialize the weights of the model", correct: false },
-      { text: "To optimize the learning rate", correct: false },
-      { text: "To reduce the dimensionality of the data", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is an example of a reinforcement learning problem?",
-    answers: [
-      { text: "Playing a game of chess", correct: true },
-      { text: "Classifying images of cats and dogs", correct: false },
-      { text: "Predicting house prices", correct: false },
-      { text: "Clustering customer data", correct: false },
-    ],
-  },
-  {
-    question: "What is a hyperparameter in machine learning?",
-    answers: [
-      {
-        text: "A parameter whose value is set before the learning process begins",
-        correct: true,
-      },
-      {
-        text: "A parameter that is learned during the training process",
-        correct: false,
-      },
-      {
-        text: "A parameter that controls the size of the dataset",
-        correct: false,
-      },
-      {
-        text: "A parameter that determines the output of the model",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a popular library for machine learning in Python?",
-    answers: [
-      { text: "scikit-learn", correct: true },
-      { text: "NumPy", correct: false },
-      { text: "Pandas", correct: false },
-      { text: "Matplotlib", correct: false },
-    ],
-  },
-  {
-    question: "What is the goal of clustering in machine learning?",
-    answers: [
-      { text: "To group similar data points together", correct: true },
-      {
-        text: "To classify data points into predefined categories",
-        correct: false,
-      },
-      { text: "To predict continuous values", correct: false },
-      { text: "To reduce the dimensionality of data", correct: false },
-    ],
-  },
-  {
-    question: "Which term describes the error on the training data?",
-    answers: [
-      { text: "Training Error", correct: true },
-      { text: "Validation Error", correct: false },
-      { text: "Test Error", correct: false },
-      { text: "Generalization Error", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of cross-validation in machine learning?",
-    answers: [
-      {
-        text: "To assess how well a model will generalize to an independent dataset",
-        correct: true,
-      },
-      { text: "To reduce the dimensionality of the dataset", correct: false },
-      { text: "To increase the complexity of the model", correct: false },
-      { text: "To improve the training error", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a type of recurrent neural network?",
-    answers: [
-      { text: "Long Short-Term Memory (LSTM)", correct: true },
-      { text: "Convolutional Neural Network (CNN)", correct: false },
-      { text: "Feedforward Neural Network", correct: false },
-      { text: "Generative Adversarial Network (GAN)", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the learning rate in gradient descent?",
-    answers: [
-      { text: "To control the step size in each iteration", correct: true },
-      { text: "To determine the number of iterations", correct: false },
-      { text: "To initialize the weights of the model", correct: false },
-      { text: "To optimize the cost function", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a commonly used loss function for regression problems?",
-    answers: [
-      { text: "Mean Squared Error (MSE)", correct: true },
-      { text: "Cross-Entropy Loss", correct: false },
-      { text: "Hinge Loss", correct: false },
-      { text: "Log Loss", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which metric is used to evaluate the performance of a classification model?",
-    answers: [
-      { text: "Accuracy", correct: true },
-      { text: "Mean Absolute Error", correct: false },
-      { text: "Root Mean Squared Error", correct: false },
-      { text: "R-squared", correct: false },
-    ],
-  },
-];
-//////////////////////////////////////////////   D   S   A   ////////////////////////////////////////////////////////
-const DSA = [
-  {
-    question:
-      "What is the time complexity of inserting an element at the end of an array of size n, assuming no resizing is needed?",
-    answers: [
-      { text: "O(1)", correct: true },
-      { text: "O(log n)", correct: false },
-      { text: "O(n)", correct: false },
-      { text: "O(n^2)", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which data structure allows you to access its elements in Last-In-First-Out (LIFO) order?",
-    answers: [
-      { text: "Stack", correct: true },
-      { text: "Queue", correct: false },
-      { text: "Heap", correct: false },
-      { text: "Tree", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the worst-case time complexity of searching for an element in a binary search tree (BST) of size n?",
-    answers: [
-      { text: "O(n)", correct: true },
-      { text: "O(log n)", correct: false },
-      { text: "O(n log n)", correct: false },
-      { text: "O(1)", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sorting algorithm has a worst-case time complexity of O(n^2)?",
-    answers: [
-      { text: "Bubble Sort", correct: true },
-      { text: "Merge Sort", correct: false },
-      { text: "Quick Sort", correct: false },
-      { text: "Insertion Sort", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of using a hash table?",
-    answers: [
-      {
-        text: "Average O(1) time complexity for insert, delete, and search operations",
-        correct: true,
-      },
-      {
-        text: "Guaranteed O(1) time complexity for all operations",
-        correct: false,
-      },
-      { text: "Allows for efficient sorting of elements", correct: false },
-      {
-        text: "Supports dynamic resizing without performance degradation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which data structure uses two pointers, usually named 'slow' and 'fast', to detect cycles in a linked list?",
-    answers: [
-      { text: "Floyd's Tortoise and Hare algorithm", correct: true },
-      { text: "Depth-First Search (DFS)", correct: false },
-      { text: "Breadth-First Search (BFS)", correct: false },
-      { text: "Dijkstra's algorithm", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the worst-case time complexity of binary search on a sorted array of size n?",
-    answers: [
-      { text: "O(log n)", correct: true },
-      { text: "O(n)", correct: false },
-      { text: "O(n log n)", correct: false },
-      { text: "O(1)", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which data structure is typically used to implement a priority queue?",
-    answers: [
-      { text: "Heap", correct: true },
-      { text: "Stack", correct: false },
-      { text: "Queue", correct: false },
-      { text: "Linked List", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using a doubly linked list over a singly linked list?",
-    answers: [
-      {
-        text: "Allows for efficient deletion of nodes without traversal from the head",
-        correct: true,
-      },
-      { text: "Requires less memory per node", correct: false },
-      { text: "Simplifies traversal operations", correct: false },
-      { text: "Provides constant-time access to any element", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which search algorithm is guaranteed to find the shortest path in an unweighted graph?",
-    answers: [
-      { text: "Breadth-First Search (BFS)", correct: true },
-      { text: "Depth-First Search (DFS)", correct: false },
-      { text: "Dijkstra's algorithm", correct: false },
-      { text: "A* search algorithm", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the worst-case time complexity of the Quick Sort algorithm?",
-    answers: [
-      { text: "O(n^2)", correct: true },
-      { text: "O(n log n)", correct: false },
-      { text: "O(log n)", correct: false },
-      { text: "O(1)", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which data structure uses First-In-First-Out (FIFO) order for its operations?",
-    answers: [
-      { text: "Queue", correct: true },
-      { text: "Stack", correct: false },
-      { text: "Heap", correct: false },
-      { text: "Tree", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using an AVL tree over a binary search tree?",
-    answers: [
-      {
-        text: "Guaranteed O(log n) time complexity for all operations",
-        correct: true,
-      },
-      { text: "Requires less memory per node", correct: false },
-      { text: "Allows for efficient range queries", correct: false },
-      { text: "Simplifies insertion and deletion operations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sorting algorithm is known for its ability to efficiently sort nearly sorted arrays or small arrays?",
-    answers: [
-      { text: "Insertion Sort", correct: true },
-      { text: "Merge Sort", correct: false },
-      { text: "Heap Sort", correct: false },
-      { text: "Bubble Sort", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Big-O notation in computer science?",
-    answers: [
-      {
-        text: "To describe the asymptotic upper bound on the time complexity of algorithms",
-        correct: true,
-      },
-      {
-        text: "To calculate the exact number of operations performed by an algorithm",
-        correct: false,
-      },
-      {
-        text: "To compare the memory usage of different data structures",
-        correct: false,
-      },
-      {
-        text: "To measure the efficiency of parallel algorithms",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which algorithm is used to find the minimum spanning tree in a weighted, connected graph?",
-    answers: [
-      { text: "Kruskal's algorithm", correct: true },
-      { text: "Depth-First Search (DFS)", correct: false },
-      { text: "Breadth-First Search (BFS)", correct: false },
-      { text: "Prim's algorithm", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary advantage of using a trie data structure?",
-    answers: [
-      { text: "Efficient prefix search operations", correct: true },
-      { text: "Efficient insertion and deletion operations", correct: false },
-      {
-        text: "Guaranteed O(1) time complexity for all operations",
-        correct: false,
-      },
-      {
-        text: "Supports dynamic resizing without performance degradation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which data structure is typically used to implement a least recently used (LRU) cache?",
-    answers: [
-      { text: "Doubly Linked List", correct: true },
-      { text: "Hash Table", correct: false },
-      { text: "Priority Queue", correct: false },
-      { text: "Binary Search Tree", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the Depth-First Search (DFS) algorithm?",
-    answers: [
-      {
-        text: "To traverse or search a graph in depth-first order",
-        correct: true,
-      },
-      { text: "To find the shortest path in a weighted graph", correct: false },
-      {
-        text: "To find the strongly connected components in a graph",
-        correct: false,
-      },
-      { text: "To detect cycles in a directed graph", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which data structure uses both breadth-first and depth-first search techniques for efficient searching?",
-    answers: [
-      { text: "Graph", correct: true },
-      { text: "Heap", correct: false },
-      { text: "Stack", correct: false },
-      { text: "Queue", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  O  O  Ps  /////////////////////////////////////////////////////////////
-const OOPs = [
-  {
-    question: "What is encapsulation in object-oriented programming?",
-    answers: [
-      {
-        text: "Combining data and functions that manipulate the data into a single unit",
-        correct: true,
-      },
-      { text: "Protecting data from unauthorized access", correct: false },
-      { text: "Hiding the implementation details of a class", correct: false },
-      { text: "Creating multiple instances of a class", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which concept in OOP refers to the ability of an object to take multiple forms?",
-    answers: [
-      { text: "Polymorphism", correct: true },
-      { text: "Inheritance", correct: false },
-      { text: "Abstraction", correct: false },
-      { text: "Encapsulation", correct: false },
-    ],
-  },
-  {
-    question:
-      "Inheritance in OOP allows a class to inherit properties and behaviors from another class. What term describes the class that inherits these properties?",
-    answers: [
-      { text: "Subclass", correct: true },
-      { text: "Superclass", correct: false },
-      { text: "Derived class", correct: false },
-      { text: "Parent class", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which OOP principle states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program?",
-    answers: [
-      { text: "Liskov Substitution Principle (LSP)", correct: true },
-      { text: "Open/Closed Principle (OCP)", correct: false },
-      { text: "Single Responsibility Principle (SRP)", correct: false },
-      { text: "Interface Segregation Principle (ISP)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of abstraction in object-oriented programming?",
-    answers: [
-      {
-        text: "Hiding complex implementation details and showing only the essential features of an object",
-        correct: true,
-      },
-      {
-        text: "Combining data and functions that manipulate the data into a single unit",
-        correct: false,
-      },
-      {
-        text: "Allowing a class to inherit properties and behaviors from another class",
-        correct: false,
-      },
-      { text: "Enabling an object to take multiple forms", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which term describes the process of creating a new object based on an existing object?",
-    answers: [
-      { text: "Cloning", correct: true },
-      { text: "Instantiation", correct: false },
-      { text: "Polymorphism", correct: false },
-      { text: "Overloading", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which OOP concept emphasizes the separation of concerns by assigning each class a single responsibility?",
-    answers: [
-      { text: "Single Responsibility Principle (SRP)", correct: true },
-      { text: "Open/Closed Principle (OCP)", correct: false },
-      { text: "Liskov Substitution Principle (LSP)", correct: false },
-      { text: "Interface Segregation Principle (ISP)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary benefit of using interfaces in object-oriented programming?",
-    answers: [
-      {
-        text: "Enforcing a contract that classes implementing the interface must follow",
-        correct: true,
-      },
-      {
-        text: "Enabling a class to inherit properties and behaviors from another class",
-        correct: false,
-      },
-      {
-        text: "Supporting the ability of an object to take multiple forms",
-        correct: false,
-      },
-      { text: "Providing a blueprint for creating objects", correct: false },
-    ],
-  },
-  {
-    question: "What is an abstract class in OOP?",
-    answers: [
-      {
-        text: "A class that cannot be instantiated and serves as a base for other classes",
-        correct: true,
-      },
-      {
-        text: "A class that allows for multiple instances to be created from it",
-        correct: false,
-      },
-      {
-        text: "A class that inherits properties and behaviors from another class",
-        correct: false,
-      },
-      {
-        text: "A class that hides the implementation details of its methods",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What does the acronym SOLID stand for in object-oriented design?",
-    answers: [
-      {
-        text: "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
-        correct: true,
-      },
-      {
-        text: "Simple, Object-Oriented, Logical, Inheritance, Design",
-        correct: false,
-      },
-      {
-        text: "Structured, Objectives, Layered, Inheritance, Development",
-        correct: false,
-      },
-      {
-        text: "Systematic, Ongoing, Logical, Iterative, Development",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which OOP principle suggests that a software entity should be open for extension but closed for modification?",
-    answers: [
-      { text: "Open/Closed Principle (OCP)", correct: true },
-      { text: "Liskov Substitution Principle (LSP)", correct: false },
-      { text: "Single Responsibility Principle (SRP)", correct: false },
-      { text: "Interface Segregation Principle (ISP)", correct: false },
-    ],
-  },
-  {
-    question: "What is composition in object-oriented programming?",
-    answers: [
-      {
-        text: "Combining objects of different classes to create more complex objects",
-        correct: true,
-      },
-      {
-        text: "Allowing a class to inherit properties and behaviors from another class",
-        correct: false,
-      },
-      { text: "Enabling an object to take multiple forms", correct: false },
-      {
-        text: "Hiding complex implementation details and showing only the essential features of an object",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which term describes the ability of a class to provide different implementations of its methods based on the input parameters?",
-    answers: [
-      { text: "Method Overloading", correct: true },
-      { text: "Method Overriding", correct: false },
-      { text: "Method Hiding", correct: false },
-      { text: "Method Polymorphism", correct: false },
-    ],
-  },
-  {
-    question: "In OOP, what is a static method?",
-    answers: [
-      {
-        text: "A method that belongs to the class rather than to instances of the class",
-        correct: true,
-      },
-      { text: "A method that can be overridden by subclasses", correct: false },
-      {
-        text: "A method that is declared in an abstract class",
-        correct: false,
-      },
-      {
-        text: "A method that is available only within a specific package",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the 'super' keyword in Java and similar languages?",
-    answers: [
-      {
-        text: "To refer to the superclass of the current object",
-        correct: true,
-      },
-      { text: "To specify access modifiers for class members", correct: false },
-      { text: "To define a constructor for a class", correct: false },
-      { text: "To prevent a class from being inherited", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary difference between composition and inheritance in object-oriented programming?",
-    answers: [
-      {
-        text: "Composition allows for more flexible relationships between classes compared to inheritance",
-        correct: true,
-      },
-      {
-        text: "Inheritance allows for more flexible relationships between classes compared to composition",
-        correct: false,
-      },
-      {
-        text: "Composition is used for creating multiple instances of a class",
-        correct: false,
-      },
-      {
-        text: "Inheritance is used for combining data and functions into a single unit",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which OOP concept allows you to implement different versions of a method in different classes using inheritance?",
-    answers: [
-      { text: "Method Overriding", correct: true },
-      { text: "Method Overloading", correct: false },
-      { text: "Method Hiding", correct: false },
-      { text: "Method Polymorphism", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary disadvantage of using inheritance in object-oriented programming?",
-    answers: [
-      {
-        text: "It can lead to tight coupling between classes, making the system less flexible",
-        correct: true,
-      },
-      {
-        text: "It requires more memory per object compared to composition",
-        correct: false,
-      },
-      {
-        text: "It makes it difficult to hide implementation details of a class",
-        correct: false,
-      },
-      {
-        text: "It limits the ability to extend the functionality of a class",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which term describes the process of creating an instance of a class?",
-    answers: [
-      { text: "Instantiation", correct: true },
-      { text: "Cloning", correct: false },
-      { text: "Abstraction", correct: false },
-      { text: "Polymorphism", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary benefit of using constructors in object-oriented programming?",
-    answers: [
-      { text: "To initialize objects when they are created", correct: true },
-      { text: "To define methods for accessing class members", correct: false },
-      { text: "To enforce encapsulation of class data", correct: false },
-      { text: "To provide a blueprint for creating objects", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////  Operating System   ///////////////////////////////////////////////////////
-const Operating_System = [
-  {
-    question: "What is an operating system?",
-    answers: [
-      {
-        text: "Software that acts as an intermediary between user applications and computer hardware",
-        correct: true,
-      },
-      {
-        text: "A program that manages files and folders on a computer",
-        correct: false,
-      },
-      { text: "An application used for browsing the internet", correct: false },
-      { text: "A tool to write and execute computer programs", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is not a function of an operating system?",
-    answers: [
-      { text: "Memory management", correct: false },
-      { text: "Disk formatting", correct: false },
-      { text: "Word processing", correct: true },
-      { text: "Process scheduling", correct: false },
-    ],
-  },
-  {
-    question: "What is virtual memory in an operating system?",
-    answers: [
-      {
-        text: "A technique that allows the execution of processes that are not completely in memory",
-        correct: true,
-      },
-      { text: "A type of memory used by virtual machines", correct: false },
-      {
-        text: "A memory management technique for organizing files",
-        correct: false,
-      },
-      {
-        text: "A type of memory that stores virtual addresses",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which scheduling algorithm provides the highest average turnaround time?",
-    answers: [
-      { text: "First-Come, First-Served (FCFS)", correct: true },
-      { text: "Shortest Job Next (SJN)", correct: false },
-      { text: "Round Robin (RR)", correct: false },
-      { text: "Priority Scheduling", correct: false },
-    ],
-  },
-  {
-    question: "What is a deadlock in the context of operating systems?",
-    answers: [
-      {
-        text: "A situation where two or more processes are unable to proceed because each is waiting for one of the others to finish some operation",
-        correct: true,
-      },
-      {
-        text: "A situation where a process continues to hold onto resources indefinitely",
-        correct: false,
-      },
-      {
-        text: "A condition where a process loses control of the CPU and is unable to regain it",
-        correct: false,
-      },
-      {
-        text: "A type of error that occurs during file system operations",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which memory management scheme allows processes to be swapped in and out of main memory?",
-    answers: [
-      { text: "Paging", correct: false },
-      { text: "Segmentation", correct: false },
-      { text: "Swapping", correct: true },
-      { text: "Virtual memory", correct: false },
-    ],
-  },
-  {
-    question: "What is a process in the context of operating systems?",
-    answers: [
-      { text: "A program in execution", correct: true },
-      { text: "A unit of data storage", correct: false },
-      { text: "A type of file system", correct: false },
-      { text: "A type of CPU scheduling algorithm", correct: false },
-    ],
-  },
-  {
-    question: "What is a file system?",
-    answers: [
-      {
-        text: "A method for storing and organizing computer files and their data",
-        correct: true,
-      },
-      { text: "An algorithm for scheduling disk operations", correct: false },
-      { text: "A type of memory used by virtual machines", correct: false },
-      {
-        text: "A technique for preventing data loss in case of a system crash",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which type of file system is commonly used in Linux?",
-    answers: [
-      { text: "Ext4", correct: true },
-      { text: "NTFS", correct: false },
-      { text: "FAT32", correct: false },
-      { text: "HFS+", correct: false },
-    ],
-  },
-  {
-    question: "What is a system call?",
-    answers: [
-      {
-        text: "An interface provided by the operating system to allow user-level processes to request services from the kernel",
-        correct: true,
-      },
-      { text: "A command used to launch applications", correct: false },
-      {
-        text: "A function used to allocate memory dynamically",
-        correct: false,
-      },
-      { text: "A technique for managing multiple CPUs", correct: false },
-    ],
-  },
-  {
-    question: "What is a semaphore in operating systems?",
-    answers: [
-      {
-        text: "A variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system",
-        correct: true,
-      },
-      { text: "A type of CPU scheduling algorithm", correct: false },
-      {
-        text: "A memory management technique for organizing files",
-        correct: false,
-      },
-      {
-        text: "A technique for preventing data loss in case of a system crash",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of a device driver in an operating system?",
-    answers: [
-      {
-        text: "To allow communication between the operating system and hardware devices",
-        correct: true,
-      },
-      { text: "To manage memory allocation and deallocation", correct: false },
-      {
-        text: "To schedule processes for execution on the CPU",
-        correct: false,
-      },
-      {
-        text: "To provide an interface for users to interact with the system",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of operating system allows multiple users to access a computer system concurrently?",
-    answers: [
-      { text: "Time-sharing system", correct: true },
-      { text: "Single-user system", correct: false },
-      { text: "Real-time operating system", correct: false },
-      { text: "Distributed operating system", correct: false },
-    ],
-  },
-  {
-    question: "What is thrashing in operating systems?",
-    answers: [
-      {
-        text: "A condition where excessive paging occurs, causing a severe decrease in system performance",
-        correct: true,
-      },
-      {
-        text: "A technique used to manage multiple threads in a process",
-        correct: false,
-      },
-      {
-        text: "A deadlock situation involving multiple processes",
-        correct: false,
-      },
-      { text: "A scheduling algorithm for real-time systems", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of CPU scheduling algorithm provides the minimum average waiting time for processes?",
-    answers: [
-      { text: "Shortest Job Next (SJN)", correct: true },
-      { text: "First-Come, First-Served (FCFS)", correct: false },
-      { text: "Round Robin (RR)", correct: false },
-      { text: "Priority Scheduling", correct: false },
-    ],
-  },
-  {
-    question: "What is a kernel in an operating system?",
-    answers: [
-      {
-        text: "The core component of the operating system that provides basic services for all other parts",
-        correct: true,
-      },
-      {
-        text: "A user-level program used to manage files and folders",
-        correct: false,
-      },
-      {
-        text: "A type of device driver used to interface with hardware devices",
-        correct: false,
-      },
-      { text: "A method for managing memory allocation", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which memory management technique divides memory into fixed-size partitions?",
-    answers: [
-      { text: "Fixed Partitioning", correct: true },
-      { text: "Dynamic Partitioning", correct: false },
-      { text: "Paging", correct: false },
-      { text: "Segmentation", correct: false },
-    ],
-  },
-  {
-    question: "What is a page fault in virtual memory?",
-    answers: [
-      {
-        text: "A trap to the software raised by the hardware when a process accesses a page that is not mapped",
-        correct: true,
-      },
-      { text: "An error in the disk scheduling algorithm", correct: false },
-      {
-        text: "A condition where a process cannot proceed due to lack of available pages",
-        correct: false,
-      },
-      {
-        text: "A deadlock situation involving virtual memory allocation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the purpose of an interrupt in operating systems?",
-    answers: [
-      {
-        text: "To signal the processor to suspend its current execution and handle the event",
-        correct: true,
-      },
-      { text: "To manage memory allocation and deallocation", correct: false },
-      {
-        text: "To synchronize access to shared resources in a multi-threaded environment",
-        correct: false,
-      },
-      {
-        text: "To allow communication between the operating system and hardware devices",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which disk scheduling algorithm provides the shortest average seek time?",
-    answers: [
-      { text: "Shortest Seek Time First (SSTF)", correct: true },
-      { text: "First-Come, First-Served (FCFS)", correct: false },
-      { text: "Round Robin (RR)", correct: false },
-      { text: "Priority Scheduling", correct: false },
-    ],
-  },
-];
-//////////////////////////////////////////   Compiler Design  ///////////////////////////////////////////////////////
-const Compiler_Design = [
-  {
-    question: "What is a compiler?",
-    answers: [
-      {
-        text: "A program that translates high-level source code into machine code",
-        correct: true,
-      },
-      { text: "A tool for debugging software applications", correct: false },
-      {
-        text: "A device used to convert analog signals into digital signals",
-        correct: false,
-      },
-      { text: "An algorithm for optimizing database queries", correct: false },
-    ],
-  },
-  {
-    question: "What are the main phases of a compiler in order?",
-    answers: [
-      {
-        text: "Lexical analysis, syntax analysis, semantic analysis, optimization, code generation",
-        correct: true,
-      },
-      {
-        text: "Optimization, code generation, syntax analysis, lexical analysis, semantic analysis",
-        correct: false,
-      },
-      {
-        text: "Syntax analysis, lexical analysis, code generation, optimization, semantic analysis",
-        correct: false,
-      },
-      {
-        text: "Code generation, optimization, lexical analysis, syntax analysis, semantic analysis",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of lexical analysis in a compiler?",
-    answers: [
-      {
-        text: "To convert a sequence of characters into a sequence of tokens",
-        correct: true,
-      },
-      {
-        text: "To generate optimized code for the target machine",
-        correct: false,
-      },
-      {
-        text: "To analyze the syntactic structure of the source program",
-        correct: false,
-      },
-      { text: "To perform semantic checks on the program", correct: false },
-    ],
-  },
-  {
-    question: "What is a token in compiler design?",
-    answers: [
-      {
-        text: "A category of lexemes that represent the basic building blocks of a program",
-        correct: true,
-      },
-      {
-        text: "A type of data structure used for storing intermediate code",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code generation",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does syntax analysis (parsing) do in a compiler?",
-    answers: [
-      {
-        text: "To check whether the tokens generated by lexical analysis form valid statements in the programming language",
-        correct: true,
-      },
-      {
-        text: "To translate intermediate code into machine code",
-        correct: false,
-      },
-      { text: "To perform optimizations on the code", correct: false },
-      {
-        text: "To manage the allocation and deallocation of memory",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is semantic analysis in compiler design?",
-    answers: [
-      {
-        text: "To check whether the statements and expressions have a meaning according to the rules of the programming language",
-        correct: true,
-      },
-      {
-        text: "To generate optimized code for the target machine",
-        correct: false,
-      },
-      {
-        text: "To convert intermediate code into assembly code",
-        correct: false,
-      },
-      { text: "To perform syntax checks on the program", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of optimization in compiler design?",
-    answers: [
-      {
-        text: "To improve the efficiency and performance of the generated code",
-        correct: true,
-      },
-      {
-        text: "To generate intermediate code from the source program",
-        correct: false,
-      },
-      { text: "To perform syntax checks on the program", correct: false },
-      {
-        text: "To manage the allocation and deallocation of memory",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does code generation do in a compiler?",
-    answers: [
-      {
-        text: "To translate intermediate code into machine code for a specific computer architecture",
-        correct: true,
-      },
-      {
-        text: "To analyze the syntactic structure of the source program",
-        correct: false,
-      },
-      { text: "To perform optimizations on the code", correct: false },
-      {
-        text: "To convert high-level source code into intermediate code",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the difference between compiler and interpreter?",
-    answers: [
-      {
-        text: "A compiler translates high-level source code into machine code, while an interpreter executes high-level source code directly",
-        correct: true,
-      },
-      {
-        text: "A compiler and an interpreter perform the same functions in software development",
-        correct: false,
-      },
-      {
-        text: "A compiler and an interpreter are different names for the same software tool",
-        correct: false,
-      },
-      {
-        text: "A compiler translates machine code into high-level source code, while an interpreter translates high-level source code into machine code",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is static vs dynamic linking in compiler design?",
-    answers: [
-      {
-        text: "Static linking links library code to the executable at compile time, while dynamic linking links library code at runtime",
-        correct: true,
-      },
-      {
-        text: "Static linking links library code at runtime, while dynamic linking links library code at compile time",
-        correct: false,
-      },
-      {
-        text: "Static linking does not link library code to the executable, while dynamic linking links library code at runtime",
-        correct: false,
-      },
-      {
-        text: "Static linking and dynamic linking both refer to the same process in compiler design",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a syntax-directed translation?",
-    answers: [
-      {
-        text: "A method of translation that uses the syntax of the source language to generate the target language code",
-        correct: true,
-      },
-      {
-        text: "A technique for optimizing code generation in compilers",
-        correct: false,
-      },
-      {
-        text: "A type of semantic analysis used in compiler design",
-        correct: false,
-      },
-      {
-        text: "A method for managing memory allocation in the compiler",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is bootstrapping in compiler design?",
-    answers: [
-      {
-        text: "The process of writing a compiler for a programming language in the same language it compiles",
-        correct: true,
-      },
-      {
-        text: "A technique for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "The process of generating optimized code for the target machine",
-        correct: false,
-      },
-      {
-        text: "A method for managing memory allocation in the compiler",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a symbol table in compiler design?",
-    answers: [
-      {
-        text: "A data structure that stores information about identifiers (variables, functions, etc.) in a program",
-        correct: true,
-      },
-      {
-        text: "A type of intermediate representation used during code generation",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code optimization",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What is the role of a parser generator (like Yacc/Bison) in compiler design?",
-    answers: [
-      {
-        text: "To generate the syntax analyzer (parser) based on the grammar rules specified by the user",
-        correct: true,
-      },
-      {
-        text: "To optimize the generated code for the target machine",
-        correct: false,
-      },
-      {
-        text: "To convert intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "To manage the allocation and deallocation of memory",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a parse tree (or syntax tree) in compiler design?",
-    answers: [
-      {
-        text: "A hierarchical representation of the syntactic structure of a program",
-        correct: true,
-      },
-      {
-        text: "A data structure used to store intermediate code",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code generation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the purpose of intermediate code in compiler design?",
-    answers: [
-      {
-        text: "To provide a platform-independent representation of the source program before generating machine code",
-        correct: true,
-      },
-      {
-        text: "To manage the allocation and deallocation of memory",
-        correct: false,
-      },
-      {
-        text: "To convert high-level source code into assembly code",
-        correct: false,
-      },
-      {
-        text: "To analyze the syntactic structure of the source program",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is register allocation in compiler design?",
-    answers: [
-      {
-        text: "The process of assigning variables to registers during code generation to optimize execution speed",
-        correct: true,
-      },
-      {
-        text: "A method for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code optimization",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is garbage collection in compiler design?",
-    answers: [
-      {
-        text: "A process that automatically reclaims memory occupied by objects that are no longer in use by the program",
-        correct: true,
-      },
-      {
-        text: "A technique for optimizing code generation in compilers",
-        correct: false,
-      },
-      {
-        text: "A type of semantic analysis used in compiler design",
-        correct: false,
-      },
-      {
-        text: "A method for managing memory allocation in the compiler",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is an attribute grammar in compiler design?",
-    answers: [
-      {
-        text: "A formalism for describing the syntax and semantics of programming languages using attributes associated with grammar rules",
-        correct: true,
-      },
-      {
-        text: "A method for generating optimized code for the target machine",
-        correct: false,
-      },
-      {
-        text: "A technique for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is loop optimization in compiler design?",
-    answers: [
-      {
-        text: "A set of techniques to optimize the execution speed of loops in the generated code",
-        correct: true,
-      },
-      {
-        text: "A method for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code generation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is dead code elimination in compiler design?",
-    answers: [
-      {
-        text: "A process to remove code that does not affect the output of the program",
-        correct: true,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code optimization",
-        correct: false,
-      },
-      {
-        text: "A method for converting intermediate code into machine code",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of a lexer in compiler design?",
-    answers: [
-      {
-        text: "To break the input program into tokens (lexical analysis)",
-        correct: true,
-      },
-      {
-        text: "To generate intermediate code for the source program",
-        correct: false,
-      },
-      { text: "To perform syntax checks on the program", correct: false },
-      {
-        text: "To optimize the generated code for the target machine",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is control flow analysis in compiler design?",
-    answers: [
-      {
-        text: "A technique to analyze the order of execution of statements and optimize the generated code",
-        correct: true,
-      },
-      {
-        text: "A method for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "A technique for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code generation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What is the difference between front-end and back-end in compiler design?",
-    answers: [
-      {
-        text: "Front-end deals with analyzing and parsing the source code, while back-end deals with optimization and code generation",
-        correct: true,
-      },
-      {
-        text: "Front-end deals with optimizing the code, while back-end deals with analyzing and parsing the source code",
-        correct: false,
-      },
-      {
-        text: "Front-end generates the intermediate code, while back-end generates machine code",
-        correct: false,
-      },
-      {
-        text: "Front-end translates the intermediate code into machine code, while back-end performs syntax analysis",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a semantic action in compiler design?",
-    answers: [
-      {
-        text: "An action associated with a production rule in the grammar to perform semantic analysis",
-        correct: true,
-      },
-      {
-        text: "A method for managing memory allocation in the compiler",
-        correct: false,
-      },
-      {
-        text: "A technique for converting intermediate code into machine code",
-        correct: false,
-      },
-      {
-        text: "An optimization technique used during code generation",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of a code optimizer in compiler design?",
-    answers: [
-      {
-        text: "To improve the efficiency and performance of the generated code",
-        correct: true,
-      },
-      {
-        text: "To manage the allocation and deallocation of memory",
-        correct: false,
-      },
-      { text: "To perform syntax checks on the program", correct: false },
-      {
-        text: "To convert intermediate code into machine code",
-        correct: false,
-      },
-    ],
-  },
-];
-
-///////////////////////////////////////////// Cyber Security  ///////////////////////////////////////////////////////
-const Cyber_Security = [
-  {
-    question: "What is phishing?",
-    answers: [
-      {
-        text: "A method used to steal confidential information by disguising as a trustworthy entity.",
-        correct: true,
-      },
-      {
-        text: "A technique to encrypt data during transmission.",
-        correct: false,
-      },
-      {
-        text: "A type of malware that spreads through email attachments.",
-        correct: false,
-      },
-      { text: "A hardware device used to secure networks.", correct: false },
-    ],
-  },
-
-  {
-    question: "Which of the following is NOT a type of malware?",
-    answers: [
-      { text: "Trojan", correct: false },
-      { text: "Spyware", correct: false },
-      { text: "SSL", correct: true },
-      { text: "Ransomware", correct: false },
-    ],
-  },
-
-  {
-    question: "What does VPN stand for?",
-    answers: [
-      { text: "Virtual Private Network", correct: true },
-      { text: "Virtual Public Network", correct: false },
-      { text: "Very Private Network", correct: false },
-      { text: "Verified Personal Network", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a brute force attack?",
-    answers: [
-      {
-        text: "A method to guess passwords by trying every possible combination.",
-        correct: true,
-      },
-      {
-        text: "A type of phishing attack using deceptive emails.",
-        correct: false,
-      },
-      {
-        text: "A malware that hijacks a computer's resources.",
-        correct: false,
-      },
-      { text: "A hardware device used to breach firewalls.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a firewall?",
-    answers: [
-      {
-        text: "A security system that controls network traffic based on set rules.",
-        correct: true,
-      },
-      {
-        text: "A software tool for encrypting files on a disk.",
-        correct: false,
-      },
-      {
-        text: "A device that scans and removes viruses from a network.",
-        correct: false,
-      },
-      {
-        text: "A type of phishing attack involving false advertisements.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What does CSRF stand for?",
-    answers: [
-      { text: "Cross-Site Request Forgery", correct: true },
-      { text: "Cross-Site Resource Form", correct: false },
-      { text: "Client-Side Request Form", correct: false },
-      { text: "Cyber Security Resource Finder", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the purpose of encryption?",
-    answers: [
-      { text: "To protect data from unauthorized access.", correct: true },
-      { text: "To speed up internet connection.", correct: false },
-      { text: "To scan for vulnerabilities in software.", correct: false },
-      { text: "To hide personal information on social media.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the role of a penetration tester?",
-    answers: [
-      {
-        text: "To simulate cyber attacks to find security vulnerabilities.",
-        correct: true,
-      },
-      { text: "To develop new encryption algorithms.", correct: false },
-      { text: "To monitor network traffic for anomalies.", correct: false },
-      {
-        text: "To design firewalls and intrusion detection systems.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is two-factor authentication (2FA)?",
-    answers: [
-      {
-        text: "A security method that requires two forms of identification to access an account.",
-        correct: true,
-      },
-      {
-        text: "A firewall that blocks traffic from two specific IP addresses.",
-        correct: false,
-      },
-      {
-        text: "A type of encryption using two different algorithms.",
-        correct: false,
-      },
-      {
-        text: "A hardware device that encrypts data on a local network.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is a DDoS attack?",
-    answers: [
-      {
-        text: "Distributed Denial of Service attack, which floods a system with traffic to make it unavailable.",
-        correct: true,
-      },
-      {
-        text: "Digital Defense System used to protect networks from malware.",
-        correct: false,
-      },
-      {
-        text: "Data-driven Operating System attack that exploits vulnerabilities in OS software.",
-        correct: false,
-      },
-      {
-        text: "Domain-Driven Security system that monitors domain traffic for threats.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What does SSL/TLS encryption secure?",
-    answers: [
-      { text: "Data transmitted over the internet.", correct: true },
-      { text: "Internal network communications.", correct: false },
-      { text: "Physical access to servers.", correct: false },
-      { text: "Software licenses and updates.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is social engineering in the context of cyber security?",
-    answers: [
-      {
-        text: "Psychological manipulation of people to gain confidential information.",
-        correct: true,
-      },
-      {
-        text: "Automated system to simulate user interactions.",
-        correct: false,
-      },
-      {
-        text: "A type of malware disguised as legitimate software.",
-        correct: false,
-      },
-      {
-        text: "A hardware tool to test network vulnerabilities.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is ransomware?",
-    answers: [
-      {
-        text: "Malicious software that encrypts files and demands payment for decryption.",
-        correct: true,
-      },
-      {
-        text: "A type of virus that spreads through email attachments.",
-        correct: false,
-      },
-      {
-        text: "A technique to steal login credentials by impersonating a legitimate website.",
-        correct: false,
-      },
-      {
-        text: "A hardware device used to monitor network traffic.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the main goal of cyber security?",
-    answers: [
-      {
-        text: "To protect computer systems and networks from unauthorized access and attacks.",
-        correct: true,
-      },
-      { text: "To develop new programming languages.", correct: false },
-      {
-        text: "To increase the speed of internet connections.",
-        correct: false,
-      },
-      { text: "To analyze trends in social media usage.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the difference between white hat and black hat hackers?",
-    answers: [
-      {
-        text: "White hat hackers use their skills for ethical hacking and security testing, while black hat hackers engage in illegal activities.",
-        correct: true,
-      },
-      {
-        text: "White hat hackers develop new encryption algorithms, while black hat hackers steal personal data.",
-        correct: false,
-      },
-      {
-        text: "White hat hackers work for government agencies, while black hat hackers work for private companies.",
-        correct: false,
-      },
-      {
-        text: "White hat hackers focus on network security, while black hat hackers focus on hardware vulnerabilities.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is network segmentation?",
-    answers: [
-      {
-        text: "Dividing a network into smaller subnetworks to improve security and performance.",
-        correct: true,
-      },
-      { text: "Scanning a network for vulnerabilities.", correct: false },
-      {
-        text: "Encrypting network traffic to prevent eavesdropping.",
-        correct: false,
-      },
-      {
-        text: "Securing wireless networks with strong passwords.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is a vulnerability assessment?",
-    answers: [
-      {
-        text: "A process to identify and prioritize weaknesses in a computer system.",
-        correct: true,
-      },
-      {
-        text: "A method to prevent unauthorized access to a network.",
-        correct: false,
-      },
-      {
-        text: "A type of encryption used for secure data storage.",
-        correct: false,
-      },
-      {
-        text: "A hardware device that monitors network traffic.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the role of a security incident response team?",
-    answers: [
-      {
-        text: "To handle and mitigate security breaches and incidents.",
-        correct: true,
-      },
-      { text: "To develop new software patches and updates.", correct: false },
-      {
-        text: "To perform regular audits of network infrastructure.",
-        correct: false,
-      },
-      { text: "To monitor social media for cyber threats.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the CIA Triad in cyber security?",
-    answers: [
-      { text: "Confidentiality, Integrity, Availability.", correct: true },
-      {
-        text: "Confidentiality, Identification, Authentication.",
-        correct: false,
-      },
-      { text: "Cybersecurity, Intelligence, Analysis.", correct: false },
-      { text: "Cybersecurity, Integrity, Authentication.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the role of encryption keys in data security?",
-    answers: [
-      {
-        text: "Encryption keys are used to encrypt and decrypt data securely.",
-        correct: true,
-      },
-      {
-        text: "Encryption keys protect physical access to servers.",
-        correct: false,
-      },
-      {
-        text: "Encryption keys monitor network traffic for vulnerabilities.",
-        correct: false,
-      },
-      {
-        text: "Encryption keys secure wireless network connections.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is a honeypot?",
-    answers: [
-      {
-        text: "A decoy system designed to lure hackers and study their techniques.",
-        correct: true,
-      },
-      {
-        text: "A type of malware that spreads through email attachments.",
-        correct: false,
-      },
-      {
-        text: "A hardware device used to monitor network traffic.",
-        correct: false,
-      },
-      {
-        text: "A social engineering technique to gain access to sensitive information.",
-        correct: false,
-      },
-    ],
-  },
-];
-/////////////////////////////////////////////////  I   o   T   //////////////////////////////////////////////////////
-const IoT = [
-  {
-    question: "What does IoT stand for?",
-    answers: [
-      { text: "Internet of Technology", correct: false },
-      { text: "Internet of Things", correct: true },
-      { text: "Innovations of Technology", correct: false },
-      { text: "Internet over Things", correct: false },
-    ],
-  },
-
-  {
-    question: "Which of the following is NOT a characteristic of IoT devices?",
-    answers: [
-      { text: "High computation power", correct: true },
-      { text: "Connectivity to the internet", correct: false },
-      { text: "Sensors and actuators", correct: false },
-      { text: "Ability to collect and transmit data", correct: false },
+      { text: "Resources are distributed as a service", correct: true },
+      { text: "Only one user can access the hardware", correct: false },
+      { text: "Fixed monthly pricing model", correct: false },
     ],
   },
-
   {
-    question: "What is a sensor in the context of IoT?",
+    question: "Which of the following is an example of a SaaS provider?",
     answers: [
-      {
-        text: "A device that detects physical or environmental changes and sends signals to other devices.",
-        correct: true,
-      },
-      { text: "A small computer used to store IoT data.", correct: false },
-      { text: "A software program that manages IoT networks.", correct: false },
-      { text: "An algorithm used to analyze IoT data.", correct: false },
+      { text: "Amazon EC2", correct: false },
+      { text: "Force.com", correct: false },
+      { text: "Salesforce.com", correct: true },
+      { text: "Heroku", correct: false },
     ],
   },
-
   {
-    question:
-      "Which protocol is commonly used for communication between IoT devices and the cloud?",
+    question: "Which of the following allows for dynamic scaling?",
     answers: [
+      { text: "SaaS", correct: false },
+      { text: "IaaS", correct: true },
+      { text: "DNS", correct: false },
       { text: "HTTP", correct: false },
-      { text: "MQTT", correct: true },
-      { text: "SMTP", correct: false },
-      { text: "SSH", correct: false },
     ],
   },
-
   {
-    question: "What is edge computing in IoT?",
+    question: "What is a key feature of IaaS pricing?",
     answers: [
-      {
-        text: "Processing data closer to where it is generated rather than sending it across long routes to data centers.",
-        correct: true,
-      },
-      {
-        text: "A security measure to protect IoT devices from cyber attacks.",
-        correct: false,
-      },
-      { text: "An algorithm used to encrypt IoT data.", correct: false },
-      {
-        text: "A network topology for connecting IoT devices.",
-        correct: false,
-      },
+      { text: "Subscription-based model", correct: false },
+      { text: "Flat rate model", correct: false },
+      { text: "Utility pricing model", correct: true },
+      { text: "Lifetime licensing", correct: false },
     ],
   },
-
   {
-    question: "What is RFID (Radio Frequency Identification) used for in IoT?",
+    question: "Which of the following is a PaaS provider?",
     answers: [
-      {
-        text: "To track and identify objects using radio waves.",
-        correct: true,
-      },
-      {
-        text: "To provide internet connectivity to IoT devices.",
-        correct: false,
-      },
-      { text: "To analyze large amounts of IoT data.", correct: false },
-      {
-        text: "To secure IoT devices from unauthorized access.",
-        correct: false,
-      },
+      { text: "Google Mail", correct: false },
+      { text: "Joyent", correct: false },
+      { text: "Heroku", correct: true },
+      { text: "SmugMug", correct: false },
     ],
   },
-
   {
-    question: "What is the role of actuators in IoT?",
+    question: "Which networking concept is essential to cloud computing?",
     answers: [
-      {
-        text: "To control physical devices based on data received from sensors.",
-        correct: true,
-      },
-      {
-        text: "To collect data from the environment and send it to IoT devices.",
-        correct: false,
-      },
-      {
-        text: "To process and analyze data collected by IoT devices.",
-        correct: false,
-      },
-      { text: "To manage the power supply of IoT devices.", correct: false },
-    ],
-  },
-
-  {
-    question: "What are some common security challenges in IoT?",
-    answers: [
-      {
-        text: "Device authentication, data encryption, and secure firmware updates.",
-        correct: true,
-      },
-      { text: "Network bandwidth and latency issues.", correct: false },
-      { text: "Battery life and power consumption.", correct: false },
-      { text: "Cloud storage and data analytics.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is a smart home?",
-    answers: [
-      {
-        text: "A home equipped with IoT devices for automation and control.",
-        correct: true,
-      },
-      {
-        text: "A network of computers connected to the internet.",
-        correct: false,
-      },
-      { text: "A security measure to protect IoT networks.", correct: false },
-      {
-        text: "A software platform for developing IoT applications.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the role of AI (Artificial Intelligence) in IoT?",
-    answers: [
-      {
-        text: "To analyze IoT data and make autonomous decisions.",
-        correct: true,
-      },
-      { text: "To secure IoT devices from cyber attacks.", correct: false },
-      {
-        text: "To provide internet connectivity to IoT devices.",
-        correct: false,
-      },
-      {
-        text: "To develop new protocols for IoT communication.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the IoT ecosystem?",
-    answers: [
-      {
-        text: "The network of interconnected IoT devices, platforms, and services.",
-        correct: true,
-      },
-      { text: "The physical components of IoT devices.", correct: false },
-      { text: "The process of deploying IoT solutions.", correct: false },
-      {
-        text: "The legal framework governing IoT technologies.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is fog computing in IoT?",
-    answers: [
-      {
-        text: "A decentralized computing infrastructure for IoT applications.",
-        correct: true,
-      },
-      {
-        text: "A security measure to protect IoT networks from cyber attacks.",
-        correct: false,
-      },
-      {
-        text: "A protocol used for communication between IoT devices and the cloud.",
-        correct: false,
-      },
-      {
-        text: "A type of encryption algorithm used in IoT devices.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is the role of blockchain in IoT?",
-    answers: [
-      {
-        text: "To provide secure and transparent transactions between IoT devices.",
-        correct: true,
-      },
-      { text: "To analyze data collected by IoT sensors.", correct: false },
-      { text: "To develop new IoT devices and protocols.", correct: false },
-      { text: "To optimize the performance of IoT networks.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is M2M communication in IoT?",
-    answers: [
-      {
-        text: "Machine-to-Machine communication, where IoT devices exchange data without human intervention.",
-        correct: true,
-      },
-      {
-        text: "Mobile-to-Mobile communication, using cellular networks for IoT connectivity.",
-        correct: false,
-      },
-      {
-        text: "Market-to-Market communication, facilitating trade between IoT vendors.",
-        correct: false,
-      },
-      {
-        text: "Media-to-Media communication, sharing multimedia content over IoT networks.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What are some examples of consumer IoT devices?",
-    answers: [
-      {
-        text: "Smart thermostats, wearable fitness trackers, and voice-activated assistants.",
-        correct: true,
-      },
-      {
-        text: "Industrial robots, automated manufacturing systems, and drones.",
-        correct: false,
-      },
-      { text: "IoT sensors for environmental monitoring.", correct: false },
-      {
-        text: "Blockchain-enabled devices for secure data storage.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What is a digital twin in IoT?",
-    answers: [
-      {
-        text: "A virtual representation of a physical IoT device or system.",
-        correct: true,
-      },
-      {
-        text: "An encryption key used to secure IoT data transmissions.",
-        correct: false,
-      },
-      { text: "A network protocol for IoT communication.", correct: false },
-      { text: "A cloud-based platform for IoT analytics.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the role of big data in IoT?",
-    answers: [
-      {
-        text: "To analyze large volumes of IoT data to extract valuable insights.",
-        correct: true,
-      },
-      { text: "To secure IoT devices from cyber attacks.", correct: false },
-      {
-        text: "To provide internet connectivity to IoT devices.",
-        correct: false,
-      },
-      {
-        text: "To develop new protocols for IoT communication.",
-        correct: false,
-      },
-    ],
-  },
-
-  {
-    question: "What are some challenges of IoT security?",
-    answers: [
-      {
-        text: "Device authentication, data encryption, and secure firmware updates.",
-        correct: true,
-      },
-      { text: "Network bandwidth and latency issues.", correct: false },
-      { text: "Battery life and power consumption.", correct: false },
-      { text: "Cloud storage and data analytics.", correct: false },
-    ],
-  },
-
-  {
-    question: "What is the role of fog computing in IoT?",
-    answers: [
-      {
-        text: "A decentralized computing infrastructure for IoT applications.",
-        correct: true,
-      },
-      {
-        text: "A security measure to protect IoT networks from cyber attacks.",
-        correct: false,
-      },
-      {
-        text: "A protocol used for communication between IoT devices and the cloud.",
-        correct: false,
-      },
-      {
-        text: "A type of encryption algorithm used in IoT devices.",
-        correct: false,
-      },
-    ],
-  },
-];
-/////////////////////////////////////////// ROBOTICS  ////////////////////////////////////////////////////////////////
-const Robotics = [
-  {
-    question: "What is Robotics?",
-    answers: [
-      {
-        text: "The study of artificial intelligence and its applications in machines.",
-        correct: false,
-      },
-      {
-        text: "A branch of engineering focused on the design and development of robots.",
-        correct: true,
-      },
-      {
-        text: "The practice of creating software for automated systems.",
-        correct: false,
-      },
-      {
-        text: "A field of medicine dealing with robotic surgeries.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a robot?",
-    answers: [
-      {
-        text: "A computer program that performs tasks on the internet.",
-        correct: false,
-      },
-      {
-        text: "A machine capable of carrying out complex actions automatically.",
-        correct: true,
-      },
-      {
-        text: "An artificial intelligence system that mimics human behavior.",
-        correct: false,
-      },
-      {
-        text: "A software application used to control industrial processes.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT a type of robot based on locomotion?",
-    answers: [
-      { text: "Bipedal", correct: false },
-      { text: "Quadrupedal", correct: false },
-      { text: "Hexapodal", correct: false },
-      { text: "Unipedal", correct: true },
-    ],
-  },
-  {
-    question: "What does AI stand for in the context of Robotics?",
-    answers: [
-      { text: "Artificial Initiative", correct: false },
-      { text: "Automated Intelligence", correct: false },
-      { text: "Artificial Intelligence", correct: true },
-      { text: "Automated Interaction", correct: false },
-    ],
-  },
-  {
-    question: "Which programming languages are commonly used in Robotics?",
-    answers: [
-      { text: "Java and C#", correct: false },
-      { text: "Python and JavaScript", correct: false },
-      { text: "C++ and Python", correct: true },
-      { text: "Ruby and PHP", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of using robots in manufacturing?",
-    answers: [
-      { text: "Reduced initial investment costs", correct: false },
-      { text: "Increased human employment opportunities", correct: false },
-      { text: "Higher precision and productivity", correct: true },
-      { text: "Lower maintenance requirements", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sensor type is commonly used for obstacle detection in mobile robots?",
-    answers: [
-      { text: "Infrared sensors", correct: true },
-      { text: "Temperature sensors", correct: false },
-      { text: "Pressure sensors", correct: false },
-      { text: "Light sensors", correct: false },
-    ],
-  },
-  {
-    question: "What is ROS (Robot Operating System)?",
-    answers: [
-      { text: "A framework for developing web-based robots", correct: false },
-      {
-        text: "An open-source middleware for robotics applications",
-        correct: true,
-      },
-      {
-        text: "A proprietary operating system for industrial robots",
-        correct: false,
-      },
-      {
-        text: "A programming language specifically designed for robots",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the Uncanny Valley in Robotics?",
-    answers: [
-      { text: "A theoretical model of robot emotions", correct: false },
-      {
-        text: "A psychological concept related to human-like robots",
-        correct: true,
-      },
-      {
-        text: "A geographic area with high robot population density",
-        correct: false,
-      },
-      {
-        text: "A term for robots that are prone to malfunction",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which industry commonly uses robotic exoskeletons?",
-    answers: [
-      { text: "Agriculture", correct: false },
-      { text: "Construction", correct: false },
-      { text: "Healthcare", correct: true },
-      { text: "Retail", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of haptic feedback in robotics?",
-    answers: [
-      { text: "To enhance visual recognition capabilities", correct: false },
-      {
-        text: "To provide physical interaction with virtual environments",
-        correct: true,
-      },
-      { text: "To improve battery life in mobile robots", correct: false },
-      { text: "To regulate robot motor functions", correct: false },
-    ],
-  },
-  {
-    question: "Which robotics concept is inspired by the behavior of ants?",
-    answers: [
-      { text: "Swarm robotics", correct: true },
-      { text: "Modular robotics", correct: false },
-      { text: "Soft robotics", correct: false },
-      { text: "Biomimetic robotics", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a gripper in robotics?",
-    answers: [
-      { text: "To regulate robot motor functions", correct: false },
-      { text: "To enhance robot vision capabilities", correct: false },
-      { text: "To perform physical interaction with objects", correct: true },
-      { text: "To provide wireless communication for robots", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of robot is commonly used for underwater exploration?",
-    answers: [
-      { text: "Quadcopter", correct: false },
-      { text: "Submersible robot", correct: true },
-      { text: "Humanoid robot", correct: false },
-      { text: "Mars rover", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of AI in autonomous robots?",
-    answers: [
-      { text: "To enhance physical strength", correct: false },
-      { text: "To optimize energy consumption", correct: false },
-      {
-        text: "To make decisions and adapt to changing environments",
-        correct: true,
-      },
-      { text: "To improve mechanical stability", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which engineering discipline integrates principles of robotics with biological systems?",
-    answers: [
-      { text: "Biomedical engineering", correct: true },
-      { text: "Environmental engineering", correct: false },
-      { text: "Civil engineering", correct: false },
-      { text: "Chemical engineering", correct: false },
-    ],
-  },
-  {
-    question: "What is the significance of kinematics in robotics?",
-    answers: [
-      { text: "To control robot emotions", correct: false },
-      { text: "To analyze robot motion", correct: true },
-      { text: "To enhance robot navigation", correct: false },
-      { text: "To optimize robot power consumption", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which mathematical concept is fundamental for robot path planning?",
-    answers: [
-      { text: "Trigonometry", correct: true },
-      { text: "Calculus", correct: false },
-      { text: "Linear algebra", correct: false },
-      { text: "Statistics", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of actuators in robotics?",
-    answers: [
-      { text: "To process sensory information", correct: false },
-      { text: "To perform physical tasks or movements", correct: true },
-      { text: "To regulate power distribution", correct: false },
-      { text: "To analyze environmental data", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sensor type is commonly used for distance measurement in robotics?",
-    answers: [
-      { text: "Pressure sensor", correct: false },
-      { text: "Ultrasonic sensor", correct: true },
-      { text: "Temperature sensor", correct: false },
-      { text: "Light sensor", correct: false },
-    ],
-  },
-  {
-    question: "What are collaborative robots (cobots) designed for?",
-    answers: [
-      { text: "To replace human workers in manufacturing", correct: false },
-      { text: "To assist and collaborate with human workers", correct: true },
-      { text: "To compete in robot sports competitions", correct: false },
-      { text: "To conduct deep-space exploration missions", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  Image Processing   ////////////////////////////////////////////////////
-const Image_Processing = [
-  {
-    question: "What is Image Processing?",
-    answers: [
-      { text: "The study of digital photography techniques.", correct: false },
-      {
-        text: "A field of computer science focusing on manipulating digital images.",
-        correct: true,
-      },
-      {
-        text: "The practice of enhancing physical photographs using chemicals.",
-        correct: false,
-      },
-      {
-        text: "A branch of electrical engineering dealing with power distribution.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT a fundamental step in Image Processing?",
-    answers: [
-      { text: "Image capture", correct: false },
-      { text: "Image storage", correct: true },
-      { text: "Image enhancement", correct: false },
-      { text: "Image analysis", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Image Enhancement techniques?",
-    answers: [
-      { text: "To compress image data for storage.", correct: false },
-      { text: "To remove noise and improve visual quality.", correct: true },
-      { text: "To encrypt images for secure transmission.", correct: false },
-      { text: "To analyze patterns and structures in images.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technique is used for removing the background of an image?",
-    answers: [
-      { text: "Image segmentation", correct: true },
-      { text: "Image compression", correct: false },
-      { text: "Image registration", correct: false },
-      { text: "Image interpolation", correct: false },
-    ],
-  },
-  {
-    question: "Which image format supports lossless compression?",
-    answers: [
-      { text: "JPEG", correct: false },
-      { text: "PNG", correct: true },
-      { text: "GIF", correct: false },
-      { text: "BMP", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary goal of Image Compression?",
-    answers: [
-      { text: "To increase image resolution.", correct: false },
-      {
-        text: "To reduce file size while preserving image quality.",
-        correct: true,
-      },
-      { text: "To apply artistic effects to images.", correct: false },
-      { text: "To synchronize multiple images into one.", correct: false },
-    ],
-  },
-  {
-    question: "Which method is commonly used for Image Segmentation?",
-    answers: [
-      { text: "Edge detection", correct: true },
-      { text: "Histogram equalization", correct: false },
-      { text: "Fourier transform", correct: false },
-      { text: "Median filtering", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of Morphological Operations in Image Processing?",
-    answers: [
-      { text: "To adjust brightness and contrast.", correct: false },
-      { text: "To analyze texture and patterns.", correct: false },
-      { text: "To manipulate image shapes and structures.", correct: true },
-      { text: "To correct lens distortions.", correct: false },
-    ],
-  },
-  {
-    question: "Which technique is used for recognizing text in images?",
-    answers: [
-      { text: "Optical character recognition (OCR)", correct: true },
-      { text: "Image warping", correct: false },
-      { text: "Feature extraction", correct: false },
-      { text: "Kernel methods", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Image Registration?",
-    answers: [
-      { text: "To classify images into different categories.", correct: false },
-      {
-        text: "To align multiple images into the same coordinate system.",
-        correct: true,
-      },
-      { text: "To apply geometric transformations to images.", correct: false },
-      { text: "To enhance image brightness and contrast.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technique is used for detecting and recognizing faces in images?",
-    answers: [
-      { text: "Histogram matching", correct: false },
-      { text: "Principal component analysis (PCA)", correct: false },
-      { text: "Haar cascade classifiers", correct: true },
-      { text: "Gaussian blur", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'Feature Extraction' refer to in Image Processing?",
-    answers: [
-      { text: "Extracting prominent objects from an image.", correct: false },
-      {
-        text: "Identifying key points or patterns in an image.",
-        correct: true,
-      },
-      { text: "Adjusting color and brightness levels.", correct: false },
-      {
-        text: "Transforming images into different file formats.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which method is used for image restoration from noisy images?",
-    answers: [
-      { text: "Histogram equalization", correct: false },
-      { text: "Wiener filter", correct: true },
-      { text: "Fourier transform", correct: false },
-      { text: "Sobel edge detection", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Histogram Equalization?",
-    answers: [
-      { text: "To reduce image file size.", correct: false },
-      { text: "To enhance image contrast.", correct: true },
-      { text: "To compress image data for transmission.", correct: false },
-      { text: "To remove unwanted noise from images.", correct: false },
-    ],
-  },
-  {
-    question: "Which technique is used for enhancing details in an image?",
-    answers: [
-      { text: "Blurring", correct: false },
-      { text: "Sharpening", correct: true },
-      { text: "Scaling", correct: false },
-      { text: "Rotating", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Convolution in Image Processing?",
-    answers: [
-      { text: "To adjust color balance in images.", correct: false },
-      { text: "To perform geometric transformations.", correct: false },
-      { text: "To apply filters and masks to images.", correct: true },
-      { text: "To segment images into regions.", correct: false },
-    ],
-  },
-  {
-    question: "Which technique is used for detecting edges in an image?",
-    answers: [
-      { text: "Gaussian blur", correct: false },
-      { text: "Laplacian of Gaussian (LoG)", correct: false },
-      { text: "Canny edge detector", correct: true },
-      { text: "Morphological operations", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'Thresholding' refer to in Image Processing?",
-    answers: [
-      { text: "Adjusting image brightness and contrast.", correct: false },
-      { text: "Segmenting an image based on pixel intensity.", correct: true },
-      { text: "Removing noise from an image.", correct: false },
-      { text: "Applying artistic filters to an image.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technique is used for converting color images to grayscale?",
-    answers: [
-      { text: "Histogram matching", correct: false },
-      { text: "Pseudo-coloring", correct: false },
-      { text: "Color space conversion", correct: true },
-      { text: "Contrast stretching", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Fourier Transform in Image Processing?",
-    answers: [
-      { text: "To enhance image resolution.", correct: false },
-      { text: "To analyze image textures.", correct: false },
-      {
-        text: "To convert images between different file formats.",
-        correct: false,
-      },
-      { text: "To decompose images into frequency components.", correct: true },
-    ],
-  },
-];
-/////////////////////////////////////////  Virtual Reality  /////////////////////////////////////////////////////////
-const Virtual_Reality = [
-  {
-    question: "What is Virtual Reality (VR)?",
-    answers: [
-      {
-        text: "A technology for creating 3D models in computer graphics.",
-        correct: false,
-      },
-      {
-        text: "An artificial environment created by computer-generated simulations.",
-        correct: true,
-      },
-      {
-        text: "A method for enhancing audio quality in digital media.",
-        correct: false,
-      },
-      {
-        text: "A technique for encrypting data in virtual environments.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which device is commonly used for experiencing Virtual Reality?",
-    answers: [
-      { text: "Smartphone", correct: false },
-      { text: "Virtual Reality headset", correct: true },
-      { text: "Smartwatch", correct: false },
-      { text: "Bluetooth speaker", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Haptic Feedback in Virtual Reality?",
-    answers: [
-      {
-        text: "To adjust the brightness of virtual environments.",
-        correct: false,
-      },
-      {
-        text: "To simulate touch sensations for a more immersive experience.",
-        correct: true,
-      },
-      { text: "To synchronize audio and video streams.", correct: false },
-      { text: "To create 3D models from 2D images.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technology is essential for tracking movement in Virtual Reality?",
-    answers: [
-      { text: "RFID (Radio Frequency Identification)", correct: false },
-      { text: "LiDAR (Light Detection and Ranging)", correct: false },
-      { text: "Accelerometers and gyroscopes", correct: true },
-      { text: "Satellite navigation (GPS)", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'Telepresence' refer to in Virtual Reality?",
-    answers: [
-      {
-        text: "Simulating physical presence in remote environments.",
-        correct: true,
-      },
-      {
-        text: "Creating virtual representations of real-world objects.",
-        correct: false,
-      },
-      {
-        text: "Analyzing data patterns in virtual simulations.",
-        correct: false,
-      },
-      {
-        text: "Enhancing visual effects in computer graphics.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which industry commonly uses Virtual Reality for training simulations?",
-    answers: [
-      { text: "Agriculture", correct: false },
-      { text: "Manufacturing", correct: true },
-      { text: "Retail", correct: false },
-      { text: "Tourism", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Augmented Reality (AR) in Virtual Reality?",
-    answers: [
-      {
-        text: "To enhance virtual environments with real-world elements.",
-        correct: false,
-      },
-      {
-        text: "To simulate physical sensations in virtual environments.",
-        correct: false,
-      },
-      {
-        text: "To project virtual objects onto physical surfaces.",
-        correct: false,
-      },
-      {
-        text: "To overlay digital information onto the user's view of the real world.",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question:
-      "Which principle is used to create the illusion of depth in Virtual Reality?",
-    answers: [
-      { text: "Perspective projection", correct: true },
-      { text: "Top-down projection", correct: false },
-      { text: "Orthographic projection", correct: false },
-      { text: "Isometric projection", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary goal of Immersive Virtual Reality?",
-    answers: [
-      {
-        text: "To display interactive 3D models on web browsers.",
-        correct: false,
-      },
-      {
-        text: "To create a sense of presence and engagement in virtual environments.",
-        correct: true,
-      },
-      {
-        text: "To simulate real-world physics in computer simulations.",
-        correct: false,
-      },
-      {
-        text: "To synchronize multiple users in a shared virtual space.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which input devices are commonly used in Virtual Reality?",
-    answers: [
-      { text: "Joystick and mouse", correct: false },
-      { text: "Keyboard and touchscreen", correct: false },
-      { text: "Motion controllers and gamepads", correct: true },
-      { text: "Scanner and printer", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'Presence' mean in Virtual Reality?",
-    answers: [
-      { text: "The duration of a virtual experience.", correct: false },
-      {
-        text: "The sense of being physically present in a virtual environment.",
-        correct: true,
-      },
-      {
-        text: "The process of creating realistic textures in virtual simulations.",
-        correct: false,
-      },
-      {
-        text: "The technique for rendering lighting effects in 3D models.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which technology enables wireless communication in Virtual Reality?",
-    answers: [
-      { text: "Bluetooth", correct: true },
-      { text: "Ethernet", correct: false },
-      { text: "Fiber optics", correct: false },
-      { text: "DSL (Digital Subscriber Line)", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Spatial Audio in Virtual Reality?",
-    answers: [
-      {
-        text: "To synchronize audio playback with video frames.",
-        correct: false,
-      },
-      {
-        text: "To enhance the realism of virtual environments by simulating sound directionality.",
-        correct: true,
-      },
-      {
-        text: "To compress audio data for efficient transmission.",
-        correct: false,
-      },
-      { text: "To apply audio effects to speech synthesis.", correct: false },
-    ],
-  },
-  {
-    question: "Which rendering technique is commonly used in Virtual Reality?",
-    answers: [
-      { text: "Rasterization", correct: true },
-      { text: "Ray tracing", correct: false },
-      { text: "Path tracing", correct: false },
-      { text: "Voxelization", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of Web-based Virtual Reality applications?",
-    answers: [
-      { text: "Highly realistic graphics rendering.", correct: false },
-      {
-        text: "Cross-platform compatibility without requiring specific hardware.",
-        correct: true,
-      },
-      { text: "Advanced motion tracking capabilities.", correct: false },
-      { text: "Enhanced interaction through haptic feedback.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which concept is central to the development of Social Virtual Reality platforms?",
-    answers: [
-      { text: "Geometric modeling", correct: false },
-      { text: "Human-computer interaction", correct: false },
-      { text: "Avatars and virtual identities", correct: true },
-      { text: "Data encryption and security", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary challenge in achieving 'Presence' in Virtual Reality?",
-    answers: [
-      { text: "Display resolution limitations", correct: false },
-      { text: "Latency in motion tracking", correct: false },
-      { text: "Simulating realistic physical interactions", correct: false },
-      {
-        text: "Overcoming visual and sensory discrepancies between real and virtual environments",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question:
-      "Which technology enables real-time collaboration in Virtual Reality?",
-    answers: [
-      { text: "Internet Protocol (IP) cameras", correct: false },
-      { text: "Peer-to-peer networking", correct: false },
-      { text: "Cloud computing", correct: false },
+      { text: "TCP/IP stack only", correct: false },
       { text: "Virtual Private Networks (VPNs)", correct: true },
+      { text: "Wired Ethernet only", correct: false },
+      { text: "Bluetooth", correct: false },
     ],
   },
   {
-    question:
-      "What is the role of AI (Artificial Intelligence) in Virtual Reality applications?",
+    question: "What is the goal of Network Function Virtualization?",
     answers: [
+      { text: "To reduce cloud security", correct: false },
+      { text: "To enhance mobile networks", correct: false },
       {
-        text: "To simulate physical phenomena in virtual environments.",
-        correct: false,
-      },
-      {
-        text: "To analyze user behavior and preferences for personalized experiences.",
+        text: "To consolidate network functions on standard IT hardware",
         correct: true,
       },
-      {
-        text: "To compress and optimize data transmission in VR systems.",
-        correct: false,
-      },
-      {
-        text: "To synchronize audio and visual cues for immersive storytelling.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does the term 'Cybersickness' refer to in Virtual Reality?",
-    answers: [
-      {
-        text: "The sensation of vertigo caused by visual motion in VR.",
-        correct: true,
-      },
-      {
-        text: "The risk of cyber attacks on virtual environments.",
-        correct: false,
-      },
-      {
-        text: "The process of establishing secure connections in VR networks.",
-        correct: false,
-      },
-      {
-        text: "The practice of creating virtual replicas of physical objects.",
-        correct: false,
-      },
-    ],
-  },
-];
-///////////////////////////////////////////// Augmented Reality  ////////////////////////////////////////////////////
-const Augmented_Reality = [
-  {
-    question: "What is Augmented Reality (AR)?",
-    answers: [
-      {
-        text: "A technology that generates 3D models from 2D images.",
-        correct: false,
-      },
-      {
-        text: "A technology that overlays digital information onto the real world.",
-        correct: true,
-      },
-      {
-        text: "A method for enhancing audio quality in digital media.",
-        correct: false,
-      },
-      {
-        text: "A technique for encrypting data in virtual environments.",
-        correct: false,
-      },
+      { text: "To create new types of servers", correct: false },
     ],
   },
   {
     question:
-      "Which device is commonly used for experiencing Augmented Reality?",
+      "Which tool helps in creating secure communication channels in cloud networks?",
     answers: [
-      { text: "Smartphone", correct: true },
-      { text: "DVD player", correct: false },
-      { text: "Smartwatch", correct: false },
-      { text: "Bluetooth speaker", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of AR markers?",
-    answers: [
-      { text: "To create 3D models from 2D images.", correct: false },
-      {
-        text: "To provide reference points for placing digital content in the real world.",
-        correct: true,
-      },
-      { text: "To synchronize audio and video streams.", correct: false },
-      { text: "To store large amounts of digital data.", correct: false },
+      { text: "Bluetooth", correct: false },
+      { text: "OpenSSH", correct: true },
+      { text: "Wi-Fi Direct", correct: false },
+      { text: "NAT", correct: false },
     ],
   },
   {
     question:
-      "Which technology is essential for tracking movement in Augmented Reality?",
+      "Which deployment model is provisioned for open use by the general public?",
     answers: [
-      { text: "RFID (Radio Frequency Identification)", correct: false },
-      { text: "LiDAR (Light Detection and Ranging)", correct: true },
-      { text: "Accelerometers and gyroscopes", correct: true },
-      { text: "Satellite navigation (GPS)", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'Markerless AR' refer to?",
-    answers: [
-      {
-        text: "AR applications that do not require physical markers to function.",
-        correct: true,
-      },
-      {
-        text: "AR experiences that are purely virtual and not overlaid on the real world.",
-        correct: false,
-      },
-      {
-        text: "A method of AR that relies on GPS data exclusively.",
-        correct: false,
-      },
-      {
-        text: "An AR system that enhances sound rather than visual elements.",
-        correct: false,
-      },
+      { text: "Private Cloud", correct: false },
+      { text: "Community Cloud", correct: false },
+      { text: "Public Cloud", correct: true },
+      { text: "Hybrid Cloud", correct: false },
     ],
   },
   {
     question:
-      "Which industry commonly uses Augmented Reality for training simulations?",
+      "Which cloud model may be hosted off-premise but dedicated to a single organization?",
     answers: [
-      { text: "Agriculture", correct: false },
-      { text: "Retail", correct: false },
-      { text: "Healthcare", correct: true },
-      { text: "Tourism", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Computer Vision in Augmented Reality?",
-    answers: [
-      {
-        text: "To create realistic soundscapes for AR environments.",
-        correct: false,
-      },
-      {
-        text: "To analyze and interpret visual data for overlaying digital content.",
-        correct: true,
-      },
-      { text: "To compress data for efficient storage.", correct: false },
-      {
-        text: "To provide network security for AR applications.",
-        correct: false,
-      },
+      { text: "Public Cloud", correct: false },
+      { text: "Hybrid Cloud", correct: false },
+      { text: "Private Cloud", correct: true },
+      { text: "Community Cloud", correct: false },
     ],
   },
   {
     question:
-      "Which principle is used to create the illusion of depth in Augmented Reality?",
+      "Which of the following is an example of a private cloud provider?",
     answers: [
-      { text: "Perspective projection", correct: true },
-      { text: "Top-down projection", correct: false },
-      { text: "Orthographic projection", correct: false },
-      { text: "Isometric projection", correct: false },
+      { text: "Amazon EC2", correct: false },
+      { text: "Google Drive", correct: false },
+      { text: "Amazon VPC", correct: true },
+      { text: "XDrive", correct: false },
     ],
   },
   {
-    question: "What is the primary goal of Augmented Reality?",
+    question: "What is one major risk of the public cloud model?",
     answers: [
-      {
-        text: "To display interactive 3D models on web browsers.",
-        correct: false,
-      },
-      {
-        text: "To enhance the real world with digital elements.",
-        correct: true,
-      },
-      {
-        text: "To simulate real-world physics in computer simulations.",
-        correct: false,
-      },
-      {
-        text: "To synchronize multiple users in a shared virtual space.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which input devices are commonly used in Augmented Reality?",
-    answers: [
-      { text: "Joystick and mouse", correct: false },
-      { text: "Keyboard and touchscreen", correct: true },
-      { text: "Motion controllers and gamepads", correct: false },
-      { text: "Scanner and printer", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'SLAM' stand for in Augmented Reality?",
-    answers: [
-      { text: "Simultaneous Localization and Mapping", correct: true },
-      { text: "Structured Light and Modeling", correct: false },
-      { text: "Synchronous Location and Motion", correct: false },
-      { text: "Spatial Layering and Measurement", correct: false },
+      { text: "Vendor lock-in", correct: false },
+      { text: "Data being stored locally", correct: false },
+      { text: "Risks from multi-tenancy", correct: true },
+      { text: "Insufficient resource availability", correct: false },
     ],
   },
   {
     question:
-      "Which technology enables wireless communication in Augmented Reality?",
+      "Which deployment model combines both private and public cloud features?",
     answers: [
-      { text: "Bluetooth", correct: true },
-      { text: "Ethernet", correct: false },
-      { text: "Fiber optics", correct: false },
-      { text: "DSL (Digital Subscriber Line)", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Spatial Audio in Augmented Reality?",
-    answers: [
-      {
-        text: "To synchronize audio playback with video frames.",
-        correct: false,
-      },
-      {
-        text: "To enhance the realism of AR experiences by simulating sound directionality.",
-        correct: true,
-      },
-      {
-        text: "To compress audio data for efficient transmission.",
-        correct: false,
-      },
-      { text: "To apply audio effects to speech synthesis.", correct: false },
+      { text: "Hybrid Cloud", correct: true },
+      { text: "Community Cloud", correct: false },
+      { text: "Dedicated Cloud", correct: false },
+      { text: "On-prem Cloud", correct: false },
     ],
   },
   {
     question:
-      "Which rendering technique is commonly used in Augmented Reality?",
+      "Which cloud provider supports multiple users on the same hardware?",
     answers: [
-      { text: "Rasterization", correct: true },
-      { text: "Ray tracing", correct: false },
-      { text: "Path tracing", correct: false },
-      { text: "Voxelization", correct: false },
+      { text: "Dedicated Cloud", correct: false },
+      { text: "IaaS", correct: true },
+      { text: "PaaS", correct: false },
+      { text: "VPN", correct: false },
     ],
   },
   {
-    question:
-      "What is the primary advantage of Web-based Augmented Reality applications?",
+    question: "What is a common use of a VPN in cloud computing?",
     answers: [
-      { text: "Highly realistic graphics rendering.", correct: false },
-      {
-        text: "Cross-platform compatibility without requiring specific hardware.",
-        correct: true,
-      },
-      { text: "Advanced motion tracking capabilities.", correct: false },
-      { text: "Enhanced interaction through haptic feedback.", correct: false },
+      { text: "To manage memory", correct: false },
+      { text: "To enhance disk speed", correct: false },
+      { text: "To securely connect to cloud resources", correct: true },
+      { text: "To compress files", correct: false },
     ],
   },
   {
-    question:
-      "Which concept is central to the development of Social Augmented Reality platforms?",
+    question: "Which tool is used for secure shell access in cloud networks?",
     answers: [
-      { text: "Geometric modeling", correct: false },
-      { text: "Human-computer interaction", correct: false },
-      { text: "Avatars and virtual identities", correct: true },
-      { text: "Data encryption and security", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary challenge in achieving 'Presence' in Augmented Reality?",
-    answers: [
-      { text: "Display resolution limitations", correct: false },
-      { text: "Latency in motion tracking", correct: false },
-      { text: "Simulating realistic physical interactions", correct: false },
-      {
-        text: "Overcoming visual and sensory discrepancies between real and augmented environments",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question:
-      "Which technology enables real-time collaboration in Augmented Reality?",
-    answers: [
-      { text: "Internet Protocol (IP) cameras", correct: false },
-      { text: "Peer-to-peer networking", correct: false },
-      { text: "Cloud computing", correct: false },
-      { text: "Virtual Private Networks (VPNs)", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the role of AI (Artificial Intelligence) in Augmented Reality applications?",
-    answers: [
-      {
-        text: "To simulate physical phenomena in augmented environments.",
-        correct: false,
-      },
-      {
-        text: "To analyze user behavior and preferences for personalized experiences.",
-        correct: true,
-      },
-      {
-        text: "To compress and optimize data transmission in AR systems.",
-        correct: false,
-      },
-      {
-        text: "To synchronize audio and visual cues for immersive storytelling.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does the term 'Augmented Reality Glasses' refer to?",
-    answers: [
-      {
-        text: "A type of eyewear that enhances vision for low-light conditions.",
-        correct: false,
-      },
-      {
-        text: "A type of glasses that overlay digital information on the real world.",
-        correct: true,
-      },
-      {
-        text: "A device for magnifying small objects in scientific research.",
-        correct: false,
-      },
-      {
-        text: "A protective eyewear used in industrial settings.",
-        correct: false,
-      },
-    ],
-  },
-];
-/////////////////////////////////////////  Ethical Hacking   ////////////////////////////////////////////////////////
-const Ethical_Hacking = [
-  {
-    question: "What is Ethical Hacking?",
-    answers: [
-      { text: "Hacking for illegal purposes.", correct: false },
-      { text: "Unauthorized access to computer systems.", correct: false },
-      {
-        text: "The practice of bypassing system security to identify potential data breaches and threats in a legal and legitimate manner.",
-        correct: true,
-      },
-      { text: "Creating viruses and malware.", correct: false },
-    ],
-  },
-  {
-    question: "Which term refers to an ethical hacker?",
-    answers: [
-      { text: "Black Hat Hacker", correct: false },
-      { text: "White Hat Hacker", correct: true },
-      { text: "Gray Hat Hacker", correct: false },
-      { text: "Script Kiddie", correct: false },
-    ],
-  },
-  {
-    question: "What is a penetration test?",
-    answers: [
-      { text: "A method to develop software applications.", correct: false },
-      {
-        text: "A security exercise to identify vulnerabilities in a system.",
-        correct: true,
-      },
-      { text: "A process to install software on a computer.", correct: false },
-      { text: "A technique for optimizing computer hardware.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which tool is commonly used for network scanning in Ethical Hacking?",
-    answers: [
-      { text: "Microsoft Excel", correct: false },
-      { text: "Nmap", correct: true },
-      { text: "Adobe Photoshop", correct: false },
-      { text: "VLC Media Player", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'Vulnerability' mean in the context of cybersecurity?",
-    answers: [
-      { text: "A feature that enhances system performance.", correct: false },
-      { text: "A weakness in a system that can be exploited.", correct: true },
-      { text: "A method to increase storage capacity.", correct: false },
-      { text: "A type of computer virus.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which ethical hacking phase involves gathering information about a target system?",
-    answers: [
-      { text: "Scanning", correct: false },
-      { text: "Reconnaissance", correct: true },
-      { text: "Gaining Access", correct: false },
-      { text: "Maintaining Access", correct: false },
-    ],
-  },
-  {
-    question: "What is Social Engineering in the context of Ethical Hacking?",
-    answers: [
-      { text: "A method to design computer networks.", correct: false },
-      {
-        text: "Manipulating individuals to gain confidential information.",
-        correct: true,
-      },
-      { text: "A technique to build physical infrastructure.", correct: false },
-      {
-        text: "The practice of creating social media accounts.",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What is the primary objective of a Denial of Service (DoS) attack?",
-    answers: [
-      { text: "To steal sensitive information.", correct: false },
-      {
-        text: "To render a system or network unavailable to users.",
-        correct: true,
-      },
-      { text: "To install malware on a system.", correct: false },
-      { text: "To deface a website.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of attack involves intercepting and altering communications between two parties?",
-    answers: [
-      { text: "Phishing", correct: false },
-      { text: "Man-in-the-Middle Attack", correct: true },
-      { text: "Brute Force Attack", correct: false },
-      { text: "SQL Injection", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of a firewall in cybersecurity?",
-    answers: [
-      { text: "To increase the speed of a network.", correct: false },
-      {
-        text: "To block unauthorized access while permitting outward communication.",
-        correct: true,
-      },
-      { text: "To store data securely.", correct: false },
-      { text: "To design software applications.", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which term refers to a security flaw found in software or hardware?",
-    answers: [
-      { text: "Exploit", correct: true },
+      { text: "OpenVPN", correct: false },
+      { text: "SSH Client", correct: false },
+      { text: "OpenSSH", correct: true },
       { text: "Firewall", correct: false },
-      { text: "Patch", correct: false },
-      { text: "Antivirus", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of encryption in cybersecurity?",
-    answers: [
-      { text: "To compress data for storage.", correct: false },
-      { text: "To protect data by converting it into a code.", correct: true },
-      { text: "To delete unwanted files.", correct: false },
-      { text: "To speed up internet connections.", correct: false },
     ],
   },
   {
     question:
-      "Which technique involves guessing passwords by trying many possible combinations?",
+      "Which cloud deployment model is shared among several organizations with a common concern?",
     answers: [
-      { text: "Phishing", correct: false },
-      { text: "Brute Force Attack", correct: true },
-      { text: "Social Engineering", correct: false },
-      { text: "DNS Spoofing", correct: false },
+      { text: "Hybrid Cloud", correct: false },
+      { text: "Public Cloud", correct: false },
+      { text: "Private Cloud", correct: false },
+      { text: "Community Cloud", correct: true },
     ],
   },
   {
-    question: "Which of the following is a common tool for password cracking?",
+    question: "Which of the following is an example of IaaS?",
     answers: [
-      { text: "Wireshark", correct: false },
-      { text: "John the Ripper", correct: true },
-      { text: "Photoshop", correct: false },
-      { text: "Excel", correct: false },
-    ],
-  },
-  {
-    question: "What does SQL Injection exploit?",
-    answers: [
-      {
-        text: "Vulnerabilities in SQL databases to execute malicious SQL statements.",
-        correct: true,
-      },
-      { text: "Weaknesses in wireless networks.", correct: false },
-      { text: "Flaws in web browser security.", correct: false },
-      { text: "Issues with antivirus software.", correct: false },
-    ],
-  },
-  {
-    question: "What is a zero-day exploit?",
-    answers: [
-      { text: "An exploit for which a patch is available.", correct: false },
-      {
-        text: "A vulnerability that is unknown to those who should be interested in its mitigation.",
-        correct: true,
-      },
-      { text: "A type of social engineering attack.", correct: false },
-      { text: "A firewall configuration error.", correct: false },
+      { text: "Appian Anywhere", correct: false },
+      { text: "Amazon EC2", correct: true },
+      { text: "AppEngine", correct: false },
+      { text: "ProcessMaker Live", correct: false },
     ],
   },
   {
     question:
-      "Which organization is responsible for creating and managing the Common Vulnerabilities and Exposures (CVE) list?",
+      "Which of the following is *not* a role of networking in cloud computing?",
     answers: [
-      { text: "Microsoft", correct: false },
-      { text: "Google", correct: false },
-      { text: "MITRE Corporation", correct: true },
-      { text: "Facebook", correct: false },
+      { text: "Facilitating virtual topologies", correct: false },
+      { text: "Provisioning compute power", correct: true },
+      { text: "Enabling VPN access", correct: false },
+      { text: "Handling protocol layers", correct: false },
     ],
   },
   {
     question:
-      "What is the purpose of ethical hacking certifications like CEH (Certified Ethical Hacker)?",
+      "What are the security perimeters in an outsourced private cloud?",
     answers: [
-      {
-        text: "To certify individuals to conduct illegal hacking activities.",
-        correct: false,
-      },
-      {
-        text: "To validate the skills and knowledge of professionals in identifying and addressing security threats.",
-        correct: true,
-      },
-      { text: "To provide legal advice to hacking victims.", correct: false },
-      { text: "To teach software development.", correct: false },
+      { text: "Only the provider’s perimeter", correct: false },
+      { text: "Only the subscriber’s perimeter", correct: false },
+      { text: "Both provider and subscriber perimeters", correct: true },
+      { text: "There is no defined perimeter", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is true about on-site private cloud?",
+    answers: [
+      { text: "It is managed only by third-party", correct: false },
+      { text: "It requires no IT skills", correct: false },
+      { text: "It resides within the organization’s premises", correct: true },
+      { text: "It does not hide workload location", correct: false },
+    ],
+  },
+  {
+    question: "In public cloud, where can workloads be migrated?",
+    answers: [
+      { text: "Only within the same country", correct: false },
+      { text: "Anywhere based on provider cost optimization", correct: true },
+      { text: "Only between user devices", correct: false },
+      { text: "Only to user premises", correct: false },
+    ],
+  },
+  {
+    question: "Which PaaS provider is developed by Google?",
+    answers: [
+      { text: "Azure", correct: false },
+      { text: "AppEngine", correct: true },
+      { text: "Force.com", correct: false },
+      { text: "Aneka", correct: false },
     ],
   },
   {
     question:
-      "Which phase of ethical hacking involves fixing the vulnerabilities found?",
+      "Which service model provides a platform allowing customers to develop, run, and manage applications?",
     answers: [
-      { text: "Reconnaissance", correct: false },
-      { text: "Scanning", correct: false },
-      { text: "Maintaining Access", correct: false },
-      { text: "Covering Tracks", correct: true },
+      { text: "IaaS", correct: false },
+      { text: "PaaS", correct: true },
+      { text: "SaaS", correct: false },
+      { text: "DaaS", correct: false },
     ],
   },
   {
-    question: "Which of the following is an example of a phishing attack?",
+    question: "What is a benefit of the outsourced private cloud?",
     answers: [
-      {
-        text: "Sending an email that appears to be from a trusted source to trick the recipient into revealing sensitive information.",
-        correct: true,
-      },
-      { text: "Infecting a system with ransomware.", correct: false },
-      { text: "Exploiting a buffer overflow vulnerability.", correct: false },
-      { text: "Performing a DDoS attack.", correct: false },
+      { text: "Limited resources", correct: false },
+      { text: "Subscriber can rent resources in any quantity", correct: true },
+      { text: "No need for security perimeters", correct: false },
+      { text: "No protected communication required", correct: false },
     ],
   },
 ];
-///////////////////////////////////////////  Data Base   ////////////////////////////////////////////////////////////
-const DataBase = [
+////////////////////////////// VIRTUALIZATION //////////////////////////////////////////////
+const Virtualization = [
   {
-    question: "What is a database?",
+    question: "What is a Community Cloud?",
     answers: [
       {
-        text: "A collection of data stored in a computer system.",
+        text: "Cloud infrastructure shared by several organizations with common concerns",
         correct: true,
       },
-      { text: "A programming language.", correct: false },
-      { text: "A type of software application.", correct: false },
-      { text: "A hardware device used for data storage.", correct: false },
-    ],
-  },
-  {
-    question: "What does SQL stand for?",
-    answers: [
-      { text: "Structured Query Language", correct: true },
-      { text: "Sequential Query Language", correct: false },
-      { text: "Structured Question Language", correct: false },
-      { text: "System Query Language", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a type of database model?",
-    answers: [
-      { text: "Hierarchical", correct: true },
-      { text: "Sequential", correct: false },
-      { text: "Procedural", correct: false },
-      { text: "Modular", correct: false },
-    ],
-  },
-  {
-    question: "What is a primary key?",
-    answers: [
       {
-        text: "A key that uniquely identifies a record in a table.",
-        correct: true,
-      },
-      { text: "A key that is used to encrypt data.", correct: false },
-      { text: "A key that is used to unlock a database.", correct: false },
-      { text: "A key that links multiple tables.", correct: false },
-    ],
-  },
-  {
-    question: "What is a foreign key?",
-    answers: [
-      {
-        text: "A key that uniquely identifies a record in a table.",
+        text: "Cloud infrastructure used by a single private organization",
         correct: false,
       },
-      { text: "A key used to connect two tables.", correct: true },
-      { text: "A key that encrypts data in a database.", correct: false },
-      { text: "A key that sorts data in a table.", correct: false },
+      {
+        text: "Public cloud hosted by a third party",
+        correct: false,
+      },
+      {
+        text: "A combination of public and private clouds",
+        correct: false,
+      },
     ],
   },
   {
-    question: "What is normalization in databases?",
+    question: "Which of the following is an example of a Community Cloud?",
+    answers: [
+      { text: "Amazon Web Services", correct: false },
+      { text: "Google Apps for Government", correct: true },
+      { text: "VMware vCloud", correct: false },
+      { text: "Microsoft Azure", correct: false },
+    ],
+  },
+  {
+    question: "What defines a Hybrid Cloud?",
     answers: [
       {
-        text: "The process of reducing redundancy and dependency by organizing fields and table of a database.",
+        text: "A mix of two or more distinct cloud infrastructures bound by technology",
         correct: true,
       },
-      { text: "The process of making a database faster.", correct: false },
-      { text: "The process of encrypting data in a database.", correct: false },
-      { text: "The process of backing up data in a database.", correct: false },
+      {
+        text: "A cloud entirely owned by a third party",
+        correct: false,
+      },
+      {
+        text: "A private cloud with government access",
+        correct: false,
+      },
+      {
+        text: "A public cloud restricted to a single tenant",
+        correct: false,
+      },
     ],
   },
   {
-    question: "What is a transaction in database terms?",
+    question: "Which cloud platform supports Hybrid Cloud services?",
+    answers: [
+      { text: "Google Cloud", correct: false },
+      { text: "VMware vCloud", correct: true },
+      { text: "Dropbox", correct: false },
+      { text: "iCloud", correct: false },
+    ],
+  },
+  {
+    question: "How are usage fees typically calculated in virtualization?",
+    answers: [
+      { text: "Based on number of users", correct: false },
+      { text: "Based on daily usage time", correct: false },
+      {
+        text: "Per CPU hour, storage GB/hr, bandwidth, and services used",
+        correct: true,
+      },
+      { text: "Per number of VMs created", correct: false },
+    ],
+  },
+  {
+    question: "What does IaaS stand for?",
+    answers: [
+      { text: "Internet as a Service", correct: false },
+      { text: "Infrastructure as a Service", correct: true },
+      { text: "Internal application and storage", correct: false },
+      { text: "Interface and Storage System", correct: false },
+    ],
+  },
+  {
+    question: "Who controls the Guest OS layer in IaaS?",
+    answers: [
+      { text: "Cloud provider", correct: false },
+      { text: "Network admin", correct: false },
+      { text: "Subscriber", correct: true },
+      { text: "System hardware manager", correct: false },
+    ],
+  },
+  {
+    question: "What does the Hypervisor do?",
     answers: [
       {
-        text: "A sequence of operations performed as a single logical unit of work.",
+        text: "Synthesizes Virtual Machines and manages virtual hardware",
         correct: true,
       },
-      { text: "A backup of the database.", correct: false },
-      { text: "A user query for data retrieval.", correct: false },
-      { text: "A type of data encryption.", correct: false },
+      { text: "Stores data permanently", correct: false },
+      { text: "Hosts web services", correct: false },
+      { text: "Executes guest applications", correct: false },
     ],
   },
   {
-    question: "What does ACID stand for in databases?",
+    question: "Which component runs directly on the CPU in virtualization?",
     answers: [
-      { text: "Atomicity, Consistency, Isolation, Durability", correct: true },
-      { text: "Accuracy, Consistency, Integrity, Durability", correct: false },
-      { text: "Atomicity, Control, Isolation, Dependability", correct: false },
-      { text: "Accuracy, Control, Integrity, Dependability", correct: false },
+      { text: "Cloud Manager", correct: false },
+      { text: "Hypervisor or Virtual Machine Monitor", correct: true },
+      { text: "Guest OS", correct: false },
+      { text: "DOS", correct: false },
     ],
   },
   {
-    question: "Which of the following is an SQL command used to retrieve data?",
+    question: "Which layer does the subscriber not control in IaaS?",
     answers: [
-      { text: "SELECT", correct: true },
-      { text: "UPDATE", correct: false },
-      { text: "DELETE", correct: false },
-      { text: "INSERT", correct: false },
+      { text: "Applications", correct: false },
+      { text: "Middleware", correct: false },
+      { text: "Hypervisor", correct: true },
+      { text: "Guest Operating System", correct: false },
     ],
   },
   {
-    question: "What is a view in SQL?",
+    question: "What is the top-most control layer in IaaS cloud systems?",
     answers: [
+      { text: "Cluster Manager", correct: false },
+      { text: "Computer Manager", correct: false },
+      { text: "Cloud Manager", correct: true },
+      { text: "Persistent Local Storage", correct: false },
+    ],
+  },
+  {
+    question: "What does the Cloud Manager handle?",
+    answers: [
+      { text: "Starting and stopping VMs", correct: false },
       {
-        text: "A virtual table based on the result-set of an SQL statement.",
+        text: "Authenticating subscribers and top-level resource management",
         correct: true,
       },
-      { text: "A backup of the database.", correct: false },
-      { text: "A physical table in the database.", correct: false },
-      { text: "A transaction log of the database.", correct: false },
+      { text: "Cluster operations only", correct: false },
+      { text: "Network switching", correct: false },
     ],
   },
   {
-    question: "Which SQL clause is used to filter records?",
+    question: "Which component holds the subscriber's metadata?",
     answers: [
-      { text: "WHERE", correct: true },
-      { text: "GROUP BY", correct: false },
-      { text: "ORDER BY", correct: false },
-      { text: "HAVING", correct: false },
-    ],
-  },
-  {
-    question: "What is an index in a database?",
-    answers: [
-      {
-        text: "A database object that improves the speed of data retrieval.",
-        correct: true,
-      },
-      { text: "A summary of the database.", correct: false },
-      { text: "A primary key for a table.", correct: false },
-      { text: "A backup of the database.", correct: false },
-    ],
-  },
-  {
-    question: "What is a join in SQL?",
-    answers: [
-      {
-        text: "A SQL operation that combines rows from two or more tables.",
-        correct: true,
-      },
-      { text: "A SQL command to update records.", correct: false },
-      { text: "A SQL command to delete records.", correct: false },
-      { text: "A SQL command to insert records.", correct: false },
-    ],
-  },
-  {
-    question: "What is a stored procedure in SQL?",
-    answers: [
-      {
-        text: "A precompiled collection of one or more SQL statements stored in the database.",
-        correct: true,
-      },
-      { text: "A backup of the database.", correct: false },
-      { text: "A temporary table in the database.", correct: false },
-      { text: "A type of data encryption.", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a NoSQL database?",
-    answers: [
-      { text: "MySQL", correct: false },
-      { text: "MongoDB", correct: true },
-      { text: "SQL Server", correct: false },
-      { text: "PostgreSQL", correct: false },
-    ],
-  },
-  {
-    question: "What is a trigger in a database?",
-    answers: [
-      {
-        text: "A set of actions that are automatically performed in response to a certain event.",
-        correct: true,
-      },
-      { text: "A type of primary key.", correct: false },
-      { text: "A temporary table in the database.", correct: false },
-      { text: "A backup process for the database.", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'GROUP BY' clause in SQL?",
-    answers: [
-      {
-        text: "To group rows that have the same values into summary rows.",
-        correct: true,
-      },
-      { text: "To filter records in the database.", correct: false },
-      { text: "To sort the records in the database.", correct: false },
-      { text: "To join multiple tables.", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to delete a table in SQL?",
-    answers: [
-      { text: "DROP TABLE", correct: true },
-      { text: "DELETE TABLE", correct: false },
-      { text: "REMOVE TABLE", correct: false },
-      { text: "ERASE TABLE", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'HAVING' clause in SQL?",
-    answers: [
-      {
-        text: "To filter groups based on a specified condition.",
-        correct: true,
-      },
-      { text: "To filter individual rows in the database.", correct: false },
-      { text: "To sort the records in the database.", correct: false },
-      { text: "To join multiple tables.", correct: false },
+      { text: "Cloud Manager", correct: false },
+      { text: "Virtual Machine", correct: false },
+      { text: "Data Object Storage (DOS)", correct: true },
+      { text: "Computer Manager", correct: false },
     ],
   },
   {
     question:
-      "Which SQL function is used to count the number of rows in a table?",
+      "Which component is responsible for managing multiple computer systems?",
     answers: [
-      { text: "COUNT()", correct: true },
-      { text: "SUM()", correct: false },
-      { text: "AVG()", correct: false },
-      { text: "MAX()", correct: false },
+      { text: "Hypervisor", correct: false },
+      { text: "Cluster Manager", correct: true },
+      { text: "Cloud Manager", correct: false },
+      { text: "DOS", correct: false },
+    ],
+  },
+  {
+    question: "What does Persistent Local Storage (PLS) provide?",
+    answers: [
+      { text: "Storage for OS images only", correct: false },
+      { text: "Temporary memory", correct: false },
+      { text: "Persistent disk-like storage to VMs", correct: true },
+      { text: "Storage for the cloud manager", correct: false },
+    ],
+  },
+  {
+    question: "Which component performs VM-level commands like start/stop?",
+    answers: [
+      { text: "DOS", correct: false },
+      { text: "Cluster Manager", correct: false },
+      { text: "Computer Manager", correct: true },
+      { text: "Cloud Subscriber", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is true about virtualization?",
+    answers: [
+      {
+        text: "Allows multiple OS to run on the same hardware simultaneously",
+        correct: true,
+      },
+      { text: "Only supports single-boot configurations", correct: false },
+      { text: "Requires separate hardware for each OS", correct: false },
+      { text: "Supports only Linux-based systems", correct: false },
+    ],
+  },
+  {
+    question: "How is virtualization different from dual-boot?",
+    answers: [
+      { text: "Virtualization supports only Linux OS", correct: false },
+      {
+        text: "Virtualization runs both OSes at the same time",
+        correct: true,
+      },
+      { text: "Dual boot supports concurrent OSes", correct: false },
+      { text: "They are technically the same", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a goal of virtualization per Popek and Goldberg?",
+    answers: [
+      { text: "Equivalence", correct: false },
+      { text: "Efficiency", correct: false },
+      { text: "Resource control", correct: false },
+      { text: "Data encryption", correct: true },
+    ],
+  },
+  {
+    question:
+      "What must sensitive instructions be for virtualization to succeed?",
+    answers: [
+      {
+        text: "A subset of privileged instructions",
+        correct: true,
+      },
+      {
+        text: "Executed in kernel mode only",
+        correct: false,
+      },
+      {
+        text: "Translated to machine code",
+        correct: false,
+      },
+      {
+        text: "Part of application layer",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What is a sensitive instruction?",
+    answers: [
+      {
+        text: "An instruction that modifies or reveals privileged information",
+        correct: true,
+      },
+      { text: "A regular arithmetic operation", correct: false },
+      { text: "An instruction in the guest OS", correct: false },
+      { text: "A networking instruction", correct: false },
+    ],
+  },
+  {
+    question:
+      "What happens when a sensitive instruction is executed in user mode?",
+    answers: [
+      { text: "System shuts down", correct: false },
+      { text: "It traps to the hypervisor", correct: true },
+      { text: "It runs directly", correct: false },
+      { text: "It causes memory corruption", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of the hypervisor in virtualization?",
+    answers: [
+      {
+        text: "To manage and emulate sensitive instructions",
+        correct: true,
+      },
+      { text: "To store VM images", correct: false },
+      { text: "To run application software", correct: false },
+      { text: "To encrypt VM data", correct: false },
+    ],
+  },
+  {
+    question: "What does the guest OS see when running in a VM?",
+    answers: [
+      { text: "Another OS running beside it", correct: false },
+      { text: "A simulation of hardware", correct: true },
+      { text: "Real physical hardware", correct: false },
+      { text: "Only its own application layer", correct: false },
+    ],
+  },
+  {
+    question: "Which layer in virtualization architecture is most privileged?",
+    answers: [
+      { text: "Guest OS", correct: false },
+      { text: "Middleware", correct: false },
+      { text: "Hypervisor", correct: true },
+      { text: "Application layer", correct: false },
     ],
   },
 ];
-//////////////////////////////////////////////  Mongo Db /////////////////////////////////////////////////////////////
-const MongoDB = [
+
+/////////////////////////  VIRTUALIZATION PART 2  //////////////////////////////////////////
+const Virtualization2 = [
   {
-    question: "What type of database is MongoDB?",
+    question: "What is a primary characteristic of full virtualization?",
     answers: [
-      { text: "Relational database", correct: false },
-      { text: "NoSQL database", correct: true },
-      { text: "In-memory database", correct: false },
-      { text: "Graph database", correct: false },
+      { text: "The guest OS is modified", correct: false },
+      { text: "The guest OS runs directly on the hardware", correct: false },
+      {
+        text: "The entire hardware is emulated including the CPU",
+        correct: true,
+      },
+      {
+        text: "Privileged instructions are executed at Ring 0",
+        correct: false,
+      },
     ],
   },
   {
-    question: "What is a document in MongoDB?",
+    question:
+      "Which of the following tools are popular for full virtualization?",
     answers: [
-      { text: "A table in MongoDB", correct: false },
-      { text: "A record in MongoDB", correct: true },
-      { text: "A database in MongoDB", correct: false },
-      { text: "A schema in MongoDB", correct: false },
+      { text: "VMware and Hyper-V", correct: false },
+      { text: "QEMU and Bochs", correct: true },
+      { text: "Docker and Kubernetes", correct: false },
+      { text: "KVM and Xen", correct: false },
     ],
   },
   {
-    question: "In what format are documents stored in MongoDB?",
+    question: "What is one major advantage of full virtualization?",
     answers: [
-      { text: "XML", correct: false },
-      { text: "JSON", correct: true },
+      { text: "Faster execution due to lack of emulation", correct: false },
+      { text: "Requires modified guest OS", correct: false },
+      {
+        text: "Provides complete VM portability across hardware",
+        correct: true,
+      },
+      { text: "Hardware access is unrestricted", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which ring does the guest OS operate in under full virtualization?",
+    answers: [
+      { text: "Ring 0", correct: false },
+      { text: "Ring -1", correct: false },
+      { text: "Ring 1 or 3", correct: true },
+      { text: "Ring 2", correct: false },
+    ],
+  },
+  {
+    question: "Why does full virtualization often incur a performance penalty?",
+    answers: [
+      { text: "Because it needs a modified OS", correct: false },
+      {
+        text: "Due to direct execution of privileged instructions",
+        correct: false,
+      },
+      {
+        text: "Because privileged instructions must be trapped and emulated",
+        correct: true,
+      },
+      { text: "Because guest OS runs at Ring 0", correct: false },
+    ],
+  },
+  {
+    question:
+      "What distinguishes para-virtualization from full virtualization?",
+    answers: [
+      { text: "Guest OS is not modified", correct: false },
+      { text: "Emulation is used to run the guest OS", correct: false },
+      {
+        text: "Guest OS is modified and aware of virtualization",
+        correct: true,
+      },
+      { text: "Para-virtualization uses Ring 0 only", correct: false },
+    ],
+  },
+  {
+    question: "How does a para-virtualized OS interact with the VMM?",
+    answers: [
+      { text: "Through direct hardware access", correct: false },
+      { text: "Via dynamic binary translation", correct: false },
+      { text: "Using specialized APIs", correct: true },
+      { text: "Using BIOS instructions", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a drawback of para-virtualization?",
+    answers: [
+      { text: "Inability to isolate VMs", correct: false },
+      { text: "Requires modification of the guest OS", correct: true },
+      { text: "Lack of performance improvements", correct: false },
+      { text: "Hardware incompatibility", correct: false },
+    ],
+  },
+  {
+    question: "What is a common method to implement para-virtualization?",
+    answers: [
+      { text: "Install virtual drivers only", correct: false },
+      { text: "Use BIOS-level translation", correct: false },
+      { text: "Recompile the guest OS kernel with APIs", correct: true },
+      { text: "Apply no changes to the guest OS", correct: false },
+    ],
+  },
+  {
+    question:
+      "What does hardware-assisted virtualization use to improve performance?",
+    answers: [
+      { text: "Network interface emulation", correct: false },
+      { text: "Processor extensions like Intel VT or AMD-V", correct: true },
+      { text: "Device-level para-virtualization", correct: false },
+      { text: "Direct BIOS emulation", correct: false },
+    ],
+  },
+  {
+    question:
+      "In hardware-assisted virtualization, where does the VMM operate?",
+    answers: [
+      { text: "Ring 0", correct: false },
+      { text: "Ring 1", correct: false },
+      { text: "Ring -1 (Virtual-1)", correct: true },
+      { text: "Ring 3", correct: false },
+    ],
+  },
+  {
+    question: "What is a major advantage of hardware-assisted virtualization?",
+    answers: [
+      { text: "Requires a modified guest OS", correct: false },
+      { text: "Can run unmodified operating systems", correct: true },
+      { text: "Does not require hardware support", correct: false },
+      { text: "Is slower than full virtualization", correct: false },
+    ],
+  },
+  {
+    question: "What is one drawback of hardware-assisted virtualization?",
+    answers: [
+      { text: "Cannot run legacy OS", correct: false },
+      { text: "Requires full emulation of hardware", correct: false },
+      {
+        text: "Unmodified OS cannot leverage virtualization features",
+        correct: true,
+      },
+      { text: "Needs para-virtualized API calls", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which design goal of network virtualization emphasizes isolation and privacy?",
+    answers: [
+      { text: "Flexibility", correct: false },
+      { text: "Scalability", correct: false },
+      { text: "Privacy and Isolation", correct: true },
+      { text: "Recursion", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best defines network virtualization?",
+    answers: [
+      { text: "Virtualizing only the storage components", correct: false },
+      {
+        text: "Using hardware abstraction layers for graphics",
+        correct: false,
+      },
+      {
+        text: "Allowing multiple service providers to run isolated networks on shared infrastructure",
+        correct: true,
+      },
+      { text: "Creating overlays for operating systems", correct: false },
+    ],
+  },
+  {
+    question: "What is recursion in the context of network virtualization?",
+    answers: [
+      { text: "Running repeated security checks on packets", correct: false },
+      {
+        text: "Virtual networks can host other virtual networks",
+        correct: true,
+      },
+      { text: "All devices must use IP", correct: false },
+      { text: "Repeating data packets across multiple routes", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is one reason why virtualization is important in networking?",
+    answers: [
+      { text: "It removes the need for any physical hardware", correct: false },
+      {
+        text: "Internet’s limitations require flexible, expandable testbeds",
+        correct: true,
+      },
+      { text: "It improves wireless signal strength", correct: false },
+      { text: "It guarantees security by default", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a core design goal of network virtualization?",
+    answers: [
+      { text: "Experimental and deployment facility", correct: false },
+      { text: "Manageability", correct: false },
+      { text: "Performance tuning only for storage", correct: true },
+      { text: "Programibility", correct: false },
+    ],
+  },
+  {
+    question: "Which layer is typically used in network virtualization?",
+    answers: [
+      { text: "Presentation layer", correct: false },
+      { text: "Application layer", correct: false },
+      { text: "IP or ATM layer", correct: true },
+      { text: "BIOS firmware layer", correct: false },
+    ],
+  },
+  {
+    question: "What is an example of partial para-virtualization?",
+    answers: [
+      { text: "Using full hardware emulation", correct: false },
+      {
+        text: "Installing virtualization-aware drivers for devices like network cards",
+        correct: true,
+      },
+      { text: "Running the guest OS in Ring 0", correct: false },
+      { text: "Using binary translation for OS kernel", correct: false },
+    ],
+  },
+];
+/////////////////////////////////////  XML  ///////////////////////////////////////////
+const XML = [
+  {
+    question: "What does XML stand for?",
+    answers: [
+      { text: "Extended Markup Language", correct: false },
+      { text: "Extra Multi Language", correct: false },
+      { text: "Extensible Markup Language", correct: true },
+      { text: "Exotic Markup Listing", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is true about XML?",
+    answers: [
+      { text: "XML tags are predefined", correct: false },
+      { text: "XML is case-insensitive", correct: false },
+      { text: "XML allows user-defined tags", correct: true },
+      { text: "XML is only used for web development", correct: false },
+    ],
+  },
+  {
+    question: "Which character is used to denote the beginning of an XML tag?",
+    answers: [
+      { text: "/", correct: false },
+      { text: "<", correct: true },
+      { text: ":", correct: false },
+      { text: "&", correct: false },
+    ],
+  },
+  {
+    question: "In XML, every opening tag must have:",
+    answers: [
+      { text: "A corresponding closing tag", correct: true },
+      { text: "An ID attribute", correct: false },
+      { text: "An href value", correct: false },
+      { text: "A namespace declaration", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a correct XML element?",
+    answers: [
+      { text: "<1tag>value</1tag>", correct: false },
+      { text: "<tag>value</tag>", correct: true },
+      { text: "<tag-value>", correct: false },
+      { text: "<tag value>", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT allowed in XML tag names?",
+    answers: [
+      { text: "Underscores", correct: false },
+      { text: "Colons", correct: false },
+      { text: "Numbers", correct: false },
+      { text: "Spaces", correct: true },
+    ],
+  },
+  {
+    question: "Attributes in XML must always:",
+    answers: [
+      { text: "Be enclosed in double quotes", correct: true },
+      { text: "Start with a number", correct: false },
+      { text: "Be lowercase", correct: false },
+      { text: "Have an underscore", correct: false },
+    ],
+  },
+  {
+    question: "Which is a correct example of an XML attribute?",
+    answers: [
+      { text: "<tag attribute=value>", correct: false },
+      { text: "<tag attribute='value'>", correct: true },
+      { text: "<tag(attribute)=value>", correct: false },
+      { text: "<tag attribute:value>", correct: false },
+    ],
+  },
+  {
+    question: "What does a namespace in XML prevent?",
+    answers: [
+      { text: "Excessive file size", correct: false },
+      { text: "Syntax errors", correct: false },
+      { text: "Tag name conflicts", correct: true },
+      { text: "Slow loading", correct: false },
+    ],
+  },
+  {
+    question:
+      'What does the following URI represent in an XML document?\nxmlns:h="http://www.w3.org/TR/html4/"',
+    answers: [
+      { text: "It defines where to fetch HTML4 online", correct: false },
+      { text: "It is a required XML schema", correct: false },
+      {
+        text: "It defines a unique namespace for HTML4 elements",
+        correct: true,
+      },
+      { text: "It links to an HTML style guide", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is correct about XML Parsers?",
+    answers: [
+      { text: "Validating parser check only syntax", correct: false },
+      {
+        text: "Validating parser check both syntax and DOD rules",
+        correct: true,
+      },
+      {
+        text: "Non Validating Parser check both syntax and DOD rules",
+        correct: false,
+      },
+      { text: "Non Validating Parser checks for only syntax", correct: true },
+    ],
+  },
+  {
+    question: "Which of these is NOT a valid XML character encoding?",
+    answers: [
+      { text: "UTF-8", correct: false },
+      { text: "ASCII", correct: false },
+      { text: "UTF-16", correct: false },
+      { text: "PDF", correct: true },
+    ],
+  },
+  {
+    question: "What does character encoding define in an XML file?",
+    answers: [
+      { text: "The language of the content", correct: false },
+      { text: "How characters are represented in bytes", correct: true },
+      { text: "The XML version used", correct: false },
+      { text: "The number of characters in the file", correct: false },
+    ],
+  },
+  {
+    question: "Which encoding is commonly used by web applications and XML?",
+    answers: [
+      { text: "UTF-8", correct: true },
+      { text: "Base64", correct: false },
+      { text: "UTF-2", correct: false },
+      { text: "Hexadecimal", correct: false },
+    ],
+  },
+  {
+    question: "Which character must be escaped in XML?",
+    answers: [
+      { text: "&", correct: true },
+      { text: "@", correct: false },
+      { text: "?", correct: false },
+      { text: "%", correct: false },
+    ],
+  },
+  {
+    question: "Which is the correct way to escape the '<' character in XML?",
+    answers: [
+      { text: "&lt;", correct: true },
+      { text: "&less;", correct: false },
+      { text: "&l;", correct: false },
+      { text: "&left;", correct: false },
+    ],
+  },
+  {
+    question: "Which declaration defines encoding in an XML document?",
+    answers: [
+      { text: "<?xml encoding='UTF-8'?>", correct: true },
+      { text: "<encoding>UTF-8</encoding>", correct: false },
+      { text: "<meta charset='UTF-8'>", correct: false },
+      { text: "<!DOCTYPE encoding='UTF-8'>", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following best describes a well-formed XML document?",
+    answers: [
+      { text: "It can be opened in a browser", correct: false },
+      {
+        text: "It follows basic syntax rules like properly nested tags",
+        correct: true,
+      },
+      { text: "It uses JavaScript to run", correct: false },
+      { text: "It includes CSS for styling", correct: false },
+    ],
+  },
+  {
+    question: "Which tool is commonly used to validate XML against a schema?",
+    answers: [
+      { text: "XML Validator", correct: true },
+      { text: "JavaScript", correct: false },
+      { text: "HTML Parser", correct: false },
+      { text: "CSS Checker", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following tags is self-closing in XML?",
+    answers: [
+      { text: "<tag />", correct: true },
+      { text: "<tag></tag>", correct: false },
+      { text: "<tag><tag>", correct: false },
+      { text: "<tag>", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of an XML parser?",
+    answers: [
+      { text: "To compress XML files", correct: false },
+      { text: "To convert XML into JavaScript", correct: false },
+      { text: "To read and validate XML data structure", correct: true },
+      { text: "To style XML using CSS", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a type of XML parser?",
+    answers: [
+      { text: "XHTML", correct: false },
+      { text: "DTD", correct: false },
+      { text: "SAX", correct: true },
+      { text: "HTTP", correct: false },
+    ],
+  },
+  {
+    question: "What does XML messaging typically involve?",
+    answers: [
+      { text: "Sending XML data over a network", correct: true },
+      { text: "Encoding XML files into images", correct: false },
+      { text: "Using XML as a database", correct: false },
+      { text: "Writing HTML in XML format", correct: false },
+    ],
+  },
+  {
+    question: "Which technology is often used to transform XML documents?",
+    answers: [
+      { text: "CSS", correct: false },
+      { text: "XSLT", correct: true },
+      { text: "DTD", correct: false },
+      { text: "JSON", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of DTD (Document Type Definition)?",
+    answers: [
+      { text: "To apply styles to XML data", correct: false },
+      {
+        text: "To define the structure and rules of an XML document",
+        correct: true,
+      },
+      { text: "To encrypt XML messages", correct: false },
+      { text: "To parse HTML documents", correct: false },
+    ],
+  },
+  {
+    question: "Which parse model reads an XML document sequentially?",
+    answers: [
+      { text: "DOM", correct: false },
+      { text: "SAX", correct: true },
+      { text: "DTD", correct: false },
+      { text: "JSON", correct: false },
+    ],
+  },
+  {
+    question: "What does DOM parser do?",
+    answers: [
+      { text: "Parses XML document into an object tree", correct: true },
+      { text: "Reads only the root element", correct: false },
+      { text: "Ignores element attributes", correct: false },
+      { text: "Converts XML to CSV format", correct: false },
+    ],
+  },
+  {
+    question: "Which is an advantage of using SAX over DOM?",
+    answers: [
+      { text: "SAX is faster and uses less memory", correct: true },
+      { text: "SAX allows direct access to elements by ID", correct: false },
+      { text: "SAX stores entire XML in memory", correct: false },
+      { text: "SAX supports styling XML documents", correct: false },
+    ],
+  },
+  {
+    question: "What is SOAP in XML messaging?",
+    answers: [
+      {
+        text: "A protocol used for exchanging structured XML information",
+        correct: true,
+      },
+      { text: "A parser for validating XML", correct: false },
+      { text: "An editor for XML documents", correct: false },
+      { text: "A tool for minifying XML files", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which file extension is typically used for XSLT transformations?",
+    answers: [
+      { text: ".xsl", correct: true },
+      { text: ".xmlt", correct: false },
+      { text: ".xhtml", correct: false },
+      { text: ".dtl", correct: false },
+    ],
+  },
+];
+//////////////////////////  WEB SERVICE   //////////////////////////////////////
+const Web_Service = [
+  {
+    question: "What is Electronic Data Interchange (EDI)?",
+    answers: [
+      {
+        text: "A method to visually design user interfaces on the web",
+        correct: false,
+      },
+      {
+        text: "A computer-to-computer exchange of business data in standard formats",
+        correct: true,
+      },
+      {
+        text: "An online platform for customer support",
+        correct: false,
+      },
+      {
+        text: "A digital signature tool used in e-commerce",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the following is NOT an advantage of EDI?",
+    answers: [
+      { text: "Increased human error", correct: true },
+      { text: "Faster trading cycle", correct: false },
+      { text: "Lower operating costs", correct: false },
+      { text: "Increased productivity", correct: false },
+    ],
+  },
+  {
+    question: "Web Services use which of the following for communication?",
+    answers: [
+      { text: "Binary protocols", correct: false },
+      { text: "Text-based communication protocols", correct: true },
+      { text: "FTP only", correct: false },
+      { text: "Bluetooth", correct: false },
+    ],
+  },
+  {
+    question: "Which protocol is mainly used by SOAP for transport?",
+    answers: [
+      { text: "FTP", correct: false },
+      { text: "SMTP", correct: false },
+      { text: "HTTP", correct: true },
+      { text: "POP3", correct: false },
+    ],
+  },
+  {
+    question: "Which characteristic of XML makes it suitable for web services?",
+    answers: [
+      { text: "It is binary based", correct: false },
+      { text: "It defines layout formatting", correct: false },
+      { text: "It separates content from presentation", correct: true },
+      { text: "It provides audio/video encoding", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is used to describe the capabilities of a web service?",
+    answers: [
+      { text: "SOAP", correct: false },
+      { text: "WSDL", correct: true },
+      { text: "HTML", correct: false },
+      { text: "FTP", correct: false },
+    ],
+  },
+  {
+    question: "What does UDDI stand for?",
+    answers: [
+      {
+        text: "Universal Data Description and Integration",
+        correct: false,
+      },
+      {
+        text: "Universal Description, Discovery and Integration",
+        correct: true,
+      },
+      {
+        text: "Uniform Data Deployment Interface",
+        correct: false,
+      },
+      {
+        text: "Unified Directory for Digital Integration",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which is a required element in a SOAP message?",
+    answers: [
+      { text: "Header", correct: false },
+      { text: "Body", correct: true },
+      { text: "Fault", correct: false },
+      { text: "Metadata", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of the service provider in SOA?",
+    answers: [
+      { text: "Searches for available services", correct: false },
+      { text: "Owns and hosts the service", correct: true },
+      { text: "Requests the service", correct: false },
+      { text: "Publishes client interfaces", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a SOAP characteristic?",
+    answers: [
+      { text: "Extensibility", correct: false },
+      { text: "Neutrality", correct: false },
+      { text: "Proprietary", correct: true },
+      { text: "Independence", correct: false },
+    ],
+  },
+  {
+    question: "Which format is used by SOAP messages?",
+    answers: [
+      { text: "JSON", correct: false },
+      { text: "Binary", correct: false },
+      { text: "XML", correct: true },
       { text: "CSV", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following best describes the WSDL 'binding' element?",
+    answers: [
+      { text: "Defines the endpoint URL", correct: false },
+      { text: "Specifies the communication protocol", correct: true },
+      { text: "Describes the service provider", correct: false },
+      { text: "Lists the programming languages used", correct: false },
+    ],
+  },
+  {
+    question: "What is the function of a service registry in SOA?",
+    answers: [
+      { text: "Stores and executes all services", correct: false },
+      { text: "Provides a searchable list of services", correct: true },
+      { text: "Binds the services to the network", correct: false },
+      { text: "Acts as a firewall for services", correct: false },
+    ],
+  },
+  {
+    question:
+      "What does the 'publish' operation in Web Service architecture do?",
+    answers: [
+      { text: "Executes a service", correct: false },
+      { text: "Removes a service from registry", correct: false },
+      {
+        text: "Makes the service description available to requestors",
+        correct: true,
+      },
+      { text: "Encrypts service data", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which web technology was intended to solve interoperability and firewall traversal?",
+    answers: [
+      { text: "FTP", correct: false },
+      { text: "EDI", correct: false },
+      { text: "Web Services", correct: true },
       { text: "HTML", correct: false },
     ],
   },
   {
-    question: "What is a collection in MongoDB?",
-    answers: [
-      { text: "A group of databases", correct: false },
-      { text: "A group of documents", correct: true },
-      { text: "A group of tables", correct: false },
-      { text: "A group of schemas", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to insert a document into a collection?",
-    answers: [
-      { text: "db.collection.insertOne()", correct: true },
-      { text: "db.collection.add()", correct: false },
-      { text: "db.collection.save()", correct: false },
-      { text: "db.collection.insertDocument()", correct: false },
-    ],
-  },
-  {
-    question: "What is the default port for MongoDB?",
-    answers: [
-      { text: "27017", correct: true },
-      { text: "3306", correct: false },
-      { text: "5432", correct: false },
-      { text: "8080", correct: false },
-    ],
-  },
-  {
-    question: "What does the 'find()' method do in MongoDB?",
-    answers: [
-      { text: "Deletes documents", correct: false },
-      { text: "Retrieves documents", correct: true },
-      { text: "Inserts documents", correct: false },
-      { text: "Updates documents", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about MongoDB's schema?",
-    answers: [
-      { text: "It is fixed and predefined", correct: false },
-      { text: "It is flexible and dynamic", correct: true },
-      { text: "It is required for each collection", correct: false },
-      { text: "It cannot be changed once set", correct: false },
-    ],
-  },
-  {
-    question: "How do you update a document in MongoDB?",
-    answers: [
-      { text: "db.collection.updateOne()", correct: true },
-      { text: "db.collection.save()", correct: false },
-      { text: "db.collection.modify()", correct: false },
-      { text: "db.collection.change()", correct: false },
-    ],
-  },
-  {
-    question: "What is an index in MongoDB used for?",
-    answers: [
-      { text: "To increase storage space", correct: false },
-      { text: "To speed up query performance", correct: true },
-      { text: "To backup data", correct: false },
-      { text: "To delete duplicate documents", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to delete a document in MongoDB?",
-    answers: [
-      { text: "db.collection.remove()", correct: true },
-      { text: "db.collection.delete()", correct: false },
-      { text: "db.collection.drop()", correct: false },
-      { text: "db.collection.erase()", correct: false },
-    ],
-  },
-  {
-    question: "What is a replica set in MongoDB?",
-    answers: [
-      { text: "A set of collections with identical documents", correct: false },
-      {
-        text: "A group of mongod processes that maintain the same data set",
-        correct: true,
-      },
-      { text: "A group of databases with similar schema", correct: false },
-      { text: "A set of tables that share the same schema", correct: false },
-    ],
-  },
-  {
-    question: "What is sharding in MongoDB?",
-    answers: [
-      { text: "A method for querying documents", correct: false },
-      {
-        text: "A method for distributing data across multiple machines",
-        correct: true,
-      },
-      { text: "A method for indexing documents", correct: false },
-      { text: "A method for backing up data", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a MongoDB data type?",
-    answers: [
-      { text: "Binary", correct: true },
-      { text: "Double", correct: false },
-      { text: "Blob", correct: false },
-      { text: "Integer", correct: false },
-    ],
-  },
-  {
-    question: "What does 'db' stand for in MongoDB commands?",
-    answers: [
-      { text: "Database", correct: true },
-      { text: "Document", correct: false },
-      { text: "Data block", correct: false },
-      { text: "Data bundle", correct: false },
-    ],
-  },
-  {
-    question: "What is an embedded document in MongoDB?",
-    answers: [
-      {
-        text: "A document that contains a reference to another document",
-        correct: false,
-      },
-      {
-        text: "A document that is nested within another document",
-        correct: true,
-      },
-      { text: "A document that is indexed", correct: false },
-      { text: "A document that is used for sharding", correct: false },
-    ],
-  },
-  {
-    question: "How do you create a collection in MongoDB?",
-    answers: [
-      {
-        text: "Collections are created automatically when a document is inserted",
-        correct: true,
-      },
-      { text: "Using db.createCollection()", correct: false },
-      { text: "Using db.newCollection()", correct: false },
-      { text: "Using db.addCollection()", correct: false },
-    ],
-  },
-  {
-    question: "What is the command to drop a collection in MongoDB?",
-    answers: [
-      { text: "db.collection.drop()", correct: true },
-      { text: "db.collection.remove()", correct: false },
-      { text: "db.collection.delete()", correct: false },
-      { text: "db.collection.erase()", correct: false },
-    ],
-  },
-  {
-    question: "Which command is used to create an index on a collection?",
-    answers: [
-      { text: "db.collection.createIndex()", correct: true },
-      { text: "db.collection.addIndex()", correct: false },
-      { text: "db.collection.makeIndex()", correct: false },
-      { text: "db.collection.index()", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a MongoDB aggregation operation?",
-    answers: [
-      { text: "$group", correct: true },
-      { text: "$collect", correct: false },
-      { text: "$filter", correct: false },
-      { text: "$sort", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////////  basic Electronics  /////////////////////////////////////////////////
-const Basic_Electronics = [
-  {
-    question: "What is Ohm's Law?",
-    answers: [
-      {
-        text: "The relationship between voltage, current, and resistance",
-        correct: true,
-      },
-      { text: "The principle of electromagnetic induction", correct: false },
-      { text: "The law of conservation of energy", correct: false },
-      {
-        text: "The relationship between power, voltage, and current",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does a resistor do in an electrical circuit?",
-    answers: [
-      { text: "Stores electrical energy", correct: false },
-      { text: "Provides electrical resistance", correct: true },
-      { text: "Amplifies electrical signals", correct: false },
-      { text: "Converts electrical energy into light", correct: false },
-    ],
-  },
-  {
-    question: "Which device is used to measure electric current?",
-    answers: [
-      { text: "Voltmeter", correct: false },
-      { text: "Ammeter", correct: true },
-      { text: "Ohmmeter", correct: false },
-      { text: "Wattmeter", correct: false },
-    ],
-  },
-  {
-    question: "What is a semiconductor?",
-    answers: [
-      {
-        text: "A material with very high electrical conductivity",
-        correct: false,
-      },
-      {
-        text: "A material with electrical conductivity between a conductor and an insulator",
-        correct: true,
-      },
-      { text: "A material with no electrical conductivity", correct: false },
-      {
-        text: "A material that converts electrical energy into light",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the unit of electrical resistance?",
-    answers: [
-      { text: "Volt", correct: false },
-      { text: "Ampere", correct: false },
-      { text: "Ohm", correct: true },
-      { text: "Watt", correct: false },
-    ],
-  },
-  {
-    question: "What does a capacitor do in an electrical circuit?",
-    answers: [
-      { text: "Stores electrical energy", correct: true },
-      { text: "Provides electrical resistance", correct: false },
-      { text: "Amplifies electrical signals", correct: false },
-      { text: "Converts electrical energy into light", correct: false },
-    ],
-  },
-  {
-    question: "What is the basic unit of electric charge?",
-    answers: [
-      { text: "Volt", correct: false },
-      { text: "Ampere", correct: false },
-      { text: "Coulomb", correct: true },
-      { text: "Ohm", correct: false },
-    ],
-  },
-  {
-    question: "What is a diode used for?",
-    answers: [
-      { text: "Storing electrical energy", correct: false },
-      { text: "Providing electrical resistance", correct: false },
-      { text: "Allowing current to flow in one direction only", correct: true },
-      { text: "Amplifying electrical signals", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a type of transistor?",
-    answers: [
-      { text: "BJT", correct: true },
-      { text: "IC", correct: false },
-      { text: "RLC", correct: false },
-      { text: "PWM", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a transformer?",
-    answers: [
-      { text: "To increase or decrease voltage levels", correct: true },
-      { text: "To store electrical energy", correct: false },
-      { text: "To convert electrical energy into light", correct: false },
-      { text: "To measure electrical resistance", correct: false },
-    ],
-  },
-  {
-    question: "What is the unit of capacitance?",
-    answers: [
-      { text: "Volt", correct: false },
-      { text: "Ampere", correct: false },
-      { text: "Farad", correct: true },
-      { text: "Ohm", correct: false },
-    ],
-  },
-  {
-    question: "What is an integrated circuit (IC)?",
-    answers: [
-      { text: "A type of capacitor", correct: false },
-      { text: "A type of resistor", correct: false },
-      { text: "A miniaturized electronic circuit", correct: true },
-      { text: "A type of transformer", correct: false },
-    ],
-  },
-  {
-    question: "What is Kirchhoff's Voltage Law (KVL)?",
-    answers: [
-      {
-        text: "The total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The sum of all voltages around a closed loop equals zero",
-        correct: true,
-      },
-      {
-        text: "The relationship between voltage, current, and resistance",
-        correct: false,
-      },
-      {
-        text: "The power consumed in a circuit is equal to the power supplied",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which component is used to amplify signals?",
-    answers: [
-      { text: "Resistor", correct: false },
-      { text: "Capacitor", correct: false },
-      { text: "Inductor", correct: false },
-      { text: "Transistor", correct: true },
-    ],
-  },
-  {
-    question: "What is the main function of an inductor?",
-    answers: [
-      {
-        text: "To store electrical energy in an electric field",
-        correct: false,
-      },
-      { text: "To store electrical energy in a magnetic field", correct: true },
-      { text: "To provide electrical resistance", correct: false },
-      { text: "To amplify electrical signals", correct: false },
-    ],
-  },
-  {
-    question: "What does an LED stand for?",
-    answers: [
-      { text: "Light Emitting Diode", correct: true },
-      { text: "Low Energy Device", correct: false },
-      { text: "Light Energy Display", correct: false },
-      { text: "Laser Emitting Device", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a relay?",
-    answers: [
-      { text: "To store electrical energy", correct: false },
-      { text: "To provide electrical resistance", correct: false },
-      { text: "To switch electrical circuits on and off", correct: true },
-      { text: "To amplify electrical signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a characteristic of an ideal operational amplifier?",
-    answers: [
-      { text: "Infinite gain", correct: true },
-      { text: "Zero input resistance", correct: false },
-      { text: "Infinite output resistance", correct: false },
-      { text: "Finite gain", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'biasing' refer to in electronics?",
-    answers: [
-      {
-        text: "Applying a voltage or current to set the operating point of a component",
-        correct: true,
-      },
-      { text: "Connecting components in series", correct: false },
-      { text: "Connecting components in parallel", correct: false },
-      { text: "Measuring electrical resistance", correct: false },
-    ],
-  },
-  {
-    question: "What is a rectifier used for?",
-    answers: [
-      { text: "Converting AC to DC", correct: true },
-      { text: "Amplifying electrical signals", correct: false },
-      { text: "Storing electrical energy", correct: false },
-      { text: "Providing electrical resistance", correct: false },
-    ],
-  },
-];
-////////////////////////////////////  Electromagnetic Field Theory  /////////////////////////////////////////////////
-const Electromagnetic_Theory = [
-  {
-    question: "What is Gauss's Law?",
-    answers: [
-      {
-        text: "The principle that states the electric flux through a closed surface is proportional to the charge enclosed",
-        correct: true,
-      },
-      {
-        text: "The law that relates magnetic fields and electric currents",
-        correct: false,
-      },
-      {
-        text: "The principle that states the total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The law that states the induced EMF is proportional to the rate of change of magnetic flux",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is Faraday's Law of Electromagnetic Induction?",
-    answers: [
-      {
-        text: "The principle that states the total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The law that states the induced EMF is proportional to the rate of change of magnetic flux",
-        correct: true,
-      },
-      {
-        text: "The principle that states the electric flux through a closed surface is proportional to the charge enclosed",
-        correct: false,
-      },
-      {
-        text: "The law that relates magnetic fields and electric currents",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the unit of magnetic flux?",
-    answers: [
-      { text: "Weber (Wb)", correct: true },
-      { text: "Tesla (T)", correct: false },
-      { text: "Henry (H)", correct: false },
-      { text: "Farad (F)", correct: false },
-    ],
-  },
-  {
-    question: "What does Ampere's Law state?",
-    answers: [
-      {
-        text: "The total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The line integral of the magnetic field around a closed loop is proportional to the current enclosed",
-        correct: true,
-      },
-      {
-        text: "The induced EMF is proportional to the rate of change of magnetic flux",
-        correct: false,
-      },
-      {
-        text: "The electric flux through a closed surface is proportional to the charge enclosed",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the speed of light in a vacuum?",
-    answers: [
-      { text: "3 × 10^8 m/s", correct: true },
-      { text: "3 × 10^6 m/s", correct: false },
-      { text: "3 × 10^10 m/s", correct: false },
-      { text: "3 × 10^4 m/s", correct: false },
-    ],
-  },
-  {
-    question: "What is the unit of electric field strength?",
-    answers: [
-      { text: "Volt per meter (V/m)", correct: true },
-      { text: "Newton per Coulomb (N/C)", correct: false },
-      { text: "Coulomb per meter (C/m)", correct: false },
-      { text: "Farad per meter (F/m)", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of Maxwell's equations?",
-    answers: [
-      {
-        text: "To describe the behavior of electric and magnetic fields",
-        correct: true,
-      },
-      { text: "To relate electric current to voltage", correct: false },
-      { text: "To measure the strength of magnetic fields", correct: false },
-      { text: "To convert AC to DC", correct: false },
-    ],
-  },
-  {
-    question: "What is the permittivity of free space (ε0)?",
-    answers: [
-      { text: "8.85 × 10^-12 F/m", correct: true },
-      { text: "8.85 × 10^-10 F/m", correct: false },
-      { text: "8.85 × 10^-14 F/m", correct: false },
-      { text: "8.85 × 10^-16 F/m", correct: false },
-    ],
-  },
-  {
-    question: "What is the permeability of free space (μ0)?",
-    answers: [
-      { text: "4π × 10^-7 H/m", correct: true },
-      { text: "4π × 10^-5 H/m", correct: false },
-      { text: "4π × 10^-9 H/m", correct: false },
-      { text: "4π × 10^-11 H/m", correct: false },
-    ],
-  },
-  {
-    question: "What is the principle of superposition in electromagnetics?",
-    answers: [
-      {
-        text: "The total electric field due to multiple charges is the vector sum of the individual fields",
-        correct: true,
-      },
-      {
-        text: "The induced EMF is proportional to the rate of change of magnetic flux",
-        correct: false,
-      },
-      {
-        text: "The electric flux through a closed surface is proportional to the charge enclosed",
-        correct: false,
-      },
-      {
-        text: "The line integral of the magnetic field around a closed loop is proportional to the current enclosed",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is an electric dipole?",
-    answers: [
-      {
-        text: "A pair of equal and opposite charges separated by a distance",
-        correct: true,
-      },
-      { text: "A single charge in an electric field", correct: false },
-      {
-        text: "A pair of like charges separated by a distance",
-        correct: false,
-      },
-      { text: "A loop of current in a magnetic field", correct: false },
-    ],
-  },
-  {
-    question: "What is the Poynting vector?",
-    answers: [
-      {
-        text: "A vector representing the direction and magnitude of electromagnetic energy flow",
-        correct: true,
-      },
-      {
-        text: "A vector representing the magnetic field strength",
-        correct: false,
-      },
-      {
-        text: "A vector representing the electric field strength",
-        correct: false,
-      },
-      { text: "A vector representing the charge density", correct: false },
-    ],
-  },
-  {
-    question: "What is Lenz's Law?",
-    answers: [
-      {
-        text: "The direction of the induced EMF and current will oppose the change in magnetic flux",
-        correct: true,
-      },
-      {
-        text: "The electric flux through a closed surface is proportional to the charge enclosed",
-        correct: false,
-      },
-      {
-        text: "The total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The induced EMF is proportional to the rate of change of magnetic flux",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the unit of magnetic field strength?",
-    answers: [
-      { text: "Tesla (T)", correct: true },
-      { text: "Weber (Wb)", correct: false },
-      { text: "Henry (H)", correct: false },
-      { text: "Farad (F)", correct: false },
-    ],
-  },
-  {
-    question: "What is the concept of electromagnetic wave propagation?",
-    answers: [
-      {
-        text: "The transmission of electromagnetic energy through space",
-        correct: true,
-      },
-      {
-        text: "The reflection of electromagnetic waves off surfaces",
-        correct: false,
-      },
-      {
-        text: "The absorption of electromagnetic waves by materials",
-        correct: false,
-      },
-      {
-        text: "The generation of electromagnetic waves by antennas",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is Coulomb's Law?",
-    answers: [
-      {
-        text: "The force between two point charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them",
-        correct: true,
-      },
-      {
-        text: "The electric flux through a closed surface is proportional to the charge enclosed",
-        correct: false,
-      },
-      {
-        text: "The total current entering a junction equals the total current leaving",
-        correct: false,
-      },
-      {
-        text: "The line integral of the magnetic field around a closed loop is proportional to the current enclosed",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the function of an electromagnetic spectrum?",
-    answers: [
-      {
-        text: "To classify electromagnetic waves by their frequency or wavelength",
-        correct: true,
-      },
-      { text: "To measure the strength of magnetic fields", correct: false },
-      { text: "To convert AC to DC", correct: false },
-      { text: "To relate electric current to voltage", correct: false },
-    ],
-  },
-  {
-    question: "What is the concept of wave-particle duality?",
-    answers: [
-      {
-        text: "Electromagnetic waves exhibit both wave-like and particle-like properties",
-        correct: true,
-      },
-      { text: "The speed of light is constant in a vacuum", correct: false },
-      {
-        text: "The total electric field due to multiple charges is the vector sum of the individual fields",
-        correct: false,
-      },
-      {
-        text: "The force between two point charges is directly proportional to the product of their charges",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the skin effect?",
-    answers: [
-      {
-        text: "The tendency of AC current to distribute within a conductor so that the current density is largest near the surface",
-        correct: true,
-      },
-      { text: "The force between two point charges", correct: false },
-      {
-        text: "The total electric field due to multiple charges",
-        correct: false,
-      },
-      { text: "The direction of the induced EMF and current", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of boundary conditions in electromagnetics?",
-    answers: [
-      {
-        text: "To describe the behavior of electric and magnetic fields at the interface of two different media",
-        correct: true,
-      },
-      { text: "To measure the strength of magnetic fields", correct: false },
-      { text: "To convert AC to DC", correct: false },
-      { text: "To relate electric current to voltage", correct: false },
-    ],
-  },
-];
-//////////////////////////////////////////////// Signal and System  /////////////////////////////////////////////////
-const Signal_and_System = [
-  {
-    question: "What is a continuous-time signal?",
-    answers: [
-      {
-        text: "A signal that is defined only at discrete times",
-        correct: false,
-      },
-      {
-        text: "A signal that is defined for every instant of time",
-        correct: true,
-      },
-      {
-        text: "A signal that is only defined for integer values",
-        correct: false,
-      },
-      {
-        text: "A signal that is periodic with a fixed interval",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a discrete-time signal?",
-    answers: [
-      {
-        text: "A signal that is defined for every instant of time",
-        correct: false,
-      },
-      {
-        text: "A signal that is defined only at discrete times",
-        correct: true,
-      },
-      { text: "A signal that is continuous in nature", correct: false },
-      { text: "A signal that is random in nature", correct: false },
-    ],
-  },
-  {
-    question: "What is the unit impulse function?",
-    answers: [
-      {
-        text: "A function that is zero everywhere except at one point where it is infinite",
-        correct: true,
-      },
-      { text: "A function that is zero everywhere", correct: false },
-      { text: "A function that is one everywhere", correct: false },
-      { text: "A function that decreases exponentially", correct: false },
-    ],
-  },
-  {
-    question: "What is the Fourier Transform used for?",
-    answers: [
-      {
-        text: "Converting a time-domain signal into its frequency-domain representation",
-        correct: true,
-      },
-      { text: "Sampling a continuous-time signal", correct: false },
-      {
-        text: "Converting a discrete-time signal into a continuous-time signal",
-        correct: false,
-      },
-      { text: "Filtering noise from a signal", correct: false },
-    ],
-  },
-  {
-    question: "What is the Laplace Transform used for?",
-    answers: [
-      { text: "Analyzing linear time-invariant systems", correct: true },
-      { text: "Analyzing non-linear systems", correct: false },
-      { text: "Sampling continuous-time signals", correct: false },
-      { text: "Finding the Z-transform of a signal", correct: false },
-    ],
-  },
-  {
-    question: "What is the Z-transform used for?",
-    answers: [
-      { text: "Analyzing discrete-time signals and systems", correct: true },
-      { text: "Analyzing continuous-time signals", correct: false },
-      { text: "Finding the Laplace transform of a signal", correct: false },
-      { text: "Sampling continuous-time signals", correct: false },
-    ],
-  },
-  {
-    question: "What is an LTI system?",
-    answers: [
-      { text: "A system that is linear and time-invariant", correct: true },
-      { text: "A system that is non-linear and time-variant", correct: false },
-      { text: "A system that is linear and time-variant", correct: false },
-      {
-        text: "A system that is non-linear and time-invariant",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is convolution?",
-    answers: [
-      {
-        text: "A mathematical operation used to determine the output of an LTI system",
-        correct: true,
-      },
-      {
-        text: "A process of sampling a continuous-time signal",
-        correct: false,
-      },
-      {
-        text: "A method to transform a signal into its frequency components",
-        correct: false,
-      },
-      { text: "A technique to remove noise from a signal", correct: false },
-    ],
-  },
-  {
-    question: "What is a causal system?",
-    answers: [
-      {
-        text: "A system where the output depends only on past and present inputs",
-        correct: true,
-      },
-      {
-        text: "A system where the output depends on future inputs",
-        correct: false,
-      },
-      {
-        text: "A system where the output is independent of the input",
-        correct: false,
-      },
-      { text: "A system that is non-linear in nature", correct: false },
-    ],
-  },
-  {
-    question: "What is an energy signal?",
-    answers: [
-      { text: "A signal with finite energy", correct: true },
-      { text: "A signal with finite power", correct: false },
-      { text: "A signal that is always periodic", correct: false },
-      { text: "A signal that has infinite energy", correct: false },
-    ],
-  },
-  {
-    question: "What is a power signal?",
-    answers: [
-      { text: "A signal with finite power", correct: true },
-      { text: "A signal with finite energy", correct: false },
-      { text: "A signal that is always periodic", correct: false },
-      { text: "A signal that has infinite power", correct: false },
-    ],
-  },
-  {
-    question: "What is sampling?",
-    answers: [
-      {
-        text: "The process of converting a continuous-time signal into a discrete-time signal",
-        correct: true,
-      },
-      {
-        text: "The process of converting a discrete-time signal into a continuous-time signal",
-        correct: false,
-      },
-      { text: "The process of filtering noise from a signal", correct: false },
-      { text: "The process of modulating a signal", correct: false },
-    ],
-  },
-  {
-    question: "What is aliasing?",
-    answers: [
-      {
-        text: "The distortion that occurs when a signal is undersampled",
-        correct: true,
-      },
-      {
-        text: "The process of converting a signal from time-domain to frequency-domain",
-        correct: false,
-      },
-      {
-        text: "The technique used to remove noise from a signal",
-        correct: false,
-      },
-      { text: "The process of amplifying a signal", correct: false },
-    ],
-  },
-  {
-    question: "What is the Nyquist rate?",
-    answers: [
-      {
-        text: "The minimum sampling rate required to avoid aliasing",
-        correct: true,
-      },
-      { text: "The maximum frequency of a signal", correct: false },
-      { text: "The rate at which a signal is modulated", correct: false },
-      { text: "The rate at which a signal is amplified", correct: false },
-    ],
-  },
-  {
-    question: "What is a band-pass filter?",
-    answers: [
-      {
-        text: "A filter that allows frequencies within a certain range to pass",
-        correct: true,
-      },
-      { text: "A filter that blocks all frequencies", correct: false },
-      { text: "A filter that allows all frequencies to pass", correct: false },
-      {
-        text: "A filter that allows only a single frequency to pass",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the impulse response of a system?",
-    answers: [
-      {
-        text: "The output of a system when the input is an impulse signal",
-        correct: true,
-      },
-      {
-        text: "The input required to produce a constant output",
-        correct: false,
-      },
-      {
-        text: "The output of a system when the input is a sinusoidal signal",
-        correct: false,
-      },
-      { text: "The response of a system to a step input", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a Fourier series?",
-    answers: [
-      {
-        text: "To represent a periodic signal as a sum of sinusoids",
-        correct: true,
-      },
-      {
-        text: "To convert a signal into its Laplace transform",
-        correct: false,
-      },
-      { text: "To filter noise from a signal", correct: false },
-      { text: "To sample a continuous-time signal", correct: false },
-    ],
-  },
-  {
-    question: "What is the bandwidth of a signal?",
-    answers: [
-      {
-        text: "The range of frequencies over which the signal is defined",
-        correct: true,
-      },
-      { text: "The maximum amplitude of the signal", correct: false },
-      { text: "The duration of the signal", correct: false },
-      { text: "The power of the signal", correct: false },
-    ],
-  },
-  {
-    question: "What is an even signal?",
-    answers: [
-      {
-        text: "A signal that is symmetric about the vertical axis",
-        correct: true,
-      },
-      {
-        text: "A signal that is symmetric about the horizontal axis",
-        correct: false,
-      },
-      { text: "A signal that is periodic", correct: false },
-      { text: "A signal that is non-periodic", correct: false },
-    ],
-  },
-  {
-    question: "What is an odd signal?",
-    answers: [
-      {
-        text: "A signal that is antisymmetric about the vertical axis",
-        correct: true,
-      },
-      {
-        text: "A signal that is symmetric about the vertical axis",
-        correct: false,
-      },
-      { text: "A signal that is periodic", correct: false },
-      { text: "A signal that is non-periodic", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  Digital Electronics  ///////////////////////////////////////////////////
-const Digital_Electronics = [
-  {
-    question: "What is a logic gate?",
-    answers: [
-      {
-        text: "A device that performs logical operations on one or more binary inputs",
-        correct: true,
-      },
-      { text: "A type of memory storage device", correct: false },
-      { text: "A component used to amplify signals", correct: false },
-      { text: "A device used for analog signal processing", correct: false },
-    ],
-  },
-  {
-    question: "What is the binary equivalent of the decimal number 10?",
-    answers: [
-      { text: "1000", correct: false },
-      { text: "1010", correct: true },
-      { text: "1100", correct: false },
-      { text: "1110", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a universal gate?",
-    answers: [
-      { text: "AND gate", correct: false },
-      { text: "OR gate", correct: false },
-      { text: "NAND gate", correct: true },
-      { text: "XOR gate", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a flip-flop?",
-    answers: [
-      { text: "To amplify digital signals", correct: false },
-      { text: "To store binary data", correct: true },
-      { text: "To perform arithmetic operations", correct: false },
-      { text: "To convert analog signals to digital", correct: false },
-    ],
-  },
-  {
-    question: "What is the hexadecimal equivalent of the binary number 1101?",
-    answers: [
-      { text: "D", correct: true },
-      { text: "E", correct: false },
-      { text: "F", correct: false },
-      { text: "C", correct: false },
-    ],
-  },
-  {
-    question: "What is a multiplexer used for?",
-    answers: [
-      { text: "To store data", correct: false },
-      { text: "To perform logical operations", correct: false },
-      { text: "To select one input from multiple inputs", correct: true },
-      { text: "To convert analog signals to digital", correct: false },
-    ],
-  },
-  {
-    question: "What is the basic building block of a digital circuit?",
-    answers: [
-      { text: "Transistor", correct: true },
-      { text: "Capacitor", correct: false },
-      { text: "Inductor", correct: false },
-      { text: "Resistor", correct: false },
-    ],
-  },
-  {
-    question: "What is the Boolean expression for an AND gate?",
-    answers: [
-      { text: "A + B", correct: false },
-      { text: "A • B", correct: true },
-      { text: "A ⊕ B", correct: false },
-      { text: "A' + B'", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following represents a binary addition of 1 and 1?",
-    answers: [
-      { text: "10", correct: true },
-      { text: "11", correct: false },
-      { text: "01", correct: false },
-      { text: "00", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of a decoder?",
-    answers: [
-      { text: "To encode data", correct: false },
-      { text: "To amplify signals", correct: false },
-      { text: "To convert binary data into a specific output", correct: true },
-      { text: "To store data", correct: false },
-    ],
-  },
-  {
-    question: "What is a half-adder used for?",
-    answers: [
-      { text: "To perform binary subtraction", correct: false },
-      { text: "To store data", correct: false },
-      { text: "To perform binary addition of two bits", correct: true },
-      { text: "To amplify digital signals", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a non-volatile memory?",
-    answers: [
-      { text: "RAM", correct: false },
-      { text: "ROM", correct: true },
-      { text: "SRAM", correct: false },
-      { text: "DRAM", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'propagation delay' refer to?",
-    answers: [
-      {
-        text: "The time taken for a signal to travel from input to output",
-        correct: true,
-      },
-      {
-        text: "The time taken for a signal to reach its maximum amplitude",
-        correct: false,
-      },
-      {
-        text: "The time taken for a signal to be stored in memory",
-        correct: false,
-      },
-      { text: "The time taken for a signal to be amplified", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of an ALU in a computer?",
-    answers: [
-      { text: "To perform arithmetic and logical operations", correct: true },
-      { text: "To store data", correct: false },
-      { text: "To control the flow of data", correct: false },
-      { text: "To convert analog signals to digital", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary difference between synchronous and asynchronous circuits?",
-    answers: [
-      { text: "Synchronous circuits are faster", correct: false },
-      { text: "Asynchronous circuits use a clock signal", correct: false },
-      { text: "Synchronous circuits use a clock signal", correct: true },
-      { text: "Asynchronous circuits are more reliable", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the hexadecimal representation of the binary number 1111?",
-    answers: [
-      { text: "E", correct: false },
-      { text: "F", correct: true },
-      { text: "D", correct: false },
-      { text: "C", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'bit' stand for?",
-    answers: [
-      { text: "Binary Information Token", correct: false },
-      { text: "Binary Digit", correct: true },
-      { text: "Binary Integer", correct: false },
-      { text: "Binary Unit", correct: false },
-    ],
-  },
-  {
-    question: "What is the main function of a shift register?",
-    answers: [
-      { text: "To perform binary addition", correct: false },
-      { text: "To store binary data", correct: false },
-      { text: "To shift data bits left or right", correct: true },
-      { text: "To convert analog signals to digital", correct: false },
-    ],
-  },
-  {
-    question: "What is the decimal equivalent of the binary number 1011?",
-    answers: [
-      { text: "11", correct: true },
-      { text: "10", correct: false },
-      { text: "12", correct: false },
-      { text: "9", correct: false },
-    ],
-  },
-  {
-    question: "Which logic gate outputs true only if both inputs are false?",
-    answers: [
-      { text: "AND gate", correct: false },
-      { text: "OR gate", correct: false },
-      { text: "NAND gate", correct: false },
-      { text: "NOR gate", correct: true },
-    ],
-  },
-];
-/////////////////////////////////////////////  Microprocesor and Microcontroller  ///////////////////////////////////
-const Microprocessor_and_Microcontroller = [
-  {
-    question: "What is a microprocessor?",
-    answers: [
-      { text: "A device used to amplify signals", correct: false },
-      {
-        text: "A central processing unit on a single integrated circuit",
-        correct: true,
-      },
-      { text: "A memory storage device", correct: false },
-      { text: "A component used for signal modulation", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of a microcontroller?",
-    answers: [
-      { text: "To perform complex mathematical operations", correct: false },
-      {
-        text: "To control embedded systems and perform specific tasks",
-        correct: true,
-      },
-      { text: "To store large amounts of data", correct: false },
-      { text: "To provide network connectivity", correct: false },
-    ],
-  },
-  {
-    question: "Which component is typically not part of a microcontroller?",
-    answers: [
-      { text: "CPU", correct: false },
-      { text: "RAM", correct: false },
-      { text: "I/O ports", correct: false },
-      { text: "Hard disk", correct: true },
-    ],
-  },
-  {
-    question: "What is the typical architecture used in microprocessors?",
-    answers: [
-      { text: "Von Neumann architecture", correct: true },
-      { text: "Harvard architecture", correct: false },
-      { text: "Princeton architecture", correct: false },
-      { text: "Stanford architecture", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which register in a microprocessor holds the address of the next instruction to be executed?",
-    answers: [
-      { text: "Accumulator", correct: false },
-      { text: "Program Counter", correct: true },
-      { text: "Stack Pointer", correct: false },
-      { text: "Instruction Register", correct: false },
-    ],
-  },
-  {
-    question: "What is an interrupt in microprocessors?",
-    answers: [
-      {
-        text: "A signal that temporarily halts the CPU's current activities",
-        correct: true,
-      },
-      { text: "A command to start a subroutine", correct: false },
-      { text: "A method of data transfer", correct: false },
-      { text: "A type of memory storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the role of an ALU (Arithmetic Logic Unit) in a microprocessor?",
-    answers: [
-      { text: "To perform arithmetic and logical operations", correct: true },
-      { text: "To store data", correct: false },
-      { text: "To decode instructions", correct: false },
-      { text: "To manage power supply", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a characteristic of RISC (Reduced Instruction Set Computer) architecture?",
-    answers: [
-      { text: "Complex instruction set", correct: false },
-      {
-        text: "Simple instructions that can be executed in a single clock cycle",
-        correct: true,
-      },
-      { text: "Use of microprogramming", correct: false },
-      { text: "Emphasis on software complexity", correct: false },
-    ],
-  },
-  {
-    question: "Which microcontroller family is widely used in Arduino boards?",
-    answers: [
-      { text: "8051", correct: false },
-      { text: "PIC", correct: false },
-      { text: "AVR", correct: true },
-      { text: "ARM Cortex", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main difference between a microprocessor and a microcontroller?",
-    answers: [
-      {
-        text: "A microprocessor has built-in memory and I/O ports",
-        correct: false,
-      },
-      {
-        text: "A microcontroller has built-in memory and I/O ports",
-        correct: true,
-      },
-      { text: "A microprocessor is used for specific tasks", correct: false },
-      {
-        text: "A microcontroller is used for general-purpose computing",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is an embedded system?",
-    answers: [
-      { text: "A system designed for general-purpose use", correct: false },
-      {
-        text: "A computer system with a dedicated function within a larger system",
-        correct: true,
-      },
-      { text: "A high-performance computing system", correct: false },
-      { text: "A system designed for network communication", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is an 8-bit microcontroller?",
-    answers: [
-      { text: "Intel 8086", correct: false },
-      { text: "8051", correct: true },
-      { text: "PIC18F", correct: false },
-      { text: "ARM Cortex-M4", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a watchdog timer in a microcontroller?",
-    answers: [
-      { text: "To measure elapsed time", correct: false },
-      { text: "To reset the system if it becomes unresponsive", correct: true },
-      { text: "To control power supply", correct: false },
-      { text: "To manage I/O operations", correct: false },
-    ],
-  },
-  {
-    question: "What is meant by 'flash memory' in microcontrollers?",
-    answers: [
-      { text: "A type of volatile memory", correct: false },
-      {
-        text: "A type of non-volatile memory used for storing firmware",
-        correct: true,
-      },
-      { text: "A type of cache memory", correct: false },
-      {
-        text: "A type of memory used for temporary data storage",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which instruction set architecture is widely used in ARM microprocessors?",
-    answers: [
-      { text: "CISC", correct: false },
-      { text: "RISC", correct: true },
-      { text: "VLIW", correct: false },
-      { text: "EPIC", correct: false },
-    ],
-  },
-  {
-    question: "What does DMA stand for in microcontrollers?",
-    answers: [
-      { text: "Direct Memory Access", correct: true },
-      { text: "Data Memory Access", correct: false },
-      { text: "Direct Module Access", correct: false },
-      { text: "Data Module Access", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary use of GPIO pins in microcontrollers?",
-    answers: [
-      { text: "To manage power supply", correct: false },
-      { text: "To perform arithmetic operations", correct: false },
-      { text: "To interface with external peripherals", correct: true },
-      { text: "To store data", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which company developed the first microprocessor, the Intel 4004?",
-    answers: [
-      { text: "AMD", correct: false },
-      { text: "Intel", correct: true },
-      { text: "Motorola", correct: false },
-      { text: "Texas Instruments", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a clock signal in a microprocessor?",
-    answers: [
-      { text: "To store data", correct: false },
-      { text: "To control the timing of operations", correct: true },
-      { text: "To amplify signals", correct: false },
-      { text: "To perform arithmetic operations", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a common use for microcontrollers?",
-    answers: [
-      { text: "Running desktop applications", correct: false },
-      { text: "Controlling home appliances", correct: true },
-      { text: "Performing complex data analysis", correct: false },
-      { text: "Managing cloud servers", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////////////  Arduino  ///////////////////////////////////////////////////////
-const Arduino = [
-  {
-    question: "What is Arduino?",
-    answers: [
-      { text: "A microprocessor developed by Intel", correct: false },
-      {
-        text: "An open-source electronics platform based on easy-to-use hardware and software",
-        correct: true,
-      },
-      { text: "A type of microcontroller developed by Atmel", correct: false },
-      { text: "A cloud computing service provided by Amazon", correct: false },
-    ],
-  },
-  {
-    question: "Which programming language is commonly used with Arduino?",
-    answers: [
-      { text: "C++", correct: true },
-      { text: "Python", correct: false },
-      { text: "Java", correct: false },
-      { text: "JavaScript", correct: false },
-    ],
-  },
-  {
-    question: "What is the typical power supply voltage for Arduino boards?",
-    answers: [
-      { text: "5V", correct: true },
-      { text: "3.3V", correct: false },
-      { text: "12V", correct: false },
-      { text: "9V", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a component of an Arduino board?",
-    answers: [
-      { text: "Microprocessor", correct: false },
-      { text: "Voltage regulator", correct: false },
-      { text: "Bluetooth module", correct: true },
-      { text: "USB interface", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of using Arduino for prototyping?",
-    answers: [
-      { text: "High cost", correct: false },
-      { text: "Complex programming", correct: false },
-      { text: "Wide range of sensors and modules", correct: true },
-      { text: "Limited community support", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which IDE (Integrated Development Environment) is commonly used for Arduino programming?",
-    answers: [
-      { text: "Eclipse", correct: false },
-      { text: "Visual Studio", correct: false },
-      { text: "Arduino IDE", correct: true },
-      { text: "PyCharm", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the function of the 'setup()' function in Arduino sketches?",
-    answers: [
-      { text: "To define global variables", correct: false },
-      { text: "To initialize hardware settings", correct: true },
-      { text: "To handle user input", correct: false },
-      { text: "To execute main program logic", correct: false },
-    ],
-  },
-  {
-    question: "Which board is often recommended for beginners in Arduino?",
-    answers: [
-      { text: "Arduino Mega", correct: false },
-      { text: "Arduino Uno", correct: true },
-      { text: "Arduino Due", correct: false },
-      { text: "Arduino Leonardo", correct: false },
-    ],
-  },
-  {
-    question: "What is a shield in Arduino?",
-    answers: [
-      { text: "A type of sensor", correct: false },
-      { text: "A module for wireless communication", correct: false },
-      {
-        text: "An add-on board that extends Arduino's capabilities",
-        correct: true,
-      },
-      { text: "A programming language used with Arduino", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the function of the 'loop()' function in Arduino sketches?",
-    answers: [
-      { text: "To control servo motors", correct: false },
-      { text: "To execute a specific task once", correct: false },
-      { text: "To continuously run the main program logic", correct: true },
-      { text: "To initialize hardware settings", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which communication protocol is commonly used with Arduino for serial communication?",
-    answers: [
-      { text: "USB", correct: false },
-      { text: "SPI", correct: false },
-      { text: "UART", correct: true },
-      { text: "I2C", correct: false },
-    ],
-  },
-  {
-    question: "What does PWM stand for in Arduino?",
-    answers: [
-      { text: "Pulse Width Modulation", correct: true },
-      { text: "Power Width Modulation", correct: false },
-      { text: "Parallel Width Modulation", correct: false },
-      { text: "Programmable Width Modulation", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a type of Arduino board?",
-    answers: [
-      { text: "Arduino Mega", correct: false },
-      { text: "Arduino Nano", correct: false },
-      { text: "Arduino Spartan", correct: true },
-      { text: "Arduino Due", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of the 'analogRead()' function in Arduino?",
-    answers: [
-      { text: "To read digital signals", correct: false },
-      { text: "To read analog signals from sensors", correct: true },
-      { text: "To write analog signals to output pins", correct: false },
-      { text: "To perform mathematical calculations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component converts digital signals to analog signals in Arduino?",
-    answers: [
-      { text: "DAC (Digital-to-Analog Converter)", correct: true },
-      { text: "ADC (Analog-to-Digital Converter)", correct: false },
-      { text: "Op-amp (Operational Amplifier)", correct: false },
-      { text: "PWM (Pulse Width Modulation)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the maximum number of digital pins on an Arduino Uno board?",
-    answers: [
-      { text: "14", correct: true },
-      { text: "16", correct: false },
-      { text: "20", correct: false },
-      { text: "12", correct: false },
-    ],
-  },
-  {
-    question: "Which company originally developed the Arduino platform?",
-    answers: [
-      { text: "Intel", correct: false },
-      { text: "Raspberry Pi Foundation", correct: false },
-      { text: "Arduino LLC", correct: true },
-      { text: "Atmel Corporation", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the 'delay()' function in Arduino sketches?",
-    answers: [
-      { text: "To synchronize data transmission", correct: false },
-      { text: "To generate interrupts", correct: false },
-      {
-        text: "To pause the program execution for a specified time",
-        correct: true,
-      },
-      { text: "To read sensor values", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the maximum current that can be drawn from a single I/O pin on an Arduino Uno board?",
-    answers: [
-      { text: "20 mA", correct: true },
-      { text: "50 mA", correct: false },
-      { text: "100 mA", correct: false },
-      { text: "10 mA", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a benefit of using Arduino for IoT (Internet of Things) projects?",
-    answers: [
-      { text: "Limited connectivity options", correct: false },
-      { text: "Complex programming requirements", correct: false },
-      {
-        text: "Wide range of sensor integration and community support",
-        correct: true,
-      },
-      { text: "High cost of development boards", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the 'analogWrite()' function in Arduino?",
-    answers: [
-      {
-        text: "To write analog signals to output pins using PWM",
-        correct: true,
-      },
-      { text: "To read analog signals from sensors", correct: false },
-      { text: "To perform analog-to-digital conversion", correct: false },
-      { text: "To generate square wave signals", correct: false },
-    ],
-  },
-];
-/////////////////////////////////////////////   Sensors    //////////////////////////////////////////////////////////
-const Sensors = [
-  {
-    question: "What is a sensor?",
-    answers: [
-      { text: "A type of actuator", correct: false },
-      {
-        text: "A device that detects or measures physical properties and converts them into signals",
-        correct: true,
-      },
-      { text: "A component of a microcontroller", correct: false },
-      { text: "An algorithm used in image processing", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not a type of sensor?",
-    answers: [
-      { text: "Temperature sensor", correct: false },
-      { text: "Actuator", correct: true },
-      { text: "Proximity sensor", correct: false },
-      { text: "Pressure sensor", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a photoresistor?",
-    answers: [
-      { text: "Detects motion", correct: false },
-      { text: "Measures temperature", correct: false },
-      { text: "Changes resistance based on light intensity", correct: true },
-      { text: "Generates sound waves", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is used to measure distance between objects?",
-    answers: [
-      { text: "Humidity sensor", correct: false },
-      { text: "Infrared sensor", correct: false },
-      { text: "Ultrasonic sensor", correct: true },
-      { text: "Accelerometer", correct: false },
-    ],
-  },
-  {
-    question: "What does an accelerometer measure?",
-    answers: [
-      { text: "Temperature", correct: false },
-      { text: "Acceleration", correct: true },
-      { text: "Light intensity", correct: false },
-      { text: "Pressure", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is commonly used in touch-sensitive screens?",
-    answers: [
-      { text: "Proximity sensor", correct: false },
-      { text: "Capacitive sensor", correct: true },
-      { text: "Magnetic sensor", correct: false },
-      { text: "Gas sensor", correct: false },
-    ],
-  },
-  {
-    question: "What does a strain gauge measure?",
-    answers: [
-      { text: "Electric current", correct: false },
-      { text: "Force or pressure", correct: true },
-      { text: "Light intensity", correct: false },
-      { text: "Sound waves", correct: false },
-    ],
-  },
-  {
-    question: "Which type of sensor is used in heart rate monitors?",
-    answers: [
-      { text: "Pressure sensor", correct: false },
-      { text: "Capacitive sensor", correct: false },
-      { text: "Biometric sensor", correct: true },
-      { text: "Ultrasonic sensor", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of a Hall effect sensor?",
-    answers: [
-      { text: "Measure temperature", correct: false },
-      { text: "Detect magnetic fields", correct: true },
-      { text: "Sense humidity levels", correct: false },
-      { text: "Monitor light intensity", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is used to measure air quality?",
-    answers: [
-      { text: "Temperature sensor", correct: false },
-      { text: "Humidity sensor", correct: false },
-      { text: "Gas sensor", correct: true },
-      { text: "Accelerometer", correct: false },
-    ],
-  },
-  {
-    question: "What does a piezoelectric sensor detect?",
-    answers: [
-      { text: "Changes in temperature", correct: false },
-      { text: "Mechanical stress or vibration", correct: true },
-      { text: "Light intensity", correct: false },
-      { text: "Gas concentration", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sensor is used to detect the presence or absence of an object?",
-    answers: [
-      { text: "Proximity sensor", correct: true },
-      { text: "Force sensor", correct: false },
-      { text: "Gas sensor", correct: false },
-      { text: "Biometric sensor", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a gyroscope sensor?",
-    answers: [
-      { text: "Detects changes in temperature", correct: false },
-      { text: "Measures rotational motion", correct: true },
-      { text: "Measures air pressure", correct: false },
-      { text: "Detects light intensity", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is used in tilt sensors?",
-    answers: [
-      { text: "Accelerometer", correct: true },
-      { text: "Humidity sensor", correct: false },
-      { text: "Temperature sensor", correct: false },
-      { text: "Proximity sensor", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary application of a humidity sensor?",
-    answers: [
-      { text: "Measures electromagnetic fields", correct: false },
-      { text: "Measures gas concentration", correct: false },
-      { text: "Measures moisture content in the air", correct: true },
-      { text: "Measures light intensity", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is used to detect electromagnetic radiation?",
-    answers: [
-      { text: "Radiation sensor", correct: false },
-      { text: "Photodetector", correct: true },
-      { text: "Pressure sensor", correct: false },
-      { text: "Humidity sensor", correct: false },
-    ],
-  },
-  {
-    question: "What does an oxygen sensor measure?",
-    answers: [
-      { text: "Temperature", correct: false },
-      { text: "Oxygen concentration in gas or liquid", correct: true },
-      { text: "Pressure", correct: false },
-      { text: "Humidity", correct: false },
-    ],
-  },
-  {
-    question: "Which sensor is used in fingerprint scanners?",
-    answers: [
-      { text: "Proximity sensor", correct: false },
-      { text: "Capacitive sensor", correct: false },
-      { text: "Biometric sensor", correct: true },
-      { text: "Ultrasonic sensor", correct: false },
-    ],
-  },
-  {
-    question: "What does an IR sensor detect?",
-    answers: [
-      { text: "Sound waves", correct: false },
-      { text: "Infrared radiation", correct: true },
-      { text: "Magnetic fields", correct: false },
-      { text: "Electric current", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which sensor is used in smart lighting systems to adjust brightness based on ambient light?",
-    answers: [
-      { text: "Temperature sensor", correct: false },
-      { text: "Light sensor (photocell)", correct: true },
-      { text: "Gas sensor", correct: false },
-      { text: "Force sensor", correct: false },
-    ],
-  },
-];
-/////////////////////////////////////////////  Power Electronics  ///////////////////////////////////////////////////
-const Power_Electronics = [
-  {
-    question: "What is Power Electronics?",
-    answers: [
-      {
-        text: "A branch of electronics dealing with low power circuits",
-        correct: false,
-      },
-      {
-        text: "A field that deals with the conversion and control of electric power",
-        correct: true,
-      },
-      { text: "An area of study focused on digital circuits", correct: false },
-      { text: "The study of electromagnetic fields", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which device is commonly used as a switch in power electronic circuits?",
-    answers: [
-      { text: "Resistor", correct: false },
-      { text: "Diode", correct: false },
-      { text: "Transistor", correct: true },
-      { text: "Capacitor", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a rectifier in power electronics?",
-    answers: [
-      { text: "To generate AC voltage", correct: false },
-      { text: "To convert AC voltage to DC voltage", correct: true },
-      { text: "To filter high-frequency noise", correct: false },
-      { text: "To store electrical energy", correct: false },
-    ],
-  },
-  {
-    question: "Which topology is commonly used for DC-DC converters?",
-    answers: [
-      { text: "Full bridge", correct: false },
-      { text: "Boost converter", correct: false },
-      { text: "Buck converter", correct: true },
-      { text: "Flyback converter", correct: false },
-    ],
-  },
-  {
-    question: "What does an inverter do in power electronic systems?",
-    answers: [
-      { text: "Converts DC to AC", correct: true },
-      { text: "Regulates voltage", correct: false },
-      { text: "Filters harmonic distortion", correct: false },
-      { text: "Stores energy in batteries", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a thyristor in power electronics?",
-    answers: [
-      { text: "To control voltage levels", correct: false },
-      { text: "To regulate current flow", correct: false },
-      { text: "To switch high power loads", correct: true },
-      { text: "To measure energy consumption", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which device is used for overcurrent protection in power circuits?",
-    answers: [
-      { text: "Inductor", correct: false },
-      { text: "Fuse", correct: true },
-      { text: "Zener diode", correct: false },
-      { text: "Optocoupler", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of a chopper circuit?",
-    answers: [
-      { text: "To amplify signals", correct: false },
-      { text: "To modulate radio frequencies", correct: false },
-      { text: "To regulate voltage", correct: true },
-      { text: "To convert digital signals to analog", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of converter is suitable for high-voltage applications?",
-    answers: [
-      { text: "Boost converter", correct: false },
-      { text: "Flyback converter", correct: false },
-      { text: "Full-bridge converter", correct: true },
-      { text: "Buck-boost converter", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using IGBTs (Insulated Gate Bipolar Transistors) in power electronics?",
-    answers: [
-      { text: "Low cost", correct: false },
-      { text: "High speed switching", correct: false },
-      { text: "High current handling capability", correct: true },
-      { text: "Low power dissipation", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which semiconductor device is commonly used for voltage regulation in power supplies?",
-    answers: [
-      { text: "MOSFET", correct: false },
-      { text: "IGBT", correct: false },
-      { text: "Zener diode", correct: true },
-      { text: "SCR (Silicon Controlled Rectifier)", correct: false },
-    ],
-  },
-  {
-    question: "What does a snubber circuit do in power electronics?",
-    answers: [
-      { text: "Reduces electromagnetic interference", correct: false },
-      { text: "Provides overvoltage protection", correct: false },
-      { text: "Suppresses voltage spikes", correct: true },
-      { text: "Filters out high-frequency noise", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of power converter is used for isolating input and output circuits?",
-    answers: [
-      { text: "Boost converter", correct: false },
-      { text: "Flyback converter", correct: true },
-      { text: "Buck converter", correct: false },
-      { text: "Full-bridge converter", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a heat sink in power electronic devices?",
-    answers: [
-      { text: "To reduce electrical noise", correct: false },
-      { text: "To improve heat dissipation", correct: true },
-      { text: "To increase voltage regulation", correct: false },
-      { text: "To store electrical energy", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which parameter is critical for selecting a capacitor in power electronics?",
-    answers: [
-      { text: "Voltage rating", correct: true },
-      { text: "Resistance value", correct: false },
-      { text: "Inductance", correct: false },
-      { text: "Power dissipation", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the function of a freewheeling diode in power electronic circuits?",
-    answers: [
-      { text: "To regulate voltage", correct: false },
-      { text: "To protect against reverse voltage", correct: true },
-      { text: "To amplify signals", correct: false },
-      { text: "To filter high-frequency noise", correct: false },
-    ],
-  },
-  {
-    question: "Which power electronic device has the lowest conduction losses?",
-    answers: [
-      { text: "BJT (Bipolar Junction Transistor)", correct: false },
-      {
-        text: "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor)",
-        correct: true,
-      },
-      { text: "IGBT (Insulated Gate Bipolar Transistor)", correct: false },
-      { text: "SCR (Silicon Controlled Rectifier)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary disadvantage of using SCR (Silicon Controlled Rectifier) in power electronics?",
-    answers: [
-      { text: "Low current handling capability", correct: false },
-      { text: "High switching losses", correct: true },
-      { text: "Limited voltage rating", correct: false },
-      { text: "Complex control circuitry", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of power converter is used for generating high-frequency AC signals?",
-    answers: [
-      { text: "Inverter", correct: false },
-      { text: "Chopper", correct: true },
-      { text: "Rectifier", correct: false },
-      { text: "Converter", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of a flyback transformer in power supplies?",
-    answers: [
-      { text: "To step up voltage", correct: false },
-      { text: "To provide isolation", correct: true },
-      { text: "To regulate current", correct: false },
-      { text: "To filter noise", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  V   L    S   i   ////////////////////////////////////////////////////
-const VLSI = [
-  {
-    question: "What does VLSI stand for?",
-    answers: [
-      { text: "Very Long Static Interference", correct: false },
-      { text: "Very Large Scale Integration", correct: true },
-      { text: "Voltage Logic System Integration", correct: false },
-      { text: "Virtual Low-Speed Interface", correct: false },
-    ],
-  },
-  {
-    question: "Which technology is used for fabricating VLSI circuits?",
-    answers: [
-      { text: "MOSFET", correct: true },
-      { text: "BJT", correct: false },
-      { text: "SCR", correct: false },
-      { text: "IGBT", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary advantage of VLSI technology?",
-    answers: [
-      { text: "Low power consumption", correct: false },
-      { text: "High component count on a single chip", correct: true },
-      { text: "Resistance to electromagnetic interference", correct: false },
-      { text: "Easy prototyping", correct: false },
-    ],
-  },
-  {
-    question: "Which CAD tools are commonly used in VLSI design?",
-    answers: [
-      { text: "MATLAB", correct: false },
-      { text: "OrCAD", correct: true },
-      { text: "LabVIEW", correct: false },
-      { text: "SolidWorks", correct: false },
-    ],
-  },
-  {
-    question: "What is meant by RTL in VLSI design?",
-    answers: [
-      { text: "Right Turn Left", correct: false },
-      { text: "Resistor-Transistor Logic", correct: false },
-      { text: "Register-Transfer Level", correct: true },
-      { text: "Random Testing Language", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which company is known for pioneering the first microprocessor using VLSI technology?",
-    answers: [
-      { text: "Intel", correct: true },
-      { text: "AMD", correct: false },
-      { text: "IBM", correct: false },
-      { text: "Texas Instruments", correct: false },
-    ],
-  },
-  {
-    question: "What is a standard cell in VLSI design?",
-    answers: [
-      { text: "A pre-designed transistor circuit", correct: true },
-      { text: "A testing device for ICs", correct: false },
-      { text: "A device for voltage regulation", correct: false },
-      { text: "A module for data storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which programming language is often used for writing VLSI testbenches?",
-    answers: [
-      { text: "Java", correct: false },
-      { text: "Verilog", correct: true },
-      { text: "Python", correct: false },
-      { text: "C++", correct: false },
-    ],
-  },
-  {
-    question: "What is the main function of a multiplexer in VLSI circuits?",
-    answers: [
-      { text: "To amplify signals", correct: false },
-      { text: "To perform arithmetic operations", correct: false },
-      {
-        text: "To select one of several inputs based on a control signal",
-        correct: true,
-      },
-      { text: "To store data temporarily", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which process is used for embedding multiple layers of interconnects in VLSI fabrication?",
-    answers: [
-      { text: "Etching", correct: false },
-      { text: "Lithography", correct: false },
-      { text: "Deposition", correct: false },
-      { text: "Metallization", correct: true },
-    ],
-  },
-  {
-    question: "What does DRC stand for in VLSI design?",
-    answers: [
-      { text: "Design Review Checklist", correct: false },
-      { text: "Data Recovery Circuit", correct: false },
-      { text: "Design Rule Check", correct: true },
-      { text: "Digital Routing Controller", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which parameter is critical for reducing power consumption in VLSI circuits?",
-    answers: [
-      { text: "Clock frequency", correct: false },
-      { text: "Operating temperature", correct: false },
-      { text: "Supply voltage", correct: true },
-      { text: "Interconnect length", correct: false },
-    ],
-  },
-  {
-    question: "What is meant by FPGA in VLSI technology?",
-    answers: [
-      { text: "Fast Processing Gate Array", correct: false },
-      { text: "Field-Programmable Gate Array", correct: true },
-      { text: "Floating Point Gate Array", correct: false },
-      { text: "Frequency Pulse Generator Array", correct: false },
-    ],
-  },
-  {
-    question: "Which logic family is commonly used for low-power VLSI design?",
-    answers: [
-      { text: "TTL (Transistor-Transistor Logic)", correct: false },
-      { text: "CMOS (Complementary Metal-Oxide-Semiconductor)", correct: true },
-      { text: "ECL (Emitter-Coupled Logic)", correct: false },
-      { text: "RTL (Resistor-Transistor Logic)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of clock skew optimization in VLSI circuits?",
-    answers: [
-      { text: "To synchronize input signals", correct: false },
-      { text: "To reduce power consumption", correct: false },
-      {
-        text: "To minimize timing delays between clock signals",
-        correct: true,
-      },
-      { text: "To increase circuit density", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of simulation is used for verifying VLSI designs before fabrication?",
-    answers: [
-      { text: "Hardware-in-the-loop simulation", correct: false },
-      { text: "Behavioral simulation", correct: true },
-      { text: "Real-time simulation", correct: false },
-      { text: "Firmware simulation", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary role of a buffer in VLSI circuits?",
-    answers: [
-      { text: "To filter noise from signals", correct: false },
-      { text: "To amplify signals", correct: false },
-      {
-        text: "To isolate high-current sections from low-current sections",
-        correct: true,
-      },
-      { text: "To store data temporarily", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technology node represents smaller feature sizes in VLSI fabrication?",
-    answers: [
-      { text: "90 nm", correct: false },
-      { text: "45 nm", correct: true },
-      { text: "180 nm", correct: false },
-      { text: "500 nm", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main advantage of ASIC (Application-Specific Integrated Circuit) in VLSI design?",
-    answers: [
-      { text: "Flexibility for multiple applications", correct: false },
-      { text: "Lower development cost", correct: true },
-      { text: "High-speed processing capability", correct: false },
-      { text: "Ease of programmability", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technique is used for reducing crosstalk in VLSI interconnects?",
-    answers: [
-      { text: "Shielding", correct: true },
-      { text: "Amplification", correct: false },
-      { text: "Multiplexing", correct: false },
-      { text: "Decoupling", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  Control System  ////////////////////////////////////////////////////////
-const Control_System = [
-  {
-    question: "What is a control system?",
-    answers: [
-      { text: "A system that manages employee work schedules", correct: false },
-      {
-        text: "A system that regulates the behavior of other systems or devices",
-        correct: true,
-      },
-      {
-        text: "A system that controls access to computer networks",
-        correct: false,
-      },
-      { text: "A system that manages financial transactions", correct: false },
-    ],
-  },
-  {
-    question: "What is feedback in the context of control systems?",
-    answers: [
-      { text: "A method for monitoring employee performance", correct: false },
-      {
-        text: "The return of part of the output signal to the input",
-        correct: true,
-      },
-      {
-        text: "A mechanism for reporting errors in computer programs",
-        correct: false,
-      },
-      { text: "A tool for managing customer complaints", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a characteristic of a closed-loop control system?",
-    answers: [
-      { text: "It has no feedback mechanism", correct: false },
-      { text: "It does not require sensors", correct: false },
-      { text: "It adjusts its operation based on feedback", correct: true },
-      { text: "It operates only in discrete time", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a PID controller?",
-    answers: [
-      { text: "To play audio and video files", correct: false },
-      {
-        text: "To regulate industrial processes based on proportional, integral, and derivative actions",
-        correct: true,
-      },
-      { text: "To encrypt data transmitted over networks", correct: false },
-      {
-        text: "To manage personal identification numbers in security systems",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the steady-state error in a control system?",
-    answers: [
-      {
-        text: "The error that occurs when the system is first turned on",
-        correct: false,
-      },
-      {
-        text: "The error that persists after the system has stabilized",
-        correct: true,
-      },
-      { text: "The error caused by noise in sensor readings", correct: false },
-      {
-        text: "The error in data transmission between computers",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does the transfer function of a control system describe?",
-    answers: [
-      { text: "The physical layout of the control panel", correct: false },
-      {
-        text: "The relationship between the input and output signals",
-        correct: true,
-      },
-      { text: "The steps involved in controlling a process", correct: false },
-      {
-        text: "The protocols used for communication between devices",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of control system is characterized by a fixed set of rules?",
-    answers: [
-      { text: "Open-loop control system", correct: true },
-      { text: "Feedback control system", correct: false },
-      { text: "Adaptive control system", correct: false },
-      { text: "Digital control system", correct: false },
-    ],
-  },
-  {
-    question: "In control systems, what does 'plant' refer to?",
-    answers: [
-      { text: "A manufacturing facility", correct: false },
-      { text: "The physical system being controlled", correct: true },
-      { text: "A type of sensor used for measurement", correct: false },
-      { text: "A software module for managing data", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of actuators in control systems?",
-    answers: [
-      { text: "To measure physical quantities", correct: false },
-      { text: "To process feedback signals", correct: false },
-      {
-        text: "To convert control signals into physical actions",
-        correct: true,
-      },
-      { text: "To store historical data for analysis", correct: false },
-    ],
-  },
-  {
-    question: "What is the Nyquist criterion used for in control systems?",
-    answers: [
-      {
-        text: "To determine the frequency response of a system",
-        correct: true,
-      },
-      { text: "To select optimal PID controller gains", correct: false },
-      {
-        text: "To calculate the transfer function of a system",
-        correct: false,
-      },
-      {
-        text: "To predict steady-state errors in closed-loop systems",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is meant by 'stability' in control systems?",
-    answers: [
-      {
-        text: "The ability of a system to achieve desired performance",
-        correct: false,
-      },
-      {
-        text: "The resistance of a system to external disturbances",
-        correct: false,
-      },
-      {
-        text: "The absence of oscillations or unbounded growth in the system's response",
-        correct: true,
-      },
-      { text: "The accuracy of sensor readings in the system", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which control system design method emphasizes graphical representation of system behavior?",
-    answers: [
-      { text: "State-space analysis", correct: false },
-      { text: "Frequency response analysis", correct: true },
-      { text: "Root locus analysis", correct: false },
-      { text: "Time-domain analysis", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of a sensor in a control system?",
-    answers: [
-      {
-        text: "To convert physical quantities into electrical signals",
-        correct: true,
-      },
-      { text: "To generate random numbers for system testing", correct: false },
-      { text: "To store data in memory for future analysis", correct: false },
-      {
-        text: "To regulate the flow of data between subsystems",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of controller adjusts its parameters based on system behavior?",
-    answers: [
-      { text: "Proportional controller", correct: false },
-      { text: "Integral controller", correct: false },
-      { text: "Adaptive controller", correct: true },
-      { text: "On-off controller", correct: false },
-    ],
-  },
-  {
-    question: "What is meant by 'response time' in control systems?",
-    answers: [
-      {
-        text: "The duration of system operation before maintenance is required",
-        correct: false,
-      },
-      {
-        text: "The time taken for a system to achieve a steady-state response",
-        correct: false,
-      },
-      {
-        text: "The time delay between input signal changes and system response",
-        correct: true,
-      },
-      {
-        text: "The frequency of periodic signal oscillations in the system",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of control system is used for automated manufacturing processes?",
-    answers: [
-      { text: "Aircraft flight control system", correct: false },
-      { text: "Process control system", correct: true },
-      { text: "Vehicle stability control system", correct: false },
-      { text: "Home automation system", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of a compensator in control systems?",
-    answers: [
-      { text: "To monitor system performance metrics", correct: false },
-      { text: "To correct errors in sensor readings", correct: false },
-      {
-        text: "To adjust the dynamics of a system to meet desired specifications",
-        correct: true,
-      },
-      { text: "To regulate power supply voltages", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which control system design approach focuses on the analysis of poles and zeros in the s-domain?",
-    answers: [
-      { text: "Frequency response analysis", correct: false },
-      { text: "Root locus analysis", correct: true },
-      { text: "State-space analysis", correct: false },
-      { text: "Time-domain analysis", correct: false },
-    ],
-  },
-  {
-    question: "What does 'steady-state response' refer to in control systems?",
-    answers: [
-      { text: "The initial transient behavior of the system", correct: false },
-      {
-        text: "The response of the system after it has settled to a constant value",
-        correct: true,
-      },
-      {
-        text: "The dynamic response of the system to input changes",
-        correct: false,
-      },
-      { text: "The stability analysis of the control loop", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of controller is commonly used for on-off control applications?",
-    answers: [
-      { text: "PID controller", correct: false },
-      { text: "On-off controller", correct: true },
-      { text: "Adaptive controller", correct: false },
-      { text: "Proportional controller", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////////  Circuit  Theory  //////////////////////////////////////////////////////
-const Circuit_Theory = [
-  {
-    question: "What is a circuit?",
-    answers: [
-      { text: "A path for electrical current", correct: true },
-      { text: "A type of resistor", correct: false },
-      { text: "A unit of measurement for voltage", correct: false },
-      { text: "A component that stores electrical energy", correct: false },
-    ],
-  },
-  {
-    question: "What is Kirchhoff's Voltage Law (KVL) used for?",
-    answers: [
-      {
-        text: "To analyze the current flowing through a circuit",
-        correct: false,
-      },
-      {
-        text: "To calculate the power dissipation in resistors",
-        correct: false,
-      },
-      {
-        text: "To determine the total resistance of a circuit",
-        correct: false,
-      },
-      {
-        text: "To analyze the voltages in a closed loop circuit",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question: "What is the unit of electrical resistance?",
-    answers: [
-      { text: "Volt", correct: false },
-      { text: "Ampere", correct: false },
-      { text: "Ohm", correct: true },
-      { text: "Watt", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary purpose of a capacitor in a circuit?",
-    answers: [
-      { text: "To amplify electrical signals", correct: false },
-      { text: "To store electrical energy", correct: true },
-      { text: "To generate magnetic fields", correct: false },
-      { text: "To regulate voltage levels", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which law states that the total current entering a node is equal to the total current leaving the node?",
-    answers: [
-      { text: "Ohm's Law", correct: false },
-      { text: "Kirchhoff's Current Law (KCL)", correct: true },
-      { text: "Faraday's Law", correct: false },
-      { text: "Lenz's Law", correct: false },
-    ],
-  },
-  {
-    question: "What is the main function of a diode in a circuit?",
-    answers: [
-      { text: "To control the flow of current", correct: true },
-      { text: "To amplify electrical signals", correct: false },
-      { text: "To store electrical charge", correct: false },
-      { text: "To regulate voltage", correct: false },
-    ],
-  },
-  {
-    question: "What does Ohm's Law describe?",
-    answers: [
-      {
-        text: "The relationship between voltage and current in a resistor",
-        correct: true,
-      },
-      { text: "The behavior of capacitors in AC circuits", correct: false },
-      { text: "The operation of transistors in amplifiers", correct: false },
-      { text: "The generation of electromagnetic waves", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a transistor in electronic circuits?",
-    answers: [
-      { text: "To store data temporarily", correct: false },
-      { text: "To generate electrical signals", correct: false },
-      { text: "To amplify or switch electronic signals", correct: true },
-      { text: "To measure current flow", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to control the flow of current between two terminals?",
-    answers: [
-      { text: "Resistor", correct: false },
-      { text: "Capacitor", correct: false },
-      { text: "Switch", correct: true },
-      { text: "Inductor", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of an inductor in a circuit?",
-    answers: [
-      { text: "To store electrical energy", correct: false },
-      { text: "To control the flow of current", correct: false },
-      { text: "To resist the flow of electrical current", correct: false },
-      { text: "To store magnetic energy", correct: true },
-    ],
-  },
-  {
-    question: "What is resonance in an electrical circuit?",
-    answers: [
-      { text: "The ability of a circuit to amplify signals", correct: false },
-      {
-        text: "The frequency at which a circuit absorbs maximum power",
-        correct: true,
-      },
-      {
-        text: "The resistance of a circuit to changes in current",
-        correct: false,
-      },
-      { text: "The ability of a circuit to store energy", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the difference between AC (Alternating Current) and DC (Direct Current)?",
-    answers: [
-      {
-        text: "AC flows in one direction only, while DC changes direction periodically",
-        correct: false,
-      },
-      {
-        text: "AC changes direction periodically, while DC flows in one direction only",
-        correct: true,
-      },
-      {
-        text: "AC is used for digital circuits, while DC is used for analog circuits",
-        correct: false,
-      },
-      {
-        text: "AC is safer to use in residential buildings, while DC is used in industrial settings",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which law states that the voltage across a resistor is proportional to the current flowing through it?",
-    answers: [
-      { text: "Faraday's Law", correct: false },
-      { text: "Kirchhoff's Voltage Law (KVL)", correct: false },
-      { text: "Ohm's Law", correct: true },
-      { text: "Lenz's Law", correct: false },
-    ],
-  },
-  {
-    question: "What does 'impedance' represent in a circuit?",
-    answers: [
-      {
-        text: "The ability of a circuit to generate electrical energy",
-        correct: false,
-      },
-      { text: "The total resistance of a circuit", correct: false },
-      {
-        text: "The combination of resistance, inductance, and capacitance in AC circuits",
-        correct: true,
-      },
-      { text: "The voltage drop across a resistor", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of a fuse in an electrical circuit?",
-    answers: [
-      { text: "To store excess electrical charge", correct: false },
-      { text: "To regulate the flow of current", correct: false },
-      {
-        text: "To protect the circuit from overcurrent conditions",
-        correct: true,
-      },
-      { text: "To amplify electrical signals", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a transformer in electrical circuits?",
-    answers: [
-      { text: "To store electrical energy", correct: false },
-      { text: "To convert DC to AC power", correct: false },
-      { text: "To increase or decrease AC voltage levels", correct: true },
-      { text: "To regulate current flow in a circuit", correct: false },
-    ],
-  },
-  {
-    question: "What does 'power factor' indicate in electrical circuits?",
-    answers: [
-      {
-        text: "The efficiency of a circuit in converting electrical energy into heat",
-        correct: false,
-      },
-      {
-        text: "The ratio of true power to apparent power in AC circuits",
-        correct: true,
-      },
-      {
-        text: "The ability of a circuit to handle high voltage spikes",
-        correct: false,
-      },
-      {
-        text: "The resistance of a circuit to changes in current",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the purpose of a breadboard in electronics?",
-    answers: [
-      { text: "To store electronic components", correct: false },
-      { text: "To provide a platform for prototyping circuits", correct: true },
-      { text: "To control the flow of current in circuits", correct: false },
-      { text: "To generate electrical signals for testing", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which law governs the conservation of energy in electrical circuits?",
-    answers: [
-      { text: "Ohm's Law", correct: false },
-      { text: "Kirchhoff's Voltage Law (KVL)", correct: false },
-      { text: "Kirchhoff's Current Law (KCL)", correct: false },
-      { text: "The law of conservation of energy", correct: true },
-    ],
-  },
-  {
-    question: "What does 'grounding' refer to in electrical circuits?",
-    answers: [
-      {
-        text: "The process of connecting a circuit to a power source",
-        correct: false,
-      },
-      {
-        text: "The protection of circuits from lightning strikes",
-        correct: false,
-      },
-      {
-        text: "The connection of a circuit to the Earth to prevent electrical hazards",
-        correct: true,
-      },
-      { text: "The measurement of voltage levels in circuits", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  Analog  Electronics  ///////////////////////////////////////////////////
-const Analog_Electronics = [
-  {
-    question:
-      "What is the primary function of a transistor in analog circuits?",
-    answers: [
-      { text: "To store data temporarily", correct: false },
-      { text: "To amplify electrical signals", correct: true },
-      { text: "To generate AC voltage", correct: false },
-      { text: "To regulate power supply voltages", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a capacitor in an analog circuit?",
-    answers: [
-      { text: "To regulate current flow", correct: false },
-      { text: "To store and release electrical energy", correct: true },
-      { text: "To amplify voltage signals", correct: false },
-      { text: "To protect against voltage spikes", correct: false },
-    ],
-  },
-  {
-    question: "Which parameter describes the gain of an amplifier?",
-    answers: [
-      { text: "Bandwidth", correct: false },
-      { text: "Impedance", correct: false },
-      { text: "Power dissipation", correct: false },
-      { text: "Voltage gain", correct: true },
-    ],
-  },
-  {
-    question: "What does 'bandwidth' refer to in analog circuits?",
-    answers: [
-      {
-        text: "The range of frequencies over which a device operates effectively",
-        correct: true,
-      },
-      { text: "The total resistance in a circuit", correct: false },
-      {
-        text: "The maximum power handling capacity of a transistor",
-        correct: false,
-      },
-      {
-        text: "The speed of data transmission in digital circuits",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of a diode in analog electronics?",
-    answers: [
-      { text: "To store electrical charge", correct: false },
-      { text: "To control the flow of current", correct: false },
-      { text: "To rectify AC signals into DC signals", correct: true },
-      { text: "To generate oscillations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which circuit component is used to stabilize voltage levels in power supplies?",
-    answers: [
-      { text: "Inductor", correct: false },
-      { text: "Resistor", correct: false },
-      { text: "Zener diode", correct: true },
-      { text: "Capacitor", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of an operational amplifier (op-amp) in analog circuits?",
-    answers: [
-      { text: "To store digital data", correct: false },
-      { text: "To provide voltage regulation", correct: false },
-      { text: "To amplify and process analog signals", correct: true },
-      { text: "To convert digital signals to analog signals", correct: false },
-    ],
-  },
-  {
-    question: "What does 'resonance' mean in analog circuits?",
-    answers: [
-      {
-        text: "The ability of a circuit to generate oscillations",
-        correct: true,
-      },
-      {
-        text: "The process of converting digital signals to analog signals",
-        correct: false,
-      },
-      {
-        text: "The resistance offered by a circuit to the flow of current",
-        correct: false,
-      },
-      {
-        text: "The capacity of a capacitor to store electrical charge",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "What is the primary purpose of a transformer in analog circuits?",
-    answers: [
-      { text: "To regulate voltage levels", correct: true },
-      { text: "To amplify electrical signals", correct: false },
-      { text: "To convert DC to AC power", correct: false },
-      {
-        text: "To protect against electromagnetic interference",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of filter is used to pass only certain frequencies and block others?",
-    answers: [
-      { text: "Amplifier", correct: false },
-      { text: "Capacitor", correct: false },
-      { text: "Resonant circuit", correct: false },
-      { text: "Bandpass filter", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of a voltage regulator in analog circuits?",
-    answers: [
-      { text: "To amplify voltage signals", correct: false },
-      { text: "To stabilize and regulate voltage levels", correct: true },
-      { text: "To convert AC voltage to DC voltage", correct: false },
-      { text: "To store electrical energy", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of a crystal oscillator in analog electronics?",
-    answers: [
-      { text: "To amplify electrical signals", correct: false },
-      {
-        text: "To generate clock signals with precise frequencies",
-        correct: true,
-      },
-      { text: "To regulate voltage levels", correct: false },
-      { text: "To convert digital signals to analog signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to protect circuits from excessive current?",
-    answers: [
-      { text: "Transistor", correct: false },
-      { text: "Fuse", correct: true },
-      { text: "Op-amp", correct: false },
-      { text: "Capacitor", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of a potentiometer in analog circuits?",
-    answers: [
-      { text: "To measure current flow", correct: false },
-      { text: "To convert analog signals to digital signals", correct: false },
-      { text: "To vary resistance and control voltage levels", correct: true },
-      { text: "To amplify voltage signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which characteristic of a capacitor determines its ability to store charge?",
-    answers: [
-      { text: "Capacitance", correct: true },
-      { text: "Inductance", correct: false },
-      { text: "Resistance", correct: false },
-      { text: "Bandwidth", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary purpose of a choke coil in analog circuits?",
-    answers: [
-      { text: "To regulate voltage levels", correct: false },
-      { text: "To filter out high-frequency noise", correct: true },
-      { text: "To amplify electrical signals", correct: false },
-      { text: "To convert AC voltage to DC voltage", correct: false },
-    ],
-  },
-  {
-    question: "Which type of amplifier has the highest gain?",
-    answers: [
-      { text: "Class A amplifier", correct: false },
-      { text: "Class B amplifier", correct: false },
-      { text: "Class C amplifier", correct: false },
-      { text: "Class D amplifier", correct: true },
-    ],
-  },
-  {
-    question: "What is the function of a flyback diode in analog circuits?",
-    answers: [
-      { text: "To regulate current flow", correct: false },
-      { text: "To protect against reverse voltage spikes", correct: true },
-      { text: "To amplify electrical signals", correct: false },
-      { text: "To convert AC voltage to DC voltage", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which characteristic of an inductor affects its ability to store energy?",
-    answers: [
-      { text: "Resistance", correct: false },
-      { text: "Capacitance", correct: false },
-      { text: "Inductance", correct: true },
-      { text: "Bandwidth", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a feedback loop in analog amplifiers?",
-    answers: [
-      { text: "To stabilize amplifier gain", correct: true },
-      { text: "To increase power dissipation", correct: false },
-      { text: "To regulate voltage levels", correct: false },
-      { text: "To convert digital signals to analog signals", correct: false },
-    ],
-  },
-];
-/////////////////////////////////////   Embedded System   ///////////////////////////////////////////////////////////
-const Embedded_Systems = [
-  {
-    question: "What is an embedded system?",
-    answers: [
-      {
-        text: "A software application that runs on a personal computer",
-        correct: false,
-      },
-      {
-        text: "A computer system with a dedicated function within a larger mechanical or electrical system",
-        correct: true,
-      },
-      { text: "A general-purpose computer system", correct: false },
-      { text: "A system used exclusively for data storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a characteristic of an embedded system?",
-    answers: [
-      { text: "It is designed for multiple tasks", correct: false },
-      { text: "It is dedicated to a specific task", correct: true },
-      { text: "It has high processing power", correct: false },
-      {
-        text: "It uses an operating system like Windows or macOS",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the role of a microcontroller in an embedded system?",
-    answers: [
-      { text: "To perform general-purpose computing", correct: false },
-      {
-        text: "To control specific functions within the system",
-        correct: true,
-      },
-      { text: "To provide graphical output", correct: false },
-      { text: "To manage network connections", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which programming language is commonly used in embedded systems?",
-    answers: [
-      { text: "JavaScript", correct: false },
-      { text: "Python", correct: false },
-      { text: "C", correct: true },
-      { text: "Ruby", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using an RTOS in an embedded system?",
-    answers: [
-      { text: "It provides a graphical user interface", correct: false },
-      {
-        text: "It ensures real-time task scheduling and execution",
-        correct: true,
-      },
-      { text: "It reduces power consumption", correct: false },
-      { text: "It simplifies hardware design", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of an ADC in an embedded system?",
-    answers: [
-      { text: "To convert digital signals to analog signals", correct: false },
-      { text: "To amplify signals", correct: false },
-      { text: "To convert analog signals to digital signals", correct: true },
-      { text: "To regulate power supply", correct: false },
-    ],
-  },
-  {
     question:
-      "Which of the following is a common communication protocol used in embedded systems?",
+      "Which component helps in debugging Web Services because it is text-based?",
     answers: [
-      { text: "HTTP", correct: false },
-      { text: "I2C", correct: true },
+      { text: "WSDL", correct: false },
+      { text: "SOAP", correct: true },
       { text: "FTP", correct: false },
-      { text: "SMTP", correct: false },
+      { text: "CSS", correct: false },
     ],
   },
   {
-    question: "What does PWM stand for in embedded systems?",
+    question: "Which is NOT a valid SOAP building block?",
     answers: [
-      { text: "Pulse Width Modulation", correct: true },
-      { text: "Phase Width Modulation", correct: false },
-      { text: "Pulse Wave Modulation", correct: false },
-      { text: "Phase Wave Modulation", correct: false },
+      { text: "Envelope", correct: false },
+      { text: "Header", correct: false },
+      { text: "Script", correct: true },
+      { text: "Body", correct: false },
+    ],
+  },
+  {
+    question: "What enables businesses to register and locate web services?",
+    answers: [
+      { text: "WSDL", correct: false },
+      { text: "SOAP", correct: false },
+      { text: "UDDI", correct: true },
+      { text: "HTTP", correct: false },
+    ],
+  },
+  {
+    question: "What does an XML parser do?",
+    answers: [
+      {
+        text: "Executes the content within XML files",
+        correct: false,
+      },
+      {
+        text: "Checks the syntax and validity against schema/DTD",
+        correct: true,
+      },
+      {
+        text: "Converts XML to HTML",
+        correct: false,
+      },
+      {
+        text: "Creates dynamic websites",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "In SOA, what does the 'bind' operation imply?",
+    answers: [
+      {
+        text: "Registering a new service",
+        correct: false,
+      },
+      {
+        text: "Invoking or initiating interaction with a service at runtime",
+        correct: true,
+      },
+      {
+        text: "Parsing XML data",
+        correct: false,
+      },
+      {
+        text: "Translating service data to binary",
+        correct: false,
+      },
+    ],
+  },
+];
+/////////////////////////////////  Service level Agreement  //////////////////////////////////////
+const SLA_Economics = [
+  {
+    question: "What is a Service Level Agreement (SLA)?",
+    answers: [
+      {
+        text: "A legal contract to transfer data between cloud providers",
+        correct: false,
+      },
+      {
+        text: "A formal contract between a Service Provider and a Service Consumer",
+        correct: true,
+      },
+      {
+        text: "An encryption protocol used in web services",
+        correct: false,
+      },
+      {
+        text: "A billing invoice between two cloud providers",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What is the purpose of an SLA?",
+    answers: [
+      { text: "To monitor cloud marketing strategies", correct: false },
+      {
+        text: "To define a formal basis for performance and availability guarantees",
+        correct: true,
+      },
+      { text: "To evaluate only security parameters", correct: false },
+      { text: "To define UI features of a web app", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is included in the contents of an SLA?",
+    answers: [
+      { text: "Web design tools", correct: false },
+      { text: "Customer satisfaction reviews", correct: false },
+      { text: "Auditing mechanism", correct: true },
+      { text: "Development lifecycle model", correct: false },
+    ],
+  },
+  {
+    question: "What does WS-Agreement provide?",
+    answers: [
+      { text: "A SQL database service", correct: false },
+      {
+        text: "An XML-based protocol for negotiating and managing service agreements",
+        correct: true,
+      },
+      { text: "A cloud storage solution", correct: false },
+      { text: "A client-side encryption tool", correct: false },
+    ],
+  },
+  {
+    question: "What is WSLA?",
+    answers: [
+      {
+        text: "Web Server Load Adapter",
+        correct: false,
+      },
+      {
+        text: "A framework to express and monitor SLAs using XML",
+        correct: true,
+      },
+      {
+        text: "A cloud deployment tool",
+        correct: false,
+      },
+      {
+        text: "A type of cloud database",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What differentiates a Cloud SLA from a Web Service SLA?",
+    answers: [
+      { text: "Use of UDDI directories in cloud SLAs", correct: false },
+      {
+        text: "Cloud SLAs include QoS related to security, trust, and automation",
+        correct: true,
+      },
+      {
+        text: "Web SLAs include infrastructure cost planning",
+        correct: false,
+      },
+      {
+        text: "Cloud SLAs are used only for mobile apps",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the following is a negotiable SLA characteristic?",
+    answers: [
+      {
+        text: "It uses a fixed template created by the provider",
+        correct: false,
+      },
+      {
+        text: "It allows negotiation via external agents",
+        correct: true,
+      },
+      {
+        text: "It doesn't require any agreement at runtime",
+        correct: false,
+      },
+      {
+        text: "It is non-conducive for mission-critical systems",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which is an example of a Service Level Objective (SLO)?",
+    answers: [
+      {
+        text: "The service must be visually appealing",
+        correct: false,
+      },
+      {
+        text: "Availability of a service is 99.9%",
+        correct: true,
+      },
+      {
+        text: "The user must agree to terms and conditions",
+        correct: false,
+      },
+      {
+        text: "The UI must respond in blue theme",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Service Level Management involves:",
+    answers: [
+      { text: "Web UI design monitoring", correct: false },
+      {
+        text: "Monitoring and measuring performance based on SLOs",
+        correct: true,
+      },
+      { text: "Only consumer-side operations", correct: false },
+      { text: "Creating new SLA documents daily", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a typical KPI used in SLA?",
+    answers: [
+      { text: "User interface font size", correct: false },
+      { text: "Page scroll behavior", correct: false },
+      { text: "Downtime and uptime", correct: true },
+      { text: "Number of user clicks", correct: false },
+    ],
+  },
+  {
+    question: "How is availability calculated from KPIs?",
+    answers: [
+      { text: "Availability = uptime - downtime", correct: false },
+      { text: "Availability = 1 + (downtime / uptime)", correct: false },
+      { text: "Availability = uptime × downtime", correct: false },
+      { text: "Availability = 1 - (downtime / uptime)", correct: true },
+    ],
+  },
+  {
+    question: "What is a key limitation of SLAs?",
+    answers: [
+      { text: "They ensure perfect uptime", correct: false },
+      { text: "They eliminate need for monitoring", correct: false },
+      { text: "Biasness towards vendors", correct: true },
+      { text: "They provide security auditing", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a type of memory used in embedded systems?",
+      "Which SLA requirement ensures user data is protected from unauthorized access?",
     answers: [
-      { text: "EEPROM", correct: false },
+      { text: "Transparency", correct: false },
+      { text: "Monitoring", correct: false },
+      { text: "Data Encryption", correct: true },
+      { text: "Auditability", correct: false },
+    ],
+  },
+  {
+    question: "Which SLA requirement ensures old data is properly handled?",
+    answers: [
+      { text: "Data Retention and Deletion", correct: true },
+      { text: "Service Redundancy", correct: false },
+      { text: "Latency Management", correct: false },
+      { text: "Bandwidth Provisioning", correct: false },
+    ],
+  },
+  {
+    question: "Cloud computing supports which pricing model?",
+    answers: [
+      { text: "Fixed annual pricing", correct: false },
+      { text: "Utility pricing or pay-per-use", correct: true },
+      { text: "Free-tier for all services", correct: false },
+      { text: "Hardware-ownership pricing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which property defines cloud's ability to be globally available?",
+    answers: [
+      { text: "Multiplexing", correct: false },
+      { text: "Location-independence", correct: true },
+      { text: "Service Composition", correct: false },
+      { text: "Hybrid Integration", correct: false },
+    ],
+  },
+  {
+    question: "What economic benefit does pooled infrastructure provide?",
+    answers: [
+      { text: "Reduced service performance", correct: false },
+      { text: "Increased operating costs", correct: false },
+      { text: "Economies of scale", correct: true },
+      { text: "Slower demand analysis", correct: false },
+    ],
+  },
+  {
+    question: "What is the coefficient of variation (CV)?",
+    answers: [
+      { text: "Standard deviation of the maximum value", correct: false },
+      { text: "Variance of the absolute values", correct: false },
+      { text: "Ratio of standard deviation to mean", correct: true },
+      { text: "Product of mean and standard deviation", correct: false },
+    ],
+  },
+  {
+    question: "Higher smoothness in demand results in:",
+    answers: [
+      { text: "Higher cost of service", correct: false },
+      { text: "Increased SLA violations", correct: false },
+      { text: "Higher utilization and efficiency", correct: true },
+      { text: "Lower resource reuse", correct: false },
+    ],
+  },
+  {
+    question: "Which is true for off-the-shelf SLA?",
+    answers: [
+      { text: "It is highly negotiable", correct: false },
+      { text: "Used mainly in experimental cloud setups", correct: false },
+      { text: "Provider defines all terms without negotiation", correct: true },
+      { text: "Negotiated through multiple agents", correct: false },
+    ],
+  },
+  {
+    question: "Which layer does not have an expected SLA parameter?",
+    answers: [
+      { text: "SaaS", correct: false },
+      { text: "PaaS", correct: false },
+      { text: "IaaS", correct: false },
+      { text: "BIaaS (Business Intelligence as a Service)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which metric is used to track actual service delivery over time?",
+    answers: [
+      { text: "Theme selection", correct: false },
+      { text: "Packet inbytes and outbytes", correct: true },
+      { text: "Window reload counts", correct: false },
+      { text: "Dropdown navigation speed", correct: false },
+    ],
+  },
+  {
+    question: "Penalty cost in on-demand services occurs when:",
+    answers: [
+      { text: "The resources exceed demand", correct: false },
+      {
+        text: "Resources don't match instantaneous demand",
+        correct: true,
+      },
+      { text: "Customer terminates SLA early", correct: false },
+      { text: "Data transfer is free", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a benefit of on-demand cloud resources?",
+    answers: [
+      { text: "Static allocation", correct: false },
+      { text: "Delayed provisioning", correct: false },
+      {
+        text: "Scalable, elastic resources provisioned without delay",
+        correct: true,
+      },
+      { text: "High upfront hardware cost", correct: false },
+    ],
+  },
+  {
+    question: "What does statistical multiplexing allow in cloud?",
+    answers: [
+      { text: "Predict exact user behavior", correct: false },
+      {
+        text: "Share resources efficiently by aggregating variable demand",
+        correct: true,
+      },
+      { text: "Increase individual costs", correct: false },
+      { text: "Decrease availability", correct: false },
+    ],
+  },
+];
+///////////////////////////////// Managing Data  //////////////////////////////////////
+const ManagingData = [
+  {
+    question:
+      "What is the default data storage and retrieval mechanism since the 1980s?",
+    answers: [
+      { text: "Hierarchical databases", correct: false },
+      { text: "Network databases", correct: false },
+      { text: "Relational databases", correct: true },
+      { text: "Column-oriented databases", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which system organizes data similarly to column-oriented databases like Vertica?",
+    answers: [
+      { text: "Dynamo", correct: false },
+      { text: "MapReduce", correct: false },
+      { text: "BigTable", correct: true },
+      { text: "Google File System", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a parallel programming paradigm?",
+    answers: [
+      { text: "SQL", correct: false },
+      { text: "MapReduce", correct: true },
+      { text: "SMP", correct: false },
+      { text: "HDFS", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is an open-source implementation of GFS?",
+    answers: [
+      { text: "SimpleDB", correct: false },
+      { text: "Dynamo", correct: false },
+      { text: "HDFS", correct: true },
+      { text: "BigTable", correct: false },
+    ],
+  },
+  {
+    question: "What type of storage do traditional relational databases use?",
+    answers: [
+      { text: "Column-oriented storage", correct: false },
+      { text: "Object-oriented storage", correct: false },
+      { text: "Row-oriented storage", correct: true },
+      { text: "Distributed object storage", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture has each processor with its own memory and disk?",
+    answers: [
+      { text: "Shared memory", correct: false },
+      { text: "Shared disk", correct: false },
+      { text: "Shared nothing", correct: true },
+      { text: "Cloud-based", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture allows all processors to access shared memory?",
+    answers: [
+      { text: "Shared memory", correct: true },
+      { text: "Shared nothing", correct: false },
+      { text: "Shared disk", correct: false },
+      { text: "Distributed file system", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture is a hybrid of shared memory and shared nothing?",
+    answers: [
+      { text: "Shared memory", correct: false },
+      { text: "Shared disk", correct: true },
+      { text: "Cloud architecture", correct: false },
+      { text: "Centralized", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of these databases supports parallel processing for transaction tasks?",
+    answers: [
+      { text: "Netezza", correct: false },
+      { text: "Oracle", correct: true },
+      { text: "SimpleDB", correct: false },
+      { text: "BigTable", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Google service offers a key-value store built on BigTable?",
+    answers: [
+      { text: "Google File System", correct: false },
+      { text: "Google App Engine's Datastore", correct: true },
+      { text: "Google Cloud Storage", correct: false },
+      { text: "Google Drive", correct: false },
+    ],
+  },
+  {
+    question: "How does the GFS client read a file?",
+    answers: [
+      { text: "Reads metadata from chunk server directly", correct: false },
+      { text: "Sends request to master to get chunk metadata", correct: true },
+      { text: "Reads the file entirely into memory", correct: false },
+      { text: "Uses SimpleDB to retrieve chunk", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of tablets in BigTable?",
+    answers: [
+      { text: "To store configurations", correct: false },
+      {
+        text: "To enable parallel access and management of data",
+        correct: true,
+      },
+      { text: "To handle only metadata", correct: false },
+      { text: "To simulate a relational table", correct: false },
+    ],
+  },
+  {
+    question: "Which type of database is Dynamo best suited for?",
+    answers: [
+      { text: "Scientific simulations", correct: false },
+      { text: "E-commerce web applications", correct: true },
+      { text: "Geographic databases", correct: false },
+      { text: "Time series databases", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which technique is used by Dynamo to ensure consistency during concurrent reads/writes?",
+    answers: [
+      { text: "Simple locking", correct: false },
+      { text: "Two-phase commit", correct: false },
+      { text: "Quorum protocol", correct: true },
+      { text: "Sharding", correct: false },
+    ],
+  },
+  {
+    question: "What kind of data model is used in Dynamo?",
+    answers: [
+      { text: "Relational", correct: false },
+      { text: "Document-based", correct: false },
+      { text: "<Key, Value> pair", correct: true },
+      { text: "Graph-based", correct: false },
+    ],
+  },
+  {
+    question: "In MapReduce, what happens in the map phase?",
+    answers: [
+      { text: "Reducer processes are scheduled", correct: false },
+      { text: "Key-value pairs are grouped by key", correct: false },
+      {
+        text: "Input data is split and transformed into key-value pairs",
+        correct: true,
+      },
+      { text: "Results are stored in GFS", correct: false },
+    ],
+  },
+  {
+    question: "What does the reducer do in the MapReduce model?",
+    answers: [
+      { text: "Splits data", correct: false },
+      { text: "Transforms files into key-value pairs", correct: false },
+      {
+        text: "Applies a function on grouped key-value results",
+        correct: true,
+      },
+      { text: "Schedules mappers", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which layer in RDBMS handles fetching of pages from disk into memory?",
+    answers: [
+      { text: "Query parser", correct: false },
+      { text: "Transaction manager", correct: false },
+      { text: "Disk-space management", correct: true },
+      { text: "Optimizer", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which component transforms SQL queries into memory and disk-level operations?",
+    answers: [
+      { text: "Optimizer", correct: false },
+      { text: "Disk-space manager", correct: false },
+      { text: "Parser", correct: true },
+      { text: "Transaction manager", correct: false },
+    ],
+  },
+  {
+    question: "What is the main purpose of SSTables in BigTable?",
+    answers: [
+      { text: "Store meta-data only", correct: false },
+      {
+        text: "Store column families efficiently for a row range",
+        correct: true,
+      },
+      { text: "Provide row-level isolation", correct: false },
+      { text: "Replace chunk servers", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the primary function of a Relational Database Management System (RDBMS)?",
+    answers: [
+      { text: "To manage unstructured files on cloud storage", correct: false },
+      { text: "To transform HTML into SQL", correct: false },
+      {
+        text: "To parse and optimize SQL queries for data storage and retrieval",
+        correct: true,
+      },
+      {
+        text: "To replace all hierarchical databases with JSON",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a column-oriented storage system developed by Google?",
+    answers: [
+      { text: "Google File System", correct: false },
+      { text: "DynamoDB", correct: false },
+      { text: "BigTable", correct: true },
+      { text: "MySQL", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture does not share memory or disk between servers?",
+    answers: [
+      { text: "Shared memory", correct: false },
+      { text: "Shared disk", correct: false },
+      { text: "Shared nothing", correct: true },
+      { text: "Hybrid memory", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which open-source system implements the concepts of Google File System (GFS)?",
+    answers: [
+      { text: "BigTable", correct: false },
+      { text: "SimpleDB", correct: false },
+      { text: "Hadoop Distributed File System (HDFS)", correct: true },
+      { text: "Amazon EC2", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which programming paradigm is central to processing large-scale data in a parallel and fault-tolerant manner?",
+    answers: [
+      { text: "Object-Oriented Programming", correct: false },
+      { text: "Functional Programming", correct: false },
+      { text: "MapReduce", correct: true },
+      { text: "Service-Oriented Architecture", correct: false },
+    ],
+  },
+  {
+    question: "In BigTable, what uniquely identifies each cell of data?",
+    answers: [
+      { text: "Row key, column key, and timestamp", correct: true },
+      { text: "Table name and index", correct: false },
+      { text: "Label and primary key", correct: false },
+      { text: "File path and offset", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which system uses a ring-based architecture with MD5 hashing for distributed storage?",
+    answers: [
+      { text: "BigTable", correct: false },
+      { text: "MapReduce", correct: false },
+      { text: "Dynamo", correct: true },
+      { text: "Vertica", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the primary use of the Reduce phase in the MapReduce model?",
+    answers: [
+      { text: "Sorts input data", correct: false },
+      { text: "Fetches metadata from the master node", correct: false },
+      {
+        text: "Performs aggregation and summarization based on key",
+        correct: true,
+      },
+      { text: "Splits data into tablets for storage", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following best describes the fault-tolerance mechanism in GFS?",
+    answers: [
+      { text: "Redundant HTML caching", correct: false },
+      { text: "Use of a master node for all reads and writes", correct: false },
+      {
+        text: "Multiple replicas and handling failures during read/write operations",
+        correct: true,
+      },
+      { text: "Dynamic creation of database schemas", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a key feature of Dynamo in handling concurrent updates?",
+    answers: [
+      { text: "Immediate deletion of conflicting versions", correct: false },
+      { text: "Single version enforcement", correct: false },
+      {
+        text: "Application-independent conflict resolution with versioning",
+        correct: true,
+      },
+      { text: "Database-wide locking", correct: false },
+    ],
+  },
+];
+/////////////////////////////////  OpenStack  //////////////////////////////////////
+const OpenStack = [
+  {
+    question: "What is OpenStack primarily used for?",
+    answers: [
+      { text: "Creating mobile applications", correct: false },
+      {
+        text: "Managing large pools of compute, storage, and networking resources",
+        correct: true,
+      },
+      { text: "Developing machine learning models", correct: false },
+      { text: "Automating hardware manufacturing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which interface does OpenStack provide for administrators and users?",
+    answers: [
+      { text: "Command Line Interface only", correct: false },
+      { text: "A mobile app", correct: false },
+      { text: "A web-based dashboard", correct: true },
+      { text: "REST API only", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a capability provided by OpenStack?",
+    answers: [
+      { text: "Software as a Service (SaaS)", correct: false },
+      { text: "Infrastructure as a Service (IaaS)", correct: false },
+      { text: "Hardware as a Service (HaaS)", correct: true },
+      { text: "Platform as a Service (PaaS)", correct: false },
+    ],
+  },
+  {
+    question: "What is the main function of the OpenStack Nova project?",
+    answers: [
+      { text: "Provides identity and access management", correct: false },
+      { text: "Manages compute instances lifecycle", correct: true },
+      { text: "Stores object-based files", correct: false },
+      { text: "Monitors cloud services", correct: false },
+    ],
+  },
+  {
+    question: "What does the Neutron service in OpenStack provide?",
+    answers: [
+      { text: "Image storage", correct: false },
+      { text: "Compute instance scheduling", correct: false },
+      { text: "Network-Connectivity-as-a-Service", correct: true },
+      { text: "Block storage", correct: false },
+    ],
+  },
+  {
+    question: "Which OpenStack project handles unstructured object storage?",
+    answers: [
+      { text: "Nova", correct: false },
+      { text: "Glance", correct: false },
+      { text: "Cinder", correct: false },
+      { text: "Swift", correct: true },
+    ],
+  },
+  {
+    question: "Which project provides persistent block storage in OpenStack?",
+    answers: [
+      { text: "Cinder", correct: true },
+      { text: "Swift", correct: false },
+      { text: "Nova", correct: false },
+      { text: "Glance", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of Keystone in OpenStack?",
+    answers: [
+      { text: "Stores VM images", correct: false },
+      { text: "Provides authorization and authentication", correct: true },
+      { text: "Manages compute resources", correct: false },
+      { text: "Schedules VM instances", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which service in OpenStack is responsible for providing a web UI?",
+    answers: [
+      { text: "Ceilometer", correct: false },
+      { text: "Keystone", correct: false },
+      { text: "Horizon", correct: true },
+      { text: "Glance", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which service is used by Nova during instance provisioning to retrieve VM images?",
+    answers: [
+      { text: "Keystone", correct: false },
+      { text: "Ceilometer", correct: false },
+      { text: "Glance", correct: true },
+      { text: "Neutron", correct: false },
+    ],
+  },
+  {
+    question: "What kind of storage does Swift provide?",
+    answers: [
+      { text: "Block-level storage", correct: false },
+      { text: "Temporary storage", correct: false },
+      { text: "Object storage", correct: true },
+      { text: "RAM-only storage", correct: false },
+    ],
+  },
+  {
+    question: "What does Ceilometer monitor in an OpenStack environment?",
+    answers: [
+      { text: "System processes", correct: false },
+      { text: "Power consumption", correct: false },
+      { text: "Cloud usage for billing and statistics", correct: true },
+      { text: "User access logs", correct: false },
+    ],
+  },
+  {
+    question: "What kind of API does Swift use to store and retrieve data?",
+    answers: [
+      { text: "GraphQL", correct: false },
+      { text: "RESTful HTTP API", correct: true },
+      { text: "SOAP", correct: false },
+      { text: "gRPC", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following OpenStack services uses a pluggable driver architecture?",
+    answers: [
+      { text: "Nova", correct: false },
+      { text: "Cinder", correct: true },
+      { text: "Swift", correct: false },
+      { text: "Horizon", correct: false },
+    ],
+  },
+  {
+    question:
+      "In the provisioning flow, who is responsible for filtering and selecting the compute node?",
+    answers: [
+      { text: "Nova API", correct: false },
+      { text: "Neutron", correct: false },
+      { text: "Scheduler", correct: true },
+      { text: "Conductor", correct: false },
+    ],
+  },
+  {
+    question: "Which type of storage persists only until the VM is terminated?",
+    answers: [
+      { text: "Block storage", correct: false },
+      { text: "Object storage", correct: false },
+      { text: "Ephemeral storage", correct: true },
+      { text: "Database storage", correct: false },
+    ],
+  },
+  {
+    question: "Which type of storage is managed by Cinder?",
+    answers: [
+      { text: "Object storage", correct: false },
+      { text: "Block storage", correct: true },
+      { text: "Ephemeral storage", correct: false },
+      { text: "RAM storage", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which cloud platform offers services to build, test and deploy applications on Google’s infrastructure?",
+    answers: [
+      { text: "Amazon Web Services", correct: false },
+      { text: "Microsoft Azure", correct: false },
+      { text: "Google Cloud Platform", correct: true },
+      { text: "IBM Cloud", correct: false },
+    ],
+  },
+  {
+    question: "Which service of GCP helps scale applications globally?",
+    answers: [
+      { text: "Google Drive", correct: false },
+      { text: "Google Cloud Endpoints", correct: true },
+      { text: "Google Cloud Console", correct: false },
+      { text: "Firebase", correct: false },
+    ],
+  },
+  {
+    question: "What percentage of global electricity is consumed by servers?",
+    answers: [
+      { text: "1.5%", correct: false },
+      { text: "0.5%", correct: true },
+      { text: "5%", correct: false },
+      { text: "10%", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a green computing technique?",
+    answers: [
+      { text: "Installing more servers", correct: false },
+      { text: "Advanced scheduling schemes", correct: true },
+      { text: "Using more disk space", correct: false },
+      { text: "Increasing network traffic", correct: false },
+    ],
+  },
+  {
+    question: "What is the focus of Power-aware Scheduling?",
+    answers: [
+      { text: "Reducing internet usage", correct: false },
+      { text: "Optimizing billing", correct: false },
+      { text: "Reducing power usage during VM scheduling", correct: true },
+      { text: "Improving image quality", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of resource is considered logical in cloud computing?",
+    answers: [
+      { text: "Disk", correct: false },
+      { text: "Scientific instrument", correct: false },
+      { text: "Monitoring", correct: true },
+      { text: "Database server", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which OpenStack component is used to attach IP and configure DNS during VM creation?",
+    answers: [
+      { text: "Nova", correct: false },
+      { text: "Cinder", correct: false },
+      { text: "Neutron", correct: true },
+      { text: "Glance", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which storage is suitable for storing VM images and other files?",
+    answers: [
+      { text: "Block storage", correct: false },
+      { text: "Ephemeral storage", correct: false },
+      { text: "Object storage", correct: true },
       { text: "RAM", correct: false },
-      { text: "ROM", correct: false },
-      { text: "CPU", correct: true },
     ],
   },
   {
-    question: "What is the purpose of a watchdog timer in an embedded system?",
+    question: "Where does Nova Conductor fetch information about a VM from?",
     answers: [
-      {
-        text: "To monitor and reset the system in case of a fault",
-        correct: true,
-      },
-      { text: "To synchronize data communication", correct: false },
-      { text: "To control power supply voltages", correct: false },
-      { text: "To manage memory allocation", correct: false },
+      { text: "From user input", correct: false },
+      { text: "From Neutron", correct: false },
+      { text: "From the database", correct: true },
+      { text: "From Glance", correct: false },
     ],
   },
   {
-    question: "What is a bootloader in an embedded system?",
+    question: "Which OpenStack service assigns IP addresses to instances?",
     answers: [
-      {
-        text: "A program that loads and starts the main operating system",
-        correct: true,
-      },
-      { text: "A program that manages memory", correct: false },
-      { text: "A program that controls peripheral devices", correct: false },
-      { text: "A program that performs signal processing", correct: false },
+      { text: "Horizon", correct: false },
+      { text: "Keystone", correct: false },
+      { text: "Neutron", correct: true },
+      { text: "Cinder", correct: false },
+    ],
+  },
+  {
+    question: "What role does Glance play in OpenStack?",
+    answers: [
+      { text: "Networking service", correct: false },
+      { text: "Image storage and retrieval", correct: true },
+      { text: "Compute node scheduling", correct: false },
+      { text: "Monitoring", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is an example of a real-time operating system (RTOS)?",
+      "Why is power-aware and thermal-aware scheduling important in cloud data centers?",
     answers: [
-      { text: "Windows", correct: false },
+      { text: "To reduce user activity", correct: false },
+      { text: "To minimize performance", correct: false },
+      { text: "To reduce energy and temperature", correct: true },
+      { text: "To improve battery life", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the effect of advanced scheduling strategies on data center power usage?",
+    answers: [
+      { text: "Increases power usage", correct: false },
+      { text: "No impact", correct: false },
+      {
+        text: "Reduces power usage with minimal performance impact",
+        correct: true,
+      },
+      { text: "Stops scheduling", correct: false },
+    ],
+  },
+];
+//////////////////////////// Resource Management 2 //////////////////////////////////////
+const ResourceManagement2 = [
+  {
+    question: "Which of the following is an objective of resource management?",
+    answers: [
+      { text: "Increased latency", correct: false },
+      { text: "Reduced overheads", correct: true },
+      { text: "Increased complexity", correct: false },
+      { text: "Higher energy consumption", correct: false },
+    ],
+  },
+  {
+    question: "What is a key performance metric for resource management?",
+    answers: [
+      { text: "Cost effectiveness", correct: false },
+      { text: "Ease of deployment", correct: true },
+      { text: "Protocol design", correct: false },
+      { text: "Cloud storage pricing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a challenge in resource management related to hardware?",
+    answers: [
+      { text: "Data mining", correct: false },
+      { text: "Sensors/actuators", correct: true },
+      { text: "Application UI design", correct: false },
+      { text: "Customer feedback", correct: false },
+    ],
+  },
+  {
+    question:
+      "What aspect of resource management involves estimating future resource needs?",
+    answers: [
+      { text: "Resource brokering", correct: false },
+      { text: "Resource provisioning", correct: false },
+      { text: "Resource estimation", correct: true },
+      { text: "Resource discovery", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is not a performance metric for resource management?",
+    answers: [
+      { text: "QoS", correct: false },
+      { text: "Delay", correct: false },
+      { text: "Scalability", correct: true },
+      { text: "Control overhead", correct: false },
+    ],
+  },
+  {
+    question: "What does confidentiality in cloud security mean?",
+    answers: [
+      { text: "Allowing free access to data", correct: false },
+      { text: "Keeping data and resources hidden", correct: true },
+      { text: "Improving system latency", correct: false },
+      { text: "Ensuring multiple backups", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of attack involves unauthorized access to information being transmitted?",
+    answers: [
+      { text: "Replay attack", correct: false },
+      { text: "Masquerade attack", correct: false },
+      { text: "Passive attack", correct: true },
+      { text: "Denial of Service", correct: false },
+    ],
+  },
+  {
+    question: "Interception attacks primarily affect which security component?",
+    answers: [
+      { text: "Availability", correct: false },
+      { text: "Authentication", correct: false },
+      { text: "Confidentiality", correct: true },
+      { text: "Integrity", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of these is a class of threat that involves unauthorized data disclosure?",
+    answers: [
+      { text: "Usurpation", correct: false },
+      { text: "Deception", correct: false },
+      { text: "Disclosure", correct: true },
+      { text: "Disruption", correct: false },
+    ],
+  },
+  {
+    question: "What kind of attack does 'fabrication' represent?",
+    answers: [
+      { text: "Attack on integrity", correct: false },
+      { text: "Attack on confidentiality", correct: false },
+      { text: "Attack on authenticity", correct: true },
+      { text: "Attack on availability", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is a type of active attack?",
+    answers: [
+      { text: "Traffic analysis", correct: false },
+      { text: "Replay", correct: true },
+      { text: "Snooping", correct: false },
+      { text: "Release of message contents", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a valid recovery metric in disaster planning?",
+    answers: [
+      { text: "QoS time", correct: false },
+      { text: "Network load", correct: false },
+      { text: "Recovery Point Objective (RPO)", correct: true },
+      { text: "System efficiency ratio", correct: false },
+    ],
+  },
+  {
+    question: "What is the purpose of redundancy in fault tolerance?",
+    answers: [
+      { text: "To reduce latency", correct: false },
+      { text: "To duplicate critical components", correct: true },
+      { text: "To enhance user experience", correct: false },
+      { text: "To backup databases", correct: false },
+    ],
+  },
+  {
+    question: "Which of these best defines 'Usurpation' threat?",
+    answers: [
+      { text: "Unauthorized disclosure of data", correct: false },
+      { text: "Modification or spoofing of resources", correct: true },
+      { text: "Legal misuse of data", correct: false },
+      { text: "Loss of backup", correct: false },
+    ],
+  },
+  {
+    question: "What does the Replay attack involve?",
+    answers: [
+      { text: "Masquerading as a trusted entity", correct: false },
+      {
+        text: "Reusing a captured message for unauthorized access",
+        correct: true,
+      },
+      { text: "Altering the contents of a message", correct: false },
+      { text: "Disabling server access", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which operational issue considers 'Is it cheaper to prevent or recover?'",
+    answers: [
+      { text: "Risk analysis", correct: false },
+      { text: "Cost-benefit analysis", correct: true },
+      { text: "Backup frequency", correct: false },
+      { text: "Fault tolerance", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is not an example of an active attack?",
+    answers: [
+      { text: "Masquerade", correct: false },
+      { text: "Modification", correct: false },
+      { text: "Traffic analysis", correct: true },
+      { text: "Denial of service", correct: false },
+    ],
+  },
+  {
+    question: "Which component ensures 'origin integrity' in cloud security?",
+    answers: [
+      { text: "Availability", correct: false },
+      { text: "Authentication", correct: true },
+      { text: "Data storage", correct: false },
+      { text: "Bandwidth control", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best describes 'Resource modeling'?",
+    answers: [
+      { text: "Allocating existing resources", correct: false },
+      { text: "Estimating future usage of network", correct: false },
+      {
+        text: "Describing the structure and behavior of resources",
+        correct: true,
+      },
+      { text: "Controlling system APIs", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which threat includes actions like spoofing and denial of service?",
+    answers: [
+      { text: "Disclosure", correct: false },
+      { text: "Deception", correct: false },
+      { text: "Disruption", correct: false },
+      { text: "Usurpation", correct: true },
+    ],
+  },
+];
+//////////////////////////////  Cloud Security  //////////////////////////////
+const Cloud_Security = [
+  {
+    question:
+      "What is a key risk introduced by multi-tenancy in cloud computing?",
+    answers: [
+      { text: "Overloading a single user’s VM", correct: false },
+      {
+        text: "Side-channel attacks and cross-VM information leakage",
+        correct: true,
+      },
+      { text: "Decreased storage capacity", correct: false },
+      { text: "Slow internet connection", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the main challenge posed by multi-tenancy in cloud systems?",
+    answers: [
+      { text: "Limited user interface options", correct: false },
+      { text: "Inability to scale resources", correct: false },
+      {
+        text: "Vulnerable VM isolation and resource sharing risks",
+        correct: true,
+      },
+      { text: "Lack of API integrations", correct: false },
+    ],
+  },
+  {
+    question: "Which cloud service provider was used to test cross-VM attacks?",
+    answers: [
+      { text: "Google Cloud Platform", correct: false },
+      { text: "Microsoft Azure", correct: false },
+      { text: "Amazon EC2", correct: true },
+      { text: "IBM Cloud", correct: false },
+    ],
+  },
+  {
+    question: "What are the two primary steps of a cross-VM attack?",
+    answers: [
+      { text: "Scanning and injection", correct: false },
+      { text: "Placement and extraction", correct: true },
+      { text: "Mapping and flooding", correct: false },
+      { text: "Execution and analysis", correct: false },
+    ],
+  },
+  {
+    question:
+      "What assumption is made in the threat model regarding cloud providers?",
+    answers: [
+      { text: "They are considered malicious", correct: false },
+      { text: "They will attempt to subvert users", correct: false },
+      { text: "They are fully trusted", correct: true },
+      { text: "They share user data with attackers", correct: false },
+    ],
+  },
+  {
+    question: "What is cloud cartography?",
+    answers: [
+      { text: "A service that encrypts cloud data", correct: false },
+      {
+        text: "The process of mapping instance locations in the cloud",
+        correct: true,
+      },
+      { text: "A tool for performance monitoring", correct: false },
+      { text: "An API for cloud cost estimation", correct: false },
+    ],
+  },
+  {
+    question: "Which probing method originates from outside EC2?",
+    answers: [
+      { text: "Internal probe", correct: false },
+      { text: "Cross probe", correct: false },
+      { text: "External probe", correct: true },
+      { text: "Cloud-native probe", correct: false },
+    ],
+  },
+  {
+    question: "What is the goal of a keystroke timing attack?",
+    answers: [
+      { text: "To block all key inputs", correct: false },
+      {
+        text: "To guess passwords based on inter-keystroke delays",
+        correct: true,
+      },
+      { text: "To detect network interruptions", correct: false },
+      { text: "To break SSL encryption", correct: false },
+    ],
+  },
+  {
+    question: "Which tool is used for discovering IP prefixes in EC2?",
+    answers: [
+      { text: "nmap", correct: false },
+      { text: "WHOIS", correct: true },
+      { text: "Netstat", correct: false },
+      { text: "Traceroute", correct: false },
+    ],
+  },
+  {
+    question:
+      "What kind of attack is used to manipulate shared physical resources?",
+    answers: [
+      { text: "Brute force password attack", correct: false },
+      { text: "Side-channel attack", correct: true },
+      { text: "Phishing", correct: false },
+      { text: "DDoS", correct: false },
+    ],
+  },
+  {
+    question: "Which hypervisor is used by Amazon EC2?",
+    answers: [
+      { text: "VMware", correct: false },
+      { text: "Xen", correct: true },
+      { text: "KVM", correct: false },
+      { text: "Hyper-V", correct: false },
+    ],
+  },
+  {
+    question: "What does Risk-based Access Control (RAC) allow?",
+    answers: [
+      { text: "Blocking all unauthorized users", correct: false },
+      {
+        text: "Access even if exact permissions are not present",
+        correct: true,
+      },
+      { text: "Giving access based only on passwords", correct: false },
+      { text: "Encryption of user data at rest", correct: false },
+    ],
+  },
+  {
+    question: "What is a challenge in existing RAC systems?",
+    answers: [
+      { text: "Excessive logging", correct: false },
+      { text: "Quantification of operational need", correct: true },
+      { text: "UI latency", correct: false },
+      { text: "Lack of encryption", correct: false },
+    ],
+  },
+  {
+    question: "What is Inter-Domain Role Mapping (IDRM) used for?",
+    answers: [
+      { text: "Detecting rogue VMs", correct: false },
+      { text: "Mapping requested permissions across domains", correct: true },
+      { text: "Encrypting database entries", correct: false },
+      { text: "Monitoring IP traffic", correct: false },
+    ],
+  },
+  {
+    question: "What type of collaboration is harder to secure in the cloud?",
+    answers: [
+      { text: "Tightly-coupled", correct: false },
+      { text: "Loosely-coupled", correct: true },
+      { text: "Federated", correct: false },
+      { text: "Static", correct: false },
+    ],
+  },
+  {
+    question: "What is the goal of the IDRM-availability variant?",
+    answers: [
+      { text: "Maximize permissions granted", correct: false },
+      { text: "Minimize additional permissions added", correct: true },
+      { text: "Track user sessions", correct: false },
+      { text: "Identify senior roles", correct: false },
+    ],
+  },
+  {
+    question: "Which condition detects inheritance conflict?",
+    answers: [
+      { text: "Conflicting permission present", correct: false },
+      { text: "At least one exit role", correct: true },
+      { text: "Entry and exit role are unrelated", correct: false },
+      { text: "Virtual role exists", correct: false },
+    ],
+  },
+  {
+    question: "What does SoD stand for in conflict detection?",
+    answers: [
+      { text: "Storage on Demand", correct: false },
+      { text: "Segregation of Duties", correct: true },
+      { text: "Software over Data", correct: false },
+      { text: "Standard on Delivery", correct: false },
+    ],
+  },
+  {
+    question:
+      "What happens in case of no exact role match during conflict removal?",
+    answers: [
+      { text: "User is denied access permanently", correct: false },
+      { text: "System crashes", correct: false },
+      { text: "A virtual role is introduced", correct: true },
+      { text: "All permissions are removed", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is **not** a preventive measure for side-channel attacks?",
+    answers: [
+      { text: "Cloud cartography", correct: false },
+      { text: "Co-residence check", correct: false },
+      { text: "Co-location restriction", correct: false },
+      { text: "Brute-force key injection", correct: true },
+    ],
+  },
+];
+//////////////////////////////////  Cloud Marketplace  //////////////////////////////
+const Cloudmarketplace = [
+  {
+    question: "What is the purpose of CloudCmp in a cloud marketplace?",
+    answers: [
+      { text: "To provide storage solutions", correct: false },
+      { text: "To monitor mobile devices", correct: false },
+      { text: "To compare cloud providers based on QoS", correct: true },
+      { text: "To manage user billing", correct: false },
+    ],
+  },
+  {
+    question: "What kind of decision mechanism does the Migration Decider use?",
+    answers: [
+      { text: "Linear regression model", correct: false },
+      { text: "Fuzzy inference engine", correct: true },
+      { text: "Blockchain consensus", correct: false },
+      { text: "Greedy algorithm", correct: false },
+    ],
+  },
+  {
+    question: "In the Migration Decider, what triggers a migration?",
+    answers: [
+      { text: "SLA cost goes above threshold", correct: false },
+      { text: "Degree of SLA Satisfaction < threshold", correct: true },
+      { text: "CPU usage becomes zero", correct: false },
+      { text: "Network latency improves", correct: false },
+    ],
+  },
+  {
+    question:
+      "What distribution is followed by degraded QoS parameters in the IaaS case study?",
+    answers: [
+      { text: "Uniform", correct: false },
+      { text: "Poisson", correct: false },
+      { text: "Exponential", correct: false },
+      { text: "Gaussian", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which approach is compared with the fuzzy broker in SaaS Marketplace?",
+    answers: [
+      { text: "Neural networks", correct: false },
+      { text: "Minimum cost crisp broker", correct: true },
+      { text: "Random broker", correct: false },
+      { text: "Priority-based broker", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT an advantage of Mobile Cloud Computing?",
+    answers: [
+      { text: "Extended battery life", correct: false },
+      { text: "Improved data storage", correct: false },
+      { text: "Limited scalability", correct: true },
+      { text: "Ease of integration", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of the Profiler in MCC?",
+    answers: [
+      { text: "Monitoring application execution", correct: true },
+      { text: "Syncing data with cloud", correct: false },
+      { text: "Selecting service providers", correct: false },
+      { text: "Managing battery usage", correct: false },
+    ],
+  },
+  {
+    question: "What is the main task of the Solver in MCC architecture?",
+    answers: [
+      { text: "Encrypt data for transfer", correct: false },
+      { text: "Choose where parts of app should run", correct: true },
+      { text: "Update app code", correct: false },
+      { text: "Optimize UI layout", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a key component of MCC?",
+    answers: [
+      { text: "Profiler", correct: false },
+      { text: "Solver", correct: false },
+      { text: "Optimizer", correct: true },
+      { text: "Synchronizer", correct: false },
+    ],
+  },
+  {
+    question: "Which method is used in static partitioning in MCC?",
+    answers: [
+      { text: "Greedy method", correct: false },
+      { text: "Fuzzy logic", correct: false },
+      { text: "ILP solver", correct: true },
+      { text: "Dynamic profiling", correct: false },
+    ],
+  },
+  {
+    question: "Which problem does task partitioning in MCC resemble?",
+    answers: [
+      { text: "Routing problem", correct: false },
+      { text: "Job scheduling problem", correct: true },
+      { text: "Graph coloring problem", correct: false },
+      { text: "Matrix multiplication", correct: false },
+    ],
+  },
+  {
+    question:
+      "What kind of execution environment change is considered in dynamic partitioning?",
+    answers: [
+      { text: "Hardware upgrade", correct: false },
+      { text: "Environmental variation", correct: true },
+      { text: "Static energy profile", correct: false },
+      { text: "Fixed app layout", correct: false },
+    ],
+  },
+  {
+    question: "Which challenge does MCC face due to mobile communication?",
+    answers: [
+      { text: "Overclocking issues", correct: false },
+      { text: "Low bandwidth", correct: true },
+      { text: "High latency desktops", correct: false },
+      { text: "Parallel computing", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is true about offloading in MCC?",
+    answers: [
+      { text: "It always saves energy", correct: false },
+      { text: "It depends on energy and communication cost", correct: true },
+      { text: "It is useful for all kinds of apps", correct: false },
+      { text: "It eliminates network dependency", correct: false },
+    ],
+  },
+  {
+    question: "What is a Cloudlet?",
+    answers: [
+      { text: "Low-resource mobile device", correct: false },
+      {
+        text: "Cluster of high-resource servers close to users",
+        correct: true,
+      },
+      { text: "Virtual machine for backup", correct: false },
+      { text: "Cloud management software", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a mobile cloud computing application?",
+    answers: [
+      { text: "Mobile gaming", correct: true },
+      { text: "Cryptocurrency mining", correct: false },
+      { text: "Firewall management", correct: false },
+      { text: "Database sharding", correct: false },
+    ],
+  },
+  {
+    question: "Which factor affects the decision to offload code to the cloud?",
+    answers: [
+      { text: "Execution history", correct: false },
+      { text: "Network latency and energy trade-off", correct: true },
+      { text: "User preference", correct: false },
+      { text: "App UI theme", correct: false },
+    ],
+  },
+  {
+    question: "What metric is used to evaluate MCC performance?",
+    answers: [
+      { text: "Latency only", correct: false },
+      { text: "Battery only", correct: false },
+      { text: "Execution time and energy consumption", correct: true },
+      { text: "Server load", correct: false },
+    ],
+  },
+  {
+    question: "What does MuSIC in MCC handle?",
+    answers: [
+      { text: "Load balancing", correct: false },
+      { text: "User authentication", correct: false },
+      { text: "Mobility-aware optimal service allocation", correct: true },
+      { text: "Data backup and restore", correct: false },
+    ],
+  },
+  {
+    question: "Which modeling framework is used in MuSIC?",
+    answers: [
+      { text: "Service oriented architecture", correct: false },
+      { text: "Graph neural networks", correct: false },
+      { text: "Location-time workflow", correct: true },
+      { text: "REST API model", correct: false },
+    ],
+  },
+  {
+    question: "What causes latency in mobile-cloud communication in MuSIC?",
+    answers: [
+      { text: "Improper login", correct: false },
+      { text: "User movement away from provisioned cloud", correct: true },
+      { text: "Device overheating", correct: false },
+      { text: "Excessive app permissions", correct: false },
+    ],
+  },
+  {
+    question: "Which is a key benefit of code offloading using Cloudlet?",
+    answers: [
+      { text: "Reduced execution time only", correct: false },
+      { text: "Reduced storage usage", correct: false },
+      { text: "Reduced energy consumption and latency", correct: true },
+      { text: "Faster internet speed", correct: false },
+    ],
+  },
+  {
+    question: "What metric does a fuzzy provider selection mechanism use?",
+    answers: [
+      { text: "CPU time", correct: false },
+      { text: "Trust and competence", correct: true },
+      { text: "User age", correct: false },
+      { text: "Internet provider rating", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which MCC component ensures the app behaves transparently to the user?",
+    answers: [
+      { text: "Solver", correct: false },
+      { text: "Profiler", correct: false },
+      { text: "Synchronizer", correct: true },
+      { text: "Monitor", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a key requirement for MCC platforms?",
+    answers: [
+      { text: "Web interface", correct: false },
+      { text: "Simple APIs", correct: false },
+      { text: "Proprietary networking hardware", correct: true },
+      { text: "Internet access to remote apps", correct: false },
+    ],
+  },
+  {
+    question: "What is the classic problem MCC tries to solve?",
+    answers: [
+      { text: "Job Scheduling", correct: true },
+      { text: "Sorting large datasets", correct: false },
+      { text: "Rendering 3D objects", correct: false },
+      { text: "Video compression", correct: false },
+    ],
+  },
+  {
+    question: "What is evaluated in a case study of dynamic parking?",
+    answers: [
+      { text: "City traffic flow", correct: false },
+      { text: "QoS in private parking", correct: false },
+      { text: "Context-aware parking using cloud", correct: true },
+      { text: "Energy usage of electric cars", correct: false },
+    ],
+  },
+  {
+    question: "What enables context-aware parking services?",
+    answers: [
+      { text: "AR navigation", correct: false },
+      { text: "Cloud and wireless sensor networks", correct: true },
+      { text: "Satellite tracking", correct: false },
+      { text: "Offline maps", correct: false },
+    ],
+  },
+  {
+    question: "Which factor affects offloading energy savings?",
+    answers: [
+      { text: "Data type", correct: false },
+      { text: "Distance to server", correct: false },
+      { text: "Ratio D/B compared with C/M", correct: true },
+      { text: "Screen resolution", correct: false },
+    ],
+  },
+];
+//////////////////////////////////  Mobile CLoud COmputing and Fog Computing  ////////////////////////////
+const MCC = [
+  {
+    question: "What is the main goal of Mobile Cloud Computing (MCC)?",
+    answers: [
+      { text: "Enhance graphics on mobile devices", correct: false },
+      {
+        text: "Optimize application execution time and energy consumption",
+        correct: true,
+      },
+      { text: "Increase mobile phone memory capacity", correct: false },
+      { text: "Improve camera quality on mobile devices", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a classic problem in MCC?",
+    answers: [
+      { text: "Machine Learning Optimization", correct: false },
+      { text: "Graph Coloring Problem", correct: false },
+      { text: "Task Partitioning Problem", correct: true },
+      { text: "Deadlock Avoidance Problem", correct: false },
+    ],
+  },
+  {
+    question: "What is the input to the Task Partitioning Problem in MCC?",
+    answers: [
+      { text: "A data flow diagram", correct: false },
+      { text: "A method call graph with energy attributes", correct: true },
+      { text: "An image recognition model", correct: false },
+      { text: "A UML class diagram", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which is NOT a constraint typically considered in MCC partitioning?",
+    answers: [
+      { text: "Battery level", correct: true },
+      { text: "Execution time", correct: false },
+      { text: "Energy consumption", correct: false },
+      { text: "Monetary cost", correct: false },
+    ],
+  },
+  {
+    question: "What is static partitioning in MCC?",
+    answers: [
+      { text: "Partitioning based on user feedback", correct: false },
+      { text: "Partitioning at runtime based on environment", correct: false },
+      { text: "Partitioning methods during application launch", correct: true },
+      { text: "Partitioning using a fixed cloud server", correct: false },
+    ],
+  },
+  {
+    question: "Which technique is used for faster static partitioning?",
+    answers: [
+      { text: "Brute Force", correct: false },
+      { text: "Heuristics", correct: true },
+      { text: "Neural Networks", correct: false },
+      { text: "Greedy Algorithms", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture helps reduce latency and battery consumption?",
+    answers: [
+      { text: "Big Data Analytics", correct: false },
+      { text: "Cloud-Only Architecture", correct: false },
+      { text: "Code Offloading", correct: true },
+      { text: "Peer-to-Peer Networking", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of network connection typically consumes less energy?",
+    answers: [
+      { text: "Broadband wireless", correct: false },
+      { text: "Bluetooth", correct: true },
+      { text: "Satellite Internet", correct: false },
+      { text: "Optical fiber", correct: false },
+    ],
+  },
+  {
+    question: "What does Fog Computing aim to reduce?",
+    answers: [
+      { text: "Device memory usage", correct: false },
+      { text: "Sensor count", correct: false },
+      { text: "Network bandwidth requirement", correct: true },
+      { text: "Number of servers", correct: false },
+    ],
+  },
+  {
+    question: "Which company introduced the term 'Fog Computing'?",
+    answers: [
+      { text: "Amazon", correct: false },
+      { text: "Google", correct: false },
+      { text: "Cisco", correct: true },
+      { text: "IBM", correct: false },
+    ],
+  },
+  {
+    question: "Where does Fog Computing primarily perform data processing?",
+    answers: [
+      { text: "In centralized cloud data centers", correct: false },
+      { text: "On the end-user's device", correct: false },
+      { text: "At the edge of the network", correct: true },
+      { text: "On IoT gateways only", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is a characteristic of cloud computing?",
+    answers: [
+      { text: "Manual resource allocation", correct: false },
+      { text: "Static scalability", correct: false },
+      { text: "User-managed infrastructure", correct: false },
+      { text: "Dynamic scalability", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following is NOT an advantage of Fog Computing?",
+    answers: [
+      { text: "Low latency", correct: false },
+      { text: "Geo-distribution", correct: false },
+      { text: "Centralized processing", correct: true },
+      { text: "Real-time interaction support", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which technology allows lightweight virtualization in Fog Computing?",
+    answers: [
+      { text: "VMware", correct: false },
+      { text: "Hyper-V", correct: false },
+      { text: "Docker Containers", correct: true },
+      { text: "CloudStack", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is a key enabler for controlling network switches in Fog Computing?",
+    answers: [
+      { text: "Load Balancing", correct: false },
+      { text: "Software Defined Networking (SDN)", correct: true },
+      { text: "HTTP Routing", correct: false },
+      { text: "Database Sharding", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is a major security issue in Fog Computing?",
+    answers: [
+      { text: "Strong password enforcement", correct: false },
+      { text: "Man-in-the-Middle attack", correct: true },
+      { text: "File compression", correct: false },
+      { text: "Data replication", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a limitation of cloud-only computing?",
+    answers: [
+      { text: "High speed", correct: false },
+      { text: "Low latency", correct: false },
+      { text: "High capacity requirement", correct: true },
+      { text: "Low storage need", correct: false },
+    ],
+  },
+  {
+    question: "Which application is ideal for Fog Computing deployment?",
+    answers: [
+      { text: "Web hosting", correct: false },
+      { text: "Video streaming", correct: false },
+      { text: "Smart traffic lights", correct: true },
+      { text: "Offline games", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of partitioning adapts during execution based on environment?",
+    answers: [
+      { text: "Static Partitioning", correct: false },
+      { text: "Random Partitioning", correct: false },
+      { text: "Dynamic or Adaptive Partitioning", correct: true },
+      { text: "Incremental Partitioning", correct: false },
+    ],
+  },
+  {
+    question:
+      "In the Connected Vehicle (CV) context, what role does Fog Computing play?",
+    answers: [
+      { text: "Supports offline navigation", correct: false },
+      { text: "Provides low-latency real-time interactions", correct: true },
+      { text: "Acts as a car battery controller", correct: false },
+      { text: "Disables car-to-car communication", correct: false },
+    ],
+  },
+];
+///////////////////////////  Geospatial Information System and Docker  ///////////////////////////
+const GIS_Docker = [
+  {
+    question: "What is a Geographic Information System (GIS)?",
+    answers: [
+      { text: "A tool used only for navigation", correct: false },
+      { text: "A computer system for managing geospatial data", correct: true },
+      { text: "A satellite imaging platform", correct: false },
+      { text: "A hardware tool for topographic mapping", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a component of a GIS?",
+    answers: [
+      { text: "Computer hardware", correct: false },
+      { text: "Software", correct: false },
+      { text: "Geospatial data", correct: false },
+      { text: "Machine learning model", correct: true },
+    ],
+  },
+  {
+    question: "Which challenge is common in GIS systems?",
+    answers: [
+      { text: "Low volume of data", correct: false },
+      { text: "Computation intensive processes", correct: true },
+      { text: "Simple network structures", correct: false },
+      { text: "Minimal data management", correct: false },
+    ],
+  },
+  {
+    question: "What is the primary reason for heterogeneity in GIS layers?",
+    answers: [
+      { text: "Same software used across departments", correct: false },
+      { text: "Centralized GIS control", correct: false },
+      { text: "Different departments using different tools", correct: true },
+      { text: "Homogeneous encoding of data", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a solution to heterogeneity in GIS?",
+    answers: [
+      { text: "Homogeneous data description", correct: false },
+      { text: "Standard data encoding", correct: false },
+      { text: "Private database storage", correct: true },
+      { text: "Standard mechanisms for sharing data", correct: false },
+    ],
+  },
+  {
+    question: "What does Spatial Data Infrastructure (SDI) provide?",
+    answers: [
+      { text: "Graphic design services", correct: false },
+      { text: "Policy formulation and implementation", correct: true },
+      { text: "Local database access", correct: false },
+      { text: "Satellite data storage", correct: false },
+    ],
+  },
+  {
+    question: "Which sector is NOT directly mentioned as a user of SDI?",
+    answers: [
+      { text: "Government", correct: false },
+      { text: "Commercial sector", correct: false },
+      { text: "Education/Academia", correct: false },
+      { text: "Military", correct: true },
+    ],
+  },
+  {
+    question: "Why is there a need for Geospatial Cloud?",
+    answers: [
+      { text: "To store only images", correct: false },
+      { text: "To handle the huge volume of data and metadata", correct: true },
+      { text: "To reduce map resolution", correct: false },
+      { text: "To avoid service orchestration", correct: false },
+    ],
+  },
+  {
+    question: "Who are NOT listed as actors in a Geospatial Cloud?",
+    answers: [
+      { text: "Customers", correct: false },
+      { text: "Security Auditors", correct: false },
+      { text: "Brokers", correct: false },
+      { text: "Frontend Developers", correct: true },
+    ],
+  },
+  {
+    question: "Which is NOT a challenge in geospatial cloud?",
+    answers: [
+      { text: "Need for multi-tenancy", correct: false },
+      { text: "Geographically situated backups", correct: false },
+      { text: "Unreliable data usage", correct: true },
+      { text: "Policy management among tenants", correct: false },
+    ],
+  },
+  {
+    question: "What does data-level interoperability ensure?",
+    answers: [
+      { text: "Trustworthy exchange of services", correct: false },
+      { text: "Ability to consume the data", correct: true },
+      { text: "Security of transmitted data", correct: false },
+      { text: "Data encryption", correct: false },
+    ],
+  },
+  {
+    question: "Which standard body helps implement GIS interoperability?",
+    answers: [
+      { text: "IEEE", correct: false },
+      { text: "W3C", correct: false },
+      { text: "OGC", correct: true },
+      { text: "NIST", correct: false },
+    ],
+  },
+  {
+    question: "What is Docker primarily used for?",
+    answers: [
+      { text: "Managing relational databases", correct: false },
+      { text: "Containerizing applications", correct: true },
+      { text: "Developing GIS software", correct: false },
+      { text: "Hardware virtualization", correct: false },
+    ],
+  },
+  {
+    question: "What does Docker Compose do?",
+    answers: [
+      { text: "Manages host operating system", correct: false },
+      { text: "Defines applications using multiple containers", correct: true },
+      { text: "Acts as a virtual machine", correct: false },
+      { text: "Builds Docker images automatically", correct: false },
+    ],
+  },
+  {
+    question: "What is Docker Hub?",
+    answers: [
+      { text: "Local container builder", correct: false },
+      { text: "Public repository for Docker images", correct: true },
+      { text: "A command-line tool for containers", correct: false },
+      { text: "OS for running Docker", correct: false },
+    ],
+  },
+  {
+    question: "Which platform is Docker NOT officially available for?",
+    answers: [
       { text: "Linux", correct: false },
-      { text: "FreeRTOS", correct: true },
+      { text: "Windows", correct: false },
+      { text: "Android", correct: true },
       { text: "macOS", correct: false },
     ],
   },
   {
-    question: "In embedded systems, what is an interrupt?",
+    question: "Which component builds Docker images and runs containers?",
     answers: [
+      { text: "Docker Engine", correct: true },
+      { text: "Docker Compose", correct: false },
+      { text: "Docker Hub", correct: false },
+      { text: "Docker Desktop", correct: false },
+    ],
+  },
+  {
+    question: "What is a container in Docker?",
+    answers: [
+      { text: "A graphical interface for Docker", correct: false },
+      { text: "A physical environment for running code", correct: false },
+      { text: "An isolated environment for executing apps", correct: true },
+      { text: "A data backup system", correct: false },
+    ],
+  },
+  {
+    question: "Which is true about Docker containers?",
+    answers: [
+      { text: "They run guest operating systems", correct: false },
+      { text: "They are heavier than VMs", correct: false },
+      { text: "They start almost instantly", correct: true },
+      { text: "They require hypervisors", correct: false },
+    ],
+  },
+  {
+    question: "What is a Docker image?",
+    answers: [
+      { text: "A GUI representation of a container", correct: false },
       {
-        text: "A signal that causes the processor to stop and perform a specific task",
+        text: "A complete package with everything to run an app",
         correct: true,
       },
-      { text: "A command to delete data", correct: false },
-      { text: "A process to increase memory capacity", correct: false },
-      { text: "A method to improve signal strength", correct: false },
+      { text: "A virtual machine", correct: false },
+      { text: "A networking tool", correct: false },
     ],
   },
   {
-    question: "What is a common use of UART in embedded systems?",
+    question: "How do Docker containers compare with virtual machines?",
     answers: [
-      { text: "To control motors", correct: false },
-      { text: "To interface with sensors", correct: false },
-      { text: "To facilitate serial communication", correct: true },
-      { text: "To manage power supply", correct: false },
+      { text: "They use more memory", correct: false },
+      { text: "They contain full OS like VMs", correct: false },
+      { text: "They are more lightweight and share the kernel", correct: true },
+      { text: "They need a hypervisor to run", correct: false },
     ],
   },
   {
-    question: "What is the function of a DAC in an embedded system?",
+    question: "Where does a Docker container run?",
     answers: [
-      { text: "To convert digital signals to analog signals", correct: true },
-      { text: "To amplify signals", correct: false },
-      { text: "To store data", correct: false },
-      { text: "To regulate voltage", correct: false },
+      { text: "Inside a virtual machine", correct: false },
+      { text: "As a process on the host OS", correct: true },
+      { text: "On a dedicated cloud server only", correct: false },
+      { text: "Only on Linux systems", correct: false },
     ],
   },
   {
-    question: "Which of the following best describes firmware?",
+    question: "Which Docker component is used for image sharing?",
     answers: [
+      { text: "Docker Compose", correct: false },
+      { text: "Docker CLI", correct: false },
+      { text: "Docker Hub", correct: true },
+      { text: "Docker Engine", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which feature of Docker makes it suitable for Agile development?",
+    answers: [
+      { text: "Heavy OS dependency", correct: false },
+      { text: "Instant scalability and portability", correct: true },
+      { text: "Monolithic architecture", correct: false },
+      { text: "Complex configuration", correct: false },
+    ],
+  },
+  {
+    question:
+      "Who benefits from Docker by avoiding 'works on my machine' issues?",
+    answers: [
+      { text: "End users", correct: false },
+      { text: "Hardware engineers", correct: false },
+      { text: "Developers", correct: true },
+      { text: "Project managers", correct: false },
+    ],
+  },
+  {
+    question: "Which Docker tool allows apps to run in isolation?",
+    answers: [
+      { text: "Docker Hub", correct: false },
+      { text: "Docker Engine", correct: false },
+      { text: "Docker Containers", correct: true },
+      { text: "Docker Volume", correct: false },
+    ],
+  },
+  {
+    question: "What ensures service-level interoperability in GIS?",
+    answers: [
+      { text: "Encryption algorithms", correct: false },
+      { text: "Ability to consume the data", correct: false },
+      { text: "Ability to exchange data", correct: true },
+      { text: "Firewall configurations", correct: false },
+    ],
+  },
+  {
+    question: "What makes containers more efficient than VMs?",
+    answers: [
+      { text: "They include the full OS", correct: false },
+      { text: "They boot slower", correct: false },
+      { text: "They share the host OS kernel", correct: true },
+      { text: "They require more RAM", correct: false },
+    ],
+  },
+  {
+    question: "How do enterprises use Docker?",
+    answers: [
+      { text: "To replace cloud services", correct: false },
+      { text: "To simplify their physical infrastructure", correct: false },
       {
-        text: "Software designed to manage hardware operations",
+        text: "To create agile pipelines and faster deployments",
         correct: true,
       },
-      { text: "An application used for data processing", correct: false },
-      { text: "A hardware component that stores data", correct: false },
-      { text: "A tool for debugging software", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary role of a sensor in an embedded system?",
-    answers: [
-      { text: "To store data", correct: false },
-      { text: "To provide a user interface", correct: false },
-      {
-        text: "To measure and convert physical parameters to electrical signals",
-        correct: true,
-      },
-      { text: "To control the power supply", correct: false },
-    ],
-  },
-  {
-    question: "What does SPI stand for in the context of embedded systems?",
-    answers: [
-      { text: "Serial Parallel Interface", correct: false },
-      { text: "Serial Peripheral Interface", correct: true },
-      { text: "System Peripheral Interface", correct: false },
-      { text: "System Parallel Interface", correct: false },
-    ],
-  },
-  {
-    question: "What is an ISR in embedded systems?",
-    answers: [
-      { text: "Interrupt Service Routine", correct: true },
-      { text: "Input Signal Resistor", correct: false },
-      { text: "Integrated Signal Receiver", correct: false },
-      { text: "Interrupt Signal Receiver", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of debouncing in embedded systems?",
-    answers: [
-      { text: "To reduce signal noise", correct: false },
-      {
-        text: "To ensure stable signal reading from mechanical switches",
-        correct: true,
-      },
-      { text: "To increase signal strength", correct: false },
-      { text: "To manage power consumption", correct: false },
+      { text: "To host databases only", correct: false },
     ],
   },
 ];
-////////////////////////////////////////  Communication System  /////////////////////////////////////////////////////
-const Communication_Systems = [
+//////////////////////////////   Green and Sensor Cloud Computing  ///////////////////////////
+const Green_Sensor_Cloud = [
   {
-    question: "What is the primary function of a communication system?",
+    question: "What is the main goal of Green Cloud computing?",
     answers: [
-      { text: "To store data securely", correct: false },
+      { text: "To improve network latency", correct: false },
       {
-        text: "To transmit information from one place to another",
+        text: "To minimize energy consumption and efficiently utilize infrastructure",
         correct: true,
       },
-      { text: "To perform calculations quickly", correct: false },
-      { text: "To control mechanical systems", correct: false },
+      { text: "To replace traditional servers", correct: false },
+      { text: "To increase data redundancy", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is a type of modulation used in analog communication?",
+      "Which component in a typical data center consumes the most energy?",
     answers: [
-      { text: "Amplitude Modulation (AM)", correct: true },
-      { text: "Pulse Code Modulation (PCM)", correct: false },
-      { text: "Frequency Division Multiplexing (FDM)", correct: false },
-      { text: "Time Division Multiplexing (TDM)", correct: false },
+      { text: "Power Distribution", correct: false },
+      { text: "Cooling System", correct: true },
+      { text: "IT Equipment", correct: false },
+      { text: "Networking Equipment", correct: false },
     ],
   },
   {
     question:
-      "What is the purpose of a carrier signal in communication systems?",
+      "What percentage of data center operational expenses is energy expected to account for in the future?",
     answers: [
-      { text: "To amplify the information signal", correct: false },
+      { text: "20%", correct: false },
+      { text: "30%", correct: false },
+      { text: "50%", correct: true },
+      { text: "10%", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is a characteristic of a two-tier data center architecture?",
+    answers: [
+      { text: "Includes aggregation layer", correct: false },
+      { text: "Uses full mesh core network", correct: true },
+      { text: "Utilizes 100 GE links", correct: false },
+      { text: "Supports over 10,000 servers", correct: false },
+    ],
+  },
+  {
+    question: "Which architecture is most widely used in modern data centers?",
+    answers: [
+      { text: "Two-tier architecture", correct: false },
+      { text: "Three-tier architecture", correct: true },
+      { text: "Single-layer flat architecture", correct: false },
+      { text: "Decentralized architecture", correct: false },
+    ],
+  },
+  {
+    question: "What is a feature of the three-tier high-speed architecture?",
+    answers: [
+      { text: "Uses 1 GE links only", correct: false },
+      { text: "Lacks load balancing", correct: false },
+      { text: "Utilizes 2-way ECMP and 100 GE standards", correct: true },
+      { text: "Has only access and core layers", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which company builds data centers near the Columbia River for energy efficiency?",
+    answers: [
+      { text: "Netflix", correct: false },
+      { text: "Microsoft", correct: true },
+      { text: "Meta", correct: false },
+      { text: "IBM", correct: false },
+    ],
+  },
+  {
+    question: "What is a Green Broker responsible for?",
+    answers: [
+      { text: "Managing physical sensors", correct: false },
       {
-        text: "To carry the information signal over long distances",
+        text: "Carbon-aware scheduling and analyzing user requirements",
         correct: true,
       },
-      { text: "To filter out noise", correct: false },
-      { text: "To convert analog signals to digital signals", correct: false },
+      { text: "Provisioning virtual machines only", correct: false },
+      { text: "Providing network access only", correct: false },
     ],
   },
   {
     question:
-      "Which device is used to convert analog signals to digital signals?",
+      "Which layer in a Green Broker calculates the cost and carbon footprint of services?",
     answers: [
-      { text: "Digital-to-Analog Converter (DAC)", correct: false },
-      { text: "Analog-to-Digital Converter (ADC)", correct: true },
-      { text: "Modulator", correct: false },
-      { text: "Demodulator", correct: false },
+      { text: "First Layer", correct: false },
+      { text: "Second Layer", correct: true },
+      { text: "Third Layer", correct: false },
+      { text: "Aggregation Layer", correct: false },
     ],
   },
   {
-    question: "What is bandwidth in the context of communication systems?",
+    question: "What is a major challenge of traditional sensor networks?",
     answers: [
-      { text: "The amount of data that can be stored", correct: false },
+      { text: "Too many users", correct: false },
+      { text: "Lack of standard sensors", correct: false },
       {
-        text: "The range of frequencies that a communication channel can transmit",
+        text: "Difficult to scale and share data across different users",
         correct: true,
       },
-      { text: "The speed of data processing", correct: false },
-      { text: "The power output of a transmitter", correct: false },
+      { text: "Overpowered storage capacity", correct: false },
     ],
   },
   {
-    question: "Which of the following is NOT a type of digital modulation?",
+    question:
+      "Sensor Cloud Computing acts as an interface between which two worlds?",
     answers: [
-      { text: "Quadrature Amplitude Modulation (QAM)", correct: false },
-      { text: "Frequency Shift Keying (FSK)", correct: false },
-      { text: "Phase Shift Keying (PSK)", correct: false },
-      { text: "Amplitude Modulation (AM)", correct: true },
+      { text: "Data and Application", correct: false },
+      { text: "Cyber and Physical", correct: true },
+      { text: "Software and Hardware", correct: false },
+      { text: "Client and Server", correct: false },
     ],
   },
   {
-    question: "What is the role of a demodulator in a communication system?",
+    question:
+      "Which of the following is NOT a benefit of Sensor Cloud Computing?",
     answers: [
-      { text: "To amplify the received signal", correct: false },
       {
-        text: "To extract the information signal from the carrier signal",
-        correct: true,
+        text: "Delivers cloud services via sensor-rich devices",
+        correct: false,
       },
-      { text: "To generate the carrier signal", correct: false },
-      { text: "To convert digital signals to analog signals", correct: false },
-    ],
-  },
-  {
-    question: "What does SNR stand for in communication systems?",
-    answers: [
-      { text: "Signal-to-Noise Ratio", correct: true },
-      { text: "Signal Network Range", correct: false },
-      { text: "Signal Number Rate", correct: false },
-      { text: "Standard Noise Reduction", correct: false },
+      { text: "Supports proprietary sensor networks only", correct: true },
+      { text: "Enables large-scale data sharing", correct: false },
+      { text: "Allows cross-disciplinary applications", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is a type of noise in communication systems?",
+      "What does the 'One to Many' virtual sensor configuration represent?",
     answers: [
-      { text: "Thermal noise", correct: true },
-      { text: "Voltage noise", correct: false },
-      { text: "Power noise", correct: false },
-      { text: "Current noise", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main advantage of digital communication over analog communication?",
-    answers: [
-      { text: "Higher power consumption", correct: false },
-      { text: "Lower signal-to-noise ratio", correct: false },
-      { text: "Better noise immunity", correct: true },
-      { text: "Simpler signal processing", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which communication technique uses multiple frequencies to transmit multiple signals simultaneously?",
-    answers: [
-      { text: "Time Division Multiplexing (TDM)", correct: false },
-      { text: "Frequency Division Multiplexing (FDM)", correct: true },
-      { text: "Code Division Multiple Access (CDMA)", correct: false },
-      { text: "Space Division Multiplexing (SDM)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of error detection and correction in communication systems?",
-    answers: [
-      { text: "To increase the transmission speed", correct: false },
-      { text: "To ensure accurate data transmission", correct: true },
-      { text: "To reduce power consumption", correct: false },
-      { text: "To simplify modulation techniques", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is an antenna's primary function in a communication system?",
-    answers: [
-      { text: "To store energy", correct: false },
-      { text: "To transmit and receive electromagnetic waves", correct: true },
-      { text: "To amplify signals", correct: false },
-      { text: "To convert digital signals to analog signals", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of multiplexing in communication systems?",
-    answers: [
+      { text: "Many physical sensors for one virtual sensor", correct: false },
       {
-        text: "To increase the power of the transmitted signal",
+        text: "One virtual sensor controlling many physical ones",
         correct: false,
       },
       {
-        text: "To combine multiple signals into one for transmission",
+        text: "One physical sensor shared by multiple virtual sensors",
         correct: true,
       },
-      { text: "To convert analog signals to digital signals", correct: false },
-      { text: "To amplify received signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a disadvantage of wireless communication?",
-    answers: [
-      { text: "Limited mobility", correct: false },
-      { text: "Higher cost of implementation", correct: false },
-      { text: "Susceptibility to interference and noise", correct: true },
-      { text: "Reduced signal strength over long distances", correct: false },
-    ],
-  },
-  {
-    question: "What is modulation in the context of communication systems?",
-    answers: [
-      { text: "The process of amplifying a signal", correct: false },
       {
-        text: "The process of varying a carrier signal to transmit information",
-        correct: true,
-      },
-      { text: "The process of filtering out noise", correct: false },
-      {
-        text: "The process of converting digital signals to analog signals",
+        text: "No relation between physical and virtual sensors",
         correct: false,
       },
     ],
   },
   {
     question:
-      "Which type of modulation is used in Frequency Modulation (FM) radio?",
+      "In 'One to Many' configuration, how is sensor sampling frequency decided?",
     answers: [
-      { text: "Amplitude Modulation (AM)", correct: false },
-      { text: "Phase Modulation (PM)", correct: false },
-      { text: "Frequency Modulation (FM)", correct: true },
-      { text: "Pulse Modulation", correct: false },
+      { text: "By physical sensor alone", correct: false },
+      { text: "Fixed at deployment", correct: false },
+      { text: "Dynamically computed based on user demands", correct: true },
+      { text: "Randomly selected", correct: false },
     ],
   },
   {
-    question:
-      "What is the primary purpose of a repeater in a communication system?",
+    question: "What does 'Many to One' configuration involve?",
     answers: [
-      { text: "To store data", correct: false },
-      { text: "To extend the range of a communication signal", correct: true },
-      { text: "To amplify audio signals", correct: false },
-      { text: "To convert signals from analog to digital", correct: false },
-    ],
-  },
-  {
-    question: "What does BER stand for in communication systems?",
-    answers: [
-      { text: "Bit Error Rate", correct: true },
-      { text: "Bandwidth Error Ratio", correct: false },
-      { text: "Binary Encoding Rate", correct: false },
-      { text: "Bit Encoding Ratio", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a type of analog modulation?",
-    answers: [
-      { text: "Amplitude Modulation (AM)", correct: true },
-      { text: "Quadrature Amplitude Modulation (QAM)", correct: false },
-      { text: "Phase Shift Keying (PSK)", correct: false },
-      { text: "Frequency Shift Keying (FSK)", correct: false },
-    ],
-  },
-];
-////////////////////////////////////////   Microwave Engineering   //////////////////////////////////////////////////
-const Microwave_Engineering = [
-  {
-    question: "What is the typical frequency range of microwaves?",
-    answers: [
-      { text: "3 Hz to 30 Hz", correct: false },
-      { text: "3 GHz to 30 GHz", correct: true },
-      { text: "300 MHz to 3 GHz", correct: false },
-      { text: "30 GHz to 300 GHz", correct: false },
-    ],
-  },
-  {
-    question: "Which component is commonly used for generating microwaves?",
-    answers: [
-      { text: "Transistor", correct: false },
-      { text: "Klystron", correct: true },
-      { text: "Diode", correct: false },
-      { text: "Resistor", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary application of a waveguide in microwave engineering?",
-    answers: [
-      { text: "To store energy", correct: false },
-      { text: "To amplify signals", correct: false },
       {
-        text: "To transmit microwaves from one point to another",
-        correct: true,
-      },
-      { text: "To filter signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of modulation is commonly used in microwave communication?",
-    answers: [
-      { text: "Amplitude Modulation (AM)", correct: false },
-      { text: "Frequency Modulation (FM)", correct: false },
-      { text: "Pulse Code Modulation (PCM)", correct: false },
-      { text: "Phase Modulation (PM)", correct: true },
-    ],
-  },
-  {
-    question: "What is the purpose of a circulator in a microwave system?",
-    answers: [
-      { text: "To amplify signals", correct: false },
-      { text: "To convert AC to DC", correct: false },
-      {
-        text: "To direct microwave signals in a specific direction",
-        correct: true,
-      },
-      { text: "To generate microwaves", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which material is commonly used for microwave circuit substrates?",
-    answers: [
-      { text: "Silicon", correct: false },
-      { text: "Copper", correct: false },
-      { text: "Gallium Arsenide (GaAs)", correct: true },
-      { text: "Aluminum", correct: false },
-    ],
-  },
-  {
-    question: "What is a Gunn diode used for in microwave engineering?",
-    answers: [
-      { text: "As a mixer", correct: false },
-      { text: "As an oscillator", correct: true },
-      { text: "As a filter", correct: false },
-      { text: "As an amplifier", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary purpose of a magnetron in microwave engineering?",
-    answers: [
-      { text: "To detect microwaves", correct: false },
-      { text: "To convert microwaves to light", correct: false },
-      { text: "To generate microwaves", correct: true },
-      { text: "To store microwaves", correct: false },
-    ],
-  },
-  {
-    question: "Which type of filter is commonly used in microwave circuits?",
-    answers: [
-      { text: "Low-pass filter", correct: false },
-      { text: "High-pass filter", correct: false },
-      { text: "Band-pass filter", correct: true },
-      { text: "Notch filter", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is a scalar network analyzer used for in microwave engineering?",
-    answers: [
-      { text: "To measure voltage levels", correct: false },
-      {
-        text: "To measure scalar (magnitude) properties of microwave components",
-        correct: true,
-      },
-      { text: "To generate microwave signals", correct: false },
-      { text: "To filter microwave signals", correct: false },
-    ],
-  },
-  {
-    question: "Which parameter is measured by a vector network analyzer (VNA)?",
-    answers: [
-      { text: "Current", correct: false },
-      { text: "Power", correct: false },
-      { text: "Impedance", correct: false },
-      { text: "Scattering parameters (S-parameters)", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the typical use of a directional coupler in microwave systems?",
-    answers: [
-      { text: "To increase signal power", correct: false },
-      { text: "To couple a specific amount of microwave power", correct: true },
-      { text: "To convert DC to AC", correct: false },
-      { text: "To store microwave energy", correct: false },
-    ],
-  },
-  {
-    question: "What is the main characteristic of a TEM mode in a waveguide?",
-    answers: [
-      { text: "Transverse electric and magnetic fields", correct: true },
-      { text: "Transverse electric field only", correct: false },
-      { text: "Transverse magnetic field only", correct: false },
-      { text: "Longitudinal electric field only", correct: false },
-    ],
-  },
-  {
-    question: "What does VSWR stand for in microwave engineering?",
-    answers: [
-      { text: "Voltage Standing Wave Ratio", correct: true },
-      { text: "Voltage Signal Wave Ratio", correct: false },
-      { text: "Voltage System Wave Ratio", correct: false },
-      { text: "Voltage Supply Wave Ratio", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to measure the power of microwave signals?",
-    answers: [
-      { text: "Oscilloscope", correct: false },
-      { text: "Spectrum analyzer", correct: false },
-      { text: "Power meter", correct: true },
-      { text: "Network analyzer", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a microwave isolator?",
-    answers: [
-      { text: "To store microwave energy", correct: false },
-      { text: "To amplify microwave signals", correct: false },
-      {
-        text: "To allow signal transmission in one direction only",
-        correct: true,
-      },
-      { text: "To filter microwave signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the advantage of using a microstrip line in microwave circuits?",
-    answers: [
-      { text: "Low cost and easy fabrication", correct: true },
-      { text: "High power handling", correct: false },
-      { text: "Wide bandwidth", correct: false },
-      { text: "Low insertion loss", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'cutoff frequency' refer to in waveguides?",
-    answers: [
-      { text: "The maximum frequency that can be transmitted", correct: false },
-      {
-        text: "The frequency below which the waveguide cannot support a propagating mode",
-        correct: true,
-      },
-      {
-        text: "The frequency at which the waveguide is most efficient",
+        text: "One virtual sensor controls all physical sensors globally",
         correct: false,
       },
       {
-        text: "The frequency above which the waveguide cannot support a propagating mode",
+        text: "Many physical sensors aggregate data for one virtual sensor",
+        correct: true,
+      },
+      {
+        text: "Many virtual sensors for many physical sensors",
         correct: false,
       },
+      { text: "One sensor shared across networks", correct: false },
     ],
   },
   {
     question:
-      "Which phenomenon causes signal attenuation in microwave communication?",
+      "Which configuration is a hybrid of other two sensor configurations?",
     answers: [
-      { text: "Reflection", correct: false },
-      { text: "Scattering", correct: false },
-      { text: "Absorption", correct: true },
-      { text: "Diffraction", correct: false },
+      { text: "One to Many", correct: false },
+      { text: "Many to One", correct: false },
+      { text: "Many to Many", correct: true },
+      { text: "One to One", correct: false },
     ],
   },
   {
     question:
-      "What is the primary use of a parabolic reflector in microwave communication?",
+      "What is the primary communication medium in Sensor Cloud Computing?",
     answers: [
-      { text: "To filter microwave signals", correct: false },
-      { text: "To amplify microwave signals", correct: false },
-      { text: "To focus and direct microwave signals", correct: true },
-      { text: "To store microwave energy", correct: false },
-    ],
-  },
-];
-//////////////////////////////////////  Wireless communication  /////////////////////////////////////////////////////
-const Wireless_Communications = [
-  {
-    question:
-      "What is the main purpose of a base station in wireless communication?",
-    answers: [
-      { text: "To store data", correct: false },
-      { text: "To amplify signals", correct: false },
-      { text: "To manage communication with mobile devices", correct: true },
-      { text: "To regulate power supply", correct: false },
-    ],
-  },
-  {
-    question: "What is the full form of LTE in wireless communication?",
-    answers: [
-      { text: "Local Telecommunication Exchange", correct: false },
-      { text: "Long Term Evolution", correct: true },
-      { text: "Local Transmission Equipment", correct: false },
-      { text: "Long Transmission Expansion", correct: false },
-    ],
-  },
-  {
-    question: "What frequency band is commonly used for Wi-Fi networks?",
-    answers: [
-      { text: "900 MHz", correct: false },
-      { text: "1.8 GHz", correct: false },
-      { text: "2.4 GHz and 5 GHz", correct: true },
-      { text: "3.5 GHz", correct: false },
-    ],
-  },
-  {
-    question: "What modulation technique is widely used in 4G LTE?",
-    answers: [
-      { text: "Amplitude Modulation (AM)", correct: false },
-      { text: "Frequency Modulation (FM)", correct: false },
-      {
-        text: "Orthogonal Frequency Division Multiplexing (OFDM)",
-        correct: true,
-      },
-      { text: "Phase Modulation (PM)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of an antenna in wireless communication?",
-    answers: [
-      { text: "To store electrical energy", correct: false },
-      {
-        text: "To convert electrical signals to radio waves and vice versa",
-        correct: true,
-      },
-      { text: "To amplify signals", correct: false },
-      { text: "To regulate current flow", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technology is used for short-range wireless communication between devices?",
-    answers: [
-      { text: "Bluetooth", correct: true },
-      { text: "Wi-Fi", correct: false },
-      { text: "LTE", correct: false },
-      { text: "5G", correct: false },
-    ],
-  },
-  {
-    question: "What is the maximum data rate of a typical 5G network?",
-    answers: [
-      { text: "100 Mbps", correct: false },
-      { text: "1 Gbps", correct: false },
-      { text: "10 Gbps", correct: true },
-      { text: "100 Gbps", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main advantage of using multiple-input multiple-output (MIMO) technology?",
-    answers: [
-      { text: "Reduced power consumption", correct: false },
-      { text: "Increased data rates and link reliability", correct: true },
-      { text: "Simplified network architecture", correct: false },
-      { text: "Lower latency", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of modulation is used in Wi-Fi 6 (802.11ax) for improved efficiency?",
-    answers: [
-      { text: "Quadrature Amplitude Modulation (QAM)", correct: true },
-      { text: "Frequency Shift Keying (FSK)", correct: false },
-      { text: "Amplitude Modulation (AM)", correct: false },
-      { text: "Phase Modulation (PM)", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of a handover in cellular networks?",
-    answers: [
-      { text: "To increase signal strength", correct: false },
-      {
-        text: "To transfer an ongoing call or data session from one cell to another",
-        correct: true,
-      },
-      { text: "To encode data for transmission", correct: false },
-      { text: "To provide power to mobile devices", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'cell' refer to in cellular networks?",
-    answers: [
-      { text: "A mobile device", correct: false },
-      { text: "A geographic area covered by a base station", correct: true },
-      { text: "A type of modulation", correct: false },
-      { text: "A signal amplifier", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which frequency band is primarily used for 5G millimeter wave (mmWave) communication?",
-    answers: [
-      { text: "700 MHz", correct: false },
-      { text: "2.4 GHz", correct: false },
-      { text: "28 GHz", correct: true },
-      { text: "5 GHz", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main purpose of the Global System for Mobile Communications (GSM)?",
-    answers: [
-      { text: "To provide high-speed internet", correct: false },
-      { text: "To ensure secure email communication", correct: false },
-      { text: "To standardize mobile communication", correct: true },
-      { text: "To amplify radio signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which protocol is used for secure communication over wireless networks?",
-    answers: [
-      { text: "HTTP", correct: false },
-      { text: "FTP", correct: false },
-      { text: "WPA3", correct: true },
-      { text: "SMTP", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using Frequency Division Duplex (FDD) over Time Division Duplex (TDD)?",
-    answers: [
-      { text: "Lower cost", correct: false },
-      { text: "Higher data rates", correct: false },
-      { text: "Simultaneous transmission and reception", correct: true },
-      { text: "Lower latency", correct: false },
-    ],
-  },
-  {
-    question: "What is the typical range of a Bluetooth connection?",
-    answers: [
-      { text: "1-2 meters", correct: false },
-      { text: "10-100 meters", correct: true },
-      { text: "500-1000 meters", correct: false },
-      { text: "1-10 kilometers", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technology is used to extend the range of wireless networks?",
-    answers: [
-      { text: "Router", correct: false },
-      { text: "Repeater", correct: true },
-      { text: "Modem", correct: false },
-      { text: "Switch", correct: false },
-    ],
-  },
-  {
-    question: "What is the main function of a cellular network's core network?",
-    answers: [
-      { text: "To manage radio frequencies", correct: false },
-      {
-        text: "To control and route data between base stations and external networks",
-        correct: true,
-      },
-      { text: "To amplify signal strength", correct: false },
-      { text: "To provide power to mobile devices", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of carrier aggregation in LTE-Advanced?",
-    answers: [
-      { text: "To reduce interference", correct: false },
-      {
-        text: "To increase data rates by combining multiple frequency bands",
-        correct: true,
-      },
-      { text: "To enhance security", correct: false },
-      { text: "To simplify network design", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which multiple access technique is used in CDMA (Code Division Multiple Access)?",
-    answers: [
-      { text: "Time Division Multiple Access (TDMA)", correct: false },
-      { text: "Frequency Division Multiple Access (FDMA)", correct: false },
-      { text: "Code Division Multiple Access (CDMA)", correct: true },
-      { text: "Space Division Multiple Access (SDMA)", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  Optical Communication   ///////////////////////////////////////////////
-const Optical_Communication = [
-  {
-    question:
-      "What is the primary advantage of using optical fibers for communication?",
-    answers: [
-      { text: "Lower cost", correct: false },
-      { text: "Higher bandwidth and data rates", correct: true },
-      { text: "Ease of installation", correct: false },
-      { text: "Lower power consumption", correct: false },
-    ],
-  },
-  {
-    question: "What material is typically used to make optical fibers?",
-    answers: [
-      { text: "Plastic", correct: false },
-      { text: "Glass or silica", correct: true },
-      { text: "Copper", correct: false },
-      { text: "Aluminum", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the core function of an optical transmitter in a fiber optic communication system?",
-    answers: [
-      {
-        text: "To convert electrical signals to optical signals",
-        correct: true,
-      },
-      { text: "To amplify optical signals", correct: false },
-      { text: "To store data", correct: false },
-      {
-        text: "To convert optical signals to electrical signals",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which device is used to couple light into an optical fiber?",
-    answers: [
-      { text: "Modulator", correct: false },
-      { text: "Laser diode", correct: true },
-      { text: "Photodiode", correct: false },
-      { text: "Optical amplifier", correct: false },
-    ],
-  },
-  {
-    question: "What is attenuation in optical fibers?",
-    answers: [
-      { text: "The increase in signal power", correct: false },
-      {
-        text: "The reduction of signal strength as it travels through the fiber",
-        correct: true,
-      },
-      { text: "The dispersion of light signals", correct: false },
-      { text: "The reflection of light signals", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of an optical repeater?",
-    answers: [
-      {
-        text: "To convert optical signals to electrical signals",
-        correct: false,
-      },
-      { text: "To amplify and regenerate optical signals", correct: true },
-      { text: "To store optical data", correct: false },
-      { text: "To modulate optical signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which phenomenon causes light to be confined within the core of an optical fiber?",
-    answers: [
-      { text: "Reflection", correct: false },
-      { text: "Refraction", correct: false },
-      { text: "Total internal reflection", correct: true },
-      { text: "Dispersion", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the typical wavelength range used for optical communication?",
-    answers: [
-      { text: "400-700 nm", correct: false },
-      { text: "700-1000 nm", correct: false },
-      { text: "850-1550 nm", correct: true },
-      { text: "2000-3000 nm", correct: false },
-    ],
-  },
-  {
-    question:
-      "What type of optical fiber has a large core and supports multiple modes of light propagation?",
-    answers: [
-      { text: "Single-mode fiber", correct: false },
-      { text: "Multi-mode fiber", correct: true },
-      { text: "Plastic optical fiber", correct: false },
-      { text: "Graded-index fiber", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to split or combine optical signals in a fiber optic network?",
-    answers: [
-      { text: "Optical coupler", correct: true },
-      { text: "Optical isolator", correct: false },
-      { text: "Optical amplifier", correct: false },
-      { text: "Optical modulator", correct: false },
-    ],
-  },
-  {
-    question: "What is chromatic dispersion in optical fibers?",
-    answers: [
-      {
-        text: "The spreading of light pulses due to different wavelengths traveling at different speeds",
-        correct: true,
-      },
-      { text: "The attenuation of light signals", correct: false },
-      { text: "The reflection of light signals", correct: false },
-      { text: "The scattering of light signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main function of a photodetector in an optical communication system?",
-    answers: [
-      { text: "To amplify optical signals", correct: false },
-      {
-        text: "To convert optical signals to electrical signals",
-        correct: true,
-      },
-      { text: "To store optical data", correct: false },
-      { text: "To modulate optical signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "What type of laser is commonly used in optical communication systems?",
-    answers: [
-      { text: "CO2 laser", correct: false },
-      { text: "He-Ne laser", correct: false },
-      { text: "Semiconductor laser diode", correct: true },
-      { text: "Argon-ion laser", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of optical fiber has a small core and supports only a single mode of light propagation?",
-    answers: [
-      { text: "Single-mode fiber", correct: true },
-      { text: "Multi-mode fiber", correct: false },
-      { text: "Plastic optical fiber", correct: false },
-      { text: "Graded-index fiber", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main disadvantage of multi-mode fibers compared to single-mode fibers?",
-    answers: [
-      { text: "Higher attenuation", correct: false },
-      { text: "Higher cost", correct: false },
-      { text: "Limited bandwidth and distance", correct: true },
-      { text: "Complex installation process", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of an optical amplifier?",
-    answers: [
-      {
-        text: "To convert optical signals to electrical signals",
-        correct: false,
-      },
-      {
-        text: "To amplify optical signals directly without converting them to electrical signals",
-        correct: true,
-      },
-      { text: "To modulate optical signals", correct: false },
-      { text: "To split optical signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is used to control the intensity, phase, or polarization of light in optical communication?",
-    answers: [
-      { text: "Optical coupler", correct: false },
-      { text: "Optical modulator", correct: true },
-      { text: "Optical isolator", correct: false },
-      { text: "Optical amplifier", correct: false },
-    ],
-  },
-  {
-    question: "What is the main cause of signal loss in optical fibers?",
-    answers: [
-      { text: "Chromatic dispersion", correct: false },
-      { text: "Total internal reflection", correct: false },
-      { text: "Attenuation due to absorption and scattering", correct: true },
-      { text: "Modulation instability", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is Wavelength Division Multiplexing (WDM) in optical communication?",
-    answers: [
-      { text: "A technique to amplify optical signals", correct: false },
-      {
-        text: "A method to convert optical signals to electrical signals",
-        correct: false,
-      },
-      {
-        text: "A method to combine multiple wavelengths of light into a single fiber",
-        correct: true,
-      },
-      { text: "A technique to split optical signals", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the main advantage of using optical communication over traditional copper wires?",
-    answers: [
-      { text: "Lower cost", correct: false },
-      {
-        text: "Higher bandwidth and longer transmission distances",
-        correct: true,
-      },
-      { text: "Ease of installation", correct: false },
-      { text: "Lower power consumption", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////  Mobile COmmunication  //////////////////////////////////////////////////////
-const Mobile_Communication = [
-  {
-    question: "What is the primary function of a mobile communication system?",
-    answers: [
-      { text: "To provide television broadcasting services", correct: false },
-      {
-        text: "To enable wireless voice and data communication",
-        correct: true,
-      },
-      { text: "To facilitate wired internet access", correct: false },
-      { text: "To provide landline telephone services", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which generation of mobile communication introduced digital cellular networks?",
-    answers: [
-      { text: "1G", correct: false },
-      { text: "2G", correct: true },
-      { text: "3G", correct: false },
-      { text: "4G", correct: false },
-    ],
-  },
-  {
-    question: "What technology is primarily used in 4G mobile networks?",
-    answers: [
-      { text: "CDMA", correct: false },
-      { text: "GSM", correct: false },
-      { text: "LTE", correct: true },
-      { text: "AMPS", correct: false },
-    ],
-  },
-  {
-    question: "What is the full form of GSM?",
-    answers: [
-      { text: "Global System for Messaging", correct: false },
-      { text: "Global System for Mobile Communications", correct: true },
-      { text: "Global Satellite Messaging", correct: false },
-      { text: "Global Standard for Mobile", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of 5G over 4G?",
-    answers: [
-      { text: "Lower latency and higher data rates", correct: true },
-      { text: "Longer battery life for devices", correct: false },
-      { text: "Lower power consumption", correct: false },
-      { text: "Simpler network architecture", correct: false },
-    ],
-  },
-  {
-    question: "Which frequency bands are typically used for 5G communication?",
-    answers: [
-      { text: "700 MHz - 2.6 GHz", correct: false },
-      { text: "2.6 GHz - 4.9 GHz", correct: false },
-      { text: "24 GHz - 100 GHz", correct: true },
-      { text: "150 MHz - 500 MHz", correct: false },
-    ],
-  },
-  {
-    question: "What is a cell in mobile communication?",
-    answers: [
-      { text: "A single mobile device", correct: false },
-      { text: "A base station", correct: false },
-      { text: "A geographical area covered by a base station", correct: true },
-      { text: "A type of antenna", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a SIM card in a mobile phone?",
-    answers: [
-      { text: "To store contact information", correct: false },
-      { text: "To store the operating system", correct: false },
-      {
-        text: "To identify and authenticate the user to the network",
-        correct: true,
-      },
-      { text: "To enhance signal strength", correct: false },
-    ],
-  },
-  {
-    question: "What is handover in mobile communication?",
-    answers: [
-      {
-        text: "The process of switching from one cell to another",
-        correct: true,
-      },
-      { text: "The process of ending a call", correct: false },
-      { text: "The process of updating the SIM card", correct: false },
-      { text: "The process of switching off the mobile phone", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which protocol is used for data transmission in mobile networks?",
-    answers: [
-      { text: "HTTP", correct: false },
-      { text: "FTP", correct: false },
-      { text: "TCP/IP", correct: true },
-      { text: "SMTP", correct: false },
-    ],
-  },
-  {
-    question: "What is the main purpose of a base station in a mobile network?",
-    answers: [
-      { text: "To store user data", correct: false },
-      { text: "To charge mobile devices", correct: false },
-      { text: "To transmit and receive radio signals", correct: true },
-      { text: "To manage network security", correct: false },
-    ],
-  },
-  {
-    question: "What does VoLTE stand for?",
-    answers: [
-      { text: "Voice over LTE", correct: true },
-      { text: "Video over LTE", correct: false },
-      { text: "Virtual LTE", correct: false },
-      { text: "Volume over LTE", correct: false },
-    ],
-  },
-  {
-    question: "Which technology enables high-speed internet on mobile devices?",
-    answers: [
-      { text: "GPRS", correct: false },
-      { text: "EDGE", correct: false },
-      { text: "HSPA", correct: false },
-      { text: "LTE", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the primary function of an antenna in mobile communication?",
-    answers: [
-      { text: "To amplify signals", correct: false },
-      { text: "To transmit and receive electromagnetic waves", correct: true },
-      { text: "To convert digital signals to analog", correct: false },
-      { text: "To store data", correct: false },
-    ],
-  },
-  {
-    question: "What is the typical range of a Wi-Fi network?",
-    answers: [
-      { text: "10-20 meters", correct: true },
-      { text: "50-100 meters", correct: false },
-      { text: "100-200 meters", correct: false },
-      { text: "200-500 meters", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which mobile communication standard supports both data and voice services?",
-    answers: [
-      { text: "1G", correct: false },
-      { text: "2G", correct: true },
-      { text: "AMPS", correct: false },
-      { text: "VoIP", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of an IMSI in mobile communication?",
-    answers: [
-      { text: "To provide internet access", correct: false },
-      {
-        text: "To uniquely identify a subscriber in a mobile network",
-        correct: true,
-      },
-      { text: "To increase signal strength", correct: false },
-      { text: "To enable voice calls", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which technology is used for short-range communication between devices?",
-    answers: [
-      { text: "NFC", correct: true },
-      { text: "Wi-Fi", correct: false },
       { text: "Bluetooth", correct: false },
-      { text: "Zigbee", correct: false },
-    ],
-  },
-  {
-    question: "What does the acronym SMS stand for?",
-    answers: [
-      { text: "Short Message Service", correct: true },
-      { text: "Signal Modulation Service", correct: false },
-      { text: "Subscriber Management System", correct: false },
-      { text: "Service Management System", correct: false },
-    ],
-  },
-  {
-    question: "What is the main purpose of the HLR in a mobile network?",
-    answers: [
-      { text: "To amplify signals", correct: false },
-      { text: "To store and manage subscriber information", correct: true },
-      { text: "To provide internet access", correct: false },
-      { text: "To transmit radio signals", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////// Salellite COmmunication  //////////////////////////////////////////////////
-const Satellite_Communication = [
-  {
-    question: "What is the primary function of a communication satellite?",
-    answers: [
-      { text: "To provide weather forecasting", correct: false },
-      { text: "To relay communication signals", correct: true },
-      { text: "To conduct scientific research in space", correct: false },
-      { text: "To navigate aircraft", correct: false },
-    ],
-  },
-  {
-    question: "What is the geostationary orbit?",
-    answers: [
-      {
-        text: "An orbit in which a satellite orbits the Earth in 90 minutes",
-        correct: false,
-      },
-      {
-        text: "An orbit where the satellite appears stationary relative to the Earth's surface",
-        correct: true,
-      },
-      { text: "An orbit that passes over the poles", correct: false },
-      { text: "An orbit that lies between Earth and the Moon", correct: false },
+      { text: "Ethernet", correct: false },
+      { text: "Internet", correct: true },
+      { text: "Radio Frequency only", correct: false },
     ],
   },
   {
     question:
-      "Which frequency band is primarily used for satellite communication?",
+      "Which challenge is faced in implementing large-scale sensor networks?",
     answers: [
-      { text: "AM band", correct: false },
-      { text: "FM band", correct: false },
-      { text: "Ku band", correct: true },
-      { text: "VLF band", correct: false },
+      { text: "Overpowered CPUs", correct: false },
+      { text: "Too many sensors", correct: false },
+      { text: "Vendor-specific designs", correct: true },
+      { text: "Unlimited storage", correct: false },
     ],
   },
   {
     question:
-      "What is the purpose of a transponder in a communication satellite?",
+      "What enables cloud services to be delivered via sensor-rich devices?",
     answers: [
-      { text: "To store energy", correct: false },
-      { text: "To amplify and relay signals", correct: true },
-      { text: "To provide navigation services", correct: false },
-      { text: "To transmit weather data", correct: false },
-    ],
-  },
-  {
-    question: "Which type of orbit is used by GPS satellites?",
-    answers: [
-      { text: "Low Earth Orbit (LEO)", correct: false },
-      { text: "Medium Earth Orbit (MEO)", correct: true },
-      { text: "Geostationary Orbit (GEO)", correct: false },
-      { text: "High Earth Orbit (HEO)", correct: false },
+      { text: "Low latency servers", correct: false },
+      { text: "Sensor Cloud Infrastructure", correct: true },
+      { text: "Containerization only", correct: false },
+      { text: "Centralized Storage", correct: false },
     ],
   },
   {
     question:
-      "What does the term 'footprint' refer to in satellite communication?",
+      "What aspect of Sensor Cloud Computing allows applications to span across organizations?",
     answers: [
-      { text: "The weight of the satellite", correct: false },
-      {
-        text: "The coverage area of the satellite signal on Earth",
-        correct: true,
-      },
-      { text: "The size of the satellite", correct: false },
-      { text: "The energy consumption of the satellite", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component of a satellite communication system is located on Earth?",
-    answers: [
-      { text: "Transponder", correct: false },
-      { text: "Payload", correct: false },
-      { text: "Earth station", correct: true },
-      { text: "Solar panel", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a downlink in satellite communication?",
-    answers: [
-      { text: "To send signals from Earth to the satellite", correct: false },
-      { text: "To send signals from the satellite to Earth", correct: true },
-      { text: "To send signals between satellites", correct: false },
-      { text: "To measure the satellite's position", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which modulation technique is commonly used in satellite communication?",
-    answers: [
-      { text: "Amplitude Modulation (AM)", correct: false },
-      { text: "Frequency Modulation (FM)", correct: false },
-      { text: "Phase Shift Keying (PSK)", correct: true },
-      { text: "Quadrature Amplitude Modulation (QAM)", correct: false },
-    ],
-  },
-  {
-    question: "What is a satellite constellation?",
-    answers: [
-      { text: "A single satellite in orbit", correct: false },
-      { text: "A group of satellites working together", correct: true },
-      {
-        text: "The ground equipment used for satellite communication",
-        correct: false,
-      },
-      { text: "A type of satellite orbit", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of a beacon signal in satellite communication?",
-    answers: [
-      { text: "To locate the position of the satellite", correct: false },
-      { text: "To measure signal strength", correct: false },
-      {
-        text: "To provide a reference for signal tracking and alignment",
-        correct: true,
-      },
-      { text: "To transmit data between satellites", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'uplink' refer to in satellite communication?",
-    answers: [
-      { text: "The transmission from the satellite to Earth", correct: false },
-      { text: "The transmission from Earth to the satellite", correct: true },
-      { text: "The transmission between satellites", correct: false },
-      { text: "The process of launching the satellite", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which satellite system is used for global broadcasting services?",
-    answers: [
-      { text: "LEO satellites", correct: false },
-      { text: "MEO satellites", correct: false },
-      { text: "GEO satellites", correct: true },
-      { text: "HEO satellites", correct: false },
-    ],
-  },
-  {
-    question: "What is a polar orbit?",
-    answers: [
-      { text: "An orbit that passes over the equator", correct: false },
-      { text: "An orbit that passes over the poles", correct: true },
-      {
-        text: "An orbit that remains fixed above one point on Earth",
-        correct: false,
-      },
-      {
-        text: "An orbit that is used by geostationary satellites",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which component of a satellite system amplifies the received signals?",
-    answers: [
-      { text: "Antenna", correct: false },
-      { text: "Transponder", correct: true },
-      { text: "Solar panel", correct: false },
-      { text: "Thruster", correct: false },
-    ],
-  },
-  {
-    question: "What does VSAT stand for?",
-    answers: [
-      { text: "Very Small Aperture Terminal", correct: true },
-      { text: "Variable Signal Amplification Technology", correct: false },
-      { text: "Very Small Antenna Terminal", correct: false },
-      { text: "Variable Signal Antenna Technology", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of a parabolic dish in satellite communication?",
-    answers: [
-      { text: "To generate power for the satellite", correct: false },
-      { text: "To provide thrust for the satellite", correct: false },
-      { text: "To focus and direct the radio waves", correct: true },
-      { text: "To measure the satellite's position", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of orbit has the shortest orbital period around the Earth?",
-    answers: [
-      { text: "Geostationary Orbit (GEO)", correct: false },
-      { text: "Low Earth Orbit (LEO)", correct: true },
-      { text: "Medium Earth Orbit (MEO)", correct: false },
-      { text: "High Earth Orbit (HEO)", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using satellites for communication?",
-    answers: [
-      { text: "High-speed data transfer", correct: false },
-      { text: "Global coverage", correct: true },
-      { text: "Low latency", correct: false },
-      { text: "High signal strength", correct: false },
-    ],
-  },
-  {
-    question: "What is a ground station in satellite communication?",
-    answers: [
-      { text: "A satellite in low Earth orbit", correct: false },
-      { text: "A control center for launching satellites", correct: false },
-      {
-        text: "A terrestrial terminal used to communicate with satellites",
-        correct: true,
-      },
-      { text: "A base for space exploration missions", correct: false },
+      { text: "Local data storage", correct: false },
+      { text: "Cross-disciplinary application support", correct: true },
+      { text: "Single point access", correct: false },
+      { text: "Device locking mechanisms", correct: false },
     ],
   },
 ];
-/////////////////////////////////////////  Radar and Nevigation  ////////////////////////////////////////////////////
-const Radar_and_Navigation = [
+//////////////////////////////////  Internet of Things and Resource Management  ////////////////////////////////////
+const IoT = [
   {
-    question: "What does RADAR stand for?",
+    question:
+      "Which of the following are the basic building blocks of IoT architecture?",
     answers: [
-      { text: "Radio Detection and Ranging", correct: true },
-      { text: "Radio Direction and Ranging", correct: false },
-      { text: "Remote Detection and Ranging", correct: false },
-      { text: "Radio Development and Ranging", correct: false },
+      { text: "Devices, Servers, Routers", correct: false },
+      { text: "Things, Gateway, Network and Cloud", correct: true },
+      { text: "Nodes, Hosts, Clients", correct: false },
+      { text: "Cloud, Applications, OS", correct: false },
     ],
   },
   {
-    question: "Which component of a radar system emits the radio waves?",
+    question: "What is a key feature of IoT systems?",
     answers: [
-      { text: "Receiver", correct: false },
-      { text: "Antenna", correct: false },
-      { text: "Transmitter", correct: true },
-      { text: "Oscillator", correct: false },
+      {
+        text: "They require deep understanding of infrastructure",
+        correct: false,
+      },
+      { text: "They work only on-premises", correct: false },
+      {
+        text: "They enable services without understanding infrastructure",
+        correct: true,
+      },
+      { text: "They rely solely on cloud servers", correct: false },
     ],
   },
   {
-    question: "What is the primary purpose of radar in aviation?",
+    question: "Which of the following is NOT a challenge in IoT systems?",
     answers: [
-      { text: "To detect weather patterns", correct: false },
-      { text: "To provide entertainment for passengers", correct: false },
-      { text: "To detect and track aircraft", correct: true },
-      { text: "To measure fuel consumption", correct: false },
-    ],
-  },
-  {
-    question: "What does a radar's range resolution depend on?",
-    answers: [
-      { text: "Pulse width", correct: true },
-      { text: "Antenna size", correct: false },
-      { text: "Transmit power", correct: false },
-      { text: "Frequency of the transmitted wave", correct: false },
-    ],
-  },
-  {
-    question: "Which radar system uses the Doppler effect to measure velocity?",
-    answers: [
-      { text: "Pulse radar", correct: false },
-      { text: "Monopulse radar", correct: false },
-      { text: "Doppler radar", correct: true },
-      { text: "CW radar", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of the receiver in a radar system?",
-    answers: [
-      { text: "To generate the radar pulse", correct: false },
-      { text: "To detect and amplify the reflected signal", correct: true },
-      { text: "To focus the radar beam", correct: false },
-      { text: "To rotate the radar antenna", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of a radar antenna?",
-    answers: [
-      { text: "To generate the radar pulse", correct: false },
-      { text: "To amplify the signal", correct: false },
-      { text: "To transmit and receive radio waves", correct: true },
-      { text: "To decode the received signal", correct: false },
-    ],
-  },
-  {
-    question: "Which type of navigation uses stars to determine position?",
-    answers: [
-      { text: "Satellite navigation", correct: false },
-      { text: "Celestial navigation", correct: true },
-      { text: "Inertial navigation", correct: false },
-      { text: "Radio navigation", correct: false },
-    ],
-  },
-  {
-    question: "What is GPS an abbreviation for?",
-    answers: [
-      { text: "Global Positioning System", correct: true },
-      { text: "General Positioning System", correct: false },
-      { text: "Geographic Positioning System", correct: false },
-      { text: "Global Placement System", correct: false },
+      { text: "Scale", correct: false },
+      { text: "Security", correct: false },
+      { text: "Design", correct: true },
+      { text: "Speed", correct: false },
     ],
   },
   {
     question:
-      "Which system uses gyroscopes and accelerometers to determine position?",
+      "Which computing model helps in reducing latency in time-sensitive IoT applications?",
     answers: [
-      { text: "Radar", correct: false },
-      { text: "GPS", correct: false },
-      { text: "Inertial Navigation System", correct: true },
-      { text: "Radio Navigation", correct: false },
+      { text: "Cloud computing", correct: false },
+      { text: "Fog and Edge computing", correct: true },
+      { text: "Centralized computing", correct: false },
+      { text: "Local computing", correct: false },
     ],
   },
   {
-    question: "What is a transponder used for in aviation?",
+    question:
+      "In a cloud-fog environment model, what are the three main layers?",
     answers: [
-      { text: "To detect other aircraft", correct: false },
-      { text: "To amplify radio signals", correct: false },
-      { text: "To communicate with air traffic control", correct: true },
-      { text: "To generate radar pulses", correct: false },
+      { text: "Client, Cloud, Network", correct: false },
+      { text: "Edge, Fog, Cloud", correct: true },
+      { text: "End, Central, Cloud", correct: false },
+      { text: "Node, Gateway, Server", correct: false },
     ],
   },
   {
-    question: "Which type of radar is used for weather monitoring?",
+    question: "What is the role of Fog Server Manager?",
     answers: [
-      { text: "Monopulse radar", correct: false },
-      { text: "Weather radar", correct: true },
-      { text: "Doppler radar", correct: true },
-      { text: "Surface radar", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'azimuth' refer to in radar systems?",
-    answers: [
-      { text: "The range to the target", correct: false },
-      { text: "The speed of the target", correct: false },
-      { text: "The angular position of the target", correct: true },
-      { text: "The size of the radar pulse", correct: false },
-    ],
-  },
-  {
-    question: "What is the main disadvantage of radar navigation?",
-    answers: [
-      { text: "Limited range", correct: false },
-      { text: "Requires clear weather conditions", correct: false },
-      { text: "Susceptible to interference", correct: true },
-      { text: "High cost of operation", correct: false },
-    ],
-  },
-  {
-    question: "What is the principle behind inertial navigation?",
-    answers: [
-      { text: "Using satellite signals to determine position", correct: false },
+      { text: "To manage IoT device batteries", correct: false },
       {
-        text: "Measuring the position relative to ground stations",
+        text: "To manage resources and virtual machines in fog environment",
+        correct: true,
+      },
+      { text: "To design application UI", correct: false },
+      { text: "To act as DNS resolver", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which layer handles the computation when the fog layer lacks resources?",
+    answers: [
+      { text: "Client layer", correct: false },
+      { text: "Edge layer", correct: false },
+      { text: "Cloud layer", correct: true },
+      { text: "Middleware layer", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are infrastructure resources in fog/edge computing?",
+    answers: [
+      { text: "Programming languages and scripts", correct: false },
+      { text: "Storage, network, and computation resources", correct: true },
+      { text: "Mobile apps only", correct: false },
+      { text: "Power cables and switches", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which type of devices are used in fog/edge hardware infrastructure?",
+    answers: [
+      { text: "Supercomputers", correct: false },
+      { text: "Only cloud servers", correct: false },
+      {
+        text: "Small-form-factor devices like WiFi APs and set-top boxes",
+        correct: true,
+      },
+      { text: "Laptops only", correct: false },
+    ],
+  },
+  {
+    question: "Which layer in fog architecture typically runs middleware?",
+    answers: [
+      { text: "Cloud layer", correct: false },
+      { text: "Hardware layer", correct: false },
+      { text: "Fog/Edge computing devices", correct: true },
+      { text: "Client layer", correct: false },
+    ],
+  },
+  {
+    question:
+      "What does the 'placement' task in resource management aim to achieve?",
+    answers: [
+      { text: "Schedule events for user devices", correct: false },
+      {
+        text: "Place computation tasks on suitable fog/edge resources",
+        correct: true,
+      },
+      { text: "Benchmark energy usage", correct: false },
+      { text: "Identify the best wireless protocol", correct: false },
+    ],
+  },
+  {
+    question: "What is a core benefit of load balancing in edge data centers?",
+    answers: [
+      { text: "Reduced device cost", correct: false },
+      { text: "Efficient task distribution", correct: true },
+      { text: "Increased latency", correct: false },
+      { text: "Improved battery charging", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a valid application constraint for service placement?",
+    answers: [
+      { text: "Color format", correct: false },
+      { text: "Temperature tolerance", correct: false },
+      { text: "Locality requirement", correct: true },
+      { text: "Battery voltage", correct: false },
+    ],
+  },
+  {
+    question: "What is offloading in the context of fog/edge computing?",
+    answers: [
+      { text: "Moving fog servers to remote locations", correct: false },
+      { text: "Relocating user data centers to the cloud", correct: false },
+      { text: "Shifting computation from user/cloud to edge", correct: true },
+      { text: "Disabling fog nodes in remote areas", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of these is a correct example of offloading from user device to edge?",
+    answers: [
+      { text: "Sending queries to cloud for AI processing", correct: false },
+      { text: "Using a CDN for video delivery", correct: false },
+      {
+        text: "Using nearby fog nodes to execute mobile app tasks",
+        correct: true,
+      },
+      { text: "Removing local storage completely", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a resource constraint during application placement?",
+    answers: [
+      { text: "Cloud latency", correct: false },
+      { text: "Network congestion", correct: false },
+      { text: "Limited CPU, RAM, or bandwidth on nodes", correct: true },
+      { text: "GPS signal strength", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which approach ensures faster response time in IoT applications?",
+    answers: [
+      { text: "Processing everything in cloud", correct: false },
+      { text: "Storing data on USB drives", correct: false },
+      { text: "Using fog/edge computing close to data source", correct: true },
+      { text: "Compressing images before transmission", correct: false },
+    ],
+  },
+  {
+    question:
+      "In application placement, what does ‘locality requirement’ mean?",
+    answers: [
+      {
+        text: "Application must run on a specific operating system",
         correct: false,
       },
       {
-        text: "Using gyroscopes and accelerometers to track position changes",
+        text: "Service should be deployed close to its data source",
         correct: true,
       },
-      { text: "Following a pre-determined route using maps", correct: false },
+      { text: "Only cloud services are allowed", correct: false },
+      { text: "Data should be stored globally", correct: false },
     ],
   },
   {
     question:
-      "What type of radar is primarily used in automotive applications?",
+      "What is the purpose of the benchmarking component in edge computing?",
     answers: [
-      { text: "Surface radar", correct: false },
-      { text: "Monopulse radar", correct: false },
-      { text: "Automotive radar", correct: true },
-      { text: "Weather radar", correct: false },
+      { text: "To ensure software compatibility", correct: false },
+      { text: "To track user behavior", correct: false },
+      {
+        text: "To measure the performance of hardware and system",
+        correct: true,
+      },
+      { text: "To improve color accuracy", correct: false },
     ],
   },
   {
-    question:
-      "What is the main purpose of an Automatic Identification System (AIS) in maritime navigation?",
+    question: "Which of these best defines the cloud-fog-edge framework?",
     answers: [
-      { text: "To detect weather patterns", correct: false },
-      { text: "To track and identify vessels", correct: true },
-      { text: "To amplify radio signals", correct: false },
-      { text: "To navigate using celestial objects", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component of a radar system determines the direction of the received signal?",
-    answers: [
-      { text: "Transmitter", correct: false },
-      { text: "Antenna", correct: true },
-      { text: "Receiver", correct: false },
-      { text: "Oscillator", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'range gate' refer to in radar technology?",
-    answers: [
-      { text: "The maximum range of the radar", correct: false },
-      { text: "The range of frequencies used by the radar", correct: false },
-      { text: "The specific range interval being measured", correct: true },
-      { text: "The time interval between radar pulses", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of phased array radar?",
-    answers: [
-      { text: "Lower cost", correct: false },
-      { text: "Higher accuracy", correct: true },
-      { text: "Larger size", correct: false },
-      { text: "Simpler design", correct: false },
+      {
+        text: "A distributed computing model involving edge, fog, and centralized cloud layers",
+        correct: true,
+      },
+      {
+        text: "Only a replacement for traditional cloud computing",
+        correct: false,
+      },
+      { text: "A storage-only model", correct: false },
+      { text: "An IoT sensor layout diagram", correct: false },
     ],
   },
 ];
-////////////////////////////////////////////  Fluid Mechanics  //////////////////////////////////////////////////////
-const Fluid_Mechanics = [
+//////////////////////////////   Cloud Federation and VM Migration  ///////////////////////////////////////
+const Cloud_Federation = [
   {
-    question: "What is the primary difference between fluids and solids?",
+    question: "What is Cloud Federation?",
     answers: [
       {
-        text: "Solids have fixed shape and volume, while fluids have fixed volume.",
+        text: "Deployment of a single cloud to support business operations",
         correct: false,
       },
       {
-        text: "Solids have fixed volume, while fluids can change shape and volume.",
+        text: "A private cloud setup for enterprise use",
+        correct: false,
+      },
+      {
+        text: "Deployment and management of multiple internal and external cloud services",
         correct: true,
       },
       {
-        text: "Solids have variable shape and volume, while fluids have fixed shape.",
+        text: "Establishment of cloud services for personal users only",
         correct: false,
       },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a key motivation for Cloud Federation?",
+    answers: [
+      { text: "To decrease global utility", correct: false },
+      { text: "To minimize interoperability", correct: false },
+      { text: "To maximize resource utilization", correct: true },
+      { text: "To increase power consumption", correct: false },
+    ],
+  },
+  {
+    question: "What is one of the benefits of cloud federation?",
+    answers: [
+      { text: "Reduces global cloud access", correct: false },
+      { text: "Prevents load balancing", correct: false },
+      { text: "Enables high availability and resource sharing", correct: true },
+      { text: "Promotes single-cloud dependency", correct: false },
+    ],
+  },
+  {
+    question: "Cloud Federation is an example of which type of organization?",
+    answers: [
+      { text: "Intra-cloud", correct: false },
+      { text: "Inter-cloud", correct: true },
+      { text: "Mono-cloud", correct: false },
+      { text: "Micro-cloud", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which architecture in cloud federation is considered loosely coupled?",
+    answers: [
+      { text: "Multitier", correct: false },
+      { text: "Tightly coupled", correct: false },
+      { text: "Hybrid / Cloud Bursting", correct: true },
+      { text: "Aggregated", correct: false },
+    ],
+  },
+  {
+    question: "What is the key feature of a tightly coupled federation?",
+    answers: [
+      { text: "Minimal control over remote resources", correct: false },
+      { text: "VM placement decisions not allowed", correct: false },
       {
-        text: "Solids have variable shape and volume, while fluids can change volume.",
-        correct: false,
+        text: "Advanced features like VM migration and cross-site networking",
+        correct: true,
       },
+      { text: "Contracts are not required between clouds", correct: false },
     ],
   },
   {
-    question: "What property of a fluid measures its resistance to flow?",
+    question: "Which architecture uses a broker for service deployment?",
     answers: [
-      { text: "Density", correct: false },
-      { text: "Viscosity", correct: true },
-      { text: "Pressure", correct: false },
-      { text: "Surface tension", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which law of fluid mechanics states that the total energy of a fluid flowing along a streamline remains constant?",
-    answers: [
-      { text: "Pascal's law", correct: false },
-      { text: "Bernoulli's equation", correct: true },
-      { text: "Archimedes' principle", correct: false },
-      { text: "Newton's second law", correct: false },
-    ],
-  },
-  {
-    question: "What is the SI unit of viscosity?",
-    answers: [
-      { text: "Poise", correct: false },
-      { text: "Pascal-second", correct: true },
-      { text: "Newton", correct: false },
-      { text: "Joule", correct: false },
+      { text: "Aggregated", correct: false },
+      { text: "Hybrid", correct: false },
+      { text: "Broker Architecture", correct: true },
+      { text: "Multitier", correct: false },
     ],
   },
   {
     question:
-      "What phenomenon is responsible for the rise of liquids in capillary tubes?",
+      "In which type of federation are contracts established between CSPs?",
     answers: [
-      { text: "Surface tension", correct: true },
-      { text: "Viscosity", correct: false },
-      { text: "Buoyancy", correct: false },
-      { text: "Cohesion", correct: false },
+      { text: "Loosely Coupled Federation", correct: false },
+      { text: "Tightly Coupled Federation", correct: false },
+      { text: "Partially Coupled Federation", correct: true },
+      { text: "Single Cloud System", correct: false },
     ],
   },
   {
     question:
-      "What term describes the force per unit area exerted by a fluid at rest?",
+      "Which architecture is beneficial for geographically distributed infrastructures?",
     answers: [
-      { text: "Velocity", correct: false },
-      { text: "Pressure", correct: true },
-      { text: "Friction", correct: false },
-      { text: "Shear stress", correct: false },
+      { text: "Broker Architecture", correct: false },
+      { text: "Hybrid Cloud", correct: false },
+      { text: "Multitier Architecture", correct: true },
+      { text: "Loosely Coupled Federation", correct: false },
+    ],
+  },
+  {
+    question: "What is VM Migration?",
+    answers: [
+      { text: "Copying files from one VM to another", correct: false },
+      { text: "Upgrading the VM software version", correct: false },
+      { text: "Moving a running VM from one host to another", correct: true },
+      { text: "Deleting old VMs", correct: false },
+    ],
+  },
+  {
+    question: "Which type of VM migration requires shutting down the VM?",
+    answers: [
+      { text: "Live Migration", correct: false },
+      { text: "Cold or Non-Live Migration", correct: true },
+      { text: "Dynamic Migration", correct: false },
+      { text: "Parallel Migration", correct: false },
+    ],
+  },
+  {
+    question: "What is a key advantage of Live VM Migration?",
+    answers: [
+      { text: "VM is permanently stopped", correct: false },
+      { text: "Reduces network bandwidth", correct: false },
+      {
+        text: "VM continues to provide service during migration",
+        correct: true,
+      },
+      { text: "CPU state is never moved", correct: false },
     ],
   },
   {
     question:
-      "In fluid mechanics, which type of flow occurs when the Reynolds number is less than 2000?",
+      "Which of the following are the phases of Pre-Copy live migration?",
     answers: [
-      { text: "Laminar flow", correct: true },
-      { text: "Turbulent flow", correct: false },
-      { text: "Steady flow", correct: false },
-      { text: "Compressible flow", correct: false },
+      { text: "Start, Copy, Finish", correct: false },
+      { text: "Pre-copy, Pre-copy Termination, Stop-and-Copy", correct: true },
+      { text: "Boot, Migrate, Resume", correct: false },
+      { text: "Pause, Transfer, Run", correct: false },
+    ],
+  },
+  {
+    question: "What happens during the Stop-and-Copy phase of VM migration?",
+    answers: [
+      { text: "VM continues running on both hosts", correct: false },
+      { text: "Execution of the VM is suspended at the source", correct: true },
+      { text: "Memory is never copied", correct: false },
+      { text: "VM shuts down permanently", correct: false },
+    ],
+  },
+  {
+    question: "In Post-copy migration, what happens first?",
+    answers: [
+      { text: "All memory is copied", correct: false },
+      { text: "Destination VM is shut down", correct: false },
+      { text: "Source VM is stopped and CPU state is copied", correct: true },
+      { text: "VM memory is copied in multiple rounds", correct: false },
     ],
   },
   {
     question:
-      "What is the name of the equation that describes the flow of an incompressible fluid through a tube?",
+      "Which live migration approach may result in accessing memory pages on demand?",
     answers: [
-      { text: "Stokes' law", correct: false },
-      { text: "Hagen-Poiseuille equation", correct: true },
-      { text: "Newton's law of viscosity", correct: false },
-      { text: "Euler's equation of motion", correct: false },
+      { text: "Pre-copy", correct: false },
+      { text: "Cold migration", correct: false },
+      { text: "Post-copy", correct: true },
+      { text: "Serial migration", correct: false },
     ],
   },
   {
     question:
-      "What is the term for the force that opposes the relative motion of two adjacent layers of fluid?",
+      "What is a common goal of both pre-copy and post-copy live migration?",
     answers: [
-      { text: "Surface tension", correct: false },
-      { text: "Viscous drag", correct: true },
-      { text: "Inertia force", correct: false },
-      { text: "Centrifugal force", correct: false },
+      { text: "Shut down VMs quickly", correct: false },
+      { text: "Avoid dirty memory pages", correct: false },
+      { text: "Minimize downtime during migration", correct: true },
+      { text: "Use maximum transmission bandwidth", correct: false },
+    ],
+  },
+  {
+    question: "Which strategy migrates multiple VMs one after another?",
+    answers: [
+      { text: "Parallel Migration", correct: false },
+      { text: "Hybrid Migration", correct: false },
+      { text: "Serial Migration", correct: true },
+      { text: "Batch Migration", correct: false },
+    ],
+  },
+  {
+    question: "In parallel migration, what happens to transmission bandwidth?",
+    answers: [
+      { text: "Each VM gets the full bandwidth", correct: false },
+      { text: "Bandwidth is divided equally among VMs", correct: true },
+      { text: "Only one VM is migrated", correct: false },
+      { text: "Bandwidth is ignored", correct: false },
     ],
   },
   {
     question:
-      "Which law states that the buoyant force exerted by a fluid on a submerged object is equal to the weight of the fluid displaced?",
+      "Which architecture provides the most advanced control over remote resources?",
     answers: [
-      { text: "Pascal's law", correct: false },
-      { text: "Archimedes' principle", correct: true },
-      { text: "Bernoulli's principle", correct: false },
-      { text: "Newton's third law", correct: false },
+      { text: "Loosely Coupled", correct: false },
+      { text: "Tightly Coupled", correct: true },
+      { text: "Hybrid", correct: false },
+      { text: "Broker", correct: false },
+    ],
+  },
+  {
+    question: "Which is a feature of aggregated federation architecture?",
+    answers: [
+      { text: "No interoperability", correct: false },
+      { text: "Loosely coupled setup", correct: false },
+      { text: "Partner clouds aggregate their resources", correct: true },
+      { text: "Single-site infrastructure", correct: false },
+    ],
+  },
+  {
+    question: "What is the main role of a broker in federation?",
+    answers: [
+      { text: "Store user data", correct: false },
+      { text: "Deploy virtual resources in the selected cloud", correct: true },
+      { text: "Replace the CSPs", correct: false },
+      { text: "Monitor VM hardware", correct: false },
+    ],
+  },
+  {
+    question: "What ensures memory consistency in iterative pre-copy?",
+    answers: [
+      { text: "Skipping dirty pages", correct: false },
+      { text: "Sending dirty pages again in the next round", correct: true },
+      { text: "Suspending all VMs", correct: false },
+      { text: "Avoiding memory copy", correct: false },
+    ],
+  },
+  {
+    question: "What can cause severe degradation in service quality?",
+    answers: [
+      { text: "Hybrid cloud setup", correct: false },
+      { text: "Live migration", correct: false },
+      { text: "Non-live migration for real-time applications", correct: true },
+      { text: "Cloud federation setup", correct: false },
     ],
   },
   {
     question:
-      "What is the measure of the difficulty of initiating motion in a fluid?",
+      "In which type of migration is the VM memory empty at the beginning on the destination?",
     answers: [
-      { text: "Kinematic viscosity", correct: false },
-      { text: "Dynamic viscosity", correct: false },
-      { text: "Viscosity index", correct: false },
-      { text: "Fluid viscosity", correct: true },
-    ],
-  },
-  {
-    question:
-      "In fluid mechanics, what is the term for the tendency of fluid particles to move from higher pressure to lower pressure?",
-    answers: [
-      { text: "Pressure gradient", correct: true },
-      { text: "Bernoulli's effect", correct: false },
-      { text: "Boundary layer", correct: false },
-      { text: "Capillary action", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which term describes the property of a fluid that allows it to resist tensile stress and form droplets?",
-    answers: [
-      { text: "Surface tension", correct: true },
-      { text: "Viscosity", correct: false },
-      { text: "Compressibility", correct: false },
-      { text: "Buoyancy", correct: false },
-    ],
-  },
-  {
-    question: "What does the Bernoulli's equation relate in fluid dynamics?",
-    answers: [
-      { text: "Density and volume", correct: false },
-      { text: "Pressure and temperature", correct: false },
-      { text: "Velocity and acceleration", correct: true },
-      { text: "Viscosity and density", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which law states that the total pressure in a fluid remains constant along a streamline?",
-    answers: [
-      { text: "Pascal's law", correct: false },
-      { text: "Archimedes' principle", correct: false },
-      { text: "Bernoulli's equation", correct: true },
-      { text: "Newton's second law", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the name of the force exerted by a fluid perpendicular to a surface?",
-    answers: [
-      { text: "Pressure", correct: true },
-      { text: "Shear stress", correct: false },
-      { text: "Viscous drag", correct: false },
-      { text: "Centrifugal force", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which parameter is not considered in the Hagen-Poiseuille equation for laminar flow through a pipe?",
-    answers: [
-      { text: "Viscosity", correct: false },
-      { text: "Length of the pipe", correct: false },
-      { text: "Diameter of the pipe", correct: false },
-      { text: "Fluid compressibility", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the term for the force that opposes the motion of an object through a fluid?",
-    answers: [
-      { text: "Drag force", correct: true },
-      { text: "Buoyant force", correct: false },
-      { text: "Gravitational force", correct: false },
-      { text: "Surface tension force", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which property of a fluid is defined as its mass per unit volume?",
-    answers: [
-      { text: "Pressure", correct: false },
-      { text: "Viscosity", correct: false },
-      { text: "Density", correct: true },
-      { text: "Surface tension", correct: false },
-    ],
-  },
-  {
-    question:
-      "What phenomenon allows fluids to rise in narrow tubes against gravity?",
-    answers: [
-      { text: "Viscosity", correct: false },
-      { text: "Buoyancy", correct: false },
-      { text: "Surface tension", correct: true },
-      { text: "Capillarity", correct: false },
+      { text: "Cold migration", correct: false },
+      { text: "Pre-copy", correct: false },
+      { text: "Post-copy", correct: true },
+      { text: "Serial migration", correct: false },
     ],
   },
 ];
-//////////////////////////////////////////  Surveying  /////////////////////////////////////////////////////////////
-const Surveying = [
+///////////////////////////  Containers, Dockers and Kubernetes  ////////////////////////////////////////
+const Container_Docker_Kubernetes = [
   {
-    question: "What is the primary purpose of surveying in civil engineering?",
+    question: "What is a container in cloud computing?",
     answers: [
-      { text: "To design structures", correct: false },
-      { text: "To measure and map land", correct: true },
-      { text: "To analyze environmental impacts", correct: false },
-      { text: "To study material properties", correct: false },
+      {
+        text: "A lightweight virtualization technique that packages application code with dependencies",
+        correct: true,
+      },
+      {
+        text: "A type of database used for storing user data",
+        correct: false,
+      },
+      {
+        text: "A physical server used for deployment",
+        correct: false,
+      },
+      {
+        text: "A tool used to design user interfaces",
+        correct: false,
+      },
     ],
   },
   {
     question:
-      "Which instrument is used to measure horizontal angles in surveying?",
+      "Which open platform is widely used to develop, ship, and run containers?",
     answers: [
-      { text: "Level", correct: false },
-      { text: "Theodolite", correct: true },
-      { text: "Total station", correct: false },
-      { text: "Clinometer", correct: false },
+      { text: "Kubernetes", correct: false },
+      { text: "VirtualBox", correct: false },
+      { text: "Docker", correct: true },
+      { text: "VMware", correct: false },
     ],
   },
   {
-    question: "What is a benchmark in surveying?",
+    question: "What is Kubernetes?",
     answers: [
-      { text: "A reference point with a known elevation", correct: true },
-      { text: "A temporary structure for measurement", correct: false },
-      { text: "A tool for measuring distances", correct: false },
-      { text: "A type of surveying software", correct: false },
+      {
+        text: "An open-source platform for managing containerized applications",
+        correct: true,
+      },
+      {
+        text: "A programming language",
+        correct: false,
+      },
+      {
+        text: "A cloud storage provider",
+        correct: false,
+      },
+      {
+        text: "A virtualization software for desktops",
+        correct: false,
+      },
     ],
   },
   {
-    question:
-      "Which surveying technique uses satellite signals to determine positions on the Earth's surface?",
+    question: "How do containers virtualize resources?",
     answers: [
-      { text: "Topographic surveying", correct: false },
-      { text: "Aerial surveying", correct: false },
-      { text: "GPS surveying", correct: true },
-      { text: "Hydrographic surveying", correct: false },
+      { text: "At the hardware level", correct: false },
+      { text: "At the kernel module level", correct: false },
+      { text: "At the OS level", correct: true },
+      { text: "Through BIOS virtualization", correct: false },
     ],
   },
   {
-    question: "What is the purpose of leveling in surveying?",
+    question: "Which of the following is NOT a benefit of using containers?",
     answers: [
-      { text: "To measure horizontal distances", correct: false },
-      { text: "To measure vertical distances", correct: true },
-      { text: "To establish benchmarks", correct: false },
-      { text: "To calculate areas", correct: false },
+      { text: "Application isolation", correct: false },
+      { text: "Workload portability", correct: false },
+      { text: "Increased VM overhead", correct: true },
+      { text: "Separation of responsibilities", correct: false },
     ],
   },
   {
-    question: "Which surveying method is used to measure underwater surfaces?",
+    question: "Which component of Kubernetes hosts the Pods?",
     answers: [
-      { text: "Topographic surveying", correct: false },
-      { text: "Aerial surveying", correct: false },
-      { text: "Hydrographic surveying", correct: true },
-      { text: "Engineering surveying", correct: false },
+      { text: "Control Plane", correct: false },
+      { text: "Worker Nodes", correct: true },
+      { text: "Kubelet", correct: false },
+      { text: "Docker Daemon", correct: false },
     ],
   },
   {
-    question:
-      "What is the term for the process of marking points and angles on the ground before measurement in surveying?",
+    question: "Which of the following virtualizes hardware resources?",
     answers: [
-      { text: "Plotting", correct: false },
-      { text: "Setting out", correct: true },
-      { text: "Mapping", correct: false },
-      { text: "Calibration", correct: false },
+      { text: "Containers", correct: false },
+      { text: "Virtual Machines", correct: true },
+      { text: "Kubernetes", correct: false },
+      { text: "Dockerfiles", correct: false },
     ],
   },
   {
-    question:
-      "Which type of surveying is used to create contour maps and determine elevations?",
+    question: "What command is used to run a Docker container from an image?",
     answers: [
-      { text: "Aerial surveying", correct: false },
-      { text: "Engineering surveying", correct: false },
-      { text: "Topographic surveying", correct: true },
-      { text: "Cadastral surveying", correct: false },
+      { text: "docker commit", correct: false },
+      { text: "docker build", correct: false },
+      { text: "docker run", correct: true },
+      { text: "docker tag", correct: false },
     ],
   },
   {
-    question: "In surveying, what does the abbreviation 'GPS' stand for?",
+    question: "What does the Docker daemon do?",
     answers: [
-      { text: "Global Positioning System", correct: true },
-      { text: "Geographical Positioning Survey", correct: false },
-      { text: "Ground Positioning System", correct: false },
-      { text: "Geodetic Positioning Service", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the process of determining the boundaries of land ownership?",
-    answers: [
-      { text: "Topographic surveying", correct: false },
-      { text: "Hydrographic surveying", correct: false },
-      { text: "Cadastral surveying", correct: true },
-      { text: "Geodetic surveying", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which instrument is used to measure the vertical angles in surveying?",
-    answers: [
-      { text: "Level", correct: true },
-      { text: "Theodolite", correct: false },
-      { text: "Total station", correct: false },
-      { text: "Clinometer", correct: false },
-    ],
-  },
-  {
-    question: "What is a traverse in surveying?",
-    answers: [
-      { text: "A type of aerial surveying", correct: false },
-      { text: "A linear measurement", correct: false },
-      { text: "A sequence of connected survey lines", correct: true },
-      { text: "A method for measuring underwater topography", correct: false },
+      {
+        text: "Communicates with the Docker client to build and manage containers",
+        correct: true,
+      },
+      {
+        text: "Hosts the Kubernetes dashboard",
+        correct: false,
+      },
+      {
+        text: "Acts as the primary interface for DockerHub",
+        correct: false,
+      },
+      {
+        text: "Stores persistent user data",
+        correct: false,
+      },
     ],
   },
   {
     question:
-      "Which surveying technique uses cameras mounted on aircraft or drones to capture images of the Earth's surface?",
+      "Which Kubernetes component manages the cluster and its workload?",
     answers: [
-      { text: "GPS surveying", correct: false },
-      { text: "Aerial surveying", correct: true },
-      { text: "Hydrographic surveying", correct: false },
-      { text: "Topographic surveying", correct: false },
+      { text: "Pods", correct: false },
+      { text: "Worker Node", correct: false },
+      { text: "Control Plane", correct: true },
+      { text: "Kube Proxy", correct: false },
     ],
   },
   {
-    question: "What is the primary objective of cadastral surveying?",
+    question: "Why are containers considered lightweight?",
     answers: [
-      { text: "To create topographic maps", correct: false },
-      { text: "To measure underwater terrain", correct: false },
-      { text: "To establish property boundaries", correct: true },
-      { text: "To calculate volumetric measurements", correct: false },
+      {
+        text: "They do not require an OS per application and share the OS kernel",
+        correct: true,
+      },
+      {
+        text: "They include full virtualized hardware",
+        correct: false,
+      },
+      {
+        text: "They cannot be used in cloud environments",
+        correct: false,
+      },
+      {
+        text: "They require separate hardware",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the following is a key benefit of using Docker?",
+    answers: [
+      { text: "Slower provisioning", correct: false },
+      { text: "Heavy memory usage", correct: false },
+      { text: "Easy and consistent deployments", correct: true },
+      { text: "Dependent on specific OS", correct: false },
+    ],
+  },
+  {
+    question: "What does 'docker build' do?",
+    answers: [
+      { text: "Runs a Docker container", correct: false },
+      { text: "Commits an image", correct: false },
+      { text: "Builds a Docker image from a Dockerfile", correct: true },
+      { text: "Tags a Docker image", correct: false },
+    ],
+  },
+  {
+    question: "What is a Docker image?",
+    answers: [
+      {
+        text: "A static file that contains code, dependencies, and settings to run an app",
+        correct: true,
+      },
+      {
+        text: "A configuration file for Kubernetes",
+        correct: false,
+      },
+      {
+        text: "A script to install Docker",
+        correct: false,
+      },
+      {
+        text: "A backup of a container's log files",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What is the key difference between VMs and containers?",
+    answers: [
+      {
+        text: "VMs virtualize at the hardware level while containers virtualize at the OS level",
+        correct: true,
+      },
+      {
+        text: "Containers need more memory than VMs",
+        correct: false,
+      },
+      {
+        text: "VMs are OS-independent",
+        correct: false,
+      },
+      {
+        text: "Containers are not portable",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "What is the primary unit of deployment in Kubernetes?",
+    answers: [
+      { text: "Service", correct: false },
+      { text: "Pod", correct: true },
+      { text: "Node", correct: false },
+      { text: "Ingress", correct: false },
     ],
   },
   {
     question:
-      "Which type of surveying is used to measure and map large areas of land?",
+      "Which of the following is a key advantage of Docker for software prototyping?",
     answers: [
-      { text: "GPS surveying", correct: false },
-      { text: "Aerial surveying", correct: true },
-      { text: "Hydrographic surveying", correct: false },
-      { text: "Topographic surveying", correct: false },
+      { text: "Requires full VMs to be provisioned", correct: false },
+      {
+        text: "Provides quick and isolated sandbox environments",
+        correct: true,
+      },
+      { text: "Only works with Windows", correct: false },
+      { text: "Cannot be used offline", correct: false },
     ],
   },
   {
-    question: "What is the primary purpose of triangulation in surveying?",
+    question: "Which of the following statements is true about containers?",
     answers: [
-      { text: "To measure angles in the field", correct: false },
-      { text: "To establish control points", correct: true },
-      { text: "To perform underwater measurements", correct: false },
-      { text: "To determine elevation changes", correct: false },
+      {
+        text: "They require separate operating systems for each application",
+        correct: false,
+      },
+      {
+        text: "They are portable and abstract the app from the underlying system",
+        correct: true,
+      },
+      { text: "They are slower than VMs", correct: false },
+      { text: "They need hardware virtualization support", correct: false },
     ],
   },
   {
-    question: "What is a contour line in topographic surveying?",
+    question: "Why are Docker builds suitable for continuous delivery?",
     answers: [
-      { text: "A line connecting points of equal elevation", correct: true },
-      { text: "A straight line used for measurements", correct: false },
-      { text: "A line marking property boundaries", correct: false },
-      { text: "A line indicating the slope of the terrain", correct: false },
+      { text: "They are tied to specific machines", correct: false },
+      { text: "They are easily reproducible and replicable", correct: true },
+      { text: "They are manually deployed", correct: false },
+      { text: "They do not support automation", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of the private Docker registry?",
+    answers: [
+      { text: "It stores container logs", correct: false },
+      {
+        text: "It stores Docker images privately for authorized access",
+        correct: true,
+      },
+      { text: "It provides internet access to containers", correct: false },
+      { text: "It monitors CPU usage", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is an example of container orchestration?",
+    answers: [
+      { text: "Docker Engine", correct: false },
+      { text: "Kubernetes", correct: true },
+      { text: "PostgreSQL", correct: false },
+      { text: "Linux Kernel", correct: false },
+    ],
+  },
+  {
+    question: "What does 'docker commit' do?",
+    answers: [
+      { text: "Pushes the image to Docker Hub", correct: false },
+      { text: "Commits a container's changes to a new image", correct: true },
+      { text: "Runs the container", correct: false },
+      { text: "Builds the image from a Dockerfile", correct: false },
+    ],
+  },
+  {
+    question: "How does Docker help with debugging?",
+    answers: [
+      { text: "It eliminates the need for logs", correct: false },
+      {
+        text: "It provides isolated environments with known properties for easier reproduction",
+        correct: true,
+      },
+      { text: "It runs directly on the host system", correct: false },
+      { text: "It removes all error messages", correct: false },
+    ],
+  },
+  {
+    question: "Which statement about container deployment is correct?",
+    answers: [
+      { text: "It offers no application isolation", correct: false },
+      {
+        text: "Containers share the OS and are portable across platforms",
+        correct: true,
+      },
+      { text: "It uses full hardware virtualization", correct: false },
+      { text: "Containers require physical servers only", correct: false },
+    ],
+  },
+  {
+    question: "Which Docker command assigns a label to an image?",
+    answers: [
+      { text: "docker tag", correct: true },
+      { text: "docker commit", correct: false },
+      { text: "docker run", correct: false },
+      { text: "docker push", correct: false },
+    ],
+  },
+  {
+    question: "Which resource is NOT virtualized by containers?",
+    answers: [
+      { text: "CPU", correct: false },
+      { text: "Memory", correct: false },
+      { text: "Hard disk BIOS", correct: true },
+      { text: "Network", correct: false },
     ],
   },
   {
     question:
-      "Which surveying method is used to measure distances using signals reflected from a prism?",
+      "Which of the following does NOT describe traditional deployments?",
     answers: [
-      { text: "Topographic surveying", correct: false },
-      { text: "Aerial surveying", correct: false },
-      { text: "Tachymetry", correct: true },
-      { text: "Hydrographic surveying", correct: false },
+      {
+        text: "Apps run on physical servers without resource boundaries",
+        correct: false,
+      },
+      { text: "Apps are isolated via VMs", correct: true },
+      { text: "Resource allocation issues arise frequently", correct: false },
+      { text: "No logical isolation between applications", correct: false },
     ],
   },
   {
-    question:
-      "What is the term for the error caused by the Earth's curvature in surveying?",
+    question: "Which of the following features is provided by Kubernetes?",
     answers: [
-      { text: "Parallax error", correct: false },
-      { text: "Refraction error", correct: false },
-      { text: "Spherical excess error", correct: false },
-      { text: "Spherical correction error", correct: true },
+      { text: "CPU-level virtualization", correct: false },
+      {
+        text: "Declarative configuration and scaling of containers",
+        correct: true,
+      },
+      { text: "Filesystem management for VMs", correct: false },
+      { text: "Dependency management for Node.js", correct: false },
     ],
   },
   {
-    question:
-      "Which surveying technique is used to measure and map underwater features?",
+    question: "What does containerization promote in team environments?",
     answers: [
-      { text: "Aerial surveying", correct: false },
-      { text: "Hydrographic surveying", correct: true },
-      { text: "GPS surveying", correct: false },
-      { text: "Topographic surveying", correct: false },
+      { text: "Increased confusion due to many versions", correct: false },
+      {
+        text: "Separation of responsibilities between devs and ops",
+        correct: true,
+      },
+      { text: "Incompatibility across machines", correct: false },
+      { text: "Manual deployment of all services", correct: false },
     ],
   },
 ];
-////////////////////////////////////////////  Building Material   ///////////////////////////////////////////////////
-const Building_Materials = [
+//////////////////////////////  Docker, Dew and Serverless Computing   //////////////////////////////
+const Docker_Dew_Serverless = [
   {
-    question: "Which of the following is not a primary ingredient in concrete?",
+    question:
+      "What is the main purpose of using Docker for MySQL and PHPMyAdmin?",
     answers: [
-      { text: "Cement", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Steel", correct: true },
-      { text: "Water", correct: false },
+      {
+        text: "To install them separately on a standalone machine",
+        correct: false,
+      },
+      {
+        text: "To provide a lightweight, portable environment for running services",
+        correct: true,
+      },
+      { text: "To reduce the need for PHP programming", correct: false },
+      { text: "To replace MySQL with PostgreSQL", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a benefit of containerization?",
+    answers: [
+      { text: "Workload portability", correct: false },
+      { text: "Heavy use of hardware resources", correct: true },
+      { text: "Application isolation", correct: false },
+      { text: "Separation of responsibility", correct: false },
+    ],
+  },
+  {
+    question: "How are containers different from virtual machines (VMs)?",
+    answers: [
+      {
+        text: "Containers virtualize hardware, while VMs virtualize the OS",
+        correct: false,
+      },
+      { text: "Containers run on separate operating systems", correct: false },
+      {
+        text: "Containers virtualize at the OS level and are more lightweight",
+        correct: true,
+      },
+      { text: "Containers require more memory than VMs", correct: false },
+    ],
+  },
+  {
+    question: "What is Dew Computing primarily designed to reduce?",
+    answers: [
+      { text: "Dependency on user interaction", correct: false },
+      { text: "Dependency on continuous internet connection", correct: true },
+      { text: "Storage requirements on cloud", correct: false },
+      { text: "Complexity of cloud APIs", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a typical example of Dew Computing?",
+    answers: [
+      { text: "YouTube", correct: false },
+      { text: "Dropbox", correct: true },
+      { text: "Facebook", correct: false },
+      { text: "Amazon Web Services", correct: false },
+    ],
+  },
+  {
+    question: "What does Dew Computing prioritize in its architecture?",
+    answers: [
+      { text: "Centralized server processing", correct: false },
+      { text: "Virtual machine usage", correct: false },
+      {
+        text: "User-centric, flexible, and personalized-supported applications",
+        correct: true,
+      },
+      { text: "Heavy reliance on cloud connectivity", correct: false },
     ],
   },
   {
     question:
-      "What type of material is commonly used for roofing due to its durability and weather resistance?",
+      "Which of the following best represents the order in the IoT-fog-cloud continuum?",
     answers: [
-      { text: "Plastic", correct: false },
-      { text: "Aluminum", correct: false },
-      { text: "Asphalt", correct: true },
-      { text: "Wood", correct: false },
+      { text: "Cloud → Dew → Fog", correct: false },
+      { text: "Fog → Dew → Cloud", correct: false },
+      { text: "Dew → Fog → Cloud", correct: true },
+      { text: "Cloud → Fog → Dew", correct: false },
     ],
   },
   {
     question:
-      "Which material is known for its high strength-to-weight ratio, making it suitable for structural applications?",
+      "Which dew computing application area stores a partial copy of the web on a local device?",
     answers: [
-      { text: "Brick", correct: false },
-      { text: "Concrete", correct: false },
-      { text: "Steel", correct: true },
-      { text: "Glass", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary component of mortar?",
-    answers: [
-      { text: "Cement", correct: true },
-      { text: "Sand", correct: false },
-      { text: "Gravel", correct: false },
-      { text: "Water", correct: false },
+      { text: "Storage in Dew (SiD)", correct: false },
+      { text: "Web in Dew (WiD)", correct: true },
+      { text: "Platform in Dew (PiD)", correct: false },
+      { text: "Infrastructure as Dew (IaD)", correct: false },
     ],
   },
   {
     question:
-      "Which material is used for its thermal insulation properties in buildings?",
+      "Which feature of dew computing ensures service availability without internet?",
     answers: [
-      { text: "Steel", correct: false },
-      { text: "Brick", correct: false },
-      { text: "Glass", correct: false },
-      { text: "Fiberglass", correct: true },
+      { text: "Cloud sync", correct: false },
+      { text: "Independence", correct: true },
+      { text: "Peer-to-peer networking", correct: false },
+      { text: "Server replication", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is a challenge in Dew Computing?",
+    answers: [
+      { text: "Ease of data synchronization", correct: false },
+      { text: "Database security", correct: true },
+      { text: "Lower cost of implementation", correct: false },
+      { text: "Simple architecture", correct: false },
+    ],
+  },
+  {
+    question: "What is the main idea behind serverless computing?",
+    answers: [
+      { text: "Running applications without any backend", correct: false },
+      { text: "Using physical servers instead of VMs", correct: false },
+      {
+        text: "Writing and deploying code without managing infrastructure",
+        correct: true,
+      },
+      { text: "Avoiding cloud providers altogether", correct: false },
     ],
   },
   {
     question:
-      "What type of material is commonly used for load-bearing walls in residential construction?",
+      "Which of these is NOT a characteristic of Function-as-a-Service (FaaS)?",
     answers: [
-      { text: "Concrete", correct: false },
-      { text: "Wood", correct: false },
-      { text: "Brick", correct: true },
-      { text: "Plastic", correct: false },
+      { text: "Functions run constantly in the background", correct: true },
+      { text: "Functions are triggered by events", correct: false },
+      { text: "Functions run in isolated environments", correct: false },
+      { text: "Functions scale automatically based on demand", correct: false },
     ],
   },
   {
     question:
-      "Which material is known for its fire-resistant properties and is often used in fireproofing applications?",
+      "In which model do developers outsource backend logic to external services?",
     answers: [
-      { text: "Asphalt", correct: false },
-      { text: "Plastic", correct: false },
-      { text: "Gypsum", correct: true },
-      { text: "Aluminum", correct: false },
+      { text: "Infrastructure-as-a-Service (IaaS)", correct: false },
+      { text: "Backend-as-a-Service (BaaS)", correct: true },
+      { text: "Software-as-a-Service (SaaS)", correct: false },
+      { text: "Function-as-a-Service (FaaS)", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is an example of BaaS?",
+    answers: [
+      { text: "GitHub Actions", correct: false },
+      { text: "Google Firebase", correct: true },
+      { text: "Amazon Lambda", correct: false },
+      { text: "Dropbox", correct: false },
+    ],
+  },
+  {
+    question: "What major challenge is associated with serverless computing?",
+    answers: [
+      { text: "Function-level scaling", correct: false },
+      {
+        text: "Asynchronous calls and inter-function communication",
+        correct: true,
+      },
+      { text: "Simple function deployment", correct: false },
+      { text: "Automated scaling", correct: false },
     ],
   },
   {
     question:
-      "What type of material is used for plumbing pipes due to its corrosion resistance?",
+      "Which architecture is best described by 'event-driven, cloud-hosted, and micro-function oriented'?",
     answers: [
-      { text: "Copper", correct: true },
-      { text: "Steel", correct: false },
-      { text: "Brick", correct: false },
-      { text: "Glass", correct: false },
+      { text: "Server-based architecture", correct: false },
+      { text: "Platform-as-a-Service", correct: false },
+      { text: "Function-as-a-Service", correct: true },
+      { text: "Container orchestration", correct: false },
     ],
   },
   {
     question:
-      "Which material is used for its acoustic insulation properties in buildings?",
+      "Which dew computing model syncs development tools and data to the cloud?",
     answers: [
-      { text: "Concrete", correct: false },
-      { text: "Asphalt", correct: false },
-      { text: "Rubber", correct: true },
-      { text: "Wood", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary component of asphalt concrete?",
-    answers: [
-      { text: "Aggregate", correct: true },
-      { text: "Cement", correct: false },
-      { text: "Water", correct: false },
-      { text: "Steel", correct: false },
+      { text: "Platform in Dew (PiD)", correct: true },
+      { text: "Storage in Dew (SiD)", correct: false },
+      { text: "Infrastructure in Dew (IaD)", correct: false },
+      { text: "Database in Dew (DBiD)", correct: false },
     ],
   },
   {
     question:
-      "Which material is commonly used for decorative finishes in interior construction?",
+      "Which container-based tool provides a GUI to manage MySQL databases?",
     answers: [
-      { text: "Gypsum", correct: false },
-      { text: "Plastic", correct: false },
-      { text: "Glass", correct: false },
-      { text: "Paint", correct: true },
+      { text: "Apache Server", correct: false },
+      { text: "PostgreSQL", correct: false },
+      { text: "PHPMyAdmin", correct: true },
+      { text: "Docker Compose", correct: false },
     ],
   },
   {
     question:
-      "What type of material is used for its flexibility and waterproofing properties in roofing?",
+      "Which term describes the ability of dew computing to sync local and cloud data?",
     answers: [
-      { text: "Wood", correct: false },
-      { text: "Asphalt", correct: true },
-      { text: "Steel", correct: false },
-      { text: "Brick", correct: false },
+      { text: "Replication", correct: false },
+      { text: "Isolation", correct: false },
+      { text: "Collaboration", correct: true },
+      { text: "Redundancy", correct: false },
     ],
   },
   {
     question:
-      "Which material is commonly used for flooring due to its durability and ease of maintenance?",
+      "Which dew computing model supports services without a permanent cloud connection?",
     answers: [
-      { text: "Wood", correct: false },
-      { text: "Vinyl", correct: true },
-      { text: "Asphalt", correct: false },
-      { text: "Gypsum", correct: false },
-    ],
-  },
-  {
-    question:
-      "What type of material is used for its thermal insulation properties in roofs and walls?",
-    answers: [
-      { text: "Brick", correct: false },
-      { text: "Fiberglass", correct: true },
-      { text: "Concrete", correct: false },
-      { text: "Steel", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which material is used for its strength and durability in foundation construction?",
-    answers: [
-      { text: "Plastic", correct: false },
-      { text: "Concrete", correct: true },
-      { text: "Glass", correct: false },
-      { text: "Gypsum", correct: false },
-    ],
-  },
-  {
-    question:
-      "What type of material is used for its reflective properties in roofing?",
-    answers: [
-      { text: "Asphalt", correct: false },
-      { text: "Aluminum", correct: true },
-      { text: "Brick", correct: false },
-      { text: "Wood", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which material is commonly used for external cladding due to its weather resistance?",
-    answers: [
-      { text: "Plastic", correct: false },
-      { text: "Wood", correct: false },
-      { text: "Steel", correct: false },
-      { text: "Brick", correct: true },
-    ],
-  },
-  {
-    question: "What is the primary component of cement?",
-    answers: [
-      { text: "Sand", correct: false },
-      { text: "Water", correct: false },
-      { text: "Limestone", correct: true },
-      { text: "Aggregate", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which material is commonly used for window frames due to its thermal insulation properties?",
-    answers: [
-      { text: "Steel", correct: false },
-      { text: "Aluminum", correct: true },
-      { text: "Wood", correct: false },
-      { text: "Concrete", correct: false },
-    ],
-  },
-  {
-    question:
-      "What type of material is used for its durability and aesthetic appeal in exterior finishes?",
-    answers: [
-      { text: "Plastic", correct: false },
-      { text: "Stone", correct: true },
-      { text: "Asphalt", correct: false },
-      { text: "Gypsum", correct: false },
+      { text: "Fog computing", correct: false },
+      { text: "Cloud computing", correct: false },
+      { text: "Dew computing", correct: true },
+      { text: "Edge computing", correct: false },
     ],
   },
 ];
-////////////////////////////////////////////  Structural Analysis  //////////////////////////////////////////////////
-const Structural_Analysis = [
+///////////////////////////////  Serverless Computnig ///////////////////////////////
+const Serverless_Computing = [
   {
-    question: "What is structural analysis?",
+    question: "What is AWS Lambda?",
     answers: [
       {
-        text: "The study of structural components in architecture",
+        text: "A server-based application management tool",
         correct: false,
       },
       {
-        text: "The examination of materials used in construction",
-        correct: false,
-      },
-      {
-        text: "The prediction of the behavior of structures under loads",
+        text: "An event-driven serverless computing platform by Amazon",
         correct: true,
       },
       {
-        text: "The assessment of environmental impact on buildings",
+        text: "A database engine used in AWS",
+        correct: false,
+      },
+      {
+        text: "A virtual server for background tasks",
         correct: false,
       },
     ],
   },
   {
-    question:
-      "Which method is commonly used for analyzing statically determinate structures?",
-    answers: [
-      { text: "Finite element method", correct: false },
-      { text: "Moment distribution method", correct: true },
-      { text: "Method of sections", correct: false },
-      { text: "Cross-sectional analysis", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of a shear force diagram in structural analysis?",
-    answers: [
-      { text: "To determine the bending moment distribution", correct: false },
-      { text: "To calculate the deflection of the structure", correct: false },
-      { text: "To identify points of maximum shear stress", correct: true },
-      { text: "To analyze the axial forces in members", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of load is used to analyze the stability of structures?",
-    answers: [
-      { text: "Point load", correct: false },
-      { text: "Distributed load", correct: false },
-      { text: "Wind load", correct: true },
-      { text: "Live load", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'moment distribution' refer to in structural analysis?",
-    answers: [
-      { text: "Distribution of force over an area", correct: false },
-      { text: "Redistribution of moments at joints", correct: true },
-      { text: "Analysis of internal forces in beams", correct: false },
-      { text: "Determination of load combinations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which method is used to analyze indeterminate structures with fixed supports?",
-    answers: [
-      { text: "Slope-deflection method", correct: true },
-      { text: "Virtual work method", correct: false },
-      { text: "Matrix analysis", correct: false },
-      { text: "Euler-Bernoulli method", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary objective of structural analysis?",
-    answers: [
-      { text: "To determine structural aesthetics", correct: false },
-      { text: "To calculate construction costs", correct: false },
-      { text: "To ensure structural safety and stability", correct: true },
-      { text: "To design architectural layouts", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which theorem is fundamental in the analysis of statically indeterminate structures?",
-    answers: [
-      { text: "Principle of superposition", correct: true },
-      { text: "Moment distribution theorem", correct: false },
-      { text: "Euler's buckling theorem", correct: false },
-      { text: "Mohr's circle theorem", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'deflection' refer to in structural analysis?",
-    answers: [
-      { text: "Displacement of a structure under load", correct: true },
-      { text: "Distribution of loads on a structure", correct: false },
-      { text: "Dynamic response of structures to vibrations", correct: false },
-      { text: "Reduction in structural integrity over time", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which software is commonly used for computer-aided structural analysis?",
-    answers: [
-      { text: "AutoCAD", correct: false },
-      { text: "MATLAB", correct: false },
-      { text: "STAAD.Pro", correct: true },
-      { text: "SolidWorks", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of a moment diagram in structural analysis?",
-    answers: [
-      { text: "To determine stress concentrations", correct: false },
-      { text: "To analyze bending moments along a beam", correct: true },
-      { text: "To calculate shear forces in trusses", correct: false },
-      { text: "To assess the stability of columns", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which concept is fundamental in analyzing the stability of frames and trusses?",
-    answers: [
-      { text: "Elastic modulus", correct: false },
-      { text: "Structural equilibrium", correct: true },
-      { text: "Damping ratio", correct: false },
-      { text: "Geometric imperfections", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary challenge in analyzing dynamically loaded structures?",
-    answers: [
-      { text: "Predicting load duration", correct: false },
-      { text: "Accounting for creep effects", correct: false },
-      { text: "Calculating dynamic responses", correct: true },
-      { text: "Estimating fatigue life", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used to analyze structures under seismic loads?",
-    answers: [
-      { text: "Response spectrum analysis", correct: true },
-      { text: "Buckling analysis", correct: false },
-      { text: "Vibration analysis", correct: false },
-      { text: "Finite element analysis", correct: false },
-    ],
-  },
-  {
-    question: "What is the significance of a structural model in analysis?",
-    answers: [
-      { text: "To determine construction materials", correct: false },
-      { text: "To simulate environmental conditions", correct: false },
-      { text: "To predict structural behavior", correct: true },
-      { text: "To calculate seismic accelerations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which concept is critical in analyzing the stability of slender columns?",
-    answers: [
-      { text: "Buckling", correct: true },
-      { text: "Shear force", correct: false },
-      { text: "Torsional moment", correct: false },
-      { text: "Deflection", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary advantage of using matrix methods in structural analysis?",
-    answers: [
-      { text: "Simplified analysis of complex structures", correct: true },
-      { text: "Precise calculation of static equilibrium", correct: false },
-      { text: "Accurate prediction of material properties", correct: false },
-      { text: "Efficient determination of load combinations", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of analysis is used to predict the response of structures to temperature variations?",
-    answers: [
-      { text: "Dynamic analysis", correct: false },
-      { text: "Thermal analysis", correct: true },
-      { text: "Modal analysis", correct: false },
-      { text: "Fatigue analysis", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'structural dynamics' refer to?",
-    answers: [
-      { text: "Analysis of structural deformations", correct: false },
-      { text: "Study of structural aesthetics", correct: false },
-      { text: "Behavior of structures under dynamic loads", correct: true },
-      { text: "Simulation of construction processes", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which parameter is critical in assessing the stability of arch bridges?",
-    answers: [
-      { text: "Moment of inertia", correct: false },
-      { text: "Geometric configuration", correct: true },
-      { text: "Young's modulus", correct: false },
-      { text: "Shear strength", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  Concrete Technology  //////////////////////////////////////////////////
-const Concrete_Technology = [
-  {
-    question: "What is concrete?",
-    answers: [
-      { text: "A type of rock", correct: false },
-      { text: "A mixture of cement, water, and aggregates", correct: true },
-      { text: "A natural polymer", correct: false },
-      { text: "A type of steel", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary ingredient in concrete?",
-    answers: [
-      { text: "Water", correct: false },
-      { text: "Cement", correct: true },
-      { text: "Sand", correct: false },
-      { text: "Gravel", correct: false },
-    ],
-  },
-  {
-    question: "What is the function of aggregates in concrete?",
-    answers: [
-      { text: "To increase workability", correct: false },
-      { text: "To bond with cement", correct: false },
-      { text: "To reduce shrinkage", correct: false },
-      { text: "To provide bulk and strength", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the process of compacting concrete to remove air voids called?",
-    answers: [
-      { text: "Curing", correct: false },
-      { text: "Mixing", correct: false },
-      { text: "Vibration", correct: true },
-      { text: "Setting", correct: false },
-    ],
-  },
-  {
-    question: "Which type of cement is suitable for underwater construction?",
-    answers: [
-      { text: "Portland cement", correct: false },
-      { text: "Rapid hardening cement", correct: true },
-      { text: "White cement", correct: false },
-      { text: "Pozzolana cement", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of adding admixtures to concrete?",
-    answers: [
-      { text: "To increase compressive strength", correct: false },
-      { text: "To improve durability and workability", correct: true },
-      { text: "To reduce water content", correct: false },
-      { text: "To accelerate hydration", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the ability of concrete to resist weathering action?",
-    answers: [
-      { text: "Workability", correct: false },
-      { text: "Durability", correct: true },
-      { text: "Plasticity", correct: false },
-      { text: "Permeability", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which test is used to determine the workability of fresh concrete?",
-    answers: [
-      { text: "Compressive strength test", correct: false },
-      { text: "Flexural strength test", correct: false },
-      { text: "Slump test", correct: true },
-      { text: "Curing test", correct: false },
-    ],
-  },
-  {
-    question: "What does the term 'hydration' refer to in concrete?",
-    answers: [
-      { text: "Setting and hardening of concrete", correct: true },
-      { text: "Mixing of concrete ingredients", correct: false },
-      { text: "Curing of concrete", correct: false },
-      { text: "Testing of concrete properties", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which factor primarily influences the strength of hardened concrete?",
-    answers: [
-      { text: "Cement content", correct: true },
-      { text: "Water-cement ratio", correct: false },
-      { text: "Aggregate size", correct: false },
-      { text: "Admixture type", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of curing concrete?",
-    answers: [
-      { text: "To increase workability", correct: false },
-      { text: "To improve surface finish", correct: false },
-      { text: "To prevent moisture loss and ensure hydration", correct: true },
-      { text: "To reduce shrinkage cracks", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of admixture is used to reduce the heat of hydration in concrete?",
-    answers: [
-      { text: "Air-entraining admixture", correct: false },
-      { text: "Accelerating admixture", correct: false },
-      { text: "Retarding admixture", correct: false },
-      { text: "Water-reducing admixture", correct: true },
-    ],
-  },
-  {
-    question: "What is the main disadvantage of using high-slump concrete?",
-    answers: [
-      { text: "Poor workability", correct: false },
-      { text: "Reduced strength", correct: false },
-      { text: "Increased water content", correct: true },
-      { text: "Rapid setting time", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which test is used to evaluate the compressive strength of hardened concrete?",
-    answers: [
-      { text: "Flexural test", correct: false },
-      { text: "Tensile test", correct: false },
-      { text: "Compressive strength test", correct: true },
-      { text: "Shear strength test", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the typical ratio of water to cement in concrete mixtures?",
-    answers: [
-      { text: "0.5:1", correct: false },
-      { text: "1:2", correct: false },
-      { text: "0.25:1", correct: false },
-      { text: "0.5:1", correct: true },
-    ],
-  },
-  {
-    question: "Which type of cement is used for architectural finishes?",
-    answers: [
-      { text: "Portland cement", correct: true },
-      { text: "Rapid hardening cement", correct: false },
-      { text: "White cement", correct: true },
-      { text: "Pozzolana cement", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the term 'blinding' refer to in concrete construction?",
+    question: "Which of the following is true about AWS Lambda?",
     answers: [
       {
-        text: "Applying a finishing coat to concrete surfaces",
+        text: "You need to manage infrastructure manually",
         correct: false,
       },
-      { text: "Covering reinforcement with mortar", correct: true },
-      { text: "Exposing aggregate in finished concrete", correct: false },
-      { text: "Adding admixtures to concrete mixtures", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which material is commonly used as a fine aggregate in concrete?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Sand", correct: true },
-      { text: "Crushed stone", correct: false },
-      { text: "Fly ash", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the process of hardening and setting of concrete?",
-    answers: [
-      { text: "Curing", correct: false },
-      { text: "Hydration", correct: true },
-      { text: "Aggregation", correct: false },
-      { text: "Mixing", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which method is used to measure the workability of fresh concrete by its flow?",
-    answers: [
-      { text: "Compaction factor test", correct: true },
-      { text: "Slump test", correct: false },
-      { text: "Vee-Bee test", correct: false },
-      { text: "Kelly ball test", correct: false },
-    ],
-  },
-];
-//////////////////////////////////////////////   Soil Mechanics   ///////////////////////////////////////////////////
-const Soil_Mechanics = [
-  {
-    question: "What is the primary constituent of soil?",
-    answers: [
-      { text: "Water", correct: false },
-      { text: "Air", correct: false },
-      { text: "Mineral particles", correct: true },
-      { text: "Organic matter", correct: false },
-    ],
-  },
-  {
-    question: "Which soil particle size is the smallest?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Silt", correct: true },
-      { text: "Clay", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the ability of soil to deform without breaking?",
-    answers: [
-      { text: "Strength", correct: false },
-      { text: "Plasticity", correct: true },
-      { text: "Compressibility", correct: false },
-      { text: "Permeability", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which test is used to determine the particle size distribution of soil?",
-    answers: [
-      { text: "Consolidation test", correct: false },
-      { text: "Proctor compaction test", correct: false },
-      { text: "Sieve analysis", correct: true },
-      { text: "Triaxial shear test", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the ability of soil to bear loads without failing?",
-    answers: [
-      { text: "Stress", correct: false },
-      { text: "Strain", correct: false },
-      { text: "Strength", correct: true },
-      { text: "Settlement", correct: false },
-    ],
-  },
-  {
-    question: "Which soil type has the highest water retention capacity?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Clay", correct: true },
-      { text: "Silt", correct: false },
-    ],
-  },
-  {
-    question: "What is the term for the process of reducing air voids in soil?",
-    answers: [
-      { text: "Compaction", correct: true },
-      { text: "Permeability", correct: false },
-      { text: "Consolidation", correct: false },
-      { text: "Expansion", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which soil parameter is defined as the ratio of void volume to total volume?",
-    answers: [
-      { text: "Porosity", correct: true },
-      { text: "Permeability", correct: false },
-      { text: "Plasticity index", correct: false },
-      { text: "Consolidation index", correct: false },
-    ],
-  },
-  {
-    question: "What is the term for the upward movement of water in soil?",
-    answers: [
-      { text: "Percolation", correct: false },
-      { text: "Capillarity", correct: true },
-      { text: "Consolidation", correct: false },
-      { text: "Compaction", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of soil is typically used as a landfill liner due to its low permeability?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Clay", correct: true },
-      { text: "Silt", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the resistance of soil to deformation or rupture?",
-    answers: [
-      { text: "Plasticity", correct: false },
-      { text: "Compressibility", correct: false },
-      { text: "Strength", correct: true },
-      { text: "Permeability", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which soil type is known for its high shear strength and low compressibility?",
-    answers: [
-      { text: "Clay", correct: true },
-      { text: "Silt", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Gravel", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which soil property determines the ease with which water can pass through it?",
-    answers: [
-      { text: "Strength", correct: false },
-      { text: "Plasticity", correct: false },
-      { text: "Permeability", correct: true },
-      { text: "Compressibility", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the maximum water content at which a soil remains in a plastic state?",
-    answers: [
-      { text: "Liquid limit", correct: false },
-      { text: "Plastic limit", correct: true },
-      { text: "Shrinkage limit", correct: false },
-      { text: "Consistency limit", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which soil type is most susceptible to volume changes due to water content variations?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Silt", correct: false },
-      { text: "Clay", correct: true },
-      { text: "Sand", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the ratio of the weight of water to the weight of solids in a soil sample?",
-    answers: [
-      { text: "Porosity", correct: false },
-      { text: "Specific gravity", correct: false },
-      { text: "Unit weight", correct: false },
-      { text: "Water content", correct: true },
-    ],
-  },
-  {
-    question:
-      "Which soil property indicates its ability to undergo deformation without rupture?",
-    answers: [
-      { text: "Strength", correct: false },
-      { text: "Plasticity", correct: true },
-      { text: "Compressibility", correct: false },
-      { text: "Permeability", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the term for the reduction in volume of soil due to squeezing out of water under pressure?",
-    answers: [
-      { text: "Expansion", correct: false },
-      { text: "Consolidation", correct: true },
-      { text: "Compaction", correct: false },
-      { text: "Percolation", correct: false },
-    ],
-  },
-  {
-    question: "Which soil type has the lowest bearing capacity?",
-    answers: [
-      { text: "Gravel", correct: false },
-      { text: "Sand", correct: false },
-      { text: "Silt", correct: false },
-      { text: "Clay", correct: true },
-    ],
-  },
-  {
-    question: "What is the term for the ability of soil to transmit fluids?",
-    answers: [
-      { text: "Permeability", correct: true },
-      { text: "Plasticity", correct: false },
-      { text: "Compressibility", correct: false },
-      { text: "Strength", correct: false },
-    ],
-  },
-];
-/////////////////////////////////////////////  Structural Analysis  /////////////////////////////////////////////////
-const Structural_Analysis1 = [
-  {
-    question: "What is Structural Analysis?",
-    answers: [
       {
-        text: "The study of internal forces and deformations in structures under loading",
+        text: "You pay for the server uptime regardless of usage",
+        correct: false,
+      },
+      {
+        text: "It runs code in response to AWS service events",
         correct: true,
       },
       {
-        text: "The design of architectural layouts for buildings",
-        correct: false,
-      },
-      {
-        text: "The analysis of structural damages in buildings",
-        correct: false,
-      },
-      {
-        text: "The process of evaluating material strengths for construction",
+        text: "It can only be triggered by manual inputs",
         correct: false,
       },
     ],
   },
   {
-    question:
-      "Which method is commonly used to analyze statically determinate structures?",
+    question: "Which language is NOT supported by AWS Lambda?",
     answers: [
-      { text: "Finite Element Method (FEM)", correct: false },
-      { text: "Matrix Structural Analysis", correct: false },
-      { text: "Method of Joints", correct: false },
-      { text: "Method of Sections", correct: true },
+      { text: "Java", correct: false },
+      { text: "Go", correct: false },
+      { text: "Swift", correct: true },
+      { text: "C#", correct: false },
     ],
   },
   {
-    question:
-      "What does the superposition principle state in structural analysis?",
+    question: "Which AWS service can trigger an AWS Lambda function?",
+    answers: [
+      { text: "Amazon S3", correct: true },
+      { text: "Amazon Kindle", correct: false },
+      { text: "Amazon Prime", correct: false },
+      { text: "Amazon Fire", correct: false },
+    ],
+  },
+  {
+    question: "What is a Lambda Layer in AWS Lambda?",
     answers: [
       {
-        text: "That structures with similar designs will have similar outcomes",
+        text: "A security layer for API protection",
         correct: false,
       },
       {
-        text: "That the total response of a structure is the sum of responses due to each load separately",
+        text: "A feature to handle HTTP requests",
+        correct: false,
+      },
+      {
+        text: "A distribution mechanism for libraries and dependencies",
         correct: true,
       },
       {
-        text: "That structural analysis should focus on the outermost elements of a building",
+        text: "A separate virtual server for logging",
         correct: false,
       },
-      {
-        text: "That structural defects can accumulate over time and weaken a building",
-        correct: false,
-      },
+    ],
+  },
+  {
+    question: "Which AWS service allows custom logging in Lambda?",
+    answers: [
+      { text: "Log stream", correct: true },
+      { text: "Log writer", correct: false },
+      { text: "StreamLog", correct: false },
+      { text: "AWS Logger", correct: false },
+    ],
+  },
+  {
+    question: "Which cloud provider offers Cloud Functions?",
+    answers: [
+      { text: "Amazon", correct: false },
+      { text: "Google Cloud", correct: true },
+      { text: "Microsoft", correct: false },
+      { text: "Oracle", correct: false },
     ],
   },
   {
     question:
-      "Which type of structure is characterized by having only two supports?",
+      "What is the primary trigger mechanism for Google Cloud Functions?",
     answers: [
-      { text: "Truss", correct: false },
-      { text: "Beam", correct: false },
-      { text: "Cantilever", correct: true },
-      { text: "Arch", correct: false },
+      { text: "Command Line Interface", correct: false },
+      { text: "Google Play Events", correct: false },
+      { text: "Cloud Infrastructure Events", correct: true },
+      { text: "Google Maps", correct: false },
     ],
   },
   {
-    question: "What is the primary purpose of a structural load test?",
+    question:
+      "Which of these is NOT an event provider for Google Cloud Functions?",
     answers: [
+      { text: "Cloud Pub/Sub", correct: false },
+      { text: "Firebase", correct: false },
+      { text: "Google Compute Engine", correct: false },
+      { text: "Amazon S3", correct: true },
+    ],
+  },
+  {
+    question: "What best describes a 'Trigger' in Google Cloud Functions?",
+    answers: [
+      { text: "The programming language used in the function", correct: false },
       {
-        text: "To determine the aesthetics of a building's design",
-        correct: false,
-      },
-      {
-        text: "To assess the structural integrity and strength of a building",
+        text: "An event and its associated data causing function execution",
         correct: true,
       },
       {
-        text: "To analyze the environmental impact of a building",
+        text: "The error message returned from a failed function",
         correct: false,
       },
-      {
-        text: "To measure the acoustic properties of a building",
-        correct: false,
-      },
+      { text: "A signal to start a Google Virtual Machine", correct: false },
     ],
   },
   {
-    question: "In structural dynamics, what does 'natural frequency' refer to?",
+    question: "Which model does Google Cloud Functions follow?",
     answers: [
+      { text: "Stateful execution", correct: false },
+      { text: "Persistent instance hosting", correct: false },
+      { text: "Stateless execution", correct: true },
+      { text: "Synchronous only functions", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a key characteristic of Google Cloud Functions?",
+    answers: [
+      { text: "Supports running containers directly", correct: false },
       {
-        text: "The frequency of vibrations caused by external forces",
-        correct: false,
-      },
-      {
-        text: "The frequency at which a structure tends to vibrate in the absence of external forces",
+        text: "Executes code in a fully managed environment",
         correct: true,
       },
-      {
-        text: "The frequency of resonance in structural components",
-        correct: false,
-      },
-      {
-        text: "The frequency at which a structure undergoes material fatigue",
-        correct: false,
-      },
+      { text: "Requires manual server provisioning", correct: false },
+      { text: "Can run on on-premises infrastructure", correct: false },
     ],
   },
   {
     question:
-      "Which structural analysis method is based on the concept of virtual work?",
+      "Azure Functions use which configuration file to manage settings?",
     answers: [
-      { text: "Slope deflection method", correct: false },
-      { text: "Moment distribution method", correct: false },
-      { text: "Finite element method (FEM)", correct: true },
-      { text: "Column analogy method", correct: false },
+      { text: "settings.json", correct: false },
+      { text: "function.config", correct: false },
+      { text: "function.json", correct: true },
+      { text: "azure.conf", correct: false },
     ],
   },
   {
-    question:
-      "What is the primary role of a structural engineer in construction projects?",
+    question: "Which is NOT a language supported by Azure Functions?",
     answers: [
-      { text: "To design the interior layout of a building", correct: false },
+      { text: "PowerShell", correct: false },
+      { text: "JavaScript", correct: false },
+      { text: "Ruby", correct: true },
+      { text: "Python", correct: false },
+    ],
+  },
+  {
+    question: "What are the pricing models available in Azure Functions?",
+    answers: [
+      { text: "Subscription only", correct: false },
       {
-        text: "To supervise the installation of plumbing and electrical systems",
-        correct: false,
-      },
-      {
-        text: "To ensure that a structure can withstand the loads and forces it will encounter",
+        text: "Consumption, Premium, and App Service plans",
         correct: true,
       },
-      {
-        text: "To manage the financial aspects of a construction project",
-        correct: false,
-      },
+      { text: "Hourly Billing only", correct: false },
+      { text: "Trial mode and Enterprise mode", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a use case of Azure Functions?",
+    answers: [
+      { text: "Building serverless APIs", correct: false },
+      { text: "Streaming IoT data", correct: false },
+      { text: "Operating system virtualization", correct: true },
+      { text: "Big data and machine learning pipelines", correct: false },
+    ],
+  },
+  {
+    question: "What is the main advantage of Azure Functions?",
+    answers: [
+      { text: "Manual server configuration", correct: false },
+      { text: "Complete control over networking stack", correct: false },
+      { text: "Focus on logic; rest is managed by Azure", correct: true },
+      { text: "Provision dedicated VMs", correct: false },
+    ],
+  },
+  {
+    question: "What type of tasks is AWS Lambda best suited for?",
+    answers: [
+      { text: "Long-running batch jobs", correct: false },
+      { text: "Front-end development", correct: false },
+      { text: "Event-based background tasks", correct: true },
+      { text: "Virtual machine deployment", correct: false },
     ],
   },
   {
     question:
-      "What is the significance of the 'moment of inertia' in structural analysis?",
+      "Which of the following services can directly invoke a Google Cloud Function?",
     answers: [
-      {
-        text: "It determines the bending stress in a structural member",
-        correct: true,
-      },
-      {
-        text: "It measures the overall weight distribution of a structure",
-        correct: false,
-      },
-      {
-        text: "It represents the rotational stability of a building",
-        correct: false,
-      },
-      {
-        text: "It quantifies the internal force interactions in a structure",
-        correct: false,
-      },
+      { text: "Cloud Storage", correct: true },
+      { text: "Google Maps", correct: false },
+      { text: "Google Chrome", correct: false },
+      { text: "Amazon RDS", correct: false },
     ],
   },
   {
-    question: "What is the purpose of a structural shear test?",
+    question: "Which cloud platform offers serverless computing?",
     answers: [
-      {
-        text: "To analyze the compression strength of a building material",
-        correct: false,
-      },
-      {
-        text: "To measure the deformation caused by lateral forces in a structure",
-        correct: true,
-      },
-      {
-        text: "To assess the acoustic insulation of a building component",
-        correct: false,
-      },
-      {
-        text: "To determine the thermal conductivity of structural elements",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which type of structural load primarily acts downward due to gravity?",
-    answers: [
-      { text: "Live load", correct: false },
-      { text: "Wind load", correct: false },
-      { text: "Dead load", correct: true },
-      { text: "Seismic load", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of a structural stability analysis?",
-    answers: [
-      {
-        text: "To calculate the structural weight distribution",
-        correct: false,
-      },
-      {
-        text: "To determine the resistance of a structure to collapse or failure",
-        correct: true,
-      },
-      {
-        text: "To assess the environmental impact of structural materials",
-        correct: false,
-      },
-      {
-        text: "To analyze the acoustic performance of a building",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which structural material is known for its high strength-to-weight ratio?",
-    answers: [
-      { text: "Concrete", correct: false },
-      { text: "Steel", correct: true },
-      { text: "Wood", correct: false },
-      { text: "Aluminum", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary function of a structural support?",
-    answers: [
-      { text: "To insulate a building from external noise", correct: false },
-      { text: "To provide stability and resist applied loads", correct: true },
-      {
-        text: "To enhance the aesthetic appearance of a building",
-        correct: false,
-      },
-      {
-        text: "To regulate the internal temperature of a building",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which structural analysis method involves dividing the structure into sections and solving for internal forces?",
-    answers: [
-      { text: "Moment distribution method", correct: false },
-      { text: "Finite element method (FEM)", correct: false },
-      { text: "Method of Joints", correct: false },
-      { text: "Method of Sections", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the significance of the 'yield strength' in structural materials?",
-    answers: [
-      {
-        text: "It measures the tensile strength of a material",
-        correct: false,
-      },
-      {
-        text: "It represents the maximum stress a material can endure without permanent deformation",
-        correct: true,
-      },
-      {
-        text: "It quantifies the compressive strength of a material",
-        correct: false,
-      },
-      {
-        text: "It indicates the resistance of a material to fatigue",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which structural element is designed to carry loads primarily by axial compression?",
-    answers: [
-      { text: "Beam", correct: false },
-      { text: "Column", correct: true },
-      { text: "Truss", correct: false },
-      { text: "Slab", correct: false },
-    ],
-  },
-  {
-    question: "What does 'buckling' refer to in structural mechanics?",
-    answers: [
-      { text: "The breaking point of a structural material", correct: false },
-      {
-        text: "The excessive deformation of a structural member",
-        correct: false,
-      },
-      {
-        text: "The sudden failure of a building under seismic load",
-        correct: false,
-      },
-      {
-        text: "The sudden sideways deflection of a slender structural element under compressive stress",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question: "What is the purpose of structural analysis software?",
-    answers: [
-      { text: "To design architectural layouts for buildings", correct: false },
-      {
-        text: "To simulate the behavior of structures under various loads and conditions",
-        correct: true,
-      },
-      {
-        text: "To control the temperature and humidity inside buildings",
-        correct: false,
-      },
-      {
-        text: "To evaluate the environmental impact of construction projects",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which factor is crucial in determining the stability of a cantilever beam?",
-    answers: [
-      { text: "Its length", correct: true },
-      { text: "Its material density", correct: false },
-      { text: "Its width", correct: false },
-      { text: "Its height", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary consideration in selecting structural materials for bridges?",
-    answers: [
-      { text: "Aesthetics", correct: false },
-      { text: "Durability and strength", correct: true },
-      { text: "Sound insulation", correct: false },
-      { text: "Thermal conductivity", correct: false },
-    ],
-  },
-];
-///////////////////////////////////////////  Irrigation Engineering  ////////////////////////////////////////////////
-const Irrigation_Engineering = [
-  {
-    question: "What is the primary purpose of irrigation?",
-    answers: [
-      { text: "To control soil erosion", correct: false },
-      { text: "To prevent flooding", correct: false },
-      { text: "To supply water to crops", correct: true },
-      { text: "To purify water resources", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which irrigation method involves delivering water directly to the root zone of plants?",
-    answers: [
-      { text: "Flood irrigation", correct: false },
-      { text: "Drip irrigation", correct: true },
-      { text: "Sprinkler irrigation", correct: false },
-      { text: "Furrow irrigation", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of soil moisture sensors in irrigation systems?",
-    answers: [
-      { text: "To measure the pH level of soil", correct: false },
-      { text: "To determine the nutrient content of soil", correct: false },
-      {
-        text: "To monitor soil moisture levels for efficient water management",
-        correct: true,
-      },
-      { text: "To detect soil compaction", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which factor is crucial in determining the water requirement for irrigation?",
-    answers: [
-      { text: "Crop yield", correct: false },
-      { text: "Crop type", correct: false },
-      { text: "Climate conditions", correct: false },
+      { text: "Amazon AWS", correct: false },
+      { text: "Microsoft Azure", correct: false },
+      { text: "Google Cloud", correct: false },
       { text: "All of the above", correct: true },
     ],
   },
+];
+//////////////////////////////  Sustainable Cloud Computing and 5G Network  /////////////////////////////////
+const Sustainable_Cloud_Computing_and_5G = [
   {
-    question: "What is the purpose of canal lining in irrigation channels?",
+    question: "What is the primary focus of sustainable cloud computing?",
     answers: [
-      { text: "To reduce water seepage and evaporation losses", correct: true },
-      { text: "To increase the flow rate of water", correct: false },
-      { text: "To prevent soil erosion", correct: false },
-      { text: "To facilitate fish farming", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which irrigation system is known for its high application efficiency?",
-    answers: [
-      { text: "Sprinkler irrigation", correct: true },
-      { text: "Surface irrigation", correct: false },
-      { text: "Subsurface irrigation", correct: false },
-      { text: "Furrow irrigation", correct: false },
-    ],
-  },
-  {
-    question: "What is the main advantage of drip irrigation?",
-    answers: [
-      { text: "It requires minimal initial investment", correct: false },
+      { text: "Maximizing profit of cloud service providers", correct: false },
+      { text: "Minimizing data transfer times", correct: false },
       {
-        text: "It allows for uniform application of water and nutrients",
+        text: "Minimizing energy consumption and carbon footprints",
         correct: true,
       },
-      { text: "It is suitable for all types of soil", correct: false },
-      { text: "It does not require electricity for operation", correct: false },
+      { text: "Improving user interface design", correct: false },
     ],
   },
   {
-    question: "Which irrigation system is best suited for hilly terrains?",
+    question: "Which cloud layer includes Software as a Service (SaaS)?",
     answers: [
-      { text: "Flood irrigation", correct: false },
-      { text: "Sprinkler irrigation", correct: false },
-      { text: "Drip irrigation", correct: false },
-      { text: "Terrace irrigation", correct: true },
+      { text: "Cooling Manager", correct: false },
+      { text: "Cloud Architecture", correct: true },
+      { text: "Virtualization Layer", correct: false },
+      { text: "Application Model", correct: false },
     ],
   },
   {
     question:
-      "What is the primary advantage of center pivot irrigation systems?",
+      "Which of the following contributes the most to energy consumption in a cloud datacenter?",
     answers: [
-      { text: "They are suitable for small-scale farming", correct: false },
+      { text: "Storage", correct: false },
+      { text: "Network", correct: false },
+      { text: "Processor", correct: true },
+      { text: "Cooling", correct: false },
+    ],
+  },
+  {
+    question:
+      "Thermal-aware scheduling aims to minimize which of the following?",
+    answers: [
+      { text: "Data loss", correct: false },
+      { text: "Heat transfer efficiency", correct: false },
+      { text: "Hotspots and thermal gradients", correct: true },
+      { text: "Service pricing", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is a key challenge of using renewable energy in cloud datacenters?",
+    answers: [
+      { text: "Low bandwidth", correct: false },
+      { text: "Unpredictability and high capital cost", correct: true },
+      { text: "Low user demand", correct: false },
+      { text: "Slow migration techniques", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT a goal of reliability in cloud services?",
+    answers: [
+      { text: "Secure VM migration", correct: false },
+      { text: "Maximizing service delay", correct: true },
+      { text: "Point-to-point encrypted communication", correct: false },
+      { text: "Reducing SLA violations", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the expected energy consumption of Cloud Data Centers by 2030?",
+    answers: [
+      { text: "500 TWh", correct: false },
+      { text: "1200 TWh", correct: false },
+      { text: "8000 TWh", correct: true },
+      { text: "10000 TWh", correct: false },
+    ],
+  },
+  {
+    question: "What does DVFS stand for in cloud computing?",
+    answers: [
+      { text: "Data Visualization and Frequency Scaling", correct: false },
+      { text: "Dynamic Voltage and Frequency Scaling", correct: true },
+      { text: "Distributed Virtual File System", correct: false },
+      { text: "Digital Voltage Fallback Simulation", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which technology enables workload migration across geographically distributed datacenters?",
+    answers: [
+      { text: "Heat mapping", correct: false },
+      { text: "Data compression", correct: false },
+      { text: "Virtual Machine (VM) technology", correct: true },
+      { text: "Packet switching", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which scheduling mechanism in thermal-aware scheduling is based on prediction?",
+    answers: [
+      { text: "Proactive", correct: true },
+      { text: "Reactive", correct: false },
+      { text: "Hybrid", correct: false },
+      { text: "Dynamic", correct: false },
+    ],
+  },
+  {
+    question: "What does PUE stand for in cloud datacenters?",
+    answers: [
+      { text: "Power Utilization Efficiency", correct: false },
+      { text: "Power Usage Effectiveness", correct: true },
+      { text: "Performance Under Energy", correct: false },
+      { text: "Power Unit Efficiency", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is one implication of frequently turning servers on and off?",
+    answers: [
+      { text: "Improved processing speed", correct: false },
+      { text: "Increased reliability", correct: false },
+      { text: "Decreased reliability of server components", correct: true },
+      { text: "Better energy saving", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which model focuses on analyzing and merging applications to improve resource utilization?",
+    answers: [
+      { text: "Cooling Manager", correct: false },
+      { text: "Application Model", correct: false },
+      { text: "Capacity Planning", correct: true },
+      { text: "Reliability Manager", correct: false },
+    ],
+  },
+  {
+    question:
+      "Waste heat in cloud datacenters can be reused through which technique?",
+    answers: [
+      { text: "Air cooling", correct: false },
+      { text: "Liquid nitrogen cooling", correct: false },
+      { text: "Vapor-absorption based cooling", correct: true },
+      { text: "Electro-thermal recycling", correct: false },
+    ],
+  },
+  {
+    question: "Which generation introduced mobile broadband?",
+    answers: [
+      { text: "1G", correct: false },
+      { text: "2G", correct: false },
+      { text: "3G", correct: false },
+      { text: "4G LTE", correct: true },
+    ],
+  },
+  {
+    question: "What does eMBB stand for in the context of 5G?",
+    answers: [
+      { text: "Enhanced Multimedia Broadcasting", correct: false },
+      { text: "Enhanced Mobile Broadband", correct: true },
+      { text: "Efficient Mobile Bitrate Balancing", correct: false },
+      { text: "Embedded Mobile Buffer Bandwidth", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which 5G feature is targeted for applications like autonomous vehicles and telehealth?",
+    answers: [
+      { text: "mMTC", correct: false },
+      { text: "URLLC", correct: true },
+      { text: "eMBB", correct: false },
+      { text: "LTE-A", correct: false },
+    ],
+  },
+  {
+    question: "What is the main benefit of edge computing in 5G networks?",
+    answers: [
+      { text: "Increased cost", correct: false },
+      { text: "Higher latency", correct: false },
+      { text: "Bringing cloud capabilities closer to users", correct: true },
+      { text: "Reducing mobile data", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following applications benefits most from edge computing in 5G?",
+    answers: [
+      { text: "Cloud backup", correct: false },
+      { text: "Augmented Reality", correct: true },
+      { text: "Simple text messaging", correct: false },
+      { text: "Spreadsheet editing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT an application of edge computing in 5G?",
+    answers: [
+      { text: "Emergency response systems", correct: false },
+      { text: "Smart cities", correct: false },
+      { text: "Manual fax machines", correct: true },
+      { text: "Factories of the future", correct: false },
+    ],
+  },
+];
+///////////////////////////////  Cyber Physical System  //////////////////////////////////////
+const Cyber_Physical_Systems = [
+  {
+    question: "What does a Cyber-Physical System (CPS) primarily involve?",
+    answers: [
       {
-        text: "They allow for precise control over water application",
+        text: "Integration of electrical and chemical processes",
         correct: false,
       },
       {
-        text: "They are cost-effective for large-scale farming",
+        text: "Integration of computation with physical processes",
         correct: true,
       },
-      { text: "They reduce soil erosion", correct: false },
+      { text: "Purely software-based systems", correct: false },
+      { text: "Only mechanical systems with sensors", correct: false },
+    ],
+  },
+  {
+    question: "Who coined the term 'Cyber-Physical Systems'?",
+    answers: [
+      { text: "Mark Zuckerberg", correct: false },
+      { text: "Elon Musk", correct: false },
+      { text: "Helen Gill", correct: true },
+      { text: "Tim Berners-Lee", correct: false },
+    ],
+  },
+  {
+    question: "In CPS, feedback loops are used for:",
+    answers: [
+      { text: "Separating cyber and physical domains", correct: false },
+      { text: "Monitoring temperature only", correct: false },
+      {
+        text: "Physical processes affecting computations and vice versa",
+        correct: true,
+      },
+      { text: "Uploading data to the cloud", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a typical application of CPS?",
+    answers: [
+      { text: "Medical monitoring systems", correct: false },
+      { text: "Autonomous automobile systems", correct: false },
+      { text: "Text message broadcasting", correct: true },
+      { text: "Smart grid", correct: false },
+    ],
+  },
+  {
+    question: "CPS combines engineering models from which disciplines?",
+    answers: [
+      { text: "Only mechanical and civil engineering", correct: false },
+      { text: "Only computer science", correct: false },
+      { text: "All engineering fields with computer science", correct: true },
+      { text: "Only biomedical engineering", correct: false },
+    ],
+  },
+  {
+    question: "Which one of these is a feature of CPS?",
+    answers: [
+      { text: "Operates only on a fixed scale", correct: false },
+      { text: "Exhibits multiple behavioral modalities", correct: true },
+      { text: "Does not depend on context", correct: false },
+      { text: "Only functions in isolation", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following does CPS architecture *not* involve?",
+    answers: [
+      { text: "Cybernetics", correct: false },
+      { text: "Mechatronics", correct: false },
+      { text: "Design and process science", correct: false },
+      { text: "Purely traditional mechanics", correct: true },
+    ],
+  },
+  {
+    question: "What role does cloud computing play in CPS?",
+    answers: [
+      { text: "Acts as a standalone computing model", correct: false },
+      {
+        text: "Provides a flexible platform for realizing CPS goals",
+        correct: true,
+      },
+      { text: "Disables interaction between components", correct: false },
+      { text: "Limits scalability", correct: false },
+    ],
+  },
+  {
+    question: "What does CPCC stand for?",
+    answers: [
+      { text: "Cyber Physical Core Control", correct: false },
+      { text: "Cyber Physical Cloud Computing", correct: true },
+      { text: "Central Power Control Circuit", correct: false },
+      { text: "Cloud Performance Computing Center", correct: false },
+    ],
+  },
+  {
+    question: "Which is NOT a benefit of CPCC?",
+    answers: [
+      { text: "Modular composition", correct: false },
+      { text: "Efficient use of resources", correct: false },
+      { text: "Increased latency", correct: true },
+      { text: "Rapid development", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best defines Spatial Data?",
+    answers: [
+      { text: "Text-based data stored in databases", correct: false },
+      {
+        text: "Data with a geographical or location-based context",
+        correct: true,
+      },
+      { text: "Financial transactional data", correct: false },
+      { text: "Audio-visual data from sensors", correct: false },
+    ],
+  },
+  {
+    question: "Which of these is a feature of Spatial Cloud Computing?",
+    answers: [
+      { text: "Does not support spatiotemporal data", correct: false },
+      { text: "Supports shared resource pooling", correct: true },
+      { text: "Provides only static data analytics", correct: false },
+      { text: "Works only on private clouds", correct: false },
     ],
   },
   {
     question:
-      "Which irrigation system is commonly used in greenhouse agriculture?",
+      "Which service helps with indexing trajectory data in Traj-Cloud?",
     answers: [
-      { text: "Sprinkler irrigation", correct: false },
-      { text: "Flood irrigation", correct: false },
-      { text: "Drip irrigation", correct: true },
-      { text: "Furrow irrigation", correct: false },
+      { text: "Trajectory Map-Matching Service", correct: false },
+      { text: "Trajectory Indexing Service", correct: true },
+      { text: "Trajectory Recovery Service", correct: false },
+      { text: "Trajectory Visualization Module", correct: false },
     ],
   },
   {
     question:
-      "What is the role of evapotranspiration in irrigation scheduling?",
+      "Which component is used for trajectory query service in Traj-Cloud?",
     answers: [
-      { text: "To measure soil moisture levels", correct: false },
-      { text: "To estimate water losses due to wind", correct: false },
-      {
-        text: "To calculate the water demand of crops based on climatic conditions",
-        correct: true,
-      },
-      {
-        text: "To monitor water distribution in irrigation canals",
-        correct: false,
-      },
+      { text: "Cloud Storage", correct: false },
+      { text: "Google Compute Engine and Cloud SQL", correct: true },
+      { text: "Firebase Database", correct: false },
+      { text: "Google Drive API", correct: false },
     ],
   },
   {
-    question: "Which factor influences the selection of irrigation methods?",
+    question: "In mobility trace analysis, what is the main challenge?",
     answers: [
-      { text: "Topography", correct: false },
-      { text: "Crop rotation", correct: false },
-      { text: "Available water resources", correct: false },
-      { text: "All of the above", correct: true },
+      { text: "Data collection from roads", correct: false },
+      { text: "Providing location-aware services", correct: true },
+      { text: "Maintaining database backups", correct: false },
+      { text: "Extracting audio files", correct: false },
     ],
   },
   {
-    question: "What is the significance of fertigation in modern agriculture?",
+    question: "Which simulator is used to test fog models in IoHT?",
     answers: [
-      { text: "It involves the use of organic fertilizers", correct: false },
-      {
-        text: "It reduces water consumption in irrigation systems",
-        correct: false,
-      },
-      {
-        text: "It combines fertilizer application with irrigation water for improved nutrient uptake by crops",
-        correct: true,
-      },
-      { text: "It enhances soil aeration", correct: false },
+      { text: "FogSim++", correct: false },
+      { text: "FogTest", correct: false },
+      { text: "iFogSim", correct: true },
+      { text: "EdgeSim", correct: false },
     ],
   },
   {
-    question:
-      "Which irrigation method is known for its ability to improve soil structure?",
+    question: "What is the primary purpose of Fog-Edge Computing in IoHT?",
     answers: [
-      { text: "Flood irrigation", correct: false },
-      { text: "Drip irrigation", correct: false },
-      { text: "Furrow irrigation", correct: false },
-      { text: "Subsurface irrigation", correct: true },
+      { text: "Increase cloud load", correct: false },
+      { text: "Reduce latency and network usage", correct: true },
+      { text: "Add more servers to cloud", correct: false },
+      { text: "Improve display quality of health devices", correct: false },
+    ],
+  },
+  {
+    question: "Which GCP component is used for map-matching in Traj-Cloud?",
+    answers: [
+      { text: "Cloud SQL", correct: false },
+      { text: "Firebase", correct: false },
+      { text: "Google Compute Engine", correct: true },
+      { text: "Cloud Functions", correct: false },
     ],
   },
   {
     question:
-      "What is the purpose of soil conservation techniques in irrigation?",
+      "What is the key aspect of intelligent transportation systems (ITS)?",
     answers: [
-      { text: "To prevent soil compaction", correct: false },
+      { text: "Installing more GPS devices", correct: false },
+      { text: "Efficient mobility analytics", correct: true },
+      { text: "Monitoring road cameras", correct: false },
+      { text: "Using drones", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following describes Dew Computing in the context of IoHT?",
+    answers: [
+      { text: "A cooling technology for cloud servers", correct: false },
+      { text: "Computing on water-purification systems", correct: false },
       {
-        text: "To promote water infiltration and reduce erosion",
+        text: "Computing at a very localized level like wearables",
         correct: true,
       },
-      { text: "To enhance soil fertility", correct: false },
-      { text: "To maintain optimal soil pH levels", correct: false },
-    ],
-  },
-  {
-    question: "Which irrigation method is most commonly used in paddy fields?",
-    answers: [
-      { text: "Drip irrigation", correct: false },
-      { text: "Sprinkler irrigation", correct: false },
-      { text: "Flood irrigation", correct: true },
-      { text: "Terrace irrigation", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of irrigation scheduling?",
-    answers: [
-      { text: "To measure the pH level of soil", correct: false },
-      { text: "To determine the nutrient content of soil", correct: false },
-      { text: "To optimize water use and maximize crop yield", correct: true },
-      { text: "To prevent soil erosion", correct: false },
-    ],
-  },
-  {
-    question: "Which irrigation system is least affected by wind?",
-    answers: [
-      { text: "Furrow irrigation", correct: false },
-      { text: "Drip irrigation", correct: false },
-      { text: "Sprinkler irrigation", correct: true },
-      { text: "Surface irrigation", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary challenge of irrigation in arid regions?",
-    answers: [
-      { text: "Excessive soil salinity", correct: false },
-      { text: "High water table levels", correct: false },
-      { text: "Limited water availability", correct: true },
-      { text: "Soil erosion", correct: false },
-    ],
-  },
-  {
-    question: "Which irrigation system is most suitable for orchard crops?",
-    answers: [
-      { text: "Sprinkler irrigation", correct: false },
-      { text: "Flood irrigation", correct: false },
-      { text: "Drip irrigation", correct: true },
-      { text: "Subsurface irrigation", correct: false },
+      { text: "Backup servers for cloud outages", correct: false },
     ],
   },
 ];
@@ -13231,46 +6731,46 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Evolution_Of_Cloud_Computing;
     } else if (selectedValue === "Cloud_Computing_Architecture") {
       Questions = Cloud_Computing_Architecture;
-    } else if (selectedValue === "Python") {
-      Questions = Python;
-    } else if (selectedValue === "C_Programming") {
-      Questions = C_Programming;
-    } else if (selectedValue === "C++") {
-      Questions = CPP_Programming;
-    } else if (selectedValue === "MySQL") {
-      Questions = MySQL;
-    } else if (selectedValue === "AI/ML") {
-      Questions = AI_ML;
-    } else if (selectedValue === "DSA") {
-      Questions = DSA;
-    } else if (selectedValue === "OOPs") {
-      Questions = OOPs;
-    } else if (selectedValue === "Operating_System") {
-      Questions = Operating_System;
-    } else if (selectedValue === "Compiler_Design") {
-      Questions = Compiler_Design;
-    } else if (selectedValue === "Cyber_Security") {
-      Questions = Cyber_Security;
-    } else if (selectedValue === "IoT") {
-      Questions = IoT;
-    } else if (selectedValue === "Image_Processing") {
-      Questions = Image_Processing;
-    } else if (selectedValue === "Robotics") {
-      Questions = Robotics;
-    } else if (selectedValue === "Virtual_Reality") {
-      Questions = Virtual_Reality;
-    } else if (selectedValue === "Augmented_Reality") {
-      Questions = Augmented_Reality;
-    } else if (selectedValue === "Ethical_Hacking") {
-      Questions = Ethical_Hacking;
-    } else if (selectedValue === "DataBase") {
-      Questions = DataBase;
-    } else if (selectedValue === "MongoDB") {
-      Questions = MongoDB;
-    } else if (selectedValue === "Basic_Electronics") {
-      Questions = Basic_Electronics;
-    } else if (selectedValue === "Electromagnetic_Theory") {
-      Questions = Electromagnetic_Theory;
+    } else if (selectedValue === "Architecture_Deploy_Modals") {
+      Questions = Architecture_Deploy_Modals;
+    } else if (selectedValue === "Virtualization") {
+      Questions = Virtualization;
+    } else if (selectedValue === "Virtualization2") {
+      Questions = Virtualization2;
+    } else if (selectedValue === "XML") {
+      Questions = XML;
+    } else if (selectedValue === "Web_Service") {
+      Questions = Web_Service;
+    } else if (selectedValue === "SLA_Economics") {
+      Questions = SLA_Economics;
+    } else if (selectedValue === "ManagingData") {
+      Questions = ManagingData;
+    } else if (selectedValue === "OpenStack") {
+      Questions = OpenStack;
+    } else if (selectedValue === "ResourceManagement2") {
+      Questions = ResourceManagement2;
+    } else if (selectedValue === "Cloud_Security") {
+      Questions = Cloud_Security;
+    } else if (selectedValue === "Cloudmarketplace") {
+      Questions = Cloudmarketplace;
+    } else if (selectedValue === "MCC") {
+      Questions = MCC;
+    } else if (selectedValue === "GIS_Docker") {
+      Questions = GIS_Docker;
+    } else if (selectedValue === "Green_Sensor_Cloud") {
+      Questions = Green_Sensor_Cloud;
+    } else if (selectedValue === "Cloud_Federation") {
+      Questions = Cloud_Federation;
+    } else if (selectedValue === "Container_Docker_Kubernetes") {
+      Questions = Container_Docker_Kubernetes;
+    } else if (selectedValue === "Docker_Dew_Serverless") {
+      Questions = Docker_Dew_Serverless;
+    } else if (selectedValue === "Serverless_Computing") {
+      Questions = Serverless_Computing;
+    } else if (selectedValue === "Sustainable_Cloud_Computing_and_5G") {
+      Questions = Sustainable_Cloud_Computing_and_5G;
+    } else if (selectedValue === "Cyber_Physical_Systems") {
+      Questions = Cyber_Physical_Systems;
     } else if (selectedValue === "Signal_and_System") {
       Questions = Signal_and - System;
     } else if (selectedValue === "Digital_ELectronics") {
@@ -13492,3 +6992,66 @@ function toggleTimer() {
 }
 
 updateTimerDisplay(); // initialize display if needed
+// // Create the popup container dynamically
+// const popupHTML = `
+//   <div id="popup" style="
+//     display: none;
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     width: 80%;
+//     height: 80%;
+//     background-color: #fff;
+//     box-shadow: 0 0 10px rgba(0,0,0,0.25);
+//     border-radius: 10px;
+//     z-index: 1000;
+//   ">
+//     <div style="
+//       display: flex;
+//       justify-content: flex-end;
+//       background-color: #f2f2f2;
+//       padding: 10px;
+//       border-bottom: 1px solid #ddd;
+//     ">
+//       <button onclick="closePopup()" style="
+//         background: #ff4d4d;
+//         color: white;
+//         border: none;
+//         padding: 6px 12px;
+//         border-radius: 4px;
+//         cursor: pointer;
+//       ">Close</button>
+//     </div>
+//     <iframe id="noteFrame" src="" style="width: 100%; height: calc(100% - 50px); border: none;"></iframe>
+//   </div>
+// `;
+// document.body.insertAdjacentHTML("beforeend", popupHTML);
+
+// // Handle button click
+// document.getElementById("viewNoteBtn").addEventListener("click", function () {
+//   const selectedTopic = document.getElementById("ee1").value;
+
+//   if (!selectedTopic) {
+//     alert("Please select a topic first.");
+//     return;
+//   }
+
+//   const pdfMap = {
+//     DistributedComputing: "pdfs/DistributedComputing.pdf",
+//     GridComputing: "pdfs/GridComputing.pdf",
+//     Cluster_Utility_Computing: "pdfs/Cluster_Utility_Computing.pdf",
+//     Cloud_Computing: "pdfs/Cloud_Computing.pdf",
+//     Evolution_Of_Cloud_Computing: "pdfs/Evolution_Of_Cloud_Computing.pdf",
+//   };
+
+//   const pdfUrl = pdfMap[selectedTopic] || "";
+
+//   document.getElementById("noteFrame").src = pdfUrl;
+//   document.getElementById("popup").style.display = "block";
+// });
+
+// function closePopup() {
+//   document.getElementById("popup").style.display = "none";
+//   document.getElementById("noteFrame").src = "";
+// }

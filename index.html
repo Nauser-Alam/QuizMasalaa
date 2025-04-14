@@ -33,59 +33,33 @@
             <option value="Cloud_Computing">Cloud Computing</option>
             <option value="Evolution_Of_Cloud_Computing">Evolution of Cloud Computing</option>
             <option value="Cloud_Computing_Architecture">Cloud Computing Architecture</option>
-            <option value="Java">Java</option>
-            <option value="Python">Python</option>
-            <option value="C_Programming">C_Programming</option>
-            <option value="C++">C++</option>
-            <option value="MySQL">MySQL</option>
-            <option value="AI/ML">AI/ML</option>
-            <option value="DSA">DSA</option>
-            <option value="OOPs">OOPs</option>
-            <option value="Operating_System">Operating_System</option>
-            <option value="Compiler_Design">Compiler_Design</option>
-            <option value="Cyber_Security">Cyber_Security</option>
-            <option value="IoT">IoT</option>
-            <option value="Image_Processing">Image_Processing</option>
-            <option value="Robotics">Robotics</option>
-            <option value="Virtual_Reality">Virtual_Reality</option>
-            <option value="Augmented_Reality">Augmented_Reality</option>
-            <option value="Ethical_Hacking">Ethical_Hacking</option>
-            <option value="DataBase">DataBase</option>
-            <option value="MongoDB">MongoDB</option>
-            <option value="Basic_Electronics">Basic_Electronics</option>
-            <option value="Electromagnetic_Theory">Electromagnetic_Theory</option>
-            <option value="Signal_and_System">Signal_and_System</option>
-            <option value="Digital_Electronics">Digital_Electronics</option>
-            <option value="Microprocessor_and_Microcontroller">Microprocessor_and_Microcontroller</option>
-            <option value="Adruino">Adruino</option>
-            <option value="Sensors">Sensors</option>
-            <option value="VLSI">VLSI</option>
-            <option value="Power_Electronics">Power_Electronics</option>
-            <option value="Control_System">Control_System</option>
-            <option value="Circuit_Theory">Circuit_Theory</option>
-            <option value="Angular">Angular</option>
-            <option value="MaterialUI">MaterialUI</option>
-            <option value="PHP">PHP</option>
-            <option value="Analog_Electronics">Analog_Electronics</option>
-            <option value="Embedded_System">Embedded_System</option>
-            <option value="Communication_System">Communication_System</option>
-            <option value="Microwave_Engineering">Microwave_Engineering</option>
-            <option value="Wireless_Communication">Wireless_Communications</option>
-            <option value="Optical_Communication">Optical_Communications</option>
-            <option value="Mobile_Communication">Mobile_Communications</option>
-            <option value="Satellite_Communication">Satellite_Communications</option>
-            <option value="Radar_and_Nevigation">Radar_and_Nevigation</option>
-            <option value="Fluid_Mechanics">Fluid_Mechanics</option>
-            <option value="Surveying">Surveying</option>
-            <option value="Building_Material">Building_Material</option>
-            <option value="Structural_Analysis">Structural_Analysis</option>
-            <option value="Concrete_Technology">Concrete_Technology</option>
-            <option value="Soil_Mechanics">Soil_Mechanics</option>
-            <option value="Structural_Analysis1">Structural_Analysis1</option>
-            <option value="Irrigation_Engineering">Irrigation_Engineering</option>
+            <option value="Architecture_Deploy_Modals">Architecture and Deploy Modals (114-154)</option>
+            <option value="Virtualization">Virtualization part 1 (154-189)</option>
+            <option value="Virtualization2">Virtualization part 2 (190-212)</option>
+            <option value="XML">Introduction To XML</option>
+            <option value="Web_Service">Web Service & Service Oriented Architecture (260-300)</option>
+            <option value="SLA_Economics">Service Level Agreement & Economics (300-345)</option>
+            <option value="ManagingData">Managing Data & MapReduce (345-395)</option>
+            <option value="OpenStack">OpenStacks and Resource Management-1</option>
+            <option value="ResourceManagement2">Resource Management and Cloud Security (585-655)</option>
+            <option value="Cloud_Security">Cloud Security</option>
+            <option value="Cloudmarketplace">Cloud Marketplace and Broker (720-808)</option>
+            <option value="MCC">MCC and Cloud Computing</option>
+            <option value="GIS_Docker">Geospatial Information System and Docker (890-960)</option>
+            <option value="Green_Sensor_Cloud">Green and Sensor Cloud Computing</option>
+            <option value="IoT">IoT and Resource Management</option>
+            <option value="Cloud_Federation">Cloud Federation and VM Migration (1109-1170)</option>
+            <option value="Container_Docker_Kubernetes">Container, Dockers and Kubernetes</option>
+            <option value="Docker_Dew_Serverless">Docker, Dew and Serverless Computing (1230-1290)</option>
+            <option value="Serverless_Computing">Serverless Computing</option>
+            <option value="Sustainable_Cloud_Computing_and_5G">Sustainalbe CLoud COmputnig and 5G Network (1310-1378)</option>
+            <option value="Cyber_Physical_Systems">Cyber Physical System</option>
+
 
         </select>
+        <button id="viewNoteBtn" style="padding: 8px 14px;">View Note</button>
     </div>
+    
     <div class="selected" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
         <!-- <h2 id="text1"></h2> -->
         <i id="toggle-icon" class="fas fa-play" onclick="toggleTimer()"></i>
@@ -95,6 +69,7 @@
 
 </center>
 </div>
+
 <div class="container">
     <h1 id="text2"></h1>
     <div class="progress-bar" style="--width: 0"></div>
@@ -130,6 +105,93 @@
 </center>
 <div class="last_text">Powered by Studymasalaa.com 2025-2026, All right reserved.</div>
 </div>
-
+<script>
+    // Create popup dynamically
+    const popupHTML = `
+      <div id="popup" style="
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 80%;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        z-index: 9999;
+      ">
+        <div style="
+          display: flex;
+          justify-content: flex-end;
+          padding: 10px;
+          background: #eee;
+          border-bottom: 1px solid #ccc;
+        ">
+          <button onclick="closePopup()" style="
+            background: crimson;
+            color: #fff;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+          ">Close</button>
+        </div>
+        <iframe id="noteFrame" src="" style="width: 100%; height: calc(100% - 50px); border: none;"></iframe>
+      </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', popupHTML);
+    
+    // PDF mapping
+    const pdfMap = {
+      DistributedComputing: 'pdfs/DistributedComputing.pdf',
+      GridComputing: 'pdfs/GridComputing.pdf',
+      Cluster_Utility_Computing: 'pdfs/Cluster_Utility_Computing.pdf',
+      Cloud_Computing: 'pdfs/Cloud_Computing.pdf',
+      Evolution_Of_Cloud_Computing: 'pdfs/Evolution_Of_Cloud_Computing.pdf',
+      Cloud_Computing_Architecture: 'pdfs/Cloud_Computing_Architecture.pdf',
+      Architecture_Deploy_Modals: 'pdfs/Architecture_Deploy_Modals.pdf',
+      Virtualization: 'pdfs/Virtualization.pdf',
+      Virtualization2: 'pdfs/Virtualization.pdf',
+      XML: 'pdfs/XML.pdf',
+      Web_Service: 'pdfs/Web_Service.pdf',
+      SLA_Economics: 'pdfs/SLA_Economics.pdf',
+      ManagingData: 'pdfs/ManagingData.pdf',
+      OpenStack: 'pdfs/OpenStack.pdf',
+      ResourceManagement2: 'pdfs/ResourceManagement2.pdf',
+      Cloud_Security: 'pdfs/Cloud_Security.pdf',
+      Cloudmarketplace: 'pdfs/Cloudmarketplace.pdf',
+      MCC: 'pdfs/MCC.pdf',
+      GIS_Docker: 'pdfs/GIS_Docker.pdf',
+      Green_Sensor_Cloud: 'pdfs/Green_Sensor_Cloud.pdf',
+      IoT: 'pdfs/IoT.pdf',
+      Cloud_Federation: 'pdfs/Cloud_Federation.pdf',
+      Container_Docker_Kubernetes: 'pdfs/Container_Docker_Kubernetes.pdf',
+      Docker_Dew_Serverless: 'pdfs/Docker_Dew_Serverless.pdf',
+      Serverless_Computing: 'pdfs/Serverless_Computing.pdf',
+      Sustainable_Cloud_Computing_and_5G: 'pdfs/Sustainable_Cloud_Computing_and_5G.pdf',
+      Cyber_Physical_Systems: 'pdfs/Cyber_Physical_Systems.pdf',
+    };
+    
+    // Button handler
+    document.getElementById('viewNoteBtn').addEventListener('click', function () {
+      const topic = document.getElementById('ee1').value;
+      if (!topic) {
+        alert("Please select a topic.");
+        return;
+      }
+    
+      const pdfSrc = pdfMap[topic] || '';
+      document.getElementById('noteFrame').src = pdfSrc;
+      document.getElementById('popup').style.display = 'block';
+    });
+    
+    // Close function
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('noteFrame').src = '';
+    }
+    </script>
+    
 </body>
 </html>
