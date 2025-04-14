@@ -397,3 +397,17 @@ body {
         font-size: 11px;
     }
 }
+.auth-button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #username {
+    margin-top: 15px;
+    font-size: 18px;
+    color: green;
+  }

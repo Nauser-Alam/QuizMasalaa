@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This site is having more than 100+ topics and 1000+ questions for all engineering departments. Powered by studymasalaa.com">
     <title>QuizMasalaa.com</title>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <link rel="stylesheet" href="style1.css">
     
 </head>
@@ -17,9 +20,13 @@
     </header>
    <div id="particles-js"></div>
    <div class="boxx">
-    <h1 id="study" style="margin-top: 10px;">Welcome to NPTEL Quiz</h1>
-    <h2 class="study1" style="margin-top: 10px;">Practice 5 Times, Score 90%+ Guaranteed!</h2>
-</div>
+    <h1 id="study">Welcome to NPTEL Quiz</h1>
+    <h2 class="study1">Practice 5 Times, Score 90%+ Guaranteed!</h2>
+
+    <div id="auth-section">
+      <button id="auth-btn" class="auth-button">Sign In / Sign Up</button>
+    </div>
+  </div>
 <div id="selector" >
     <center>
     <div class="t1" style="margin-top: 25px; margin-left: 20px; opacity: 100%; ">
@@ -170,7 +177,7 @@
       Docker_Dew_Serverless: 'pdfs/Docker_Dew_Serverless.pdf',
       Serverless_Computing: 'pdfs/Serverless_Computing.pdf',
       Sustainable_Cloud_Computing_and_5G: 'pdfs/Sustainable_Cloud_Computing_and_5G.pdf',
-      Cyber_Physical_Systems: 'pdfs/Cyber_Physical_Systems.pdf',
+      Cyber_Physical_Systems: 'pdfs/Cyber_Physical_Systems.pdf'
     };
     
     // Button handler
